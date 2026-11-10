@@ -12,15 +12,15 @@
 | 5 | महँगाई — inflation/deflation/disinflation/reflation · stagflation · तीव्रता के स्तर · demand-pull/cost-push/imported · suppressed · गैप व फिलिप्स कर्व · CPI/WPI/PPI · 4% ± 2% लक्ष्य | `batch-05-interactive.html`, `batch-05-text.html`, **`batch-05-interactive-hinglish.html`**, **`batch-05-text-hinglish.html`** | ✅ तैयार |
 | 6 | बैंकिंग का इतिहास (1770–1894) · RBI 1935/1949 · नोट प्रेस व टकसाल · बैंकों के प्रकार · RRB 1975 · NABARD · LIC/GIC/IRDA/UTI/NHB/SEBI · M1–M4 · CRR/SLR/रेपो/OMO · मूल्यह्रास | `batch-06-interactive.html`, `batch-06-text.html`, **`batch-06-interactive-hinglish.html`**, **`batch-06-text-hinglish.html`** | ✅ तैयार |
 | 7 | राजकोषीय नीति · FRBM 2003 व NK Singh 2016 · अनुच्छेद 112/202 · प्रत्यक्ष व अप्रत्यक्ष कर · VAT · GST (101st Amendment) · FTP 2023 | `batch-07-interactive.html`, `batch-07-text.html`, **`batch-07-interactive-hinglish.html`**, **`batch-07-text-hinglish.html`** | ✅ तैयार |
-| 8 | कृषि, उद्योग, अवसंरचना, सरकारी योजनाएँ | — | अगला |
-| 9 | विदेशी व्यापार / BoP, अंतर्राष्ट्रीय संस्थाएँ, PYQ + MCQ सेट | — | प्रस्तावित |
+| 8 | कृषि (52%→20%, 46% आबादी) · फसलें व क्रांतियाँ · भूमि सुधार व जोत · 9 कृषि बोर्ड · NFSA 2013 · स्टील प्लांट · ग्रामीण व सामाजिक योजनाएँ (1952–2021) | `batch-08-interactive.html`, `batch-08-text.html`, **`batch-08-interactive-hinglish.html`**, **`batch-08-text-hinglish.html`** | ✅ तैयार |
+| 9 | विदेशी व्यापार / BoP, अंतर्राष्ट्रीय संस्थाएँ, जनसंख्या, PYQ + MCQ सेट | — | अगला |
 
 ## दो लिपियाँ (two scripts)
 
-| Edition | बैच 1 | बैच 2 | बैच 3 | बैच 4 | बैच 5 | बैच 6 | बैच 7 |
-|---|---|---|---|---|---|---|---|
-| **City Hinglish (Roman script only)** — मुख्य संस्करण | `batch-01-interactive-hinglish.html` · `batch-01-text-hinglish.html` | `batch-02-interactive-hinglish.html` · `batch-02-text-hinglish.html` | `batch-03-interactive-hinglish.html` · `batch-03-text-hinglish.html` | `batch-04-interactive-hinglish.html` · `batch-04-text-hinglish.html` | `batch-05-interactive-hinglish.html` · `batch-05-text-hinglish.html` | `batch-06-interactive-hinglish.html` · `batch-06-text-hinglish.html` | `batch-07-interactive-hinglish.html` · `batch-07-text-hinglish.html` |
-| Devanagari (मूल) | `batch-01-interactive.html` · `batch-01-text.html` | `batch-02-interactive.html` · `batch-02-text.html` | `batch-03-interactive.html` · `batch-03-text.html` | `batch-04-interactive.html` · `batch-04-text.html` | `batch-05-interactive.html` · `batch-05-text.html` | `batch-06-interactive.html` · `batch-06-text.html` | `batch-07-interactive.html` · `batch-07-text.html` |
+| Edition | बैच 1 | बैच 2 | बैच 3 | बैच 4 | बैच 5 | बैच 6 | बैच 7 | बैच 8 |
+|---|---|---|---|---|---|---|---|---|
+| **City Hinglish (Roman script only)** — मुख्य संस्करण | `batch-01-interactive-hinglish.html` · `batch-01-text-hinglish.html` | `batch-02-interactive-hinglish.html` · `batch-02-text-hinglish.html` | `batch-03-interactive-hinglish.html` · `batch-03-text-hinglish.html` | `batch-04-interactive-hinglish.html` · `batch-04-text-hinglish.html` | `batch-05-interactive-hinglish.html` · `batch-05-text-hinglish.html` | `batch-06-interactive-hinglish.html` · `batch-06-text-hinglish.html` | `batch-07-interactive-hinglish.html` · `batch-07-text-hinglish.html` | `batch-08-interactive-hinglish.html` · `batch-08-text-hinglish.html` |
+| Devanagari (मूल) | `batch-01-interactive.html` · `batch-01-text.html` | `batch-02-interactive.html` · `batch-02-text.html` | `batch-03-interactive.html` · `batch-03-text.html` | `batch-04-interactive.html` · `batch-04-text.html` | `batch-05-interactive.html` · `batch-05-text.html` | `batch-06-interactive.html` · `batch-06-text.html` | `batch-07-interactive.html` · `batch-07-text.html` | `batch-08-interactive.html` · `batch-08-text.html` |
 
 Hinglish edition में technical English terms English में हैं (economy, productivity, sustainable development), बाकी बोलचाल "dekho…, hai na?…, matlab…" वाली city-Hinglish में — पूरा फ़ाइल Roman script में, एक भी Devanagari अक्षर नहीं। बैच 2 से आगे के सभी बैच इसी Hinglish फ़ॉर्मेट में बनेंगे।
 
@@ -75,6 +75,13 @@ Hinglish edition में technical English terms English में हैं (
 - “सुधार” व “वीडियो के बाहर से” चिह्न — घाटे की चार किस्में, GST Council (279A), बजट के दस्तावेज़
 
 **`batch-07-text-hinglish.html`** — बैच 7 का साफ़ किया हुआ टेक्स्ट (23 पैराग्राफ, 5 विषय-शीर्षक)।
+
+**`batch-08-interactive-hinglish.html`** — बैच 8 (कृषि, उद्योग व योजनाएँ) का Hinglish इंटरैक्टिव मॉड्यूल:
+- 8 कंटेंट सेक्शन: कृषि का महत्व व 52%→20% · food vs cash crop, 10 क्रांतियाँ, bullock capitalist व inelastic माँग · भूमि सुधार के 5 हिस्से व जोत की 5 श्रेणियाँ (89%) · 9 कृषि बोर्ड + निर्यात + virtual water · NFSA 2013 (75:50, 5 किग्रा, ₹2/3/1, 3A) · तीन स्टील प्लांट व औद्योगिक केंद्र · ग्रामीण रोज़गार योजनाएँ (1952–2011) · शिक्षा-आवास-स्वच्छता योजनाएँ
+- 67-पंक्ति फैक्ट शीट, 20 फ्लैशकार्ड, 14 MCQ — तुरंत व्याख्या व स्कोर
+- “सुधार” चिह्न — मनरेगा के “125 दिन” (सही 100 दिन), “राउंड पोटैटो” (brown = आलू), नए बोर्ड का नाम (Turmeric Board, निज़ामाबाद)
+
+**`batch-08-text-hinglish.html`** — बैच 8 का साफ़ किया हुआ टेक्स्ट (22 पैराग्राफ, 5 विषय-शीर्षक)।
 
 ## नोट
 टेक्स्ट YouTube ऑटो-कैप्शन से बना है — कहीं-कहीं नाम/संख्या बिगड़ी है। इंटरैक्टिव फ़ाइल में ऐसी जगहों पर **सुधार** चिह्न के साथ सही तथ्य दिए गए हैं (जैसे EKC = उल्टा-U; “गडगिल” = गाडगिल, “पीसी महालेबिस” = महालनोबिस; कुल वार्षिक योजनाएँ = 5, न कि 6; जवाहर रोज़गार योजना 1989, न कि 1999)। आँकड़े (18% / 45%) लेक्चर के अनुसार हैं; परीक्षा से पहले नवीनतम आधिकारिक स्रोत देखें।
