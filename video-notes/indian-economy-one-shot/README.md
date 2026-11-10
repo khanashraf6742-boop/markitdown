@@ -108,6 +108,8 @@ Hinglish edition में technical English terms English में हैं (
 | `indian-economy-complete.html` | वही, देवनागरी में | ~680 KB |
 | **`indian-economy-complete-text-hinglish.html`** | सभी 10 बैच का verbatim टेक्स्ट एक फ़ाइल में (336 पैराग्राफ, 67 शीर्षक) | ~140 KB |
 | `indian-economy-complete-text.html` | वही टेक्स्ट, देवनागरी में | ~130 KB |
+| **`indian-economy-complete-hinglish.pdf`** | पूरा कोर्स **PDF** में (66 पेज) — सभी 119 सेक्शन, 405 fact lines, 207 flashcards, 142 MCQ + व्याख्या; बुकमार्क/आउटलाइन के साथ | ~270 KB |
+| `indian-economy-complete.zip` | ऊपर की सभी combined फ़ाइलें + यह README, एक ZIP में | ~342 KB |
 
 - सब कुछ **self-contained** — कोई CDN, फ़ॉन्ट या इंटरनेट ज़रूरी नहीं; फ़ाइल डाउनलोड करके ऑफ़लाइन खोल सकते हैं।
 - प्रगति `ie-done-complete` key में सेव होती है (हर सेक्शन का “पढ़ लिया”), और `Print` से पूरा कोर्स PDF में निकलता है।
