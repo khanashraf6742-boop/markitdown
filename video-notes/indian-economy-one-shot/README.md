@@ -8,19 +8,19 @@
 | 1 | मूल बातें · अर्थव्यवस्था के प्रकार · भारतीय अर्थव्यवस्था · 1991 LPG · सतत विकास व SDG · मानव पूँजी | `batch-01-interactive.html`, `batch-01-text.html`, **`batch-01-interactive-hinglish.html`**, **`batch-01-text-hinglish.html`** | ✅ तैयार |
 | 2 | योजना (Planning) · स्वतंत्रता-पूर्व योजनाएँ · पंचवर्षीय योजनाएँ 1–12 · प्लान हॉलिडे · रोलिंग प्लान · योजना आयोग · NDC · नीति आयोग | `batch-02-interactive.html`, `batch-02-text.html`, **`batch-02-interactive-hinglish.html`**, **`batch-02-text-hinglish.html`** | ✅ तैयार |
 | 3 | गरीबी · असमानता (लॉरेंज/गिनी, अमर्त्य सेन) · आकलन समितियाँ (दांडेकर-रथ → रंगराजन) · MPI · NFSA · मनरेगा · कल्याण योजनाएँ | `batch-03-interactive.html`, `batch-03-text.html`, **`batch-03-interactive-hinglish.html`**, **`batch-03-text-hinglish.html`** | ✅ तैयार |
-| 4 | राष्ट्रीय आय, GDP/GNP/NNP, फैक्टर लागत vs बाज़ार कीमत | — | अगला |
-| 5 | बेरोज़गारी, बैंकिंग व RBI, मौद्रिक नीति | — | प्रस्तावित |
-| 6 | महँगाई (Inflation) | — | प्रस्तावित |
+| 4 | राष्ट्रीय आय · GDP/GNP/NDP/NNP · NFIA · फैक्टर लागत vs बाज़ार कीमत · GDP डिफ्लेटर · ग्रीन GDP · तीन मापन विधियाँ | `batch-04-interactive.html`, `batch-04-text.html`, **`batch-04-interactive-hinglish.html`**, **`batch-04-text-hinglish.html`** | ✅ तैयार |
+| 5 | महँगाई (Inflation) — प्रकार, कारण, कोर व हेडलाइन | — | अगला |
+| 6 | बैंकिंग, RBI, मौद्रिक नीति | — | प्रस्तावित |
 | 7 | बजट, आर्थिक सर्वे, कर व GST | — | प्रस्तावित |
 | 8 | कृषि, उद्योग, अवसंरचना, सरकारी योजनाएँ | — | प्रस्तावित |
 | 9 | विदेशी व्यापार / BoP, अंतर्राष्ट्रीय संस्थाएँ, PYQ + MCQ सेट | — | प्रस्तावित |
 
 ## दो लिपियाँ (two scripts)
 
-| Edition | बैच 1 | बैच 2 | बैच 3 |
-|---|---|---|---|
-| **City Hinglish (Roman script only)** — मुख्य संस्करण | `batch-01-interactive-hinglish.html` · `batch-01-text-hinglish.html` | `batch-02-interactive-hinglish.html` · `batch-02-text-hinglish.html` | `batch-03-interactive-hinglish.html` · `batch-03-text-hinglish.html` |
-| Devanagari (मूल) | `batch-01-interactive.html` · `batch-01-text.html` | `batch-02-interactive.html` · `batch-02-text.html` | `batch-03-interactive.html` · `batch-03-text.html` |
+| Edition | बैच 1 | बैच 2 | बैच 3 | बैच 4 |
+|---|---|---|---|---|
+| **City Hinglish (Roman script only)** — मुख्य संस्करण | `batch-01-interactive-hinglish.html` · `batch-01-text-hinglish.html` | `batch-02-interactive-hinglish.html` · `batch-02-text-hinglish.html` | `batch-03-interactive-hinglish.html` · `batch-03-text-hinglish.html` | `batch-04-interactive-hinglish.html` · `batch-04-text-hinglish.html` |
+| Devanagari (मूल) | `batch-01-interactive.html` · `batch-01-text.html` | `batch-02-interactive.html` · `batch-02-text.html` | `batch-03-interactive.html` · `batch-03-text.html` | `batch-04-interactive.html` · `batch-04-text.html` |
 
 Hinglish edition में technical English terms English में हैं (economy, productivity, sustainable development), बाकी बोलचाल "dekho…, hai na?…, matlab…" वाली city-Hinglish में — पूरा फ़ाइल Roman script में, एक भी Devanagari अक्षर नहीं। बैच 2 से आगे के सभी बैच इसी Hinglish फ़ॉर्मेट में बनेंगे।
 
@@ -47,6 +47,13 @@ Hinglish edition में technical English terms English में हैं (
 - हर आँकड़े पर "सुधार" चिह्न जहाँ लेक्चर में संख्या बदल गई (जैसे रंगराजन ₹972/₹1,407)
 
 **`batch-03-text-hinglish.html`** — बैच 3 का साफ़ किया हुआ टेक्स्ट (55 पैराग्राफ, 9 विषय-शीर्षक)।
+
+**`batch-04-interactive-hinglish.html`** — बैच 4 (राष्ट्रीय आय) का Hinglish इंटरैक्टिव मॉड्यूल:
+- 9 कंटेंट सेक्शन: domestic territory (दूतावास/जहाज़) व फैक्टर आय · final vs intermediate good · GDP व C+I+G+(X−M) · GNP/NDP/NNP व NFIA · फैक्टर लागत vs बाज़ार कीमत · personal/disposable/per capita · नाममात्र vs वास्तविक · GDP डिफ्लेटर व ग्रीन GDP · तीन मापन विधियाँ · **हल किया हुआ संख्यात्मक उदाहरण** (GDP 1000 → NNP<sub>FC</sub> 900)
+- 24-पंक्ति फैक्ट शीट, 17 फ्लैशकार्ड (8 सूत्र + 9 परिभाषाएँ), 14 MCQ — तुरंत व्याख्या व स्कोर
+- “सुधार” चिह्न वहाँ जहाँ लेक्चर में सूत्र/क्रम उलझा (जैसे NNP = GNP − depreciation)
+
+**`batch-04-text-hinglish.html`** — बैच 4 का साफ़ किया हुआ टेक्स्ट (22 पैराग्राफ, 6 विषय-शीर्षक)।
 
 ## नोट
 टेक्स्ट YouTube ऑटो-कैप्शन से बना है — कहीं-कहीं नाम/संख्या बिगड़ी है। इंटरैक्टिव फ़ाइल में ऐसी जगहों पर **सुधार** चिह्न के साथ सही तथ्य दिए गए हैं (जैसे EKC = उल्टा-U; “गडगिल” = गाडगिल, “पीसी महालेबिस” = महालनोबिस; कुल वार्षिक योजनाएँ = 5, न कि 6; जवाहर रोज़गार योजना 1989, न कि 1999)। आँकड़े (18% / 45%) लेक्चर के अनुसार हैं; परीक्षा से पहले नवीनतम आधिकारिक स्रोत देखें।

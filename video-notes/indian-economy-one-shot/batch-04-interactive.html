@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="hi" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indian Economy One Shot 2026 — Batch 4: Planning, Five Year Plans &amp; NITI Aayog</title>
+<meta name="description" content="इंटरैक्टिव स्टडी मॉड्यूल — Indian Economy One Shot 2026 (PCS INSIGHTS), Batch 4: योजना, पंचवर्षीय योजनाएँ 1–12, योजना आयोग, NDC, नीति आयोग।">
+<style>
+/* ============ design tokens ============ */
+:root{
+  --bg:#f4f6fb; --bg-soft:#eef1f8; --panel:#ffffff; --panel-2:#fbfcff;
+  --ink:#131a2b; --ink-soft:#46506b; --ink-mute:#727d99;
+  --line:#dfe4f0; --line-soft:#eaeef8;
+  --brand:#3d3bd6; --brand-ink:#2b28b0; --brand-soft:#ecebff;
+  --teal:#0d7d76; --teal-soft:#e2f5f3;
+  --amber:#a86400; --amber-soft:#fff3d9;
+  --rose:#b3261e; --rose-soft:#ffe8e6;
+  --green:#166b3c; --green-soft:#e2f6ea;
+  --violet:#6d28d9; --violet-soft:#f1e9ff;
+  --shadow:0 1px 2px rgba(16,24,40,.06),0 8px 24px -12px rgba(16,24,40,.18);
+  --shadow-lg:0 24px 60px -28px rgba(16,24,40,.35);
+  --r-sm:8px; --r:14px; --r-lg:20px;
+  --maxw:1500px;
+  --font:"Noto Sans Devanagari","Nirmala UI","Mangal","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  --mono:"SFMono-Regular",ui-monospace,"Cascadia Mono",Menlo,Consolas,monospace;
+}
+html[data-theme="dark"]{
+  --bg:#0b0f19; --bg-soft:#0f1524; --panel:#141b2b; --panel-2:#111827;
+  --ink:#e8ecf7; --ink-soft:#b3bdd4; --ink-mute:#8492b0;
+  --line:#26304a; --line-soft:#1d2539;
+  --brand:#9d9bff; --brand-ink:#b9b7ff; --brand-soft:#1d1f45;
+  --teal:#5fd6cb; --teal-soft:#0e2f2d;
+  --amber:#f5c264; --amber-soft:#33260c;
+  --rose:#ff8f86; --rose-soft:#3a1613;
+  --green:#68d996; --green-soft:#0f2c1d;
+  --violet:#c3a6ff; --violet-soft:#241a3d;
+  --shadow:0 1px 2px rgba(0,0,0,.5),0 10px 30px -16px rgba(0,0,0,.8);
+  --shadow-lg:0 30px 70px -30px rgba(0,0,0,.9);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth; scroll-padding-top:82px}
+body{
+  margin:0; background:var(--bg); color:var(--ink); font-family:var(--font);
+  font-size:16px; line-height:1.85; -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+h1,h2,h3,h4{line-height:1.45; margin:0; font-weight:800; letter-spacing:-.01em}
+p{margin:.55em 0}
+a{color:var(--brand); text-underline-offset:3px}
+b,strong{font-weight:800; color:var(--ink)}
+code,.mono{font-family:var(--mono); font-size:.9em}
+::selection{background:var(--brand); color:#fff}
+:focus-visible{outline:2.5px solid var(--brand); outline-offset:2px; border-radius:6px}
+
+/* ============ top bar ============ */
+.topbar{
+  position:sticky; top:0; z-index:60; background:color-mix(in srgb, var(--panel) 88%, transparent);
+  backdrop-filter:blur(14px) saturate(1.4); border-bottom:1px solid var(--line);
+}
+.topbar-in{max-width:var(--maxw); margin:0 auto; padding:10px 20px; display:flex; gap:16px; align-items:center}
+.brandmark{display:flex; align-items:center; gap:11px; min-width:0}
+.logo{
+  width:38px;height:38px;border-radius:11px; flex:0 0 auto; display:grid; place-items:center;
+  background:linear-gradient(145deg,var(--brand),#7f5bff 55%,var(--teal)); color:#fff;
+  font-weight:900; font-size:15px; letter-spacing:-.5px; box-shadow:var(--shadow);
+}
+.brand-text{min-width:0}
+.brand-text .t{font-weight:800; font-size:14.5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.brand-text .s{font-size:11.5px; color:var(--ink-mute); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.batch-pill{
+  font-size:11.5px; font-weight:800; letter-spacing:.04em; padding:4px 10px; border-radius:999px;
+  background:var(--brand-soft); color:var(--brand-ink); border:1px solid color-mix(in srgb,var(--brand) 28%, transparent);
+  white-space:nowrap;
+}
+.spacer{flex:1 1 auto}
+.tool{
+  display:inline-flex; align-items:center; gap:7px; height:36px; padding:0 12px; cursor:pointer;
+  background:var(--panel); color:var(--ink-soft); border:1px solid var(--line); border-radius:10px;
+  font:inherit; font-size:12.5px; font-weight:700; white-space:nowrap;
+  transition:transform .12s ease, border-color .12s, color .12s, background .12s;
+}
+.tool:hover{color:var(--ink); border-color:color-mix(in srgb,var(--brand) 45%, var(--line)); transform:translateY(-1px)}
+.tool:active{transform:translateY(0)}
+.tool svg{width:15px;height:15px;flex:0 0 auto}
+.searchwrap{position:relative; flex:1 1 300px; max-width:430px}
+.searchwrap svg{position:absolute; left:11px; top:50%; transform:translateY(-50%); width:16px;height:16px; color:var(--ink-mute)}
+#search{
+  width:100%; height:38px; padding:0 62px 0 34px; border-radius:10px; border:1px solid var(--line);
+  background:var(--panel-2); color:var(--ink); font:inherit; font-size:13.5px;
+}
+#search::placeholder{color:var(--ink-mute)}
+#search:focus{border-color:var(--brand); outline:none; box-shadow:0 0 0 3px var(--brand-soft)}
+.kbd{
+  position:absolute; right:9px; top:50%; transform:translateY(-50%); font-family:var(--mono); font-size:10.5px;
+  color:var(--ink-mute); border:1px solid var(--line); border-bottom-width:2px; border-radius:5px; padding:1px 5px;
+  background:var(--panel); pointer-events:none;
+}
+.progressline{height:3px; background:var(--line-soft); overflow:hidden}
+.progressline > i{display:block; height:100%; width:0; background:linear-gradient(90deg,var(--brand),var(--teal)); transition:width .3s ease}
+
+/* ============ shell ============ */
+.shell{max-width:var(--maxw); margin:0 auto; padding:26px 20px 90px; display:grid; grid-template-columns:288px minmax(0,1fr); gap:30px; align-items:start}
+
+/* ============ sidebar ============ */
+.side{position:sticky; top:78px; max-height:calc(100vh - 100px); overflow:auto; padding-right:6px}
+.side::-webkit-scrollbar{width:8px}
+.side::-webkit-scrollbar-thumb{background:var(--line); border-radius:8px}
+.side-card{background:var(--panel); border:1px solid var(--line); border-radius:var(--r); padding:14px; box-shadow:var(--shadow); margin-bottom:14px}
+.side-h{font-size:10.5px; text-transform:uppercase; letter-spacing:.11em; color:var(--ink-mute); font-weight:800; margin:0 0 9px 4px}
+.toc{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:2px}
+.toc a{
+  display:flex; gap:9px; align-items:flex-start; text-decoration:none; color:var(--ink-soft);
+  font-size:13px; font-weight:600; padding:7px 9px; border-radius:9px; line-height:1.5;
+  border-left:2.5px solid transparent; transition:background .12s,color .12s,border-color .12s;
+}
+.toc a:hover{background:var(--bg-soft); color:var(--ink)}
+.toc a.active{background:var(--brand-soft); color:var(--brand-ink); border-left-color:var(--brand); font-weight:800}
+.toc .n{font-family:var(--mono); font-size:10.5px; color:var(--ink-mute); margin-top:3px; flex:0 0 auto}
+.toc a.active .n{color:var(--brand)}
+.toc a .dot{margin-left:auto; width:6px;height:6px;border-radius:50%; background:var(--green); opacity:0; flex:0 0 auto; margin-top:8px}
+.toc a.done .dot{opacity:1}
+.side-progress{display:flex; align-items:center; gap:10px}
+.ring{--p:0; width:44px; height:44px; border-radius:50%; flex:0 0 auto; display:grid; place-items:center;
+  background:conic-gradient(var(--brand) calc(var(--p)*1%), var(--line-soft) 0);}
+.ring > span{width:34px;height:34px;border-radius:50%; background:var(--panel); display:grid; place-items:center; font-size:10.5px; font-weight:800; color:var(--ink-soft)}
+.side-progress .lbl{font-size:11.5px; color:var(--ink-mute); line-height:1.5}
+.side-progress .lbl b{display:block; color:var(--ink); font-size:13px}
+.chapterlist{list-style:none;margin:0;padding:0;font-size:12px;color:var(--ink-mute);line-height:1.9}
+.chapterlist li{display:flex;gap:7px}
+.chapterlist .now{color:var(--brand-ink);font-weight:800}
+.chapterlist .tag{font-family:rgba(0,0,0,0);font-family:var(--mono);font-size:10px;color:var(--ink-mute)}
+
+/* ============ content ============ */
+.main{min-width:0}
+.hero{
+  position:relative; overflow:hidden; border-radius:var(--r-lg); padding:30px 32px; margin-bottom:24px;
+  background:radial-gradient(1200px 340px at 8% -20%, color-mix(in srgb,var(--brand) 22%, transparent), transparent 60%),
+             radial-gradient(900px 320px at 100% 0%, color-mix(in srgb,var(--teal) 20%, transparent), transparent 55%),
+             var(--panel);
+  border:1px solid var(--line); box-shadow:var(--shadow-lg);
+}
+.hero .eyebrow{display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:13px}
+.chip{
+  font-size:11px; font-weight:800; letter-spacing:.03em; padding:3.5px 10px; border-radius:999px;
+  background:var(--bg-soft); color:var(--ink-soft); border:1px solid var(--line);
+}
+.chip.brand{background:var(--brand-soft); color:var(--brand-ink); border-color:color-mix(in srgb,var(--brand) 26%, transparent)}
+.chip.green{background:var(--green-soft); color:var(--green); border-color:color-mix(in srgb,var(--green) 25%, transparent)}
+.chip.amber{background:var(--amber-soft); color:var(--amber); border-color:color-mix(in srgb,var(--amber) 30%, transparent)}
+.chip.rose{background:var(--rose-soft); color:var(--rose); border-color:color-mix(in srgb,var(--rose) 26%, transparent)}
+.chip.teal{background:var(--teal-soft); color:var(--teal); border-color:color-mix(in srgb,var(--teal) 26%, transparent)}
+.hero h1{font-size:clamp(22px,2.5vw,32px); letter-spacing:-.02em; margin-bottom:8px}
+.hero h1 .sub{display:block; font-size:14.5px; font-weight:700; color:var(--ink-mute); letter-spacing:0; margin-top:8px}
+.hero p{color:var(--ink-soft); font-size:14.5px; max-width:78ch}
+.meta-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:10px; margin-top:20px}
+.meta{background:var(--panel-2); border:1px solid var(--line-soft); border-radius:11px; padding:9px 12px}
+.meta .k{font-size:10px; text-transform:uppercase; letter-spacing:.1em; color:var(--ink-mute); font-weight:800}
+.meta .v{font-size:13px; font-weight:700; color:var(--ink); margin-top:2px}
+.hero-cta{display:flex; flex-wrap:wrap; gap:9px; margin-top:20px}
+.btn{
+  display:inline-flex; align-items:center; gap:8px; height:38px; padding:0 15px; border-radius:10px; cursor:pointer;
+  font:inherit; font-size:13px; font-weight:800; text-decoration:none; border:1px solid var(--line);
+  background:var(--panel); color:var(--ink); transition:transform .12s, box-shadow .12s, background .12s;
+}
+.btn:hover{transform:translateY(-1px); box-shadow:var(--shadow)}
+.btn.primary{background:linear-gradient(160deg,var(--brand),var(--brand-ink)); color:#fff; border-color:transparent}
+.btn.ghost{background:transparent}
+.btn svg{width:15px;height:15px}
+
+/* notice */
+.notice{
+  display:flex; gap:12px; padding:14px 16px; border-radius:var(--r); margin:0 0 22px;
+  background:var(--amber-soft); border:1px solid color-mix(in srgb,var(--amber) 30%, transparent);
+  color:color-mix(in srgb,var(--amber) 78%, var(--ink)); font-size:13px; line-height:1.7;
+}
+.notice .ico{flex:0 0 auto; width:22px;height:22px; border-radius:50%; display:grid; place-items:center;
+  background:color-mix(in srgb,var(--amber) 20%, transparent); color:var(--amber); font-weight:900; font-size:13px}
+.notice b{color:var(--amber)}
+
+/* section */
+.sec{
+  background:var(--panel); border:1px solid var(--line); border-radius:var(--r-lg);
+  padding:26px 28px 24px; margin-bottom:20px; box-shadow:var(--shadow); scroll-margin-top:90px;
+}
+.sec-head{display:flex; gap:14px; align-items:flex-start; margin-bottom:6px}
+.sec-num{
+  flex:0 0 auto; width:38px;height:38px; border-radius:11px; display:grid; place-items:center;
+  background:var(--brand-soft); color:var(--brand-ink); font-family:var(--mono); font-size:13px; font-weight:800;
+  border:1px solid color-mix(in srgb,var(--brand) 20%, transparent);
+}
+.sec-head h2{font-size:clamp(18px,2vw,22.5px); letter-spacing:-.015em}
+.sec-head h2 .en{display:block; font-size:11.5px; font-weight:700; color:var(--ink-mute); letter-spacing:.02em; text-transform:uppercase; margin-top:3px}
+.markdone{
+  margin-left:auto; flex:0 0 auto; display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  height:32px; padding:0 11px; border-radius:9px; border:1px solid var(--line); background:var(--panel-2);
+  color:var(--ink-mute); font:inherit; font-size:11.5px; font-weight:800; white-space:nowrap; transition:.14s;
+}
+.markdone:hover{color:var(--ink); border-color:color-mix(in srgb,var(--green) 45%, var(--line))}
+.markdone .box{width:15px;height:15px;border-radius:4.5px;border:1.6px solid currentColor; display:grid;place-items:center}
+.markdone .box svg{width:11px;height:11px; opacity:0; color:#fff}
+.markdone[aria-pressed="true"]{background:var(--green-soft); color:var(--green); border-color:color-mix(in srgb,var(--green) 40%, transparent)}
+.markdone[aria-pressed="true"] .box{background:var(--green); border-color:var(--green)}
+.markdone[aria-pressed="true"] .box svg{opacity:1}
+.sec-body{font-size:15.2px; color:var(--ink-soft)}
+.sec-body > *:first-child{margin-top:0}
+.lead{font-size:15.5px; color:var(--ink-soft)}
+h3.sub{font-size:15.5px; color:var(--ink); margin:22px 0 8px; display:flex; align-items:center; gap:8px}
+h3.sub::before{content:""; width:4px; height:15px; border-radius:3px; background:var(--brand); display:inline-block}
+h4.mini{font-size:13.5px; color:var(--ink); margin:16px 0 5px; letter-spacing:.01em}
+
+/* lists */
+ul.clean,ol.clean{margin:.5em 0; padding-left:1.25em}
+ul.clean li,ol.clean li{margin:.32em 0; padding-left:.15em}
+ul.clean li::marker{color:var(--brand)}
+ol.clean li::marker{color:var(--brand); font-weight:800; font-family:var(--mono); font-size:.9em}
+ul.tight li{margin:.16em 0}
+.hl{background:linear-gradient(transparent 58%, color-mix(in srgb,var(--amber) 55%, transparent) 0); font-weight:800; color:var(--ink); padding:0 1px}
+.kw{font-weight:800; color:var(--brand-ink)}
+.en-term{font-weight:700; color:var(--teal); font-size:.95em}
+
+/* callouts */
+.call{
+  display:grid; grid-template-columns:26px minmax(0,1fr); gap:11px; align-items:start;
+  border-radius:12px; padding:12px 14px; margin:14px 0; font-size:14px; line-height:1.75;
+  border:1px solid var(--line); background:var(--panel-2); color:var(--ink-soft);
+}
+.call .ci{width:24px;height:24px;border-radius:8px; display:grid; place-items:center; font-size:13px; font-weight:900}
+.call .ct{font-size:10.5px; font-weight:900; letter-spacing:.09em; text-transform:uppercase; display:block; margin-bottom:3px}
+.call.pointer{background:var(--brand-soft); border-color:color-mix(in srgb,var(--brand) 25%, transparent)}
+.call.pointer .ci{background:color-mix(in srgb,var(--brand) 18%, transparent); color:var(--brand-ink)}
+.call.pointer .ct{color:var(--brand-ink)}
+.call.pyq{background:var(--green-soft); border-color:color-mix(in srgb,var(--green) 26%, transparent)}
+.call.pyq .ci{background:color-mix(in srgb,var(--green) 16%, transparent); color:var(--green)}
+.call.pyq .ct{color:var(--green)}
+.call.trap{background:var(--rose-soft); border-color:color-mix(in srgb,var(--rose) 26%, transparent)}
+.call.trap .ci{background:color-mix(in srgb,var(--rose) 15%, transparent); color:var(--rose)}
+.call.trap .ct{color:var(--rose)}
+.call.def{background:var(--teal-soft); border-color:color-mix(in srgb,var(--teal) 26%, transparent)}
+.call.def .ci{background:color-mix(in srgb,var(--teal) 16%, transparent); color:var(--teal)}
+.call.def .ct{color:var(--teal)}
+.call.mem{background:var(--violet-soft); border-color:color-mix(in srgb,var(--violet) 24%, transparent)}
+.call.mem .ci{background:color-mix(in srgb,var(--violet) 15%, transparent); color:var(--violet)}
+.call.mem .ct{color:var(--violet)}
+.call.fix{background:var(--amber-soft); border-color:color-mix(in srgb,var(--amber) 30%, transparent)}
+.call.fix .ci{background:color-mix(in srgb,var(--amber) 18%, transparent); color:var(--amber)}
+.call.fix .ct{color:var(--amber)}
+
+/* table */
+.tablewrap{overflow:auto; margin:16px 0; border:1px solid var(--line); border-radius:12px}
+table{border-collapse:collapse; width:100%; font-size:13.3px; min-width:560px; background:var(--panel)}
+thead th{
+  background:var(--bg-soft); text-align:left; padding:10px 13px; font-size:11.5px; letter-spacing:.05em;
+  text-transform:uppercase; color:var(--ink-soft); font-weight:900; border-bottom:1px solid var(--line);
+  position:sticky; top:0; white-space:nowrap;
+}
+tbody td{padding:10px 13px; border-bottom:1px solid var(--line-soft); vertical-align:top; color:var(--ink-soft); line-height:1.65}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover td{background:var(--panel-2)}
+tbody td b{color:var(--ink)}
+td .mini-chip{display:inline-block; font-family:var(--mono); font-size:10.5px; font-weight:700; padding:1px 7px; border-radius:6px;
+  background:var(--brand-soft); color:var(--brand-ink); margin-right:5px}
+td.year{font-family:var(--mono); font-weight:800; color:var(--brand-ink); white-space:nowrap}
+
+/* key-value fact rows */
+.kv{display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:10px; margin:14px 0}
+.kv .item{background:var(--panel-2); border:1px solid var(--line-soft); border-left:3px solid var(--brand); border-radius:10px; padding:10px 12px}
+.kv .item .k{font-size:10.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-mute); font-weight:800}
+.kv .item .v{font-size:13.6px; font-weight:700; color:var(--ink); margin-top:2px; line-height:1.55}
+
+/* stat */
+.stats{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:16px 0}
+.stat{background:linear-gradient(160deg,var(--panel-2),var(--panel)); border:1px solid var(--line); border-radius:13px; padding:13px 14px; position:relative; overflow:hidden}
+.stat::after{content:""; position:absolute; inset:auto -20px -30px auto; width:70px; height:70px; border-radius:50%; background:color-mix(in srgb,var(--brand) 10%, transparent)}
+.stat .v{font-size:23px; font-weight:900; letter-spacing:-.02em; color:var(--ink); font-family:var(--mono)}
+.stat .k{font-size:11.5px; color:var(--ink-mute); font-weight:700; margin-top:2px; line-height:1.5}
+
+/* flashcards */
+.fc-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(168px,1fr)); gap:11px; margin:16px 0}
+.fc{perspective:900px; height:118px; cursor:pointer; background:none; border:0; padding:0; font:inherit; text-align:left}
+.fc-in{position:relative; width:100%; height:100%; transition:transform .5s cubic-bezier(.4,.1,.2,1); transform-style:preserve-3d}
+.fc.flipped .fc-in{transform:rotateY(180deg)}
+.fc-face{
+  position:absolute; inset:0; border-radius:12px; padding:11px 12px; display:flex; flex-direction:column; justify-content:center;
+  backface-visibility:hidden; border:1px solid var(--line); box-shadow:var(--shadow);
+  background:linear-gradient(155deg,var(--panel-2),var(--panel));
+}
+.fc-face .top{font-family:var(--mono); font-size:10px; font-weight:800; color:var(--brand); letter-spacing:.04em; margin-bottom:4px}
+.fc-face .mid{font-size:13.5px; font-weight:800; color:var(--ink); line-height:1.5}
+.fc-face .tiny{font-size:10.5px; color:var(--ink-mute); margin-top:4px; font-weight:600}
+.fc-back{transform:rotateY(180deg); background:linear-gradient(155deg,var(--brand-soft),var(--panel)); border-color:color-mix(in srgb,var(--brand) 30%, transparent)}
+.fc-back .mid{color:var(--brand-ink); font-size:13px}
+.fc:focus-visible{outline-offset:3px}
+.fc-hint{font-size:12px; color:var(--ink-mute); margin:6px 0 0}
+
+/* quiz */
+.quiz{margin-top:6px}
+.q{background:var(--panel-2); border:1px solid var(--line); border-radius:13px; padding:15px 16px; margin:12px 0}
+.q-h{display:flex; gap:10px; align-items:flex-start; font-size:14.4px; font-weight:700; color:var(--ink); line-height:1.7}
+.q-n{flex:0 0 auto; font-family:var(--mono); font-size:11px; font-weight:800; background:var(--brand-soft); color:var(--brand-ink);
+  padding:2px 7px; border-radius:6px; margin-top:3px}
+.opts{display:grid; gap:7px; margin-top:11px}
+.opt{
+  display:flex; gap:9px; align-items:flex-start; text-align:left; padding:9px 12px; border-radius:10px; cursor:pointer;
+  background:var(--panel); border:1px solid var(--line); color:var(--ink-soft); font:inherit; font-size:13.6px; line-height:1.6;
+  transition:.14s;
+}
+.opt:hover{border-color:color-mix(in srgb,var(--brand) 42%, var(--line)); color:var(--ink); transform:translateX(2px)}
+.opt .ol{flex:0 0 auto; width:19px;height:19px;border-radius:50%; border:1.6px solid var(--line); display:grid; place-items:center;
+  font-family:var(--mono); font-size:10.5px; font-weight:800; color:var(--ink-mute); margin-top:2px}
+.opt.correct{background:var(--green-soft); border-color:var(--green); color:var(--green); font-weight:700}
+.opt.correct .ol{background:var(--green); border-color:var(--green); color:#fff}
+.opt.wrong{background:var(--rose-soft); border-color:var(--rose); color:var(--rose)}
+.opt.wrong .ol{background:var(--rose); border-color:var(--rose); color:#fff}
+.opt[disabled]{cursor:default; transform:none}
+.exp{margin-top:10px; font-size:13px; line-height:1.75; color:var(--ink-soft); background:var(--panel);
+  border-left:3px solid var(--brand); border-radius:0 9px 9px 0; padding:9px 12px; display:none}
+.exp.show{display:block}
+.exp b{color:var(--brand-ink)}
+.quiz-bar{display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin:16px 0 4px;
+  background:var(--panel-2); border:1px solid var(--line); border-radius:12px; padding:11px 14px}
+.score{font-size:13.5px; font-weight:800; color:var(--ink)}
+.score b{font-family:var(--mono); color:var(--brand-ink); font-size:15px}
+.quiz-bar .note{font-size:12px; color:var(--ink-mute)}
+
+/* fact sheet */
+.facts{display:grid; gap:8px; margin:16px 0}
+.fact{display:grid; grid-template-columns:auto minmax(0,1fr); gap:12px; align-items:baseline;
+  background:var(--panel-2); border:1px solid var(--line-soft); border-radius:10px; padding:9px 12px; font-size:13.6px}
+.fact .tag{font-family:var(--mono); font-size:10.5px; font-weight:800; color:var(--brand-ink); background:var(--brand-soft);
+  padding:2px 7px; border-radius:6px; white-space:nowrap}
+.fact .txt{color:var(--ink-soft)}
+.fact .txt b{color:var(--ink)}
+
+/* next batch */
+.next{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:12px; margin-top:14px}
+.nextcard{background:var(--panel-2); border:1px dashed var(--line); border-radius:12px; padding:13px 15px}
+.nextcard .h{font-size:13px; font-weight:800; color:var(--ink); display:flex; gap:8px; align-items:center}
+.nextcard .h .n{font-family:var(--mono); font-size:10px; background:var(--bg-soft); border:1px solid var(--line); color:var(--ink-mute); padding:1px 6px; border-radius:5px}
+.nextcard p{font-size:12.3px; color:var(--ink-mute); margin:5px 0 0; line-height:1.65}
+
+/* misc */
+.toTop{position:fixed; right:20px; bottom:20px; width:42px;height:42px; border-radius:12px; display:grid; place-items:center;
+  background:var(--panel); border:1px solid var(--line); color:var(--ink-soft); cursor:pointer; box-shadow:var(--shadow-lg);
+  opacity:0; pointer-events:none; transition:.2s; z-index:50}
+.toTop.show{opacity:1; pointer-events:auto}
+.footer{max-width:var(--maxw); margin:0 auto; padding:0 20px 40px; color:var(--ink-mute); font-size:12px; line-height:1.8}
+.footer b{color:var(--ink-soft)}
+mark{background:color-mix(in srgb,var(--amber) 60%, transparent); color:var(--ink); border-radius:3px; padding:0 1px}
+.hidden{display:none !important}
+.noresult{display:none; padding:26px; text-align:center; color:var(--ink-mute); background:var(--panel); border:1px dashed var(--line); border-radius:var(--r); font-size:14px}
+.noresult.show{display:block}
+hr.sep{border:0; border-top:1px dashed var(--line); margin:22px 0}
+
+/* responsive */
+@media (max-width:1080px){
+  .shell{grid-template-columns:1fr; padding-top:18px}
+  .side{position:static; max-height:none; order:2; padding-right:0}
+  .main{order:1}
+  .toc{display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+}
+@media (max-width:720px){
+  .topbar-in{flex-wrap:wrap; gap:10px; padding:9px 14px}
+  .searchwrap{order:3; flex-basis:100%; max-width:none}
+  .shell{padding:14px 12px 70px; gap:18px}
+  .hero{padding:22px 18px}
+  .sec{padding:20px 16px}
+  .sec-head{flex-wrap:wrap}
+  .markdone{margin-left:0; order:3}
+  .brand-text .s{display:none}
+}
+@media print{
+  .topbar,.side,.toTop,.hero-cta,.markdone,.quiz-bar,.fc-hint,.noresult{display:none !important}
+  body{background:#fff; font-size:11.5pt}
+  .shell{display:block; padding:0}
+  .sec,.hero{box-shadow:none; border:1px solid #ccc; break-inside:avoid; page-break-inside:avoid; margin-bottom:10px}
+  .fc{height:auto} .fc-in{transform:none !important}
+  .fc-back{position:static; transform:none; display:block; margin-top:4px}
+  .fc-face{position:static; box-shadow:none; backface-visibility:visible}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-in">
+    <div class="brandmark">
+      <div class="logo">IE</div>
+      <div class="brand-text">
+        <div class="t">Indian Economy One Shot 2026</div>
+        <div class="s">PCS INSIGHTS · UPPCS 2026 / BPSC 72nd</div>
+      </div>
+    </div>
+    <span class="batch-pill">BATCH 4 / 9</span>
+    <div class="spacer"></div>
+    <div class="searchwrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+      <input id="search" type="search" placeholder="इस बैच में खोजें… (जैसे: NFIA, NNP, deflator)" autocomplete="off" aria-label="खोजें">
+      <span class="kbd">/</span>
+    </div>
+    <button class="tool" id="themeBtn" type="button" title="थीम बदलें (Shift + D)" aria-label="थीम बदलें">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      <span id="themeLabel">डार्क</span>
+    </button>
+    <button class="tool" id="printBtn" type="button" title="प्रिंट / PDF">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4v-7h16v7h-2M8 14h8v7H8z"/></svg>
+      PDF
+    </button>
+  </div>
+  <div class="progressline"><i id="scrollProg"></i></div>
+</div>
+
+<div class="shell">
+  <!-- ================= SIDEBAR ================= -->
+  <aside class="side">
+    <div class="side-card">
+      <div class="side-progress">
+        <div class="ring" id="ring" aria-hidden="true"><span id="ringTxt">0%</span></div>
+        <div class="lbl"><b id="doneCount">0 / 12 अध्याय</b> पढ़े गए के रूप में चिह्नित</div>
+      </div>
+    </div>
+    <div class="side-card">
+      <p class="side-h">बैच 4 · अनुक्रमणिका</p>
+      <nav aria-label="अनुक्रमणिका">
+        <ul class="toc" id="toc">
+          <li><a href="#s1"><span class="n">01</span><span>राष्ट्रीय आय की बुनियाद</span><span class="dot"></span></a></li>
+          <li><a href="#s2"><span class="n">02</span><span>अंतिम व मध्यवर्ती वस्तुएँ</span><span class="dot"></span></a></li>
+          <li><a href="#s3"><span class="n">03</span><span>GDP — परिभाषा व फ़ॉर्मूला</span><span class="dot"></span></a></li>
+          <li><a href="#s4"><span class="n">04</span><span>GNP, NDP और NNP</span><span class="dot"></span></a></li>
+          <li><a href="#s5"><span class="n">05</span><span>फैक्टर लागत vs बाज़ार कीमत</span><span class="dot"></span></a></li>
+          <li><a href="#s6"><span class="n">06</span><span>अन्य आय अवधारणाएँ</span><span class="dot"></span></a></li>
+          <li><a href="#s7"><span class="n">07</span><span>GDP डिफ्लेटर व ग्रीन GDP</span><span class="dot"></span></a></li>
+          <li><a href="#s8"><span class="n">08</span><span>मापने की तीन विधियाँ</span><span class="dot"></span></a></li>
+          <li><a href="#s9"><span class="n">09</span><span>उदाहरण व पाँच जाल</span><span class="dot"></span></a></li>
+          <li><a href="#s10"><span class="n">10</span><span>फैक्ट शीट (रिवीजन)</span><span class="dot"></span></a></li>
+          <li><a href="#s11"><span class="n">11</span><span>फ्लैशकार्ड · सूत्र</span><span class="dot"></span></a></li>
+          <li><a href="#s12"><span class="n">12</span><span>अभ्यास प्रश्न (14 MCQ)</span><span class="dot"></span></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="side-card">
+      <p class="side-h">पूरी लेक्चर सीरीज़</p>
+      <ul class="chapterlist">
+        <li><span class="tag">01</span><span>मूल बातें · सतत विकास</span></li>
+        <li><span class="tag">02</span><span>योजना व पंचवर्षीय योजनाएँ</span></li>
+        <li><span class="tag">03</span><span>गरीबी व असमानता</span></li>
+        <li><span class="now">› बैच 4</span><span>राष्ट्रीय आय व GDP</span></li>
+        <li><span class="tag">05</span><span>महँगाई (Inflation)</span></li>
+        <li><span class="tag">06</span><span>बैंकिंग व RBI</span></li>
+        <li><span class="tag">07</span><span>बजट, कर व GST</span></li>
+        <li><span class="tag">08</span><span>कृषि, उद्योग, योजनाएँ</span></li>
+        <li><span class="tag">09</span><span>BoP · PYQ व MCQ सेट</span></li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- ================= MAIN ================= -->
+  <main class="main">
+    <section class="hero" id="top">
+      <div class="eyebrow">
+        <span class="chip brand">इंटरैक्टिव स्टडी मॉड्यूल</span>
+        <span class="chip green">बैच 4 / 9</span>
+        <span class="chip">हिंदी + English terms</span>
+        <span class="chip amber">परीक्षा-केंद्रित</span>
+      </div>
+      <h1>राष्ट्रीय आय, GDP/GNP/NNP, फैक्टर लागत बनाम बाज़ार कीमत और डिफ्लेटर
+        <span class="sub">National Income · GDP · GNP · NDP · NNP · NFIA · Factor Cost vs Market Price · GDP Deflator · Green GDP</span>
+      </h1>
+      <p>यह बैच वीडियो के <b>चौथे चैप्टर</b> का granular कंटेंट है — domestic territory से लेकर तीनों मापन विधियों तक, हर सूत्र अलग बॉक्स में, हर जाल (trap) चिह्नित, और एक पूरा हल किया हुआ उदाहरण। नीचे फैक्ट शीट, सूत्र-फ्लैशकार्ड और 14 प्रश्नों का टेस्ट भी है।</p>
+      <div class="meta-grid">
+        <div class="meta"><div class="k">वीडियो</div><div class="v">3:28:12 · One Shot</div></div>
+        <div class="meta"><div class="k">चैनल</div><div class="v">PCS INSIGHTS</div></div>
+        <div class="meta"><div class="k">बैच की सीमा</div><div class="v">चैप्टर 4 (पूरा)</div></div>
+        <div class="meta"><div class="k">स्रोत</div><div class="v">Lucent · NCERT · Ghatna Chakra</div></div>
+      </div>
+      <div class="hero-cta">
+        <a class="btn primary" href="#s1">पढ़ना शुरू करें
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn ghost" href="#s10">फैक्ट शीट पर जाएँ</a>
+        <a class="btn ghost" href="#s12">सीधे टेस्ट दें</a>
+        <a class="btn ghost" href="batch-04-text.html" target="_blank" rel="noopener">पूरा टेक्स्ट (verbatim) ↗</a>
+      </div>
+    </section>
+
+    <div class="notice">
+      <!--LANGNOTE-->
+      <span class="ico">!</span>
+      <div><b>पारदर्शिता नोट:</b> यह मॉड्यूल वीडियो के <b>ऑटो-ट्रांसक्रिप्ट</b> पर आधारित है (हिंदी, ASR से)। जहाँ नाम/सूत्र स्पष्ट रूप से गलत सुनाई दिए (जैसे “डोमेस्टिक टेरीटरी” के उदाहरण में दूतावास की उलझन, “नोमिनल” = nominal, “ग्रीन जीडीपी”), वहाँ <span class="chip fix-chip" style="background:var(--amber-soft);color:var(--amber);border:1px solid var(--line)">सुधार</span> चिह्न से सही जानकारी दी गई है — परीक्षा में वही लिखें।
+      <!--LANGNOTE--></div>
+    </div>
+    <section class="sec" id="s1" data-sec="s1">
+      <div class="sec-head">
+        <div class="sec-num">01</div>
+        <h2>राष्ट्रीय आय की बुनियाद<span class="en">Domestic territory · resident · factor income</span></h2>
+        <button class="markdone" data-done="s1" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">यह चैप्टर छोटा है, पर <b>सबसे ज़्यादा नंबर वाला</b> है — यहाँ हर सवाल “GDP, GNP, NNP” के फ़ॉर्मूले पर बनता है। लेक्चर में भी साफ़ कहा गया: “जितना ज़रूरी है, सिर्फ़ उतना ही पढ़ा रहा हूँ।”</p>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">शुरुआत यहाँ से</span>पहले समझो <b>domestic territory</b> (घरेलू क्षेत्र) — क्योंकि GDP इसी के अंदर बनी चीज़ें गिनता है।</div>
+        </div>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>स्थिति</th><th>क्या भारत की GDP में गिना जाएगा?</th><th>क्यों</th></tr></thead>
+            <tbody>
+              <tr><td>भारत में बनी <b>अमेरिकी दूतावास</b> की इमारत व उसकी कमाई</td><td><b>नहीं</b></td><td>दूतावास की ज़मीन उस देश का हिस्सा मानी जाती है — यह अमेरिका का क्षेत्र है</td></tr>
+              <tr><td>अमेरिका में भारतीय दूतावास की कमाई</td><td><b>हाँ</b></td><td>वह भारत का हिस्सा है — “दूतावास पर हमला = उस देश पर हमला”</td></tr>
+              <tr><td>भारतीय जहाज़, हवाई जहाज़, मछली पकड़ने वाले जहाज़, समुद्री तेल-प्लेटफ़ॉर्म</td><td><b>हाँ</b></td><td>ये भारत के घरेलू क्षेत्र (domestic territory) में गिने जाते हैं</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call mem">
+          <span class="ci">✦</span>
+          <div><span class="ct">याद रखने की तरकीब</span>दूतावास में “<b>जिसकी ज़मीन, उसकी GDP</b>”। भारत में अमेरिकी दूतावास के कमरे में पैसा कमाया — वह अमेरिका की GDP में जाएगा, भारत की नहीं।</div>
+        </div>
+        <h3 class="sub">फैक्टर आय (Factor Income) — चार साधन, चार आय</h3>
+        <div class="kv">
+          <div class="item"><div class="k">भूमि / land</div><div class="v"><b>लगान (rent)</b></div></div>
+          <div class="item"><div class="k">श्रम / labour</div><div class="v"><b>मज़दूरी (wages)</b></div></div>
+          <div class="item"><div class="k">पूँजी / capital</div><div class="v"><b>ब्याज (interest)</b></div></div>
+          <div class="item"><div class="k">उद्यमशीलता / entrepreneurship</div><div class="v"><b>लाभ (profit)</b> — क्योंकि यह जोखिम उठाता है</div></div>
+        </div>
+        <p>इन चारों को जोड़ दो = <b>फैक्टर आय</b>। और यह आय <b>सामान्य निवासी (normal resident)</b> को मिलनी चाहिए — इसलिए “कौन निवासी है” यह भी देखा जाता है।</p>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">Transfer income vs factor income</span><b>फैक्टर आय</b> = काम के बदले मिली आय (वेतन, लगान, ब्याज, लाभ)। <b>हस्तांतरण आय</b> = बिना काम के मिली आय (पेंशन, छात्रवृत्ति, उपहार) — इसे राष्ट्रीय आय में नहीं जोड़ा जाता।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s2" data-sec="s2">
+      <div class="sec-head">
+        <div class="sec-num">02</div>
+        <h2>अंतिम व मध्यवर्ती वस्तुएँ<span class="en">Final vs intermediate goods · value added · circular flow</span></h2>
+        <button class="markdone" data-done="s2" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">GDP में सिर्फ़ <b>अंतिम वस्तुएँ</b> गिनी जाती हैं — वरना एक ही चीज़ कई बार गिनी जाएगी (double counting)।</p>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">लेक्चर का उदाहरण</span>मैंने एक <b>मार्कर</b> खरीदा। अगर मैं उससे पढ़ाता हूँ, तो वह <b>मध्यवर्ती वस्तु (intermediate good)</b> है — क्योंकि वह आगे सेवा देने में इस्तेमाल हो रहा है। पर अगर मैं उसे अपने निजी उपयोग के लिए रख लूँ, तो वही मार्कर <b>अंतिम वस्तु (final good)</b> बन जाता है।</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap</span>अंतिम या मध्यवर्ती — यह चीज़ पर नहीं, <b>उपयोग के उद्देश्य (purpose)</b> पर निर्भर है। एक ही वस्तु दो जगह दो रूप में हो सकती है।</div>
+        </div>
+        <h3 class="sub">मूल्य वृद्धि (Value Added)</h3>
+        <div class="kv">
+          <div class="item"><div class="k">सूत्र</div><div class="v"><b>Value Added = Value of Output − Value of Intermediate Consumption</b></div></div>
+          <div class="item"><div class="k">उदाहरण</div><div class="v">₹50 का बेड खरीदा, ₹100 में बेचा → मूल्य वृद्धि <b>₹50</b></div></div>
+          <div class="item"><div class="k">फ़ायदा</div><div class="v">हर स्तर पर सिर्फ़ “जोड़ा गया मूल्य” गिनने से double counting नहीं होती</div></div>
+        </div>
+        <h3 class="sub">आय का चक्रीय प्रवाह (Circular Flow)</h3>
+        <p>घर (household) और फ़र्म के बीच <b>वस्तुएँ-सेवाएँ</b> एक दिशा में और <b>पैसा</b> दूसरी दिशा में घूमता रहता है — यही circular flow of income है। NCERT में इसका डायग्राम दिया हुआ है; परीक्षा में प्रश्न सीधे “किसके बीच प्रवाह” पर आता है।</p>
+        <div class="stats">
+          <div class="stat"><div class="v">2</div><div class="k">क्षेत्र — household व firm</div></div>
+          <div class="stat"><div class="v">2</div><div class="k">प्रवाह — वस्तु/सेवा व धन</div></div>
+          <div class="stat"><div class="v">1</div><div class="k">ही चक्र, दोनों दिशाओं में</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s3" data-sec="s3">
+      <div class="sec-head">
+        <div class="sec-num">03</div>
+        <h2>GDP — परिभाषा व फ़ॉर्मूला<span class="en">Gross Domestic Product &amp; its expenditure formula</span></h2>
+        <button class="markdone" data-done="s3" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">परिभाषा</span><b>GDP</b> = एक वर्ष में <b>घरेलू क्षेत्र (domestic territory)</b> के अंदर बनी <b>सभी वस्तुओं व सेवाओं का बाज़ार मूल्य (monetary value)</b>।</div>
+        </div>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">सबसे बड़ी बात</span>GDP में <b>क्षेत्र</b> मायने रखता है, नागरिकता नहीं। भारत की सीमा के अंदर अमेरिकी कंपनी ने कारखाना लगाया तो उसका उत्पादन <b>भारत की GDP</b> में जोड़ा जाएगा — चाहे मालिक अमेरिकी हो।</div>
+        </div>
+        <h3 class="sub">व्यय विधि से फ़ॉर्मूला (Expenditure Method)</h3>
+        <div class="call def">
+          <span class="ci">=</span>
+          <div><b>GDP = C + I + G + (X − M)</b><br><span class="mono">C</span> = निजी उपभोग (private consumption) · <span class="mono">I</span> = निवेश (investment) · <span class="mono">G</span> = सरकारी व्यय (government expenditure) · <span class="mono">X − M</span> = निर्यात − आयात (net exports)</div>
+        </div>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>घटक</th><th>मतलब</th><th>उदाहरण</th></tr></thead>
+            <tbody>
+              <tr><td><b>C</b></td><td>घरों का खर्च</td><td>रोटी, कपड़ा, मोबाइल, किराया</td></tr>
+              <tr><td><b>I</b></td><td>पूँजीगत खर्च</td><td>मशीन, फैक्ट्री, नई इमारत</td></tr>
+              <tr><td><b>G</b></td><td>सरकार का खर्च</td><td>सड़क, सैलरी, रक्षा</td></tr>
+              <tr><td><b>X − M</b></td><td>विदेश से शुद्ध कमाई</td><td>निर्यात में से आयात घटाओ</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap — हस्तांतरण गिनती में नहीं</span>पेंशन, छात्रवृत्ति, बेरोज़गारी भत्ता GDP में <b>नहीं</b> जोड़े जाते — ये बदले में कोई वस्तु/सेवा पैदा नहीं करते। पुरानी चीज़ों की बिक्री (second-hand) भी नहीं जोड़ी जाती।</div>
+        </div>
+      </div>
+    </section>
+    <section class="sec" id="s4" data-sec="s4">
+      <div class="sec-head">
+        <div class="sec-num">04</div>
+        <h2>GNP, NDP और NNP<span class="en">Gross/Net · Domestic/National · NFIA &amp; depreciation</span></h2>
+        <button class="markdone" data-done="s4" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">चार चीज़ें मिलकर पूरा खेल बनाती हैं: <b>Gross/Net</b> (मूल्यह्रास) और <b>Domestic/National</b> (नागरिकता)।</p>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>अवधारणा</th><th>फ़ॉर्मूला</th><th>याद रखने की बात</th></tr></thead>
+            <tbody>
+              <tr><td><b>GDP</b></td><td>देश की सीमा में उत्पादन</td><td>क्षेत्र आधारित</td></tr>
+              <tr><td><b>NDP</b></td><td><b>GDP − मूल्यह्रास (depreciation)</b></td><td>Net = Gross से घिसाई हटाओ</td></tr>
+              <tr><td><b>GNP</b></td><td><b>GDP + NFIA</b></td><td>NFIA = विदेश से शुद्ध फैक्टर आय</td></tr>
+              <tr><td><b>NNP</b></td><td><b>GNP − मूल्यह्रास</b></td><td>दोनों सुधार एक साथ</td></tr>
+              <tr><td><b>NNP at Factor Cost</b></td><td>NNP<sub>MP</sub> − अप्रत्यक्ष कर + सब्सिडी</td><td><b>यही “राष्ट्रीय आय” है</b></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">NFIA क्या है</span><b>Net Factor Income from Abroad</b> = भारतीय नागरिकों की विदेश से आय − विदेशियों की भारत से आय।<br>“कुछ लोग बाहर से आकर भारत में बस गए, कुछ भारत से बाहर चले गए — दोनों का <b>शुद्ध (net)</b> असर देखते हैं।”</div>
+        </div>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">GDP बनाम GNP — एक लाइन में</span><b>GDP में क्षेत्र मायने रखता है</b> (भारत की सीमा में जो बना), <b>GNP में नागरिकता</b> (भारतीय नागरिक ने दुनिया में कहीं भी बनाया तो भारत की GNP में)। इसलिए <b>GNP = GDP + NFIA</b>।</div>
+        </div>
+        <div class="call mem">
+          <span class="ci">✦</span>
+          <div><span class="ct">“Gross vs Net” को घर के उदाहरण से</span>Gross salary और Net salary का फ़र्क़ — बीच में जो कटता है (यहाँ मशीनों की घिसाई) वही <b>depreciation</b> है। उसे घटाओ तो “Net” आ जाता है।</div>
+        </div>
+        <div class="call fix">
+          <span class="ci">✎</span>
+          <div><span class="ct">सुधार / सटीकता</span>लेक्चर में NNP को कभी “GNP में से depreciation” तो कभी सीधे “GDP से” कहा गया। सही क्रम: <b>GDP → (NFIA जोड़ो) GNP → (depreciation घटाओ) NNP</b>। दोनों सुधारों का क्रम बदलने से उत्तर नहीं बदलता, पर परीक्षा में सूत्र ठीक वैसा ही लिखें।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s5" data-sec="s5">
+      <div class="sec-head">
+        <div class="sec-num">05</div>
+        <h2>फैक्टर लागत बनाम बाज़ार कीमत<span class="en">Factor cost vs market price</span></h2>
+        <button class="markdone" data-done="s5" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">यह पूरे चैप्टर का सबसे ज़्यादा गलत होने वाला हिस्सा है — सिर्फ़ एक सूत्र याद रखना है और उसमें कर/सब्सिडी का चिह्न (sign) नहीं उलटना।</p>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">दोनों का मतलब</span><b>फैक्टर लागत (factor cost)</b> = उत्पादन की असली लागत — इसमें सरकारी कर-सब्सिडी नहीं जोड़ी जाती।<br><b>बाज़ार कीमत (market price)</b> = ग्राहक जो चुकाता है — इसमें कर जुड़ जाते हैं और सब्सिडी घट जाती है।</div>
+        </div>
+        <div class="call mem">
+          <span class="ci">=</span>
+          <div><b>बाज़ार कीमत = फैक्टर लागत + अप्रत्यक्ष कर − सब्सिडी</b><br><b>फैक्टर लागत = बाज़ार कीमत − अप्रत्यक्ष कर + सब्सिडी</b></div>
+        </div>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>स्थिति</th><th>असर</th><th>क्यों</th></tr></thead>
+            <tbody>
+              <tr><td>सरकार <b>अप्रत्यक्ष कर</b> (GST) बढ़ाती है</td><td>बाज़ार कीमत <b>बढ़ती</b> है, फैक्टर लागत वही रहती है</td><td>कर ग्राहक देता है, उत्पादक को नहीं मिलता</td></tr>
+              <tr><td>सरकार <b>सब्सिडी</b> देती है</td><td>बाज़ार कीमत <b>घटती</b> है</td><td>सरकार ग्राहक की जगह कुछ कीमत चुका देती है</td></tr>
+              <tr><td>कर = सब्सिडी</td><td>दोनों बराबर</td><td>बाज़ार कीमत = फैक्टर लागत</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap — सबसे आम गलती</span>लोग कर को <b>घटाते</b> हैं और सब्सिडी को <b>जोड़ते</b> हैं। सही है: बाज़ार कीमत से फैक्टर लागत पर जाने के लिए <b>कर घटाओ, सब्सिडी जोड़ो</b>। याद रखें — “<b>कर सरकार लेती है (घटाओ), सब्सिडी सरकार देती है (जोड़ो)</b>”।</div>
+        </div>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">कौन-से कर गिने जाते हैं</span>यहाँ सिर्फ़ <b>अप्रत्यक्ष कर</b> (indirect tax — GST, उत्पाद शुल्क) जोड़े/घटाए जाते हैं, क्योंकि वे कीमत में शामिल होते हैं। <b>आयकर</b> जैसे प्रत्यक्ष कर कीमत का हिस्सा नहीं होते।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s6" data-sec="s6">
+      <div class="sec-head">
+        <div class="sec-num">06</div>
+        <h2>अन्य आय अवधारणाएँ<span class="en">Personal income · disposable income · per capita · nominal vs real</span></h2>
+        <button class="markdone" data-done="s6" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <div class="kv">
+          <div class="item"><div class="k">व्यक्तिगत आय (Personal Income)</div><div class="v">व्यक्ति को <b>कर से पहले</b> जो आय मिलती है। इसमें वे चीज़ें नहीं जुड़तीं जो उसे मिलती ही नहीं — <b>अवितरित कॉर्पोरेट लाभ</b>, <b>कॉर्पोरेट कर</b>, <b>सामाजिक सुरक्षा अंशदान</b></div></div>
+          <div class="item"><div class="k">प्रयोज्य आय (Disposable Income)</div><div class="v"><b>Personal Income − प्रत्यक्ष कर</b> — यही वह पैसा है जो “जेब में आता है” और खर्च हो सकता है</div></div>
+          <div class="item"><div class="k">प्रति व्यक्ति आय (Per Capita Income)</div><div class="v"><b>कुल राष्ट्रीय आय ÷ कुल जनसंख्या</b> — यानी औसत नागरिक की आय</div></div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap — personal income में क्या नहीं जोड़ते</span>कॉर्पोरेट लाभ कंपनी के मालिकों/शेयरधारकों का होता है, कर्मचारी का नहीं; कॉर्पोरेट कर सरकार का; सामाजिक सुरक्षा अंशदान शर्तों के बाद मिलता है। इसलिए तीनों <b>personal income से बाहर</b>।</div>
+        </div>
+        <h3 class="sub">नाममात्र (Nominal) बनाम वास्तविक (Real) आय</h3>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>प्रकार</th><th>मतलब</th><th>महँगाई का असर</th></tr></thead>
+            <tbody>
+              <tr><td><b>नाममात्र आय</b></td><td><b>चालू वर्ष की कीमतों</b> पर मापी गई आय</td><td>महँगाई का असर <b>दिखता नहीं</b> — संख्या बड़ी दिख सकती है</td></tr>
+              <tr><td><b>वास्तविक आय</b></td><td>महँगाई से <b>समायोजित (adjusted)</b> आय</td><td>असली क्रय शक्ति दिखती है</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>इसीलिए कहा जाता है — “अगर आय 10% बढ़ी और महँगाई भी 10% रही, तो <b>वास्तविक आय बढ़ी ही नहीं</b>।”</p>
+        <div class="call mem">
+          <span class="ci">✦</span>
+          <div><span class="ct">एक लाइन में</span><b>Nominal = जितना पैसा मिला · Real = उस पैसे से कितना सामान मिला।</b></div>
+        </div>
+      </div>
+    </section>
+    <section class="sec" id="s7" data-sec="s7">
+      <div class="sec-head">
+        <div class="sec-num">07</div>
+        <h2>GDP डिफ्लेटर व ग्रीन GDP<span class="en">GDP deflator · green GDP</span></h2>
+        <button class="markdone" data-done="s7" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">GDP डिफ्लेटर</span>यह <b>GDP का उपयोग करके महँगाई (inflation)</b> नापता है।<br>सूत्र: <b>GDP Deflator = (नाममात्र GDP ÷ वास्तविक GDP) × 100</b>।</div>
+        </div>
+        <ul class="clean">
+          <li>यह <b>पूरी अर्थव्यवस्था</b> की कीमतों का औसत निकालता है — सिर्फ़ उपभोक्ता वस्तुओं का नहीं।</li>
+          <li>CPI (उपभोक्ता मूल्य सूचकांक) खुदरा (retail) कीमतें देखता है; GDP डिफ्लेटर <b>सभी उत्पादित वस्तुओं-सेवाओं</b> को देखता है।</li>
+        </ul>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">ग्रीन GDP</span>जब GDP में <b>पर्यावरणीय लागत (environmental cost)</b> भी जोड़/घटा दी जाती है — यानी प्रकृति को हुए नुकसान का हिसाब भी शामिल किया जाता है।</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap</span>ग्रीन GDP का मतलब “कृषि/हरित क्रांति वाली GDP” नहीं है — यह <b>पर्यावरणीय लागत को जोड़कर</b> निकाली गई GDP है। और GDP डिफ्लेटर <b>महँगाई</b> नापता है, वृद्धि नहीं।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s8" data-sec="s8">
+      <div class="sec-head">
+        <div class="sec-num">08</div>
+        <h2>राष्ट्रीय आय मापने की तीन विधियाँ<span class="en">Production · Income · Expenditure method</span></h2>
+        <button class="markdone" data-done="s8" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">तीनों तरीक़ों से उत्तर एक ही आना चाहिए — यही “राष्ट्रीय आय की तीन विधियाँ” का पूरा सार है।</p>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>विधि</th><th>क्या जोड़ते हैं</th><th>याद रखने की लाइन</th></tr></thead>
+            <tbody>
+              <tr><td><b>उत्पादन विधि</b><br><span class="mono">Production</span></td><td><b>मूल्य वृद्धि (value added)</b> — output में से intermediate consumption घटाकर</td><td>“कितना <b>बनाया</b>”</td></tr>
+              <tr><td><b>आय विधि</b><br><span class="mono">Income</span></td><td><b>लगान + मज़दूरी + ब्याज + लाभ</b> (फैक्टर आय)</td><td>“कितना <b>कमाया</b>”</td></tr>
+              <tr><td><b>व्यय विधि</b><br><span class="mono">Expenditure</span></td><td><b>C + I + G + (X − M)</b></td><td>“कितना <b>खर्च किया</b>”</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">भारत में कौन करता है</span>आँकड़े <b>MoSPI / CSO (केंद्रीय सांख्यिकी कार्यालय)</b> जारी करता है; GDP की गणना में मुख्यतः <b>उत्पादन व व्यय</b> विधि का इस्तेमाल होता है।</div>
+        </div>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">वीडियो के बाहर से, पर परीक्षा में आता है</span>भारत में राष्ट्रीय आय का <b>पहला अनुमान दादाभाई नौरोजी</b> ने (1867-68) लगाया; पहली संस्थागत कोशिश <b>राष्ट्रीय आय समिति, 1949</b> (अध्यक्ष <b>पी. सी. महालनोबिस</b>) ने की; आज आधार वर्ष <b>2011-12</b> है। ये तथ्य लेक्चर में नहीं आए, पर PYQ में दिखते हैं।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s9" data-sec="s9">
+      <div class="sec-head">
+        <div class="sec-num">09</div>
+        <h2>नंबर कैसे बनते हैं — पूरा उदाहरण<span class="en">Worked example: GDP → GNP → NNP → National Income</span></h2>
+        <button class="markdone" data-done="s9" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">मान लो किसी वर्ष: <b>GDP (बाज़ार कीमत) = ₹1,000</b>, <b>मूल्यह्रास = ₹100</b>, <b>NFIA = ₹50</b>, <b>अप्रत्यक्ष कर = ₹80</b>, <b>सब्सिडी = ₹30</b>।</p>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>चरण</th><th>गणना</th><th>उत्तर</th></tr></thead>
+            <tbody>
+              <tr><td>GDP<sub>MP</sub></td><td>दिया हुआ</td><td><b>1,000</b></td></tr>
+              <tr><td>GDP<sub>FC</sub></td><td>1,000 − 80 + 30</td><td><b>950</b></td></tr>
+              <tr><td>NDP<sub>MP</sub></td><td>1,000 − 100</td><td><b>900</b></td></tr>
+              <tr><td>GNP<sub>MP</sub></td><td>1,000 + 50</td><td><b>1,050</b></td></tr>
+              <tr><td>NNP<sub>MP</sub></td><td>1,050 − 100</td><td><b>950</b></td></tr>
+              <tr><td><b>NNP<sub>FC</sub> = राष्ट्रीय आय</b></td><td>950 − 80 + 30</td><td><b>900</b></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call mem">
+          <span class="ci">✦</span>
+          <div><span class="ct">देखा आपने?</span>GDP<sub>FC</sub> और NNP<sub>MP</sub> दोनों <b>950</b> आए — यहाँ संख्याएँ जान-बूझकर ऐसी चुनी गई हैं ताकि आप अपना उत्तर <b>दो तरीक़े से जाँच</b> सकें। परीक्षा में हर चरण अलग लिखें, कटौती-जोड़ में गड़बड़ी न हो।</div>
+        </div>
+        <h3 class="sub">पाँच सबसे आम जाल</h3>
+        <ol class="clean">
+          <li><b>Domestic vs National:</b> सीमा में बना = GDP; नागरिक का बनाया = GNP।</li>
+          <li><b>Gross vs Net:</b> depreciation घटाओ तो Net।</li>
+          <li><b>Market price vs Factor cost:</b> कर घटाओ, सब्सिडी जोड़ो।</li>
+          <li><b>Transfer income:</b> पेंशन/छात्रवृत्ति राष्ट्रीय आय में नहीं।</li>
+          <li><b>Final vs intermediate:</b> फ़ैसला <b>उपयोग</b> से होता है, वस्तु से नहीं।</li>
+        </ol>
+        <div class="call pyq">
+          <span class="ci">★</span>
+          <div><span class="ct">परीक्षा पैटर्न</span>“NNP at factor cost किसे कहते हैं?” → <b>राष्ट्रीय आय</b>। “GDP + NFIA = ?” → <b>GNP</b>। “GDP − depreciation = ?” → <b>NDP</b>। तीनों सीधे एक-लाइन प्रश्न हैं।</div>
+        </div>
+      </div>
+    </section>
+    <section class="sec" id="s10" data-sec="s10">
+      <div class="sec-head">
+        <div class="sec-num">10</div>
+        <h2>फैक्ट शीट — अंतिम 10 मिनट का रिवीजन<span class="en">One-line fact sheet</span></h2>
+        <button class="markdone" data-done="s10" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p>पूरे चैप्टर के परीक्षा-योग्य तथ्य सूत्र-सहित। <b>प्रिंट/PDF</b> से रिवीजन शीट निकाल सकते हैं।</p>
+        <div class="facts" id="factsList">
+          <div class="fact"><span class="tag">GDP</span><span class="txt">एक वर्ष में <b>देश की सीमा</b> के अंदर बनी सभी वस्तुओं-सेवाओं का बाज़ार मूल्य।</span></div>
+          <div class="fact"><span class="tag">GDP सूत्र</span><span class="txt"><b>C + I + G + (X − M)</b></span></div>
+          <div class="fact"><span class="tag">दूतावास</span><span class="txt">भारत में अमेरिकी दूतावास की कमाई <b>भारत की GDP में नहीं</b>; अमेरिका में भारतीय दूतावास की कमाई <b>भारत की GDP में हाँ</b>।</span></div>
+          <div class="fact"><span class="tag">क्षेत्र vs नागरिकता</span><span class="txt"><b>GDP = क्षेत्र</b> आधारित · <b>GNP = नागरिकता</b> आधारित।</span></div>
+          <div class="fact"><span class="tag">NDP</span><span class="txt"><b>GDP − depreciation</b></span></div>
+          <div class="fact"><span class="tag">GNP</span><span class="txt"><b>GDP + NFIA</b> (विदेश से शुद्ध फैक्टर आय)</span></div>
+          <div class="fact"><span class="tag">NNP</span><span class="txt"><b>GNP − depreciation</b> = GDP + NFIA − depreciation</span></div>
+          <div class="fact"><span class="tag">राष्ट्रीय आय</span><span class="txt"><b>NNP at Factor Cost</b> = राष्ट्रीय आय</span></div>
+          <div class="fact"><span class="tag">फैक्टर लागत</span><span class="txt"><b>= बाज़ार कीमत − अप्रत्यक्ष कर + सब्सिडी</b></span></div>
+          <div class="fact"><span class="tag">फैक्टर आय</span><span class="txt">भूमि → <b>लगान</b>, श्रम → <b>मज़दूरी</b>, पूँजी → <b>ब्याज</b>, उद्यम → <b>लाभ</b></span></div>
+          <div class="fact"><span class="tag">अंतिम वस्तु</span><span class="txt">फ़ैसला <b>उपयोग के उद्देश्य</b> से — मार्कर पढ़ाने में = intermediate, खुद के लिए = final</span></div>
+          <div class="fact"><span class="tag">मूल्य वृद्धि</span><span class="txt"><b>Value of Output − Intermediate Consumption</b></span></div>
+          <div class="fact"><span class="tag">चक्रीय प्रवाह</span><span class="txt">household व firm के बीच वस्तु-सेवा व धन का प्रवाह</span></div>
+          <div class="fact"><span class="tag">व्यक्तिगत आय</span><span class="txt">कर से पहले; इसमें <b>अवितरित कॉर्पोरेट लाभ, कॉर्पोरेट कर, सामाजिक सुरक्षा अंशदान</b> नहीं</span></div>
+          <div class="fact"><span class="tag">प्रयोज्य आय</span><span class="txt"><b>Personal Income − प्रत्यक्ष कर</b></span></div>
+          <div class="fact"><span class="tag">प्रति व्यक्ति आय</span><span class="txt"><b>राष्ट्रीय आय ÷ जनसंख्या</b></span></div>
+          <div class="fact"><span class="tag">नाममात्र</span><span class="txt"><b>चालू कीमतों</b> पर — महँगाई का समायोजन नहीं</span></div>
+          <div class="fact"><span class="tag">वास्तविक</span><span class="txt">महँगाई से <b>समायोजित</b> आय</span></div>
+          <div class="fact"><span class="tag">GDP डिफ्लेटर</span><span class="txt"><b>(नाममात्र GDP ÷ वास्तविक GDP) × 100</b> — महँगाई नापता है</span></div>
+          <div class="fact"><span class="tag">ग्रीन GDP</span><span class="txt">GDP में <b>पर्यावरणीय लागत</b> जोड़कर निकाली गई आय</span></div>
+          <div class="fact"><span class="tag">तीन विधियाँ</span><span class="txt"><b>उत्पादन</b> (value added) · <b>आय</b> (rent+wage+interest+profit) · <b>व्यय</b> (C+I+G+X−M)</span></div>
+          <div class="fact"><span class="tag">हस्तांतरण</span><span class="txt">पेंशन, छात्रवृत्ति, भत्ता — राष्ट्रीय आय में <b>नहीं</b></span></div>
+          <div class="fact"><span class="tag">संस्था</span><span class="txt">आँकड़े <b>MoSPI/CSO</b> जारी करता है; आधार वर्ष <b>2011-12</b></span></div>
+          <div class="fact"><span class="tag">इतिहास</span><span class="txt">पहला अनुमान <b>दादाभाई नौरोजी</b> (1867-68); राष्ट्रीय आय समिति <b>1949</b> (अध्यक्ष महालनोबिस)</span></div>
+        </div>
+        <div class="hero-cta" style="margin-top:14px">
+          <button class="btn ghost" id="copyFacts" type="button">फैक्ट शीट कॉपी करें</button>
+          <a class="btn ghost" href="#s12">टेस्ट दें →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s11" data-sec="s11">
+      <div class="sec-head">
+        <div class="sec-num">11</div>
+        <h2>फ्लैशकार्ड — सूत्र व परिभाषाएँ<span class="en">Flip cards · formulas &amp; concepts</span></h2>
+        <button class="markdone" data-done="s11" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p>कार्ड पर क्लिक/टैप करें — पलटकर उत्तर दिखेगा। सूत्र वाले कार्ड पहले खुद लिखें, फिर पलटें।</p>
+        <h3 class="sub">सूत्र (Formulas)</h3>
+        <div class="fc-grid" id="fcSdg"></div>
+        <h3 class="sub">परिभाषाएँ व तथ्य</h3>
+        <div class="fc-grid" id="fcFact"></div>
+        <p class="fc-hint">कीबोर्ड: <span class="mono">Tab</span> से कार्ड चुनें, <span class="mono">Enter/Space</span> से पलटें।</p>
+      </div>
+    </section>
+
+    <section class="sec" id="s12" data-sec="s12">
+      <div class="sec-head">
+        <div class="sec-num">12</div>
+        <h2>अभ्यास प्रश्न — 14 MCQ<span class="en">Practice test with instant explanations</span></h2>
+        <button class="markdone" data-done="s12" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <div class="quiz-bar">
+          <span class="score">स्कोर: <b id="scoreVal">0</b> / <span id="qTotal">14</span></span>
+          <span class="note" id="quizNote">कोई विकल्प चुनें — तुरंत सही/गलत व व्याख्या दिखेगी।</span>
+          <span class="spacer" style="flex:1"></span>
+          <button class="btn ghost" id="resetQuiz" type="button" style="height:32px;font-size:12px">रीसेट</button>
+        </div>
+        <div class="quiz" id="quiz"></div>
+      </div>
+    </section>
+
+    <section class="sec" id="nextbatch">
+      <div class="sec-head">
+        <div class="sec-num">→</div>
+        <h2>अगला बैच<span class="en">What comes next in the series</span></h2>
+      </div>
+      <div class="sec-body">
+        <p>बैच 4 यहीं समाप्त — लेक्चर में इसके बाद सीधे “नेक्स्ट है हमारा इनफ्लेशन” कहकर महँगाई वाला चैप्टर शुरू होता है। <b>बैच 5 = महँगाई (Inflation)</b>।</p>
+        <div class="next">
+          <div class="nextcard"><div class="h"><span class="n">05</span>महँगाई के प्रकार</div><p>डिफ्लेशन, डिसइन्फ्लेशन, रिफ्लेशन, स्टैगफ्लेशन, हाइपर व क्रीपिंग इन्फ्लेशन।</p></div>
+          <div class="nextcard"><div class="h"><span class="n">05</span>माँग व लागत आधारित</div><p>Demand-pull, cost-push, imported, structural — हर एक का उदाहरण।</p></div>
+          <div class="nextcard"><div class="h"><span class="n">05</span>कोर व हेडलाइन</div><p>खाद्य-ईंधन हटाकर कोर, सब मिलाकर हेडलाइन — और WPI/CPI का फ़र्क़।</p></div>
+          <div class="nextcard"><div class="h"><span class="n">05</span>महँगाई का असर</div><p>किसे फ़ायदा, किसे नुकसान; मुद्रास्फीतिक अंतराल (inflationary gap)।</p></div>
+        </div>
+        <div class="call pointer" style="margin-top:16px">
+          <span class="ci">i</span>
+          <div><span class="ct">बैच निरंतरता</span>हर बैच में वही ढाँचा: <b>ग्रैनुलर नोट्स → फैक्ट शीट → फ्लैशकार्ड → MCQ</b>, और सीमा लेक्चर के चैप्टर-ब्रेक पर।</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="noresult" id="noresult">कोई परिणाम नहीं मिला — कोई दूसरा शब्द आज़माएँ (जैसे <b>NFIA</b>, <b>deflator</b>, <b>NNP</b>)।</div>
+  </main>
+</div>
+
+<button class="toTop" id="toTop" type="button" aria-label="ऊपर जाएँ">
+  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+
+<footer class="footer">
+  <p><b>स्रोत:</b> “Indian Economy One Shot 2026 — Complete Indian Economy for UPPCS &amp; BPSC 72nd”, PCS INSIGHTS (UPPCS-BPSC), YouTube — <span class="mono">youtu.be/r2iOMMlSPIw</span> (3:28:12, प्रकाशित 09-11-2026)। बैच 4 = वीडियो का चौथा चैप्टर (राष्ट्रीय आय व GDP)।</p>
+  <p>यह अध्ययन-सामग्री वीडियो के ऑटो-ट्रांसक्रिप्ट से बनी है; जहाँ लेक्चर में सूत्र/आँकड़े गलत बोले गए, वहाँ “सुधार” चिह्न से सही जानकारी दी गई है — परीक्षा में वही लिखें।</p>
+  <p style="margin-top:8px">बैच 4 / 9 · इंटरैक्टिव स्टडी मॉड्यूल · प्रगति इसी ब्राउज़र में सुरक्षित रहती है।</p>
+</footer>
+
+
+<script>
+(function(){
+  "use strict";
+  var $ = function(s,c){return (c||document).querySelector(s);};
+  var $$ = function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s));};
+  var LS = {
+    get:function(k,d){try{var v=localStorage.getItem(k);return v===null?d:JSON.parse(v);}catch(e){return d;}},
+    set:function(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
+  };
+
+  /* ---------- theme ---------- */
+  var themeBtn=$("#themeBtn"), themeLabel=$("#themeLabel");
+  function applyTheme(t){
+    document.documentElement.setAttribute("data-theme",t);
+    themeLabel.textContent = t==="dark" ? "लाइट" : "डार्क";
+    LS.set("ie-theme",t);
+  }
+  applyTheme(LS.get("ie-theme","light"));
+  themeBtn.addEventListener("click",function(){
+    applyTheme(document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark");
+  });
+
+  /* ---------- print ---------- */
+  $("#printBtn").addEventListener("click",function(){window.print();});
+
+  /* ---------- progress / mark done ---------- */
+  var marks=$$(".markdone"), done=LS.get("ie-done-b4",{});
+  var total=marks.length;
+  function refreshProgress(){
+    var n=0;
+    marks.forEach(function(b){
+      var id=b.getAttribute("data-done"), on=!!done[id];
+      b.setAttribute("aria-pressed",on?"true":"false");
+      if(on) n++;
+      var link=$('#toc a[href="#'+id+'"]');
+      if(link){link.classList.toggle("done",on);}
+    });
+    var pct=total?Math.round(n/total*100):0;
+    $("#ring").style.setProperty("--p",pct);
+    $("#ringTxt").textContent=pct+"%";
+    $("#doneCount").textContent=n+" / "+total+" अध्याय";
+  }
+  marks.forEach(function(b){
+    b.addEventListener("click",function(){
+      var id=b.getAttribute("data-done");
+      done[id]=!done[id];
+      LS.set("ie-done-b4",done);
+      refreshProgress();
+    });
+  });
+  refreshProgress();
+
+  /* ---------- scroll progress + to top ---------- */
+  var bar=$("#scrollProg"), toTop=$("#toTop");
+  function onScroll(){
+    var h=document.documentElement;
+    var max=(h.scrollHeight-h.clientHeight)||1;
+    bar.style.width=Math.min(100,(h.scrollTop/max)*100)+"%";
+    toTop.classList.toggle("show",h.scrollTop>700);
+  }
+  document.addEventListener("scroll",onScroll,{passive:true});
+  onScroll();
+  toTop.addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"});});
+
+  /* ---------- TOC active state ---------- */
+  var secs=$$("main .sec");
+  if("IntersectionObserver" in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          $$("#toc a").forEach(function(a){a.classList.remove("active");});
+          var a=$('#toc a[href="#'+en.target.id+'"]');
+          if(a){a.classList.add("active");}
+        }
+      });
+    },{rootMargin:"-88px 0px -66% 0px",threshold:0});
+    secs.forEach(function(s){io.observe(s);});
+  }
+
+  /* ---------- search ---------- */
+  var search=$("#search"), noresult=$("#noresult");
+  function clearMarks(root){
+    $$("mark",root).forEach(function(m){
+      var p=m.parentNode, t=document.createTextNode(m.textContent);
+      p.replaceChild(t,m); p.normalize();
+    });
+  }
+  function highlight(root,q){
+    var walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{
+      acceptNode:function(n){
+        if(!n.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        var p=n.parentNode;
+        if(!p) return NodeFilter.FILTER_REJECT;
+        var tag=p.nodeName;
+        if(tag==="SCRIPT"||tag==="STYLE"||tag==="MARK"||tag==="INPUT"||tag==="TEXTAREA") return NodeFilter.FILTER_REJECT;
+        return n.nodeValue.toLowerCase().indexOf(q)!==-1?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT;
+      }
+    });
+    var nodes=[], n;
+    while((n=walker.nextNode())){nodes.push(n);}
+    nodes.forEach(function(node){
+      var text=node.nodeValue, low=text.toLowerCase(), idx=low.indexOf(q);
+      if(idx===-1) return;
+      var frag=document.createDocumentFragment(), last=0;
+      while(idx!==-1){
+        frag.appendChild(document.createTextNode(text.slice(last,idx)));
+        var m=document.createElement("mark");
+        m.textContent=text.slice(idx,idx+q.length);
+        frag.appendChild(m);
+        last=idx+q.length;
+        idx=low.indexOf(q,last);
+      }
+      frag.appendChild(document.createTextNode(text.slice(last)));
+      node.parentNode.replaceChild(frag,node);
+    });
+  }
+  var searchTimer=null;
+  function runSearch(){
+    var q=(search.value||"").trim().toLowerCase();
+    secs.forEach(function(s){clearMarks(s);});
+    if(!q){
+      secs.forEach(function(s){s.classList.remove("hidden");});
+      noresult.classList.remove("show");
+      return;
+    }
+    var hits=0;
+    secs.forEach(function(s){
+      var match=(s.textContent||"").toLowerCase().indexOf(q)!==-1;
+      s.classList.toggle("hidden",!match);
+      if(match){hits++;highlight(s,q);}
+    });
+    noresult.classList.toggle("show",hits===0);
+  }
+  search.addEventListener("input",function(){
+    clearTimeout(searchTimer);
+    searchTimer=setTimeout(runSearch,140);
+  });
+  search.addEventListener("keydown",function(e){
+    if(e.key==="Escape"){search.value="";runSearch();search.blur();}
+  });
+
+  /* ---------- flashcards ---------- */
+  var sdg=[
+    ["GDP","= C + I + G + (X − M)","व्यय विधि","देश की सीमा में बनी वस्तुओं-सेवाओं का बाज़ार मूल्य"],
+    ["NDP","= GDP − depreciation","Net Domestic Product","मशीनों की घिसाई घटाने पर"],
+    ["GNP","= GDP + NFIA","Gross National Product","क्षेत्र नहीं, नागरिकता देखता है"],
+    ["NNP","= GNP − depreciation","Net National Product","दोनों सुधार एक साथ"],
+    ["NNP<sub>FC</sub>","= NNP<sub>MP</sub> − IT + Subsidy","राष्ट्रीय आय","राष्ट्रीय आय = NNP at Factor Cost"],
+    ["DPI","= Personal Income − प्रत्यक्ष कर","प्रयोज्य आय","जेब में आने वाला पैसा"],
+    ["Deflator","= (Nominal ÷ Real) × 100","GDP डिफ्लेटर","GDP से महँगाई नापना"],
+    ["Value Added","= Output − Intermediate Consumption","मूल्य वृद्धि","Double counting से बचाव"]
+  ];
+  var facts=[
+    ["दूतावास","अमेरिकी दूतावास (भारत में)","भारत की GDP में नहीं","वह अमेरिका का क्षेत्र माना जाता है"],
+    ["4 फैक्टर आय","भूमि · श्रम · पूँजी · उद्यम","लगान · मज़दूरी · ब्याज · लाभ","काम के बदले मिलने वाली आय"],
+    ["मार्कर","पढ़ाने में = intermediate","खुद के उपयोग में = final","फ़ैसला उपयोग के उद्देश्य से"],
+    ["Transfer income","पेंशन · छात्रवृत्ति · भत्ता","राष्ट्रीय आय में नहीं","कोई वस्तु/सेवा पैदा नहीं होती"],
+    ["Personal Income","कर से पहले की आय","अवितरित लाभ, कॉर्पोरेट कर, सामाजिक सुरक्षा अंशदान नहीं","व्यक्ति को जो वास्तव में मिलता है"],
+    ["Per capita","राष्ट्रीय आय ÷ जनसंख्या","औसत नागरिक की आय","वृद्धि दर विकास नहीं दिखाती"],
+    ["Nominal vs Real","चालू कीमतें vs महँगाई-समायोजित","Real = असली क्रय शक्ति","दोनों में फ़र्क़ ही असली सवाल है"],
+    ["Green GDP","GDP में पर्यावरणीय लागत","प्रकृति के नुकसान का हिसाब","कृषि से संबंध नहीं"],
+    ["3 विधियाँ","उत्पादन · आय · व्यय","तीनों का उत्तर एक ही","MoSPI/CSO जारी करता है"]
+  ];
+  function cardHTML(top,mid,tiny,backMid){
+    return '<div class="fc-in">'+
+      '<div class="fc-face"><div class="top">'+top+'</div><div class="mid">'+mid+'</div><div class="tiny">'+tiny+'</div></div>'+
+      '<div class="fc-face fc-back"><div class="top">उत्तर</div><div class="mid">'+backMid+'</div></div>'+
+    '</div>';
+  }
+  function buildCards(container,arr){
+    container.innerHTML=arr.map(function(r){
+      var b=document.createElement("button");
+      b.type="button"; b.className="fc"; b.setAttribute("aria-label","कार्ड "+r[0]+" — पलटें");
+      b.innerHTML=cardHTML(r[0],r[1],r[2],r[3]);
+      b.addEventListener("click",function(){b.classList.toggle("flipped");});
+      return b.outerHTML;
+    }).join("");
+  }
+  buildCards($("#fcSdg"),sdg);
+  buildCards($("#fcFact"),facts);
+
+  /* ---------- quiz ---------- */
+  var QUIZ=[
+    {q:"भारत में अमेरिकी दूतावास की कमाई भारत की GDP में क्यों नहीं जोड़ी जाती?",
+     o:["क्योंकि वह अमेरिकी कंपनी है","क्योंकि दूतावास की ज़मीन उस देश का हिस्सा मानी जाती है","क्योंकि वहाँ कोई उत्पादन नहीं होता","क्योंकि GDP में सिर्फ़ सरकारी खर्च जुड़ता है"],a:1,
+     e:"Domestic territory में वह ज़मीन शामिल नहीं होती — दूतावास अपने देश का हिस्सा माना जाता है। इसीलिए अमेरिका में भारतीय दूतावास की कमाई <b>भारत</b> की GDP में जुड़ती है।"},
+    {q:"एक मार्कर “final good” है या “intermediate good” — यह किससे तय होता है?",
+     o:["वस्तु की कीमत से","वस्तु के आकार से","उपयोग के उद्देश्य से","वस्तु किसने बनाई, इससे"],a:2,
+     e:"पढ़ाने में इस्तेमाल = मध्यवर्ती (intermediate), निजी उपयोग = अंतिम (final)। एक ही मार्कर दोनों हो सकता है — फ़ैसला उद्देश्य पर।"},
+    {q:"व्यय विधि से GDP का सही सूत्र कौन-सा है?",
+     o:["C + I + G + (X − M)","C + I + G + (M − X)","C + I + G − T","W + R + I + P"],a:0,
+     e:"GDP = निजी उपभोग + निवेश + सरकारी व्यय + (निर्यात − आयात)। ध्यान दें: घटाना आयात को है, निर्यात को नहीं।"},
+    {q:"GNP निकालने के लिए GDP में क्या जोड़ा जाता है?",
+     o:["Depreciation","सब्सिडी","NFIA (विदेश से शुद्ध फैक्टर आय)","अप्रत्यक्ष कर"],a:2,
+     e:"GNP = GDP + NFIA। GDP क्षेत्र देखता है, GNP नागरिकता — इसलिए विदेश से आने-जाने वाली फैक्टर आय का शुद्ध असर जोड़ा जाता है।"},
+    {q:"NDP का सूत्र क्या है?",
+     o:["GDP − depreciation","GDP + depreciation","GDP − अप्रत्यक्ष कर","GDP + NFIA"],a:0,
+     e:"Net = Gross − मूल्यह्रास। इसलिए NDP = GDP − depreciation।"},
+    {q:"“राष्ट्रीय आय” (National Income) वास्तव में क्या है?",
+     o:["GDP at market price","GNP at market price","NNP at factor cost","NNP at market price"],a:2,
+     e:"राष्ट्रीय आय = NNP at Factor Cost। यह सबसे ज़्यादा पूछा जाने वाला एक-लाइन तथ्य है।"},
+    {q:"फैक्टर लागत (factor cost) निकालने का सही सूत्र कौन-सा है?",
+     o:["बाज़ार कीमत + अप्रत्यक्ष कर − सब्सिडी","बाज़ार कीमत − अप्रत्यक्ष कर + सब्सिडी","बाज़ार कीमत − प्रत्यक्ष कर","बाज़ार कीमत + सब्सिडी + कर"],a:1,
+     e:"कर सरकार लेती है (घटाओ), सब्सिडी सरकार देती है (जोड़ो)। इसलिए: बाज़ार कीमत − अप्रत्यक्ष कर + सब्सिडी = फैक्टर लागत।"},
+    {q:"व्यक्तिगत आय (Personal Income) में निम्न में से क्या शामिल नहीं होता?",
+     o:["मज़दूरी","लगान","अवितरित कॉर्पोरेट लाभ","ब्याज"],a:2,
+     e:"अवितरित कॉर्पोरेट लाभ कंपनी के पास रहता है, व्यक्ति को नहीं मिलता; इसी तरह कॉर्पोरेट कर व सामाजिक सुरक्षा अंशदान भी बाहर रहते हैं।"},
+    {q:"प्रयोज्य आय (Disposable Income) कैसे निकलती है?",
+     o:["Personal Income − प्रत्यक्ष कर","Personal Income + सब्सिडी","NNP − depreciation","GDP ÷ जनसंख्या"],a:0,
+     e:"Personal Income में से प्रत्यक्ष कर (जैसे आयकर) घटाने पर जो बचता है, वही जेब में आने वाला पैसा = disposable income।"},
+    {q:"प्रति व्यक्ति आय का सूत्र क्या है?",
+     o:["GDP × जनसंख्या","राष्ट्रीय आय ÷ जनसंख्या","GNP + NFIA","NDP − कर"],a:1,
+     e:"कुल राष्ट्रीय आय को जनसंख्या से भाग दें — यही औसत नागरिक की आय (per capita income) है।"},
+    {q:"नाममात्र (nominal) और वास्तविक (real) आय में मुख्य अंतर क्या है?",
+     o:["नाममात्र में महँगाई का समायोजन होता है","वास्तविक आय महँगाई से समायोजित होती है","दोनों एक ही हैं","वास्तविक आय सिर्फ़ सरकार निकालती है"],a:1,
+     e:"Nominal = चालू कीमतों पर (महँगाई का असर छिपा), Real = महँगाई घटाकर — यानी असली क्रय शक्ति।"},
+    {q:"GDP डिफ्लेटर क्या मापता है?",
+     o:["बेरोज़गारी","महँगाई (GDP के आधार पर)","आय-असमानता","विदेशी व्यापार"],a:1,
+     e:"GDP Deflator = (नाममात्र GDP ÷ वास्तविक GDP) × 100 — यह पूरी अर्थव्यवस्था की कीमतों से महँगाई नापता है।"},
+    {q:"“ग्रीन GDP” का सही अर्थ क्या है?",
+     o:["कृषि क्षेत्र की GDP","पर्यावरणीय लागत शामिल करके निकाली गई GDP","हरित ऊर्जा से बनी GDP","GDP का हरा रंग वाला संस्करण"],a:1,
+     e:"Green GDP में प्रकृति को हुए नुकसान (environmental cost) का हिसाब भी जोड़ा जाता है — यह कृषि या हरित क्रांति से संबंधित नहीं।"},
+    {q:"राष्ट्रीय आय मापने की तीन विधियाँ कौन-सी हैं?",
+     o:["उत्पादन, आय व व्यय","उत्पादन, कर व सब्सिडी","आय, बचत व निवेश","व्यय, निर्यात व आयात"],a:0,
+     e:"Production (value added), Income (rent+wages+interest+profit) और Expenditure (C+I+G+X−M) — तीनों से एक ही उत्तर आना चाहिए।"}
+  ];
+  var quizEl=$("#quiz"), scoreVal=$("#scoreVal"), qTotalEl=$("#qTotal"), quizNote=$("#quizNote");
+  var answered={}, score=0;
+  qTotalEl.textContent=QUIZ.length;
+  function renderQuiz(){
+    answered={}; score=0; scoreVal.textContent="0";
+    quizNote.textContent="कोई विकल्प चुनें — तुरंत सही/गलत व व्याख्या दिखेगी।";
+    quizEl.innerHTML="";
+    QUIZ.forEach(function(item,qi){
+      var wrap=document.createElement("div"); wrap.className="q";
+      var head='<div class="q-h"><span class="q-n">Q'+(qi+1)+'</span><span>'+item.q+'</span></div>';
+      var opts='<div class="opts">'+item.o.map(function(t,oi){
+        return '<button class="opt" type="button" data-q="'+qi+'" data-o="'+oi+'"><span class="ol">'+
+          String.fromCharCode(65+oi)+'</span><span>'+t+'</span></button>';
+      }).join("")+'</div>';
+      var exp='<div class="exp" id="exp-'+qi+'"><b>व्याख्या:</b> '+item.e+'</div>';
+      wrap.innerHTML=head+opts+exp;
+      quizEl.appendChild(wrap);
+    });
+  }
+  quizEl.addEventListener("click",function(e){
+    var btn=e.target.closest(".opt");
+    if(!btn||btn.disabled) return;
+    var qi=+btn.getAttribute("data-q"), oi=+btn.getAttribute("data-o");
+    if(answered[qi]!==undefined) return;
+    answered[qi]=oi;
+    var correct=QUIZ[qi].a;
+    $$('.opt[data-q="'+qi+'"]',quizEl).forEach(function(b){
+      b.disabled=true;
+      var i=+b.getAttribute("data-o");
+      if(i===correct){b.classList.add("correct");}
+      if(i===oi&&oi!==correct){b.classList.add("wrong");}
+    });
+    $("#exp-"+qi).classList.add("show");
+    if(oi===correct){score++;}
+    scoreVal.textContent=String(score);
+    var n=Object.keys(answered).length;
+    if(n===QUIZ.length){
+      var pct=Math.round(score/QUIZ.length*100);
+      quizNote.textContent = pct>=80 ? "शानदार — "+pct+"%। इस बैच पर पकड़ मज़बूत है।" :
+        pct>=50 ? "ठीक — "+pct+"%। फैक्ट शीट एक बार दोहरा लें।" :
+        "बेहतर होगा — "+pct+"%। सेक्शन 8 (सतत विकास) दोबारा पढ़ें, फिर रीसेट करके दोहराएँ।";
+    }
+  });
+  $("#resetQuiz").addEventListener("click",renderQuiz);
+  renderQuiz();
+
+  /* ---------- copy fact sheet ---------- */
+  $("#copyFacts").addEventListener("click",function(){
+    var btn=this, old=btn.textContent;
+    var text=$$("#factsList .fact").map(function(f){
+      return "• "+$(".tag",f).textContent+" — "+$(".txt",f).textContent;
+    }).join("\n");
+    function done(ok){btn.textContent=ok?"कॉपी हो गया ✓":"कॉपी नहीं हो सका";setTimeout(function(){btn.textContent=old;},1600);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){done(true);},function(){done(false);});
+    }else{
+      var ta=document.createElement("textarea"); ta.value=text; document.body.appendChild(ta);
+      ta.select(); try{document.execCommand("copy");done(true);}catch(e){done(false);}
+      document.body.removeChild(ta);
+    }
+  });
+
+  /* ---------- keyboard shortcuts ---------- */
+  document.addEventListener("keydown",function(e){
+    var tag=(e.target.tagName||"").toLowerCase();
+    var typing = tag==="input"||tag==="textarea"||e.target.isContentEditable;
+    if(typing) return;
+    if(e.key==="/"){
+      e.preventDefault(); search.focus(); search.select();
+    }else if(e.key==="D"&&e.shiftKey){
+      applyTheme(document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark");
+    }
+  });
+})();
+</script>
+</body>
+</html>
