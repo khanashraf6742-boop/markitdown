@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<html lang="hi" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indian Economy One Shot 2026 — Batch 1: Basics &amp; Sustainable Development</title>
+<meta name="description" content="इंटरैक्टिव स्टडी मॉड्यूल — Indian Economy One Shot 2026 (PCS INSIGHTS), Batch 1: अर्थव्यवस्था की मूल बातें, प्रकार, भारतीय अर्थव्यवस्था, LPG, सतत विकास, SDG।">
+<style>
+/* ============ design tokens ============ */
+:root{
+  --bg:#f4f6fb; --bg-soft:#eef1f8; --panel:#ffffff; --panel-2:#fbfcff;
+  --ink:#131a2b; --ink-soft:#46506b; --ink-mute:#727d99;
+  --line:#dfe4f0; --line-soft:#eaeef8;
+  --brand:#3d3bd6; --brand-ink:#2b28b0; --brand-soft:#ecebff;
+  --teal:#0d7d76; --teal-soft:#e2f5f3;
+  --amber:#a86400; --amber-soft:#fff3d9;
+  --rose:#b3261e; --rose-soft:#ffe8e6;
+  --green:#166b3c; --green-soft:#e2f6ea;
+  --violet:#6d28d9; --violet-soft:#f1e9ff;
+  --shadow:0 1px 2px rgba(16,24,40,.06),0 8px 24px -12px rgba(16,24,40,.18);
+  --shadow-lg:0 24px 60px -28px rgba(16,24,40,.35);
+  --r-sm:8px; --r:14px; --r-lg:20px;
+  --maxw:1500px;
+  --font:"Noto Sans Devanagari","Nirmala UI","Mangal","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  --mono:"SFMono-Regular",ui-monospace,"Cascadia Mono",Menlo,Consolas,monospace;
+}
+html[data-theme="dark"]{
+  --bg:#0b0f19; --bg-soft:#0f1524; --panel:#141b2b; --panel-2:#111827;
+  --ink:#e8ecf7; --ink-soft:#b3bdd4; --ink-mute:#8492b0;
+  --line:#26304a; --line-soft:#1d2539;
+  --brand:#9d9bff; --brand-ink:#b9b7ff; --brand-soft:#1d1f45;
+  --teal:#5fd6cb; --teal-soft:#0e2f2d;
+  --amber:#f5c264; --amber-soft:#33260c;
+  --rose:#ff8f86; --rose-soft:#3a1613;
+  --green:#68d996; --green-soft:#0f2c1d;
+  --violet:#c3a6ff; --violet-soft:#241a3d;
+  --shadow:0 1px 2px rgba(0,0,0,.5),0 10px 30px -16px rgba(0,0,0,.8);
+  --shadow-lg:0 30px 70px -30px rgba(0,0,0,.9);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth; scroll-padding-top:82px}
+body{
+  margin:0; background:var(--bg); color:var(--ink); font-family:var(--font);
+  font-size:16px; line-height:1.85; -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+h1,h2,h3,h4{line-height:1.45; margin:0; font-weight:800; letter-spacing:-.01em}
+p{margin:.55em 0}
+a{color:var(--brand); text-underline-offset:3px}
+b,strong{font-weight:800; color:var(--ink)}
+code,.mono{font-family:var(--mono); font-size:.9em}
+::selection{background:var(--brand); color:#fff}
+:focus-visible{outline:2.5px solid var(--brand); outline-offset:2px; border-radius:6px}
+
+/* ============ top bar ============ */
+.topbar{
+  position:sticky; top:0; z-index:60; background:color-mix(in srgb, var(--panel) 88%, transparent);
+  backdrop-filter:blur(14px) saturate(1.4); border-bottom:1px solid var(--line);
+}
+.topbar-in{max-width:var(--maxw); margin:0 auto; padding:10px 20px; display:flex; gap:16px; align-items:center}
+.brandmark{display:flex; align-items:center; gap:11px; min-width:0}
+.logo{
+  width:38px;height:38px;border-radius:11px; flex:0 0 auto; display:grid; place-items:center;
+  background:linear-gradient(145deg,var(--brand),#7f5bff 55%,var(--teal)); color:#fff;
+  font-weight:900; font-size:15px; letter-spacing:-.5px; box-shadow:var(--shadow);
+}
+.brand-text{min-width:0}
+.brand-text .t{font-weight:800; font-size:14.5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.brand-text .s{font-size:11.5px; color:var(--ink-mute); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.batch-pill{
+  font-size:11.5px; font-weight:800; letter-spacing:.04em; padding:4px 10px; border-radius:999px;
+  background:var(--brand-soft); color:var(--brand-ink); border:1px solid color-mix(in srgb,var(--brand) 28%, transparent);
+  white-space:nowrap;
+}
+.spacer{flex:1 1 auto}
+.tool{
+  display:inline-flex; align-items:center; gap:7px; height:36px; padding:0 12px; cursor:pointer;
+  background:var(--panel); color:var(--ink-soft); border:1px solid var(--line); border-radius:10px;
+  font:inherit; font-size:12.5px; font-weight:700; white-space:nowrap;
+  transition:transform .12s ease, border-color .12s, color .12s, background .12s;
+}
+.tool:hover{color:var(--ink); border-color:color-mix(in srgb,var(--brand) 45%, var(--line)); transform:translateY(-1px)}
+.tool:active{transform:translateY(0)}
+.tool svg{width:15px;height:15px;flex:0 0 auto}
+.searchwrap{position:relative; flex:1 1 300px; max-width:430px}
+.searchwrap svg{position:absolute; left:11px; top:50%; transform:translateY(-50%); width:16px;height:16px; color:var(--ink-mute)}
+#search{
+  width:100%; height:38px; padding:0 62px 0 34px; border-radius:10px; border:1px solid var(--line);
+  background:var(--panel-2); color:var(--ink); font:inherit; font-size:13.5px;
+}
+#search::placeholder{color:var(--ink-mute)}
+#search:focus{border-color:var(--brand); outline:none; box-shadow:0 0 0 3px var(--brand-soft)}
+.kbd{
+  position:absolute; right:9px; top:50%; transform:translateY(-50%); font-family:var(--mono); font-size:10.5px;
+  color:var(--ink-mute); border:1px solid var(--line); border-bottom-width:2px; border-radius:5px; padding:1px 5px;
+  background:var(--panel); pointer-events:none;
+}
+.progressline{height:3px; background:var(--line-soft); overflow:hidden}
+.progressline > i{display:block; height:100%; width:0; background:linear-gradient(90deg,var(--brand),var(--teal)); transition:width .3s ease}
+
+/* ============ shell ============ */
+.shell{max-width:var(--maxw); margin:0 auto; padding:26px 20px 90px; display:grid; grid-template-columns:288px minmax(0,1fr); gap:30px; align-items:start}
+
+/* ============ sidebar ============ */
+.side{position:sticky; top:78px; max-height:calc(100vh - 100px); overflow:auto; padding-right:6px}
+.side::-webkit-scrollbar{width:8px}
+.side::-webkit-scrollbar-thumb{background:var(--line); border-radius:8px}
+.side-card{background:var(--panel); border:1px solid var(--line); border-radius:var(--r); padding:14px; box-shadow:var(--shadow); margin-bottom:14px}
+.side-h{font-size:10.5px; text-transform:uppercase; letter-spacing:.11em; color:var(--ink-mute); font-weight:800; margin:0 0 9px 4px}
+.toc{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:2px}
+.toc a{
+  display:flex; gap:9px; align-items:flex-start; text-decoration:none; color:var(--ink-soft);
+  font-size:13px; font-weight:600; padding:7px 9px; border-radius:9px; line-height:1.5;
+  border-left:2.5px solid transparent; transition:background .12s,color .12s,border-color .12s;
+}
+.toc a:hover{background:var(--bg-soft); color:var(--ink)}
+.toc a.active{background:var(--brand-soft); color:var(--brand-ink); border-left-color:var(--brand); font-weight:800}
+.toc .n{font-family:var(--mono); font-size:10.5px; color:var(--ink-mute); margin-top:3px; flex:0 0 auto}
+.toc a.active .n{color:var(--brand)}
+.toc a .dot{margin-left:auto; width:6px;height:6px;border-radius:50%; background:var(--green); opacity:0; flex:0 0 auto; margin-top:8px}
+.toc a.done .dot{opacity:1}
+.side-progress{display:flex; align-items:center; gap:10px}
+.ring{--p:0; width:44px; height:44px; border-radius:50%; flex:0 0 auto; display:grid; place-items:center;
+  background:conic-gradient(var(--brand) calc(var(--p)*1%), var(--line-soft) 0);}
+.ring > span{width:34px;height:34px;border-radius:50%; background:var(--panel); display:grid; place-items:center; font-size:10.5px; font-weight:800; color:var(--ink-soft)}
+.side-progress .lbl{font-size:11.5px; color:var(--ink-mute); line-height:1.5}
+.side-progress .lbl b{display:block; color:var(--ink); font-size:13px}
+.chapterlist{list-style:none;margin:0;padding:0;font-size:12px;color:var(--ink-mute);line-height:1.9}
+.chapterlist li{display:flex;gap:7px}
+.chapterlist .now{color:var(--brand-ink);font-weight:800}
+.chapterlist .tag{font-family:rgba(0,0,0,0);font-family:var(--mono);font-size:10px;color:var(--ink-mute)}
+
+/* ============ content ============ */
+.main{min-width:0}
+.hero{
+  position:relative; overflow:hidden; border-radius:var(--r-lg); padding:30px 32px; margin-bottom:24px;
+  background:radial-gradient(1200px 340px at 8% -20%, color-mix(in srgb,var(--brand) 22%, transparent), transparent 60%),
+             radial-gradient(900px 320px at 100% 0%, color-mix(in srgb,var(--teal) 20%, transparent), transparent 55%),
+             var(--panel);
+  border:1px solid var(--line); box-shadow:var(--shadow-lg);
+}
+.hero .eyebrow{display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:13px}
+.chip{
+  font-size:11px; font-weight:800; letter-spacing:.03em; padding:3.5px 10px; border-radius:999px;
+  background:var(--bg-soft); color:var(--ink-soft); border:1px solid var(--line);
+}
+.chip.brand{background:var(--brand-soft); color:var(--brand-ink); border-color:color-mix(in srgb,var(--brand) 26%, transparent)}
+.chip.green{background:var(--green-soft); color:var(--green); border-color:color-mix(in srgb,var(--green) 25%, transparent)}
+.chip.amber{background:var(--amber-soft); color:var(--amber); border-color:color-mix(in srgb,var(--amber) 30%, transparent)}
+.chip.rose{background:var(--rose-soft); color:var(--rose); border-color:color-mix(in srgb,var(--rose) 26%, transparent)}
+.chip.teal{background:var(--teal-soft); color:var(--teal); border-color:color-mix(in srgb,var(--teal) 26%, transparent)}
+.hero h1{font-size:clamp(22px,2.5vw,32px); letter-spacing:-.02em; margin-bottom:8px}
+.hero h1 .sub{display:block; font-size:14.5px; font-weight:700; color:var(--ink-mute); letter-spacing:0; margin-top:8px}
+.hero p{color:var(--ink-soft); font-size:14.5px; max-width:78ch}
+.meta-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:10px; margin-top:20px}
+.meta{background:var(--panel-2); border:1px solid var(--line-soft); border-radius:11px; padding:9px 12px}
+.meta .k{font-size:10px; text-transform:uppercase; letter-spacing:.1em; color:var(--ink-mute); font-weight:800}
+.meta .v{font-size:13px; font-weight:700; color:var(--ink); margin-top:2px}
+.hero-cta{display:flex; flex-wrap:wrap; gap:9px; margin-top:20px}
+.btn{
+  display:inline-flex; align-items:center; gap:8px; height:38px; padding:0 15px; border-radius:10px; cursor:pointer;
+  font:inherit; font-size:13px; font-weight:800; text-decoration:none; border:1px solid var(--line);
+  background:var(--panel); color:var(--ink); transition:transform .12s, box-shadow .12s, background .12s;
+}
+.btn:hover{transform:translateY(-1px); box-shadow:var(--shadow)}
+.btn.primary{background:linear-gradient(160deg,var(--brand),var(--brand-ink)); color:#fff; border-color:transparent}
+.btn.ghost{background:transparent}
+.btn svg{width:15px;height:15px}
+
+/* notice */
+.notice{
+  display:flex; gap:12px; padding:14px 16px; border-radius:var(--r); margin:0 0 22px;
+  background:var(--amber-soft); border:1px solid color-mix(in srgb,var(--amber) 30%, transparent);
+  color:color-mix(in srgb,var(--amber) 78%, var(--ink)); font-size:13px; line-height:1.7;
+}
+.notice .ico{flex:0 0 auto; width:22px;height:22px; border-radius:50%; display:grid; place-items:center;
+  background:color-mix(in srgb,var(--amber) 20%, transparent); color:var(--amber); font-weight:900; font-size:13px}
+.notice b{color:var(--amber)}
+
+/* section */
+.sec{
+  background:var(--panel); border:1px solid var(--line); border-radius:var(--r-lg);
+  padding:26px 28px 24px; margin-bottom:20px; box-shadow:var(--shadow); scroll-margin-top:90px;
+}
+.sec-head{display:flex; gap:14px; align-items:flex-start; margin-bottom:6px}
+.sec-num{
+  flex:0 0 auto; width:38px;height:38px; border-radius:11px; display:grid; place-items:center;
+  background:var(--brand-soft); color:var(--brand-ink); font-family:var(--mono); font-size:13px; font-weight:800;
+  border:1px solid color-mix(in srgb,var(--brand) 20%, transparent);
+}
+.sec-head h2{font-size:clamp(18px,2vw,22.5px); letter-spacing:-.015em}
+.sec-head h2 .en{display:block; font-size:11.5px; font-weight:700; color:var(--ink-mute); letter-spacing:.02em; text-transform:uppercase; margin-top:3px}
+.markdone{
+  margin-left:auto; flex:0 0 auto; display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  height:32px; padding:0 11px; border-radius:9px; border:1px solid var(--line); background:var(--panel-2);
+  color:var(--ink-mute); font:inherit; font-size:11.5px; font-weight:800; white-space:nowrap; transition:.14s;
+}
+.markdone:hover{color:var(--ink); border-color:color-mix(in srgb,var(--green) 45%, var(--line))}
+.markdone .box{width:15px;height:15px;border-radius:4.5px;border:1.6px solid currentColor; display:grid;place-items:center}
+.markdone .box svg{width:11px;height:11px; opacity:0; color:#fff}
+.markdone[aria-pressed="true"]{background:var(--green-soft); color:var(--green); border-color:color-mix(in srgb,var(--green) 40%, transparent)}
+.markdone[aria-pressed="true"] .box{background:var(--green); border-color:var(--green)}
+.markdone[aria-pressed="true"] .box svg{opacity:1}
+.sec-body{font-size:15.2px; color:var(--ink-soft)}
+.sec-body > *:first-child{margin-top:0}
+.lead{font-size:15.5px; color:var(--ink-soft)}
+h3.sub{font-size:15.5px; color:var(--ink); margin:22px 0 8px; display:flex; align-items:center; gap:8px}
+h3.sub::before{content:""; width:4px; height:15px; border-radius:3px; background:var(--brand); display:inline-block}
+h4.mini{font-size:13.5px; color:var(--ink); margin:16px 0 5px; letter-spacing:.01em}
+
+/* lists */
+ul.clean,ol.clean{margin:.5em 0; padding-left:1.25em}
+ul.clean li,ol.clean li{margin:.32em 0; padding-left:.15em}
+ul.clean li::marker{color:var(--brand)}
+ol.clean li::marker{color:var(--brand); font-weight:800; font-family:var(--mono); font-size:.9em}
+ul.tight li{margin:.16em 0}
+.hl{background:linear-gradient(transparent 58%, color-mix(in srgb,var(--amber) 55%, transparent) 0); font-weight:800; color:var(--ink); padding:0 1px}
+.kw{font-weight:800; color:var(--brand-ink)}
+.en-term{font-weight:700; color:var(--teal); font-size:.95em}
+
+/* callouts */
+.call{
+  display:grid; grid-template-columns:26px minmax(0,1fr); gap:11px; align-items:start;
+  border-radius:12px; padding:12px 14px; margin:14px 0; font-size:14px; line-height:1.75;
+  border:1px solid var(--line); background:var(--panel-2); color:var(--ink-soft);
+}
+.call .ci{width:24px;height:24px;border-radius:8px; display:grid; place-items:center; font-size:13px; font-weight:900}
+.call .ct{font-size:10.5px; font-weight:900; letter-spacing:.09em; text-transform:uppercase; display:block; margin-bottom:3px}
+.call.pointer{background:var(--brand-soft); border-color:color-mix(in srgb,var(--brand) 25%, transparent)}
+.call.pointer .ci{background:color-mix(in srgb,var(--brand) 18%, transparent); color:var(--brand-ink)}
+.call.pointer .ct{color:var(--brand-ink)}
+.call.pyq{background:var(--green-soft); border-color:color-mix(in srgb,var(--green) 26%, transparent)}
+.call.pyq .ci{background:color-mix(in srgb,var(--green) 16%, transparent); color:var(--green)}
+.call.pyq .ct{color:var(--green)}
+.call.trap{background:var(--rose-soft); border-color:color-mix(in srgb,var(--rose) 26%, transparent)}
+.call.trap .ci{background:color-mix(in srgb,var(--rose) 15%, transparent); color:var(--rose)}
+.call.trap .ct{color:var(--rose)}
+.call.def{background:var(--teal-soft); border-color:color-mix(in srgb,var(--teal) 26%, transparent)}
+.call.def .ci{background:color-mix(in srgb,var(--teal) 16%, transparent); color:var(--teal)}
+.call.def .ct{color:var(--teal)}
+.call.mem{background:var(--violet-soft); border-color:color-mix(in srgb,var(--violet) 24%, transparent)}
+.call.mem .ci{background:color-mix(in srgb,var(--violet) 15%, transparent); color:var(--violet)}
+.call.mem .ct{color:var(--violet)}
+.call.fix{background:var(--amber-soft); border-color:color-mix(in srgb,var(--amber) 30%, transparent)}
+.call.fix .ci{background:color-mix(in srgb,var(--amber) 18%, transparent); color:var(--amber)}
+.call.fix .ct{color:var(--amber)}
+
+/* table */
+.tablewrap{overflow:auto; margin:16px 0; border:1px solid var(--line); border-radius:12px}
+table{border-collapse:collapse; width:100%; font-size:13.3px; min-width:560px; background:var(--panel)}
+thead th{
+  background:var(--bg-soft); text-align:left; padding:10px 13px; font-size:11.5px; letter-spacing:.05em;
+  text-transform:uppercase; color:var(--ink-soft); font-weight:900; border-bottom:1px solid var(--line);
+  position:sticky; top:0; white-space:nowrap;
+}
+tbody td{padding:10px 13px; border-bottom:1px solid var(--line-soft); vertical-align:top; color:var(--ink-soft); line-height:1.65}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover td{background:var(--panel-2)}
+tbody td b{color:var(--ink)}
+td .mini-chip{display:inline-block; font-family:var(--mono); font-size:10.5px; font-weight:700; padding:1px 7px; border-radius:6px;
+  background:var(--brand-soft); color:var(--brand-ink); margin-right:5px}
+td.year{font-family:var(--mono); font-weight:800; color:var(--brand-ink); white-space:nowrap}
+
+/* key-value fact rows */
+.kv{display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:10px; margin:14px 0}
+.kv .item{background:var(--panel-2); border:1px solid var(--line-soft); border-left:3px solid var(--brand); border-radius:10px; padding:10px 12px}
+.kv .item .k{font-size:10.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-mute); font-weight:800}
+.kv .item .v{font-size:13.6px; font-weight:700; color:var(--ink); margin-top:2px; line-height:1.55}
+
+/* stat */
+.stats{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:16px 0}
+.stat{background:linear-gradient(160deg,var(--panel-2),var(--panel)); border:1px solid var(--line); border-radius:13px; padding:13px 14px; position:relative; overflow:hidden}
+.stat::after{content:""; position:absolute; inset:auto -20px -30px auto; width:70px; height:70px; border-radius:50%; background:color-mix(in srgb,var(--brand) 10%, transparent)}
+.stat .v{font-size:23px; font-weight:900; letter-spacing:-.02em; color:var(--ink); font-family:var(--mono)}
+.stat .k{font-size:11.5px; color:var(--ink-mute); font-weight:700; margin-top:2px; line-height:1.5}
+
+/* flashcards */
+.fc-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(168px,1fr)); gap:11px; margin:16px 0}
+.fc{perspective:900px; height:118px; cursor:pointer; background:none; border:0; padding:0; font:inherit; text-align:left}
+.fc-in{position:relative; width:100%; height:100%; transition:transform .5s cubic-bezier(.4,.1,.2,1); transform-style:preserve-3d}
+.fc.flipped .fc-in{transform:rotateY(180deg)}
+.fc-face{
+  position:absolute; inset:0; border-radius:12px; padding:11px 12px; display:flex; flex-direction:column; justify-content:center;
+  backface-visibility:hidden; border:1px solid var(--line); box-shadow:var(--shadow);
+  background:linear-gradient(155deg,var(--panel-2),var(--panel));
+}
+.fc-face .top{font-family:var(--mono); font-size:10px; font-weight:800; color:var(--brand); letter-spacing:.04em; margin-bottom:4px}
+.fc-face .mid{font-size:13.5px; font-weight:800; color:var(--ink); line-height:1.5}
+.fc-face .tiny{font-size:10.5px; color:var(--ink-mute); margin-top:4px; font-weight:600}
+.fc-back{transform:rotateY(180deg); background:linear-gradient(155deg,var(--brand-soft),var(--panel)); border-color:color-mix(in srgb,var(--brand) 30%, transparent)}
+.fc-back .mid{color:var(--brand-ink); font-size:13px}
+.fc:focus-visible{outline-offset:3px}
+.fc-hint{font-size:12px; color:var(--ink-mute); margin:6px 0 0}
+
+/* quiz */
+.quiz{margin-top:6px}
+.q{background:var(--panel-2); border:1px solid var(--line); border-radius:13px; padding:15px 16px; margin:12px 0}
+.q-h{display:flex; gap:10px; align-items:flex-start; font-size:14.4px; font-weight:700; color:var(--ink); line-height:1.7}
+.q-n{flex:0 0 auto; font-family:var(--mono); font-size:11px; font-weight:800; background:var(--brand-soft); color:var(--brand-ink);
+  padding:2px 7px; border-radius:6px; margin-top:3px}
+.opts{display:grid; gap:7px; margin-top:11px}
+.opt{
+  display:flex; gap:9px; align-items:flex-start; text-align:left; padding:9px 12px; border-radius:10px; cursor:pointer;
+  background:var(--panel); border:1px solid var(--line); color:var(--ink-soft); font:inherit; font-size:13.6px; line-height:1.6;
+  transition:.14s;
+}
+.opt:hover{border-color:color-mix(in srgb,var(--brand) 42%, var(--line)); color:var(--ink); transform:translateX(2px)}
+.opt .ol{flex:0 0 auto; width:19px;height:19px;border-radius:50%; border:1.6px solid var(--line); display:grid; place-items:center;
+  font-family:var(--mono); font-size:10.5px; font-weight:800; color:var(--ink-mute); margin-top:2px}
+.opt.correct{background:var(--green-soft); border-color:var(--green); color:var(--green); font-weight:700}
+.opt.correct .ol{background:var(--green); border-color:var(--green); color:#fff}
+.opt.wrong{background:var(--rose-soft); border-color:var(--rose); color:var(--rose)}
+.opt.wrong .ol{background:var(--rose); border-color:var(--rose); color:#fff}
+.opt[disabled]{cursor:default; transform:none}
+.exp{margin-top:10px; font-size:13px; line-height:1.75; color:var(--ink-soft); background:var(--panel);
+  border-left:3px solid var(--brand); border-radius:0 9px 9px 0; padding:9px 12px; display:none}
+.exp.show{display:block}
+.exp b{color:var(--brand-ink)}
+.quiz-bar{display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin:16px 0 4px;
+  background:var(--panel-2); border:1px solid var(--line); border-radius:12px; padding:11px 14px}
+.score{font-size:13.5px; font-weight:800; color:var(--ink)}
+.score b{font-family:var(--mono); color:var(--brand-ink); font-size:15px}
+.quiz-bar .note{font-size:12px; color:var(--ink-mute)}
+
+/* fact sheet */
+.facts{display:grid; gap:8px; margin:16px 0}
+.fact{display:grid; grid-template-columns:auto minmax(0,1fr); gap:12px; align-items:baseline;
+  background:var(--panel-2); border:1px solid var(--line-soft); border-radius:10px; padding:9px 12px; font-size:13.6px}
+.fact .tag{font-family:var(--mono); font-size:10.5px; font-weight:800; color:var(--brand-ink); background:var(--brand-soft);
+  padding:2px 7px; border-radius:6px; white-space:nowrap}
+.fact .txt{color:var(--ink-soft)}
+.fact .txt b{color:var(--ink)}
+
+/* next batch */
+.next{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:12px; margin-top:14px}
+.nextcard{background:var(--panel-2); border:1px dashed var(--line); border-radius:12px; padding:13px 15px}
+.nextcard .h{font-size:13px; font-weight:800; color:var(--ink); display:flex; gap:8px; align-items:center}
+.nextcard .h .n{font-family:var(--mono); font-size:10px; background:var(--bg-soft); border:1px solid var(--line); color:var(--ink-mute); padding:1px 6px; border-radius:5px}
+.nextcard p{font-size:12.3px; color:var(--ink-mute); margin:5px 0 0; line-height:1.65}
+
+/* misc */
+.toTop{position:fixed; right:20px; bottom:20px; width:42px;height:42px; border-radius:12px; display:grid; place-items:center;
+  background:var(--panel); border:1px solid var(--line); color:var(--ink-soft); cursor:pointer; box-shadow:var(--shadow-lg);
+  opacity:0; pointer-events:none; transition:.2s; z-index:50}
+.toTop.show{opacity:1; pointer-events:auto}
+.footer{max-width:var(--maxw); margin:0 auto; padding:0 20px 40px; color:var(--ink-mute); font-size:12px; line-height:1.8}
+.footer b{color:var(--ink-soft)}
+mark{background:color-mix(in srgb,var(--amber) 60%, transparent); color:var(--ink); border-radius:3px; padding:0 1px}
+.hidden{display:none !important}
+.noresult{display:none; padding:26px; text-align:center; color:var(--ink-mute); background:var(--panel); border:1px dashed var(--line); border-radius:var(--r); font-size:14px}
+.noresult.show{display:block}
+hr.sep{border:0; border-top:1px dashed var(--line); margin:22px 0}
+
+/* responsive */
+@media (max-width:1080px){
+  .shell{grid-template-columns:1fr; padding-top:18px}
+  .side{position:static; max-height:none; order:2; padding-right:0}
+  .main{order:1}
+  .toc{display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+}
+@media (max-width:720px){
+  .topbar-in{flex-wrap:wrap; gap:10px; padding:9px 14px}
+  .searchwrap{order:3; flex-basis:100%; max-width:none}
+  .shell{padding:14px 12px 70px; gap:18px}
+  .hero{padding:22px 18px}
+  .sec{padding:20px 16px}
+  .sec-head{flex-wrap:wrap}
+  .markdone{margin-left:0; order:3}
+  .brand-text .s{display:none}
+}
+@media print{
+  .topbar,.side,.toTop,.hero-cta,.markdone,.quiz-bar,.fc-hint,.noresult{display:none !important}
+  body{background:#fff; font-size:11.5pt}
+  .shell{display:block; padding:0}
+  .sec,.hero{box-shadow:none; border:1px solid #ccc; break-inside:avoid; page-break-inside:avoid; margin-bottom:10px}
+  .fc{height:auto} .fc-in{transform:none !important}
+  .fc-back{position:static; transform:none; display:block; margin-top:4px}
+  .fc-face{position:static; box-shadow:none; backface-visibility:visible}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-in">
+    <div class="brandmark">
+      <div class="logo">IE</div>
+      <div class="brand-text">
+        <div class="t">Indian Economy One Shot 2026</div>
+        <div class="s">PCS INSIGHTS · UPPCS 2026 / BPSC 72nd</div>
+      </div>
+    </div>
+    <span class="batch-pill">BATCH 1 / 9</span>
+    <div class="spacer"></div>
+    <div class="searchwrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+      <input id="search" type="search" placeholder="इस बैच में खोजें… (जैसे: SDG, Keynes, 1991)" autocomplete="off" aria-label="खोजें">
+      <span class="kbd">/</span>
+    </div>
+    <button class="tool" id="themeBtn" type="button" title="थीम बदलें (Shift + D)" aria-label="थीम बदलें">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      <span id="themeLabel">डार्क</span>
+    </button>
+    <button class="tool" id="printBtn" type="button" title="प्रिंट / PDF">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4v-7h16v7h-2M8 14h8v7H8z"/></svg>
+      PDF
+    </button>
+  </div>
+  <div class="progressline"><i id="scrollProg"></i></div>
+</div>
+
+<div class="shell">
+  <!-- ================= SIDEBAR ================= -->
+  <aside class="side">
+    <div class="side-card">
+      <div class="side-progress">
+        <div class="ring" id="ring" aria-hidden="true"><span id="ringTxt">0%</span></div>
+        <div class="lbl"><b id="doneCount">0 / 10 अध्याय</b> पढ़े गए के रूप में चिह्नित</div>
+      </div>
+    </div>
+    <div class="side-card">
+      <p class="side-h">बैच 1 · अनुक्रमणिका</p>
+      <nav aria-label="अनुक्रमणिका">
+        <ul class="toc" id="toc">
+          <li><a href="#s1"><span class="n">01</span><span>परिचय व रोडमैप</span><span class="dot"></span></a></li>
+          <li><a href="#s2"><span class="n">02</span><span>अर्थव्यवस्था क्या है?</span><span class="dot"></span></a></li>
+          <li><a href="#s3"><span class="n">03</span><span>जनक: अर्थशास्त्र व मैक्रो</span><span class="dot"></span></a></li>
+          <li><a href="#s4"><span class="n">04</span><span>अर्थव्यवस्था के प्रकार</span><span class="dot"></span></a></li>
+          <li><a href="#s5"><span class="n">05</span><span>विकसित / विकासशील / अल्पविकसित</span><span class="dot"></span></a></li>
+          <li><a href="#s6"><span class="n">06</span><span>भारतीय अर्थव्यवस्था की विशेषताएँ</span><span class="dot"></span></a></li>
+          <li><a href="#s7"><span class="n">07</span><span>1991 NEP और LPG</span><span class="dot"></span></a></li>
+          <li><a href="#s8"><span class="n">08</span><span>सतत विकास व SDG</span><span class="dot"></span></a></li>
+          <li><a href="#s9"><span class="n">09</span><span>मानव पूँजी व समावेशी विकास</span><span class="dot"></span></a></li>
+          <li><a href="#s10"><span class="n">10</span><span>फैक्ट शीट (रिवीजन)</span><span class="dot"></span></a></li>
+          <li><a href="#s11"><span class="n">11</span><span>फ्लैशकार्ड · SDG कहानी</span><span class="dot"></span></a></li>
+          <li><a href="#s12"><span class="n">12</span><span>अभ्यास प्रश्न (14 MCQ)</span><span class="dot"></span></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="side-card">
+      <p class="side-h">पूरी लेक्चर सीरीज़</p>
+      <ul class="chapterlist">
+        <li><span class="now">› बैच 1</span><span>मूल बातें · सतत विकास</span></li>
+        <li><span class="tag">02</span><span>योजना व पंचवर्षीय योजनाएँ</span></li>
+        <li><span class="tag">03</span><span>राष्ट्रीय आय व GDP</span></li>
+        <li><span class="tag">04</span><span>गरीबी व बेरोज़गारी</span></li>
+        <li><span class="tag">05</span><span>बैंकिंग व RBI</span></li>
+        <li><span class="tag">06</span><span>महँगाई (Inflation)</span></li>
+        <li><span class="tag">07</span><span>बजट, कर व GST</span></li>
+        <li><span class="tag">08</span><span>कृषि, उद्योग, योजनाएँ</span></li>
+        <li><span class="tag">09</span><span>BoP · PYQ व MCQ सेट</span></li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- ================= MAIN ================= -->
+  <main class="main">
+    <section class="hero" id="top">
+      <div class="eyebrow">
+        <span class="chip brand">इंटरैक्टिव स्टडी मॉड्यूल</span>
+        <span class="chip green">बैच 1 / 9</span>
+        <span class="chip">हिंदी + English terms</span>
+        <span class="chip amber">परीक्षा-केंद्रित</span>
+      </div>
+      <h1>अर्थव्यवस्था की मूल बातें, प्रकार, भारतीय अर्थव्यवस्था, 1991 LPG और सतत विकास
+        <span class="sub">Basics of Indian Economy · Types of Economy · 1991 New Economic Policy · Sustainable Development &amp; SDG</span>
+      </h1>
+      <p>यह बैच वीडियो के प्रारंभ से लेकर पहले चैप्टर के अंत तक का <b>granular, नोट-फॉर्म कंटेंट</b> है — हर परिभाषा, हर वर्ष, हर किताब-लेखक, हर सामान्य-भूल (trap) अलग से चिह्नित। नीचे फैक्ट शीट, SDG फ्लैशकार्ड और 12 प्रश्नों का टेस्ट भी है।</p>
+      <div class="meta-grid">
+        <div class="meta"><div class="k">वीडियो</div><div class="v">3:28:12 · One Shot</div></div>
+        <div class="meta"><div class="k">चैनल</div><div class="v">PCS INSIGHTS</div></div>
+        <div class="meta"><div class="k">बैच की सीमा</div><div class="v">चैप्टर 1 (पूरा)</div></div>
+        <div class="meta"><div class="k">स्रोत</div><div class="v">Lucent · NCERT · Ghatna Chakra</div></div>
+      </div>
+      <div class="hero-cta">
+        <a class="btn primary" href="#s2">पढ़ना शुरू करें
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn ghost" href="#s10">फैक्ट शीट पर जाएँ</a>
+        <a class="btn ghost" href="#s12">सीधे टेस्ट दें</a>
+        <a class="btn ghost" href="batch-01-text.html" target="_blank" rel="noopener">पूरा टेक्स्ट (verbatim) ↗</a>
+      </div>
+    </section>
+
+    <div class="notice">
+      <span class="ico">!</span>
+      <div><b>पारदर्शिता नोट:</b> यह मॉड्यूल वीडियो के <b>ऑटो-ट्रांसक्रिप्ट</b> पर आधारित है (हिंदी, ASR से)। जहाँ ट्रांसक्रिप्ट में शब्द या तथ्य स्पष्ट रूप से गलत सुनाई दिए, वहाँ <span class="chip fix-chip" style="background:var(--amber-soft);color:var(--amber);border:1px solid var(--line)">सुधार</span> चिह्न से सही जानकारी दी गई है — परीक्षा में वही लिखें। बोले गए आँकड़े (जैसे 18% / 45%) लेक्चर के अनुसार दिए हैं।</div>
+    </div>
+    <!-- ============ S1 ============ -->
+    <section class="sec" id="s1" data-sec="s1">
+      <div class="sec-head">
+        <div class="sec-num">01</div>
+        <h2>परिचय व रोडमैप<span class="en">Intro &amp; scope of the lecture</span></h2>
+        <button class="markdone" data-done="s1" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">यह वीडियो <b>पूरी भारतीय अर्थव्यवस्था</b> का one-shot रिवीजन है — UPPCS 2026, BPSC 72nd और अन्य State PCS के लिए। स्रोत: <b>Lucent + NCERT + Ghatna Chakra</b>।</p>
+        <ul class="clean">
+          <li><b>कवर होने वाले टॉपिक:</b> मूल अवधारणाएँ → राष्ट्रीय आय/GDP → वृद्धि व विकास → योजना व पंचवर्षीय योजनाएँ → NITI Aayog → गरीबी व बेरोज़गारी → बैंकिंग → RBI व मौद्रिक नीति → महँगाई → बजट व आर्थिक सर्वे → कर व GST → कृषि-उद्योग → अवसंरचना व सुधार → सरकारी योजनाएँ → PYQ + अपेक्षित MCQ।</li>
+          <li><b>नोट्स/PDF:</b> लेक्चर में Telegram चैनल <span class="mono">PCS INSIGHTS 001</span> का ज़िक्र — वीडियो-आधारित नोट्स बाद में उपलब्ध कराए जाएँगे (यह प्रशासनिक सूचना है, परीक्षा-तथ्य नहीं)।</li>
+          <li>लेक्चर का दावा: यह “शॉर्टकट” नहीं, बल्कि <b>लगभग पूर्ण कवरेज</b> है — इसलिए नोट्स को टॉपिक-वाइज़, तथ्य-वाइज़ पढ़ें।</li>
+        </ul>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">इस बैच में क्या</span>बैच 1 = वीडियो का <b>पहला चैप्टर</b>: अर्थव्यवस्था की परिभाषा व प्रकार, भारत = विकासशील/मिश्रित, 1991 LPG, सतत विकास, SDG-17, मानव पूँजी, समावेशी विकास। <b>योजना (Planning) से बैच 2 शुरू होगा।</b></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ S2 ============ -->
+    <section class="sec" id="s2" data-sec="s2">
+      <div class="sec-head">
+        <div class="sec-num">02</div>
+        <h2>अर्थव्यवस्था क्या है?<span class="en">What is an economy · scarcity &amp; choice</span></h2>
+        <button class="markdone" data-done="s2" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">परिभाषा</span><b>अर्थव्यवस्था (Economy)</b> एक ऐसा <b>सिस्टम</b> है जिसमें देश <b>उत्पादन (produce)</b>, <b>वितरण (distribute)</b> और <b>उपभोग (consume)</b> — तीनों कार्य वस्तुओं व सेवाओं (goods &amp; services) का करता है।</div>
+        </div>
+        <p>अर्थव्यवस्था की अवधारणा का मूल <b>सीमित संसाधन (limited resources)</b> अर्थात् <span class="hl">अभाव / कमी (scarcity)</span> है — क्योंकि संसाधन सीमित हैं, इसलिए तय करना पड़ता है कि <b>किस चीज़ को प्राथमिकता</b> दी जाए।</p>
+        <div class="kv">
+          <div class="item"><div class="k">क्या उत्पादन करें</div><div class="v">What to produce</div></div>
+          <div class="item"><div class="k">कैसे उत्पादन करें</div><div class="v">How to produce</div></div>
+          <div class="item"><div class="k">किसके लिए उत्पादन करें</div><div class="v">For whom to produce</div></div>
+        </div>
+        <p>यही तीन प्रश्न <b>“केंद्रीय समस्या (central problem)”</b> हैं — इन्हीं का उत्तर अर्थव्यवस्था की संरचना तय करता है।</p>
+
+        <h3 class="sub">वर्गीकरण का आधार</h3>
+        <p>अर्थव्यवस्था का वर्गीकरण सामान्यतः इस आधार पर होता है — <span class="hl">उत्पादन के साधनों का स्वामित्व (ownership of means of production)</span> एवं उनमें <b>सरकार की भूमिका</b>।</p>
+        <ul class="clean">
+          <li><b>उत्पादन के साधन</b> = भूमि, श्रम, पूँजी और उद्यम (Land, Labour, Capital, Enterprise)।</li>
+          <li>प्रश्न यह: ये साधन <b>किसके पास</b> हैं — निजी व्यक्ति, राज्य (State), या दोनों?</li>
+          <li>दूसरा प्रश्न: सरकार <b>कितनी सक्रिय भूमिका</b> निभाती है — नियंत्रण/कल्याणकारी हस्तक्षेप या केवल नियम-निर्धारण?</li>
+        </ul>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">परीक्षा संकेत</span>“अर्थव्यवस्था क्या है” — यह सीधे प्रश्न शायद ही आए, पर <b>scarcity → choice → central problems</b> और <b>ownership-based classification</b> पर आधारित प्रश्न बार-बार बनते हैं।</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ S3 ============ -->
+    <section class="sec" id="s3" data-sec="s3">
+      <div class="sec-head">
+        <div class="sec-num">03</div>
+        <h2>जनक: अर्थशास्त्र व मैक्रोइकोनॉमिक्स<span class="en">Father of Economics · Father of Macroeconomics</span></h2>
+        <button class="markdone" data-done="s3" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>उपाधि (Title)</th><th>व्यक्ति</th><th>याद रखने की बात</th></tr></thead>
+            <tbody>
+              <tr><td><b>Father of Economics</b> (अर्थशास्त्र के जनक)</td><td><b>एडम स्मिथ (Adam Smith)</b></td><td>कुल अर्थशास्त्र के जनक — यहाँ “इंडियन” नहीं लगेगा</td></tr>
+              <tr><td><b>Father of Macroeconomics</b> (समष्टि अर्थशास्त्र के जनक)</td><td><b>जे. एम. कीन्स (J. M. Keynes)</b></td><td>कीन्स नाम सुनते ही “मैक्रो” → याद रखें</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call pyq">
+          <span class="ci">★</span>
+          <div><span class="ct">PYQ — 2024 प्रारंभिक परीक्षा</span>प्रश्न में कथन दिया गया था: <b>“Adam Smith — Father of Macroeconomics”</b>, जो <b>गलत</b> है। सही युग्म: <b>Adam Smith = Father of Economics</b>, <b>J. M. Keynes = Father of Macroeconomics</b>।</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">सामान्य भूल (Trap)</span>वीडियो में “Father of Indian Economy” जैसा ज़िक्र भी सुनाई देता है — वास्तव में पूछा जाता है <b>“Father of Economics”</b>, और उत्तर <b>एडम स्मिथ</b> ही है। “Father of Indian Economics” के नाम पर उलझें नहीं — प्रश्न में जो उपाधि लिखी हो, उसी से मिलाएँ।</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ S4 ============ -->
+    <section class="sec" id="s4" data-sec="s4">
+      <div class="sec-head">
+        <div class="sec-num">04</div>
+        <h2>अर्थव्यवस्था के प्रकार<span class="en">Capitalist · Socialist · Mixed · Gandhian</span></h2>
+        <button class="markdone" data-done="s4" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">क्रम याद रखें: <b>पूँजीवादी → समाजवादी → मिश्रित → गांधीवादी/समाजवादी</b>। पहले तीन “स्वामित्व” के आधार पर, चौथा “विकेंद्रीकरण” के आधार पर।</p>
+
+        <h3 class="sub">1. पूँजीवादी अर्थव्यवस्था (Capitalist Economy)</h3>
+        <ul class="clean">
+          <li>उत्पादन के साधन <b>निजी स्वामित्व</b> में — बड़ी कंपनियों के पास।</li>
+          <li><b>लाभ-उन्मुख (profit oriented)</b> मॉडल; बाज़ार की शक्तियाँ (market forces) कीमत तय करती हैं।</li>
+          <li>सरकार की भूमिका <b>न्यूनतम/निष्क्रिय</b> — महँगाई नियंत्रण जैसे सक्रिय हस्तक्षेप नहीं।</li>
+          <li>उदाहरण: <b>USA</b>।</li>
+        </ul>
+
+        <h3 class="sub">2. समाजवादी अर्थव्यवस्था (Socialist Economy)</h3>
+        <ul class="clean">
+          <li>साधनों पर <b>राज्य (State) का स्वामित्व</b>; आर्थिक शक्ति <b>केंद्रीकृत (centralized)</b>।</li>
+          <li>आर्थिक निर्णय <b>जन-कल्याण</b> के लिए — मुनाफ़ा सर्वोपरि नहीं।</li>
+          <li>उदाहरण: यदि बाज़ार में वस्तुएँ इतनी महँगी हो जाएँ कि गरीब वर्ग खरीद न सके, तो <b>सरकार हस्तक्षेप कर सस्ता/सुलभ बनाती है</b> — यही समाजवादी व्यवस्था की पहचान।</li>
+        </ul>
+
+        <h3 class="sub">3. मिश्रित अर्थव्यवस्था (Mixed Economy)</h3>
+        <ul class="clean">
+          <li>पूँजीवाद + समाजवाद का मेल — <b>निजी (private) और सार्वजनिक (public) दोनों क्षेत्र साथ-साथ</b>।</li>
+          <li><b>भारत मिश्रित अर्थव्यवस्था का उदाहरण है</b> — एक ओर Tata, Ambani जैसी निजी कंपनियाँ; दूसरी ओर PSU (सार्वजनिक क्षेत्र)।</li>
+          <li>साथ ही कल्याणकारी (समाजवादी) तत्व: <b>राष्ट्रीय खाद्य सुरक्षा अधिनियम (NFSA)</b> के अंतर्गत लगभग <b>80 करोड़</b> लोगों को <b>रियायती दर (subsidised rate)</b> पर खाद्यान्न।</li>
+          <li>सार्वजनिक क्षेत्र का संचालन <b>राज्य</b> करता है, निजी क्षेत्र का <b>व्यक्ति/निजी निकाय</b>।</li>
+        </ul>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap — “State” का अर्थ</span>यहाँ “State” का मतलब <b>हरियाणा/पंजाब/UP जैसा राज्य नहीं</b>, बल्कि <b>संविधान के अनुच्छेद 12</b> में परिभाषित “राज्य” है — जिसमें सरकार, कार्यपालिका, विधायिका आदि आते हैं।</div>
+        </div>
+
+        <h3 class="sub">4. गांधीवादी समाजवाद (Gandhian Socialism)</h3>
+        <ul class="clean">
+          <li>आधार: <b>उत्पादक संसाधनों का विकेंद्रीकरण (decentralization of productive resources)</b> — संसाधन जनता में बाँटे जाएँ, कुछ लोगों में केंद्रित न हों।</li>
+          <li>जोर <b>स्वरोज़गार (self-employment)</b>, <b>आत्मनिर्भरता (self-reliance)</b> व स्थानीय/ग्राम-स्तरीय उत्पादन पर।</li>
+          <li>व्यवहारिक संकेत: पिछले कुछ वर्षों में सरकार का <b>आत्मनिर्भरता</b> पर फोकस इसी विचार की प्रतिध्वनि है (जैसे आत्मनिर्भर भारत)।</li>
+        </ul>
+
+        <h3 class="sub">तुलना सारणी — एक नज़र में</h3>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>बिंदु</th><th>पूँजीवादी</th><th>समाजवादी</th><th>मिश्रित</th><th>गांधीवादी</th></tr></thead>
+            <tbody>
+              <tr><td><b>स्वामित्व</b></td><td>निजी</td><td>राज्य</td><td>निजी + राज्य</td><td>विकेंद्रित/जन</td></tr>
+              <tr><td><b>उद्देश्य</b></td><td>लाभ</td><td>जन-कल्याण</td><td>लाभ + कल्याण</td><td>आत्मनिर्भरता</td></tr>
+              <tr><td><b>सरकार की भूमिका</b></td><td>न्यूनतम</td><td>केंद्रीय/नियंत्रक</td><td>नियामक + उद्यमी</td><td>सहायक, विकेंद्रीकृत</td></tr>
+              <tr><td><b>उदाहरण</b></td><td>USA</td><td>पूर्व सोवियत संघ (ऐतिहासिक)</td><td><b>भारत</b></td><td>गांधी का ग्राम-स्वराज मॉडल</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call mem">
+          <span class="ci">✦</span>
+          <div><span class="ct">याद रखने की ट्रिक</span><b>“स्वामित्व देखो, सरकार की भूमिका देखो”</b> — निजी+न्यूनतम सरकार = पूँजीवाद; राज्य+अधिकतम सरकार = समाजवाद; दोनों = मिश्रित; बिखरा हुआ/स्थानीय = गांधीवादी।</div>
+        </div>
+      </div>
+    </section>
+    <!-- ============ S5 ============ -->
+    <section class="sec" id="s5" data-sec="s5">
+      <div class="sec-head">
+        <div class="sec-num">05</div>
+        <h2>विकसित · विकासशील · अल्पविकसित<span class="en">Developed · Developing · Underdeveloped economies</span></h2>
+        <button class="markdone" data-done="s5" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <div class="stats">
+          <div class="stat"><div class="v">भारत</div><div class="k">विकासशील (Developing) — विकसित नहीं</div></div>
+          <div class="stat"><div class="v">USA, फ्रांस</div><div class="k">विकसित (Developed) के उदाहरण</div></div>
+          <div class="stat"><div class="v">स्व-घोषणा</div><div class="k">दर्जा तय करने का आधार</div></div>
+        </div>
+        <p><b>भारत विकासशील अर्थव्यवस्था है</b> — “विकसित” नहीं। विकसित = USA, फ्रांस जैसे देश; भारत अभी <b>विकास की प्रक्रिया में</b> है। भारत में अल्पविकसित अर्थव्यवस्था के भी कुछ लक्षण मौजूद हैं, पर प्रश्न में विकल्प दिए हों तो उत्तर <b>विकासशील</b> ही होगा।</p>
+
+        <h3 class="sub">दर्जा कौन देता है? — Self-declaration</h3>
+        <ul class="clean">
+          <li>कोई देश “विकसित” या “विकासशील” है — यह <b>आत्म-घोषणा (self-declaration)</b> से तय होता है; कोई बाहरी प्रमाणपत्र अनिवार्य नहीं।</li>
+          <li><b>लाभ:</b> स्वयं को विकासशील घोषित करने पर कुछ <b>अतिरिक्त सुविधाएँ/छूट</b> मिलती हैं — जैसे लक्ष्य प्राप्ति के लिए <b>अधिक समय (deadline में छूट)</b>: विकसित देशों के लिए 2050 तो विकासशील के लिए 2070 जैसी अवधि।</li>
+        </ul>
+        <div class="call fix">
+          <span class="ci">✎</span>
+          <div><span class="ct">सुधार / सटीकता</span>वीडियो में यह “2050 बनाम 2070” का उदाहरण सामान्य रूप से दिया गया है (किसी विशेष संधि का उल्लेख नहीं)। परीक्षा में इसे <b>“अवधि/लक्ष्य में छूट”</b> के उदाहरण के रूप में ही लिखें, किसी संधि-विशेष का दावा न करें।</div>
+        </div>
+
+        <h3 class="sub">अल्पविकसित अर्थव्यवस्था के लक्षण (Features of Underdeveloped Economy)</h3>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>लक्षण</th><th>स्पष्टीकरण</th></tr></thead>
+            <tbody>
+              <tr><td><b>जीवन-स्तर निम्न</b></td><td>Standard of living = कैसे रहते हैं, क्या खाते हैं, कहाँ रहते हैं, कैसा पानी/हवा मिलती है — ये सब निम्न स्तर के।</td></tr>
+              <tr><td><b>उत्पादकता निम्न</b></td><td>Productivity कम → आय कम → प्रति व्यक्ति आय (per capita income) भी कम।</td></tr>
+              <tr><td><b>जनसंख्या वृद्धि तीव्र</b></td><td>शिक्षा/जागरूकता कम → <b>परिवार नियोजन (family planning)</b> का अभाव → उच्च जनसंख्या वृद्धि।</td></tr>
+              <tr><td><b>बेरोज़गारी उच्च</b></td><td>उच्च बेरोज़गारी + <b>अल्प-रोज़गार (underemployment)</b>।</td></tr>
+              <tr><td><b>कृषि का प्रभुत्व</b></td><td>कृषि (primary) क्षेत्र का दबदबा जितना अधिक, अर्थव्यवस्था उतनी <b>पिछड़ी/अल्पविकसित</b>; tertiary (सेवा) व manufacturing का हिस्सा जितना अधिक, उतनी <b>उन्नत</b>।</td></tr>
+              <tr><td><b>पूँजी निर्माण निम्न</b></td><td>कमाया और खा लिया, निवेश नहीं किया। <b>Capital formation</b> = मशीनों/पूँजीगत वस्तुओं में निवेश।</td></tr>
+              <tr><td><b>आय असमानता</b></td><td>Income inequality स्पष्ट दिखती है।</td></tr>
+              <tr><td><b>निर्भरता अनुपात उच्च</b></td><td>Dependency ratio ऊँचा; कार्यशील जनसंख्या (workforce) मुख्यतः <b>प्राथमिक/कृषि</b> क्षेत्र में।</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3 class="sub">विकासशील अर्थव्यवस्था के लक्षण (Features of Developing Economy)</h3>
+        <ul class="clean">
+          <li><b>व्यवसाय मुख्यतः कृषि</b> — पर GDP में योगदान कम, निर्भरता अधिक।</li>
+          <li><b>प्रछन्न बेरोज़गारी (Disguised unemployment)</b> — एक व्यक्ति का काम चार लोग कर रहे हैं; तीन हटा दें तो भी उत्पादन पर फ़र्क नहीं।</li>
+          <li><b>मानव पूँजी की निम्न गुणवत्ता</b> — कौशल, शिक्षा व स्वास्थ्य का अभाव।</li>
+          <li><b>औद्योगिक व तकनीकी पिछड़ापन</b>, <b>मिश्रित अर्थव्यवस्था</b>, <b>आयात पर अधिक निर्भरता</b> (आयात &gt; निर्यात), <b>निरक्षरता</b>।</li>
+        </ul>
+        <div class="call fix">
+          <span class="ci">✎</span>
+          <div><span class="ct">सुधार / सटीकता — प्रोटीन का बिंदु</span>लेक्चर में कहा गया: “<i>उच्च प्रति व्यक्ति प्रोटीन उपलब्धता विकसित अर्थव्यवस्था का लक्षण है</i>”। वीडियो में इसे “developing” कहा गया, जो उलझा हुआ है — सही अर्थ: <b>प्रोटीन-संपन्नता विकसित देशों का लक्षण</b>; <b>भारत प्रोटीन-कमी वाला देश</b> है (शाकाहारियों की बात तो छोड़िए, मांसाहारी भी रोज़ ज़रूरी प्रोटीन नहीं ले पाते)।</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap</span>अल्पविकसित और विकासशील के लक्षण <b>लगभग समान</b> दिखते हैं — दोनों में भ्रम न करें। पहचान: प्रश्न में <b>“भारत”</b> पूछा जाए → <b>विकासशील</b>; किसी सामान्य/सैद्धांतिक अर्थव्यवस्था की बात हो → अल्पविकसित के लक्षण चुनें।</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ S6 ============ -->
+    <section class="sec" id="s6" data-sec="s6">
+      <div class="sec-head">
+        <div class="sec-num">06</div>
+        <h2>भारतीय अर्थव्यवस्था की विशेषताएँ<span class="en">Characteristics of the Indian economy</span></h2>
+        <button class="markdone" data-done="s6" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p>लेक्चर के अनुसार भारत की पहचान तीन बातों से की जाती है — <span class="hl">कृषि का प्रभुत्व</span>, <span class="hl">निम्न प्रति व्यक्ति आय</span>, और <span class="hl">व्यापक बेरोज़गारी</span>। यही तीन सबसे अधिक पूछे जाते हैं।</p>
+        <div class="stats">
+          <div class="stat"><div class="v">~18%</div><div class="k">कृषि का योगदान भारत की GDP में (लेक्चर के अनुसार)</div></div>
+          <div class="stat"><div class="v">~45%</div><div class="k">जनसंख्या कृषि पर निर्भर — प्रति 100 में 45</div></div>
+          <div class="stat"><div class="v">1 = 4</div><div class="k">प्रछन्न बेरोज़गारी: एक का काम, चार लोग</div></div>
+        </div>
+        <h3 class="sub">विशेषताओं की सूची</h3>
+        <ul class="clean tight">
+          <li>कृषि-प्रधान अर्थव्यवस्था</li>
+          <li>पूँजी निर्माण की निम्न दर</li>
+          <li>अत्यधिक जनसंख्या व जनसंख्या वृद्धि</li>
+          <li>बेरोज़गारी (विशेषतः प्रछन्न व अल्प-रोज़गार)</li>
+          <li>निम्न प्रति व्यक्ति आय</li>
+          <li>औद्योगिक पिछड़ापन (manufacturing कमज़ोर)</li>
+          <li>तकनीकी पिछड़ापन</li>
+          <li>मिश्रित अर्थव्यवस्था</li>
+          <li>आयात पर अधिक निर्भरता</li>
+          <li>निरक्षरता</li>
+        </ul>
+
+        <h3 class="sub">दुष्चक्र (Vicious circle) — श्रम उत्पादकता</h3>
+        <ul class="clean">
+          <li>श्रम की <b>उत्पादकता कम</b> → आय कम।</li>
+          <li>आय कम → न स्वास्थ्य, न कौशल, न अन्य निवेश।</li>
+          <li>इसलिए <b>पूँजी निर्माण की दर भी निम्न</b> — यही चक्र गरीबी को दोहराता है।</li>
+        </ul>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">जीवन-स्तर का माप</span>किसी देश का <b>standard of living</b> उसकी <b>प्रति व्यक्ति आय (per capita income)</b> से दर्शाया जाता है — तनख्वाह अधिक तो जीवन-स्तर अच्छा, तनख्वाह कम तो केवल गुज़ारा।</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ S7 ============ -->
+    <section class="sec" id="s7" data-sec="s7">
+      <div class="sec-head">
+        <div class="sec-num">07</div>
+        <h2>1991 की नई आर्थिक नीति और LPG<span class="en">New Economic Policy 1991 · LPG &amp; second-generation reforms</span></h2>
+        <button class="markdone" data-done="s7" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p><b>1991 की नई आर्थिक नीति (New Economic Policy, 1991)</b> की मुख्य रणनीति = <span class="hl">LPG</span>।</p>
+        <div class="kv">
+          <div class="item"><div class="k">L</div><div class="v">Liberalisation — उदारीकरण</div></div>
+          <div class="item"><div class="k">P</div><div class="v">Privatisation — निजीकरण</div></div>
+          <div class="item"><div class="k">G</div><div class="v">Globalisation — वैश्वीकरण</div></div>
+        </div>
+        <h3 class="sub">दूसरी पीढ़ी के आर्थिक सुधार (Second Generation Reforms)</h3>
+        <ul class="clean">
+          <li><b>तेल क्षेत्र (oil sector)</b> में सुधार</li>
+          <li><b>सार्वजनिक क्षेत्र (public sector) सुधार</b></li>
+          <li><b>सरकार व सार्वजनिक संस्थानों का सुधार</b> (reform of government &amp; public institutions)</li>
+          <li><b>सतत विकास (sustainable development)</b></li>
+        </ul>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">परीक्षा संकेत</span>LPG का <b>पूरा विस्तार</b> (क्रम, तिथि 24 जुलाई 1991, भुगतान-संतुलन संकट आदि) वीडियो में बाद में आएगा — इस बैच में केवल <b>नाम व क्रम</b> पूछने योग्य है: <b>L → P → G</b>।</div>
+        </div>
+      </div>
+    </section>
+    <!-- ============ S8 ============ -->
+    <section class="sec" id="s8" data-sec="s8">
+      <div class="sec-head">
+        <div class="sec-num">08</div>
+        <h2>सतत विकास व SDG<span class="en">Sustainable Development · Books &amp; years · SDG-17</span></h2>
+        <button class="markdone" data-done="s8" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">परिभाषा (याद होनी चाहिए)</span><b>सतत विकास</b> = संसाधनों का ऐसा उपयोग जिसमें <b>भविष्य की पीढ़ियों को भी ध्यान में रखा जाए</b> — वर्तमान आवश्यकताएँ पूरी हों, पर भावी पीढ़ियों की क्षमता खत्म न हो।</div>
+        </div>
+
+        <h3 class="sub">किताबें, रिपोर्ट व वर्ष — सबसे ज़्यादा पूछा जाने वाला हिस्सा</h3>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>वर्ष</th><th>नाम</th><th>लेखक / संस्था</th><th>याद रखें</th></tr></thead>
+            <tbody>
+              <tr><td class="year">1968</td><td><b>The Population Bomb</b></td><td>पॉल एर्लिख (Paul Ehrlich) — जीव वैज्ञानिक</td><td>जनसंख्या विस्फोट पर किताब</td></tr>
+              <tr><td class="year">1968</td><td><b>The Limits to Growth</b></td><td><b>क्लब ऑफ रोम (Club of Rome)</b></td><td>30 व्यक्ति, 10 देशों के वैज्ञानिक-अर्थशास्त्री-शोधकर्ता, रोम में मिले</td></tr>
+              <tr><td class="year">1972</td><td><b>Silent Spring</b></td><td><b>रेचल कार्सन (Rachel Carson)</b></td><td>पर्यावरण आंदोलन की आधारशिला</td></tr>
+              <tr><td class="year">1987</td><td><b>Our Common Future</b></td><td><b>ब्रंटलैंड कमीशन</b> की रिपोर्ट</td><td>“सतत विकास” की लोकप्रिय परिभाषा इसी रिपोर्ट से</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap — सबसे बड़ा भ्रम</span><b>Our Common Future (ब्रंटलैंड, 1987)</b> और <b>Limits to Growth (क्लब ऑफ रोम, 1968)</b> — दोनों अलग हैं। “Our Common Future” को “Limits to Growth” से या “Limits of Growth” को ब्रंटलैंड से मिलाना = गलत उत्तर। याद रखें: <b>ब्रंटलैंड = Common Future = 1987</b>; <b>रोम = Limits = 1968</b>।</div>
+        </div>
+
+        <h3 class="sub">पर्यावरणीय कुज़नेट वक्र (Environmental Kuznets Curve — EKC)</h3>
+        <p>EKC <b>पर्यावरणीय क्षरण (environmental degradation)</b> और <b>प्रति व्यक्ति GDP</b> के बीच संबंध दिखाती है: आय बढ़ने के साथ क्षरण पहले बढ़ता है, एक बिंदु के बाद घटने लगता है — इसलिए वक्र <span class="hl">उल्टा-U (inverted U)</span> आकार का होता है।</p>
+        <div class="call fix">
+          <span class="ci">✎</span>
+          <div><span class="ct">सुधार / सटीकता</span>लेक्चर में इसे “U शेप” कहा गया, पर मानक अर्थशास्त्र में EKC <b>उल्टा-U (inverted U)</b> होती है — पहले प्रदूषण बढ़ता है, विकास के साथ घटता है। परीक्षा में <b>“उल्टा-U”</b> ही सही उत्तर माना जाता है।</div>
+        </div>
+
+        <h3 class="sub">सतत विकास लक्ष्य (SDG)</h3>
+        <div class="stats">
+          <div class="stat"><div class="v">17</div><div class="k">SDG लक्ष्यों की संख्या</div></div>
+          <div class="stat"><div class="v">2030</div><div class="k">प्राप्ति का लक्ष्य वर्ष (Agenda 2030)</div></div>
+          <div class="stat"><div class="v">NITI</div><div class="k">भारत में नोडल संस्था — नीति आयोग</div></div>
+        </div>
+        <ul class="clean">
+          <li>कुल <b>17 SDG</b>, जिन्हें <b>2030 तक</b> प्राप्त करना है।</li>
+          <li>भारत में इनका <b>नोडल संस्थान = नीति आयोग (NITI Aayog)</b>।</li>
+          <li><b>राष्ट्रीय संकेतक ढाँचा (National Indicator Framework — NIF)</b> की प्रगति रिपोर्ट योजना विभाग (Planning Department) द्वारा तैयार की गई — लेक्चर में उत्तर प्रदेश का संदर्भ दिया गया।</li>
+          <li><b>वैश्विक सतत विकास रिपोर्ट (Global Sustainable Development Report)</b> लगभग हर <b>4 वर्ष</b> में जारी होती है; भारत में इसे नीति आयोग देखता है। <span class="chip amber" style="font-size:9.5px;padding:1px 6px">लेक्चर में “4–5 वर्ष” कहा गया</span></li>
+        </ul>
+
+        <h3 class="sub">SDG की कहानी — 17 लक्ष्य एक ही कहानी में</h3>
+        <p>लेक्चर की ट्रिक (स्वयं लेक्चरर के शब्दों में “यह मेरा आविष्कार नहीं”): एक गरीब आदमी की बेटी की कहानी से सभी 17 लक्ष्य याद हो जाते हैं। विस्तृत कार्ड <a href="#s11">फ्लैशकार्ड</a> में हैं; सार यह:</p>
+        <ol class="clean">
+          <li>आदमी ने काम शुरू किया → <b>गरीबी खत्म (Goal 1)</b></li>
+          <li>बच्ची को खाना मिला → <b>भुखमरी शून्य (Goal 2)</b></li>
+          <li>सेहत अच्छी रही → <b>अच्छा स्वास्थ्य (Goal 3)</b></li>
+          <li>स्कूल में दाखिला → <b>गुणवत्तापूर्ण शिक्षा (Goal 4)</b></li>
+          <li>लड़के-लड़कियाँ साथ पढ़ते देखे → <b>लैंगिक समानता (Goal 5)</b></li>
+          <li>हाथ-मुँह धोया → <b>स्वच्छ जल व स्वच्छता (Goal 6)</b></li>
+          <li>स्कूल में सोलर पैनल → <b>सस्ती व स्वच्छ ऊर्जा (Goal 7)</b></li>
+          <li>पास होकर अच्छी नौकरी → <b>उचित कार्य व आर्थिक वृद्धि (Goal 8)</b></li>
+          <li>नौकरी उद्योग में मिली → <b>उद्योग, नवाचार व अवसंरचना (Goal 9)</b></li>
+          <li>समाज में इज़्ज़त बढ़ी → <b>असमानता में कमी (Goal 10)</b></li>
+          <li>बड़ी सिटी में बस गए → <b>सतत शहर व समुदाय (Goal 11)</b></li>
+          <li>चीज़ों का सोच-समझकर उपयोग → <b>जिम्मेदार उपभोग व उत्पादन (Goal 12)</b></li>
+          <li>फिर भी जलवायु का प्रकोप → <b>जलवायु कार्रवाई (Goal 13)</b></li>
+          <li>बाढ़ से <b>जलीय जीवन (Goal 14)</b> खत्म</li>
+          <li>और <b>थलीय जीवन (Goal 15)</b> भी खत्म</li>
+          <li>तय किया शांति से रहेंगे → <b>शांति, न्याय व सशक्त संस्थाएँ (Goal 16)</b></li>
+          <li>सब मिलकर → <b>लक्ष्यों के लिए साझेदारी (Goal 17)</b></li>
+        </ol>
+        <div class="call mem">
+          <span class="ci">✦</span>
+          <div><span class="ct">लॉन्ग-टर्म रिवीजन</span>16 = <b>Peace, Justice &amp; Strong Institutions</b> · 17 = <b>Partnership for the Goals</b>। अंत के दो लक्ष्य सबसे ज़्यादा भुलाए जाते हैं — इन्हें कहानी के अंत (“शांति से रहेंगे, साथ मिलकर”) से जोड़ लें।</div>
+        </div>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">आर्थिक सर्वे का तथ्य</span><b>“Sustainable Development &amp; Climate Change”</b> अध्याय पहली बार <b>2011-12 के आर्थिक सर्वेक्षण (Economic Survey)</b> में शामिल किया गया था — यह तथ्य तब पूछा गया जब यह समसामयिक (current affairs) में था।</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ S9 ============ -->
+    <section class="sec" id="s9" data-sec="s9">
+      <div class="sec-head">
+        <div class="sec-num">09</div>
+        <h2>मानव पूँजी व समावेशी विकास<span class="en">Human capital · sources · inclusive growth</span></h2>
+        <button class="markdone" data-done="s9" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">मानव पूँजी (Human Capital)</span>वह जनशक्ति जो <b>कुशल (skilled)</b>, <b>स्वस्थ (healthy)</b> और <b>शिक्षित (educated)</b> हो — यही उत्पादकता बढ़ाती है।</div>
+        </div>
+        <h4 class="mini">मानव पूँजी निर्माण के स्रोत (Sources of human capital formation)</h4>
+        <ul class="clean tight">
+          <li>शिक्षा (Education)</li>
+          <li>स्वास्थ्य (Health) व चिकित्सा देखभाल (Medical care)</li>
+          <li>काम-के-दौरान प्रशिक्षण (On-the-job training)</li>
+          <li>प्रबंधन/सूचना (Management &amp; information)</li>
+          <li>प्रवासन (Migration) — कुशल श्रम का स्थानांतरण</li>
+        </ul>
+        <p><b>कौशल विकास कार्यक्रम</b> मानव पूँजी को बेहतर बनाने के लिए ही चलाए जाते हैं — जैसे <b>प्रधानमंत्री कौशल विकास योजना (PMKVY)</b>, जिसमें युवाओं को कौशल प्रशिक्षण दिया जाता है।</p>
+        <h4 class="mini">समावेशी विकास (Inclusive Growth)</h4>
+        <ul class="clean">
+          <li>अर्थ = <b>“सबका साथ, सबका विकास”</b> — समाज के सभी वर्गों की भागीदारी व देखभाल।</li>
+          <li>यह <b>बहुआयामी (multidimensional)</b> अवधारणा है — शिक्षा, स्वास्थ्य, रोज़गार, गरीबी उन्मूलन, हर आयाम में सुधार।</li>
+        </ul>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">बैच का अंत</span>यहीं पहला चैप्टर समाप्त होता है (“<i>तो ये था हमारा ये वाला चैप्टर</i>”)। इसके बाद लेक्चर में <b>Planning</b> शुरू होती है — वह <b>बैच 2</b> में।</div>
+        </div>
+      </div>
+    </section>
+    <!-- ============ S10 ============ -->
+    <section class="sec" id="s10" data-sec="s10">
+      <div class="sec-head">
+        <div class="sec-num">10</div>
+        <h2>फैक्ट शीट — अंतिम 10 मिनट का रिवीजन<span class="en">One-line fact sheet (exam revision)</span></h2>
+        <button class="markdone" data-done="s10" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p>बैच 1 के सभी परीक्षा-योग्य तथ्य, एक-एक पंक्ति में। <b>प्रिंट/PDF</b> बटन से इन्हें रिवीजन शीट की तरह निकाल सकते हैं।</p>
+        <div class="facts" id="factsList">
+          <div class="fact"><span class="tag">परिभाषा</span><span class="txt">अर्थव्यवस्था = वस्तुओं व सेवाओं का <b>उत्पादन + वितरण + उपभोग</b> करने वाली व्यवस्था; आधार = <b>सीमित संसाधन (scarcity)</b>।</span></div>
+          <div class="fact"><span class="tag">आधार</span><span class="txt">अर्थव्यवस्थाओं का वर्गीकरण = <b>उत्पादन के साधनों का स्वामित्व</b> + सरकार की भूमिका।</span></div>
+          <div class="fact"><span class="tag">साधन</span><span class="txt">उत्पादन के चार साधन = भूमि, श्रम, पूँजी, उद्यम।</span></div>
+          <div class="fact"><span class="tag">जनक</span><span class="txt"><b>एडम स्मिथ</b> — Father of Economics।</span></div>
+          <div class="fact"><span class="tag">जनक</span><span class="txt"><b>जे. एम. कीन्स</b> — Father of Macroeconomics।</span></div>
+          <div class="fact"><span class="tag">PYQ 2024</span><span class="txt">“Adam Smith = Father of Macroeconomics” कथन <b>गलत</b> था — यही उलझाने वाला बिंदु था।</span></div>
+          <div class="fact"><span class="tag">प्रकार</span><span class="txt">पूँजीवादी → <b>निजी स्वामित्व, लाभ-उन्मुख, न्यूनतम सरकार</b>; उदाहरण USA।</span></div>
+          <div class="fact"><span class="tag">प्रकार</span><span class="txt">समाजवादी → <b>राज्य स्वामित्व, केंद्रीकृत आर्थिक शक्ति</b>, जन-कल्याण हेतु हस्तक्षेप।</span></div>
+          <div class="fact"><span class="tag">प्रकार</span><span class="txt"><b>भारत = मिश्रित अर्थव्यवस्था</b> (निजी + सार्वजनिक क्षेत्र साथ)।</span></div>
+          <div class="fact"><span class="tag">प्रकार</span><span class="txt">गांधीवादी समाजवाद = <b>उत्पादक संसाधनों का विकेंद्रीकरण</b>, स्वरोज़गार, आत्मनिर्भरता।</span></div>
+          <div class="fact"><span class="tag">अनुच्छेद</span><span class="txt">मिश्रित अर्थव्यवस्था में “राज्य” = <b>अनुच्छेद 12</b> में परिभाषित राज्य (सरकार/कार्यपालिका/विधायिका)।</span></div>
+          <div class="fact"><span class="tag">कल्याण</span><span class="txt"><b>NFSA</b> के अंतर्गत लगभग <b>80 करोड़</b> लोगों को रियायती दर पर खाद्यान्न।</span></div>
+          <div class="fact"><span class="tag">दर्जा</span><span class="txt"><b>भारत = विकासशील</b> अर्थव्यवस्था; दर्जा <b>स्व-घोषणा (self-declaration)</b> से।</span></div>
+          <div class="fact"><span class="tag">लाभ</span><span class="txt">विकासशील घोषित होने पर <b>समय-सीमा/लक्ष्य में छूट</b> जैसे लाभ (उदाहरण 2050 बनाम 2070)।</span></div>
+          <div class="fact"><span class="tag">लक्षण</span><span class="txt">अल्पविकसित = <b>निम्न जीवन-स्तर, निम्न उत्पादकता, उच्च जनसंख्या वृद्धि, बेरोज़गारी, कृषि प्रभुत्व, निम्न पूँजी निर्माण, आय असमानता, उच्च निर्भरता अनुपात</b>।</span></div>
+          <div class="fact"><span class="tag">लक्षण</span><span class="txt">विकासशील = कृषि-प्रधान व्यवसाय, <b>प्रछन्न बेरोज़गारी</b>, निम्न मानव पूँजी, औद्योगिक-तकनीकी पिछड़ापन, आयात निर्भरता, निरक्षरता।</span></div>
+          <div class="fact"><span class="tag">आँकड़े*</span><span class="txt">कृषि का GDP में योगदान <b>~18%</b>, पर जनसंख्या की निर्भरता <b>~45%</b> (लेक्चर के अनुसार)।</span></div>
+          <div class="fact"><span class="tag">शब्द</span><span class="txt"><b>प्रछन्न बेरोज़गारी</b> = एक का काम चार लोग करें; तीन हटाने पर उत्पादन न बदले।</span></div>
+          <div class="fact"><span class="tag">पहचान</span><span class="txt">भारत की तीन मुख्य पहचान = <b>कृषि प्रभुत्व + निम्न प्रति व्यक्ति आय + व्यापक बेरोज़गारी</b>।</span></div>
+          <div class="fact"><span class="tag">माप</span><span class="txt"><b>जीवन-स्तर</b> को <b>प्रति व्यक्ति आय</b> से दर्शाया जाता है।</span></div>
+          <div class="fact"><span class="tag">चक्र</span><span class="txt">निम्न उत्पादकता → निम्न आय → निम्न निवेश → <b>निम्न पूँजी निर्माण</b> (दुष्चक्र)।</span></div>
+          <div class="fact"><span class="tag">1991</span><span class="txt"><b>LPG</b> = Liberalisation, Privatisation, Globalisation (इसी क्रम में)।</span></div>
+          <div class="fact"><span class="tag">सुधार</span><span class="txt">दूसरी पीढ़ी के सुधार = <b>तेल क्षेत्र, सार्वजनिक क्षेत्र, सरकार व सार्वजनिक संस्थान, सतत विकास</b>।</span></div>
+          <div class="fact"><span class="tag">1968</span><span class="txt"><b>The Population Bomb</b> — पॉल एर्लिख (जीव वैज्ञानिक)।</span></div>
+          <div class="fact"><span class="tag">1968</span><span class="txt"><b>The Limits to Growth</b> — क्लब ऑफ रोम (30 व्यक्ति, 10 देश)।</span></div>
+          <div class="fact"><span class="tag">1972</span><span class="txt"><b>Silent Spring</b> — रेचल कार्सन।</span></div>
+          <div class="fact"><span class="tag">1987</span><span class="txt"><b>Our Common Future</b> — ब्रंटलैंड कमीशन की रिपोर्ट।</span></div>
+          <div class="fact"><span class="tag">वक्र</span><span class="txt"><b>EKC</b> = पर्यावरणीय क्षरण व प्रति व्यक्ति GDP के बीच <b>उल्टा-U</b> संबंध।</span></div>
+          <div class="fact"><span class="tag">SDG</span><span class="txt"><b>17 लक्ष्य</b>, लक्ष्य वर्ष <b>2030</b>; भारत में नोडल = <b>नीति आयोग</b>।</span></div>
+          <div class="fact"><span class="tag">SDG</span><span class="txt">NIF प्रगति रिपोर्ट — योजना विभाग (लेक्चर में UP का संदर्भ); वैश्विक SD रिपोर्ट लगभग हर <b>4 वर्ष</b>।</span></div>
+          <div class="fact"><span class="tag">सर्वे</span><span class="txt"><b>Sustainable Development &amp; Climate Change</b> अध्याय पहली बार <b>Economic Survey 2011-12</b> में।</span></div>
+          <div class="fact"><span class="tag">मानव पूँजी</span><span class="txt">मानव पूँजी = <b>कुशल + स्वस्थ + शिक्षित</b>; स्रोत = शिक्षा, स्वास्थ्य, चिकित्सा, ऑन-जॉब प्रशिक्षण, प्रबंधन/सूचना, प्रवासन।</span></div>
+          <div class="fact"><span class="tag">योजना</span><span class="txt"><b>PM कौशल विकास योजना</b> — युवाओं को कौशल प्रशिक्षण से मानव पूँजी में सुधार।</span></div>
+          <div class="fact"><span class="tag">अवधारणा</span><span class="txt"><b>समावेशी विकास</b> = “सबका साथ, सबका विकास” — बहुआयामी (शिक्षा, स्वास्थ्य, रोज़गार, गरीबी)।</span></div>
+        </div>
+        <p style="font-size:11.8px;color:var(--ink-mute)">* वीडियो में बोले गए अनुमानित आँकड़े — परीक्षा में नवीनतम आधिकारिक आँकड़े (Economic Survey / MoSPI) ही लिखें।</p>
+        <div class="hero-cta" style="margin-top:14px">
+          <button class="btn ghost" id="copyFacts" type="button">फैक्ट शीट कॉपी करें</button>
+          <a class="btn ghost" href="#s12">टेस्ट दें →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ S11 ============ -->
+    <section class="sec" id="s11" data-sec="s11">
+      <div class="sec-head">
+        <div class="sec-num">11</div>
+        <h2>फ्लैशकार्ड — SDG 17 + तथ्य<span class="en">Flip cards · SDG story &amp; fact drills</span></h2>
+        <button class="markdone" data-done="s11" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p>कार्ड पर क्लिक/टैप करें — पलटकर उत्तर दिखेगा। पहले स्वयं सोचें, फिर पलटें।</p>
+        <h3 class="sub">SDG कहानी के 17 कार्ड</h3>
+        <div class="fc-grid" id="fcSdg"></div>
+        <h3 class="sub">तथ्य-ड्रिल कार्ड</h3>
+        <div class="fc-grid" id="fcFact"></div>
+        <p class="fc-hint">कीबोर्ड: <span class="mono">Tab</span> से कार्ड चुनें, <span class="mono">Enter/Space</span> से पलटें।</p>
+      </div>
+    </section>
+
+    <!-- ============ S12 ============ -->
+    <section class="sec" id="s12" data-sec="s12">
+      <div class="sec-head">
+        <div class="sec-num">12</div>
+        <h2>अभ्यास प्रश्न — 14 MCQ<span class="en">Practice test with instant explanations</span></h2>
+        <button class="markdone" data-done="s12" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <div class="quiz-bar">
+          <span class="score">स्कोर: <b id="scoreVal">0</b> / <span id="qTotal">14</span></span>
+          <span class="note" id="quizNote">कोई विकल्प चुनें — तुरंत सही/गलत व व्याख्या दिखेगी।</span>
+          <span class="spacer" style="flex:1"></span>
+          <button class="btn ghost" id="resetQuiz" type="button" style="height:32px;font-size:12px">रीसेट</button>
+        </div>
+        <div class="quiz" id="quiz"></div>
+      </div>
+    </section>
+
+    <section class="sec" id="nextbatch">
+      <div class="sec-head">
+        <div class="sec-num">→</div>
+        <h2>अगला बैच<span class="en">What comes next in the series</span></h2>
+      </div>
+      <div class="sec-body">
+        <p>बैच 1 यहीं समाप्त होता है। वीडियो में इसके तुरंत बाद <b>योजना (Planning)</b> का चैप्टर शुरू होता है — वही बैच 2 होगा।</p>
+        <div class="next">
+          <div class="nextcard"><div class="h"><span class="n">02</span>योजना की मूल बातें</div><p>आर्थिक नियोजन की परिभाषा, उद्देश्य, सोवियत संघ से प्रेरणा, योजना का संवैधानिक आधार (समवर्ती सूची)।</p></div>
+          <div class="nextcard"><div class="h"><span class="n">02</span>स्वतंत्रता-पूर्व योजनाएँ</div><p>1914 विश्वेश्वरैया · 1938 राष्ट्रीय योजना समिति · 1944 गांधीवादी व बॉम्बे प्लान · 1944 दलाल · 1945 पीपल्स प्लान · 1950 सर्वोदय।</p></div>
+          <div class="nextcard"><div class="h"><span class="n">02</span>योजना आयोग</div><p>1947 आर्थिक कार्यक्रम समिति → 1948 स्थायी आयोग की सिफ़ारिश → 15 मार्च 1950 की स्थापना।</p></div>
+          <div class="nextcard"><div class="h"><span class="n">02</span>पंचवर्षीय योजनाएँ</div><p>12 पंचवर्षीय + 6 वार्षिक योजनाएँ, प्रत्येक का आधार, लक्ष्य व मॉडल — साथ में PYQ।</p></div>
+        </div>
+        <div class="call pointer" style="margin-top:16px">
+          <span class="ci">i</span>
+          <div><span class="ct">बैच निरंतरता</span>हर बैच में वही संरचना मिलेगी: <b>ग्रैनुलर नोट्स → फैक्ट शीट → फ्लैशकार्ड → MCQ</b>। बीच में टॉपिक छूटे नहीं, इसलिए बैच सीमाएँ लेक्चर के चैप्टर-ब्रेक पर रखी गई हैं।</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="noresult" id="noresult">कोई परिणाम नहीं मिला — कोई दूसरा शब्द आज़माएँ (जैसे <b>SDG</b>, <b>Keynes</b>, <b>1938</b>)।</div>
+  </main>
+</div>
+
+<button class="toTop" id="toTop" type="button" aria-label="ऊपर जाएँ">
+  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+
+<footer class="footer">
+  <p><b>स्रोत:</b> “Indian Economy One Shot 2026 — Complete Indian Economy for UPPCS &amp; BPSC 72nd”, PCS INSIGHTS (UPPCS-BPSC), YouTube — <span class="mono">youtu.be/r2iOMMlSPIw</span> (3:28:12, प्रकाशित 09-11-2026)। बैच 1 = वीडियो का पहला चैप्टर।</p>
+  <p>यह अध्ययन-सामग्री वीडियो के ऑटो-ट्रांसक्रिप्ट से बनी है; भाषा-शुद्धता और तथ्य-सटीकता के लिए “सुधार” चिह्नों का पालन करें। परीक्षा से पहले नवीनतम आधिकारिक स्रोत (Economic Survey, NITI Aayog, MoSPI) से आँकड़े जाँच लें।</p>
+  <p style="margin-top:8px">बैच 1 / 9 · इंटरैक्टिव स्टडी मॉड्यूल · प्रगति इसी ब्राउज़र में सुरक्षित रहती है।</p>
+</footer>
+<script>
+(function(){
+  "use strict";
+  var $ = function(s,c){return (c||document).querySelector(s);};
+  var $$ = function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s));};
+  var LS = {
+    get:function(k,d){try{var v=localStorage.getItem(k);return v===null?d:JSON.parse(v);}catch(e){return d;}},
+    set:function(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
+  };
+
+  /* ---------- theme ---------- */
+  var themeBtn=$("#themeBtn"), themeLabel=$("#themeLabel");
+  function applyTheme(t){
+    document.documentElement.setAttribute("data-theme",t);
+    themeLabel.textContent = t==="dark" ? "लाइट" : "डार्क";
+    LS.set("ie-theme",t);
+  }
+  applyTheme(LS.get("ie-theme","light"));
+  themeBtn.addEventListener("click",function(){
+    applyTheme(document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark");
+  });
+
+  /* ---------- print ---------- */
+  $("#printBtn").addEventListener("click",function(){window.print();});
+
+  /* ---------- progress / mark done ---------- */
+  var marks=$$(".markdone"), done=LS.get("ie-done-b1",{});
+  var total=marks.length;
+  function refreshProgress(){
+    var n=0;
+    marks.forEach(function(b){
+      var id=b.getAttribute("data-done"), on=!!done[id];
+      b.setAttribute("aria-pressed",on?"true":"false");
+      if(on) n++;
+      var link=$('#toc a[href="#'+id+'"]');
+      if(link){link.classList.toggle("done",on);}
+    });
+    var pct=total?Math.round(n/total*100):0;
+    $("#ring").style.setProperty("--p",pct);
+    $("#ringTxt").textContent=pct+"%";
+    $("#doneCount").textContent=n+" / "+total+" अध्याय";
+  }
+  marks.forEach(function(b){
+    b.addEventListener("click",function(){
+      var id=b.getAttribute("data-done");
+      done[id]=!done[id];
+      LS.set("ie-done-b1",done);
+      refreshProgress();
+    });
+  });
+  refreshProgress();
+
+  /* ---------- scroll progress + to top ---------- */
+  var bar=$("#scrollProg"), toTop=$("#toTop");
+  function onScroll(){
+    var h=document.documentElement;
+    var max=(h.scrollHeight-h.clientHeight)||1;
+    bar.style.width=Math.min(100,(h.scrollTop/max)*100)+"%";
+    toTop.classList.toggle("show",h.scrollTop>700);
+  }
+  document.addEventListener("scroll",onScroll,{passive:true});
+  onScroll();
+  toTop.addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"});});
+
+  /* ---------- TOC active state ---------- */
+  var secs=$$("main .sec");
+  if("IntersectionObserver" in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          $$("#toc a").forEach(function(a){a.classList.remove("active");});
+          var a=$('#toc a[href="#'+en.target.id+'"]');
+          if(a){a.classList.add("active");}
+        }
+      });
+    },{rootMargin:"-88px 0px -66% 0px",threshold:0});
+    secs.forEach(function(s){io.observe(s);});
+  }
+
+  /* ---------- search ---------- */
+  var search=$("#search"), noresult=$("#noresult");
+  function clearMarks(root){
+    $$("mark",root).forEach(function(m){
+      var p=m.parentNode, t=document.createTextNode(m.textContent);
+      p.replaceChild(t,m); p.normalize();
+    });
+  }
+  function highlight(root,q){
+    var walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{
+      acceptNode:function(n){
+        if(!n.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        var p=n.parentNode;
+        if(!p) return NodeFilter.FILTER_REJECT;
+        var tag=p.nodeName;
+        if(tag==="SCRIPT"||tag==="STYLE"||tag==="MARK"||tag==="INPUT"||tag==="TEXTAREA") return NodeFilter.FILTER_REJECT;
+        return n.nodeValue.toLowerCase().indexOf(q)!==-1?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT;
+      }
+    });
+    var nodes=[], n;
+    while((n=walker.nextNode())){nodes.push(n);}
+    nodes.forEach(function(node){
+      var text=node.nodeValue, low=text.toLowerCase(), idx=low.indexOf(q);
+      if(idx===-1) return;
+      var frag=document.createDocumentFragment(), last=0;
+      while(idx!==-1){
+        frag.appendChild(document.createTextNode(text.slice(last,idx)));
+        var m=document.createElement("mark");
+        m.textContent=text.slice(idx,idx+q.length);
+        frag.appendChild(m);
+        last=idx+q.length;
+        idx=low.indexOf(q,last);
+      }
+      frag.appendChild(document.createTextNode(text.slice(last)));
+      node.parentNode.replaceChild(frag,node);
+    });
+  }
+  var searchTimer=null;
+  function runSearch(){
+    var q=(search.value||"").trim().toLowerCase();
+    secs.forEach(function(s){clearMarks(s);});
+    if(!q){
+      secs.forEach(function(s){s.classList.remove("hidden");});
+      noresult.classList.remove("show");
+      return;
+    }
+    var hits=0;
+    secs.forEach(function(s){
+      var match=(s.textContent||"").toLowerCase().indexOf(q)!==-1;
+      s.classList.toggle("hidden",!match);
+      if(match){hits++;highlight(s,q);}
+    });
+    noresult.classList.toggle("show",hits===0);
+  }
+  search.addEventListener("input",function(){
+    clearTimeout(searchTimer);
+    searchTimer=setTimeout(runSearch,140);
+  });
+  search.addEventListener("keydown",function(e){
+    if(e.key==="Escape"){search.value="";runSearch();search.blur();}
+  });
+
+  /* ---------- flashcards ---------- */
+  var sdg=[
+    ["1","गरीबी खत्म","आदमी ने काम शुरू किया","No Poverty — गरीबी उन्मूलन"],
+    ["2","भुखमरी शून्य","बच्ची को खाना मिला","Zero Hunger"],
+    ["3","अच्छा स्वास्थ्य","सेहत अच्छी रही","Good Health &amp; Well-being"],
+    ["4","गुणवत्तापूर्ण शिक्षा","स्कूल में दाखिला","Quality Education"],
+    ["5","लैंगिक समानता","लड़के-लड़कियाँ साथ पढ़े","Gender Equality"],
+    ["6","स्वच्छ जल व स्वच्छता","हाथ-मुँह धोया","Clean Water &amp; Sanitation"],
+    ["7","सस्ती व स्वच्छ ऊर्जा","स्कूल में सोलर पैनल","Affordable &amp; Clean Energy"],
+    ["8","उचित कार्य व वृद्धि","पास होकर अच्छी नौकरी","Decent Work &amp; Economic Growth"],
+    ["9","उद्योग व नवाचार","नौकरी उद्योग में मिली","Industry, Innovation &amp; Infrastructure"],
+    ["10","असमानता में कमी","समाज में इज़्ज़त बढ़ी","Reduced Inequalities"],
+    ["11","सतत शहर व समुदाय","बड़ी सिटी में बसे","Sustainable Cities &amp; Communities"],
+    ["12","जिम्मेदार उपभोग","चीज़ों का सोच-समझकर उपयोग","Responsible Consumption &amp; Production"],
+    ["13","जलवायु कार्रवाई","जलवायु का प्रकोप","Climate Action"],
+    ["14","जलीय जीवन","बाढ़ से समुद्री जीवन खत्म","Life Below Water"],
+    ["15","थलीय जीवन","ज़मीन पर जीवन खत्म","Life on Land"],
+    ["16","शांति, न्याय, संस्थाएँ","शांति से रहने का निर्णय","Peace, Justice &amp; Strong Institutions"],
+    ["17","लक्ष्यों के लिए साझेदारी","सब मिलकर","Partnership for the Goals"]
+  ];
+  var facts=[
+    ["1968","The Population Bomb","पॉल एर्लिख"],
+    ["1968","The Limits to Growth","क्लब ऑफ रोम (30 व्यक्ति · 10 देश)"],
+    ["1972","Silent Spring","रेचल कार्सन"],
+    ["1987","Our Common Future","ब्रंटलैंड कमीशन की रिपोर्ट"],
+    ["17 · 2030","SDG","लक्ष्य संख्या · लक्ष्य वर्ष (नोडल: नीति आयोग)"],
+    ["उल्टा-U","पर्यावरणीय कुज़नेट वक्र","पर्यावरणीय क्षरण व प्रति व्यक्ति GDP"],
+    ["L · P · G","1991 NEP","उदारीकरण · निजीकरण · वैश्वीकरण"],
+    ["2011-12","Economic Survey","पहली बार Sustainable Development &amp; Climate Change अध्याय"]
+  ];
+  function cardHTML(top,mid,tiny,backMid){
+    return '<div class="fc-in">'+
+      '<div class="fc-face"><div class="top">'+top+'</div><div class="mid">'+mid+'</div><div class="tiny">'+tiny+'</div></div>'+
+      '<div class="fc-face fc-back"><div class="top">उत्तर</div><div class="mid">'+backMid+'</div></div>'+
+    '</div>';
+  }
+  function buildCards(container,arr){
+    container.innerHTML=arr.map(function(r){
+      var b=document.createElement("button");
+      b.type="button"; b.className="fc"; b.setAttribute("aria-label","कार्ड "+r[0]+" — पलटें");
+      b.innerHTML=cardHTML(r[0],r[1],r[2],r[3]);
+      b.addEventListener("click",function(){b.classList.toggle("flipped");});
+      return b.outerHTML;
+    }).join("");
+  }
+  buildCards($("#fcSdg"),sdg);
+  buildCards($("#fcFact"),facts);
+
+  /* ---------- quiz ---------- */
+  var QUIZ=[
+    {q:"अर्थव्यवस्था की केंद्रीय समस्याओं का मूल कारण क्या है?",
+     o:["बाज़ार में प्रतिस्पर्धा का अभाव","संसाधनों की सीमितता (scarcity)","सरकारी नियंत्रण","जनसंख्या का कम होना"],a:1,
+     e:"सीमित संसाधनों के कारण ही “क्या उत्पादन करें, कैसे करें, किसके लिए करें” — ये चयन की समस्याएँ उठती हैं।"},
+    {q:"“Father of Economics” किसे कहा जाता है?",
+     o:["जे. एम. कीन्स","एडम स्मिथ","अल्फ्रेड मार्शल","मिल्टन फ्रीडमैन"],a:1,
+     e:"एडम स्मिथ — Father of Economics। यहाँ “इंडियन” शब्द नहीं जोड़ा जाता।"},
+    {q:"“Father of Macroeconomics” कौन हैं?",
+     o:["एडम स्मिथ","डेविड रिकार्डो","जे. एम. कीन्स","पॉल एर्लिख"],a:2,
+     e:"जे. एम. कीन्स — समष्टि अर्थशास्त्र (macroeconomics) के जनक।"},
+    {q:"2024 की प्रारंभिक परीक्षा में कौन-सा कथन गलत था?",
+     o:["Adam Smith — Father of Economics","Adam Smith — Father of Macroeconomics","J. M. Keynes — Father of Macroeconomics","Adam Smith को अर्थशास्त्र का जनक कहा जाता है"],a:1,
+     e:"Adam Smith को “Father of Macroeconomics” कहना गलत है — वे Father of Economics हैं, मैक्रो के जनक कीन्स हैं।"},
+    {q:"मिश्रित अर्थव्यवस्था की विशेषता नहीं है:",
+     o:["निजी व सार्वजनिक क्षेत्र का सह-अस्तित्व","कल्याणकारी हस्तक्षेप","उत्पादन के साधनों पर पूर्ण राज्य-स्वामित्व","बाज़ार व नियोजन दोनों का उपयोग"],a:2,
+     e:"पूर्ण राज्य-स्वामित्व समाजवादी अर्थव्यवस्था का लक्षण है; मिश्रित व्यवस्था में दोनों क्षेत्र रहते हैं (भारत)।"},
+    {q:"गांधीवादी समाजवाद का केंद्रीय विचार क्या है?",
+     o:["उत्पादन के साधनों का केंद्रीकरण","उत्पादक संसाधनों का विकेंद्रीकरण","आयात प्रतिस्थापन","पूर्ण निजीकरण"],a:1,
+     e:"उत्पादक संसाधनों का विकेंद्रीकरण + स्वरोज़गार + आत्मनिर्भरता — गांधीवादी मॉडल की पहचान।"},
+    {q:"भारत को “विकासशील अर्थव्यवस्था” का दर्जा किस आधार पर प्राप्त होता है?",
+     o:["विश्व बैंक का प्रमाणपत्र","संयुक्त राष्ट्र का संकल्प","स्व-घोषणा (self-declaration)","IMF की सदस्यता"],a:2,
+     e:"यह आत्म-घोषणा है; विकासशील घोषित करने पर समय-सीमा/लक्ष्य में छूट जैसे लाभ मिलते हैं।"},
+    {q:"अल्पविकसित अर्थव्यवस्था का लक्षण नहीं है:",
+     o:["निम्न जीवन-स्तर","उच्च निर्भरता अनुपात","उच्च पूँजी निर्माण दर","कृषि का प्रभुत्व"],a:2,
+     e:"अल्पविकसित अर्थव्यवस्था में पूँजी निर्माण की दर <b>निम्न</b> होती है (कमाया और खा लिया, मशीनों में निवेश नहीं)।"},
+    {q:"लेक्चर के अनुसार भारत में कृषि का GDP में योगदान और जनसंख्या की कृषि-निर्भरता क्रमशः लगभग कितनी है?",
+     o:["45% और 18%","18% और 45%","30% और 60%","10% और 55%"],a:1,
+     e:"~18% GDP योगदान पर ~45% जनसंख्या निर्भर — यही अंतर प्रछन्न बेरोज़गारी व निम्न उत्पादकता की जड़ है।"},
+    {q:"“Silent Spring” (1972) की लेखिका कौन हैं?",
+     o:["रेचल कार्सन","पॉल एर्लिख","ब्रंटलैंड","क्लब ऑफ रोम"],a:0,
+     e:"रेचल कार्सन — पर्यावरण आंदोलन की प्रेरक किताब।"},
+    {q:"“Our Common Future” (1987) किसकी रिपोर्ट है?",
+     o:["क्लब ऑफ रोम","ब्रंटलैंड कमीशन","IPCC","UNEP"],a:1,
+     e:"ब्रंटलैंड कमीशन की रिपोर्ट — सतत विकास की प्रसिद्ध परिभाषा इसी से आई। इसे Limits to Growth (क्लब ऑफ रोम, 1968) से न मिलाएँ।"},
+    {q:"“The Limits to Growth” (1968) किसने प्रस्तुत की?",
+     o:["क्लब ऑफ रोम","ब्रंटलैंड कमीशन","पॉल एर्लिख","रोम क्लब की महिला शाखा"],a:0,
+     e:"क्लब ऑफ रोम — 10 देशों के 30 वैज्ञानिक/अर्थशास्त्री/शोधकर्ता, रोम में।"},
+    {q:"SDG की संख्या, लक्ष्य वर्ष तथा भारत में नोडल संस्था — सही युग्म चुनें:",
+     o:["17 / 2030 / नीति आयोग","15 / 2025 / वित्त आयोग","17 / 2035 / योजना आयोग","21 / 2030 / MoSPI"],a:0,
+     e:"17 लक्ष्य, 2030 तक; भारत में नोडल संस्था नीति आयोग (NITI Aayog)।"},
+    {q:"“Sustainable Development &amp; Climate Change” अध्याय पहली बार किस आर्थिक सर्वेक्षण में आया?",
+     o:["2005-06","2011-12","2016-17","2020-21"],a:1,
+     e:"Economic Survey 2011-12 — लेक्चर में यह तथ्य स्पष्ट बताया गया।"}
+  ];
+  var quizEl=$("#quiz"), scoreVal=$("#scoreVal"), qTotalEl=$("#qTotal"), quizNote=$("#quizNote");
+  var answered={}, score=0;
+  qTotalEl.textContent=QUIZ.length;
+  function renderQuiz(){
+    answered={}; score=0; scoreVal.textContent="0";
+    quizNote.textContent="कोई विकल्प चुनें — तुरंत सही/गलत व व्याख्या दिखेगी।";
+    quizEl.innerHTML="";
+    QUIZ.forEach(function(item,qi){
+      var wrap=document.createElement("div"); wrap.className="q";
+      var head='<div class="q-h"><span class="q-n">Q'+(qi+1)+'</span><span>'+item.q+'</span></div>';
+      var opts='<div class="opts">'+item.o.map(function(t,oi){
+        return '<button class="opt" type="button" data-q="'+qi+'" data-o="'+oi+'"><span class="ol">'+
+          String.fromCharCode(65+oi)+'</span><span>'+t+'</span></button>';
+      }).join("")+'</div>';
+      var exp='<div class="exp" id="exp-'+qi+'"><b>व्याख्या:</b> '+item.e+'</div>';
+      wrap.innerHTML=head+opts+exp;
+      quizEl.appendChild(wrap);
+    });
+  }
+  quizEl.addEventListener("click",function(e){
+    var btn=e.target.closest(".opt");
+    if(!btn||btn.disabled) return;
+    var qi=+btn.getAttribute("data-q"), oi=+btn.getAttribute("data-o");
+    if(answered[qi]!==undefined) return;
+    answered[qi]=oi;
+    var correct=QUIZ[qi].a;
+    $$('.opt[data-q="'+qi+'"]',quizEl).forEach(function(b){
+      b.disabled=true;
+      var i=+b.getAttribute("data-o");
+      if(i===correct){b.classList.add("correct");}
+      if(i===oi&&oi!==correct){b.classList.add("wrong");}
+    });
+    $("#exp-"+qi).classList.add("show");
+    if(oi===correct){score++;}
+    scoreVal.textContent=String(score);
+    var n=Object.keys(answered).length;
+    if(n===QUIZ.length){
+      var pct=Math.round(score/QUIZ.length*100);
+      quizNote.textContent = pct>=80 ? "शानदार — "+pct+"%। इस बैच पर पकड़ मज़बूत है।" :
+        pct>=50 ? "ठीक — "+pct+"%। फैक्ट शीट एक बार दोहरा लें।" :
+        "बेहतर होगा — "+pct+"%। सेक्शन 8 (सतत विकास) दोबारा पढ़ें, फिर रीसेट करके दोहराएँ।";
+    }
+  });
+  $("#resetQuiz").addEventListener("click",renderQuiz);
+  renderQuiz();
+
+  /* ---------- copy fact sheet ---------- */
+  $("#copyFacts").addEventListener("click",function(){
+    var btn=this, old=btn.textContent;
+    var text=$$("#factsList .fact").map(function(f){
+      return "• "+$(".tag",f).textContent+" — "+$(".txt",f).textContent;
+    }).join("\n");
+    function done(ok){btn.textContent=ok?"कॉपी हो गया ✓":"कॉपी नहीं हो सका";setTimeout(function(){btn.textContent=old;},1600);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){done(true);},function(){done(false);});
+    }else{
+      var ta=document.createElement("textarea"); ta.value=text; document.body.appendChild(ta);
+      ta.select(); try{document.execCommand("copy");done(true);}catch(e){done(false);}
+      document.body.removeChild(ta);
+    }
+  });
+
+  /* ---------- keyboard shortcuts ---------- */
+  document.addEventListener("keydown",function(e){
+    var tag=(e.target.tagName||"").toLowerCase();
+    var typing = tag==="input"||tag==="textarea"||e.target.isContentEditable;
+    if(typing) return;
+    if(e.key==="/"){
+      e.preventDefault(); search.focus(); search.select();
+    }else if(e.key==="D"&&e.shiftKey){
+      applyTheme(document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark");
+    }
+  });
+})();
+</script>
+</body>
+</html>
