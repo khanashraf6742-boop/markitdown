@@ -5,7 +5,7 @@
 
 | बैच | विषय | फ़ाइलें | स्थिति |
 |---|---|---|---|
-| 1 | मूल बातें · अर्थव्यवस्था के प्रकार · भारतीय अर्थव्यवस्था · 1991 LPG · सतत विकास व SDG · मानव पूँजी | `batch-01-interactive.html`, `batch-01-text.html` | ✅ तैयार |
+| 1 | मूल बातें · अर्थव्यवस्था के प्रकार · भारतीय अर्थव्यवस्था · 1991 LPG · सतत विकास व SDG · मानव पूँजी | `batch-01-interactive.html`, `batch-01-text.html`, **`batch-01-interactive-hinglish.html`**, **`batch-01-text-hinglish.html`** | ✅ तैयार |
 | 2 | योजना (Planning) व पंचवर्षीय योजनाएँ, NITI Aayog | — | अगला |
 | 3 | राष्ट्रीय आय, GDP, आर्थिक वृद्धि vs विकास | — | प्रस्तावित |
 | 4 | गरीबी, बेरोज़गारी | — | प्रस्तावित |
@@ -14,6 +14,15 @@
 | 7 | बजट, आर्थिक सर्वे, कर व GST | — | प्रस्तावित |
 | 8 | कृषि, उद्योग, अवसंरचना, सरकारी योजनाएँ | — | प्रस्तावित |
 | 9 | विदेशी व्यापार / BoP, अंतर्राष्ट्रीय संस्थाएँ, PYQ + MCQ सेट | — | प्रस्तावित |
+
+## दो लिपियाँ (two scripts)
+
+| Edition | Interactive | Text |
+|---|---|---|
+| **City Hinglish (Roman script only)** — मुख्य संस्करण | `batch-01-interactive-hinglish.html` | `batch-01-text-hinglish.html` |
+| Devanagari (मूल) | `batch-01-interactive.html` | `batch-01-text.html` |
+
+Hinglish edition में technical English terms English में हैं (economy, productivity, sustainable development), बाकी बोलचाल "dekho…, hai na?…, matlab…" वाली city-Hinglish में — पूरा फ़ाइल Roman script में, एक भी Devanagari अक्षर नहीं। बैच 2 से आगे के सभी बैच इसी Hinglish फ़ॉर्मेट में बनेंगे।
 
 ## फ़ाइलें
 

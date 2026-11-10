@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="hi-Latn" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indian Economy One Shot 2026 — Batch 1 (Hinglish) | Basics &amp; Sustainable Development</title>
+<meta name="description" content="interactive study module — Indian Economy One Shot 2026 (PCS INSIGHTS), Batch 1: economy ki mool baatein, prakaar, Bharatiya economy, LPG, sustainable development, SDG.">
+<style>
+/* ============ design tokens ============ */
+:root{
+  --bg:#f4f6fb; --bg-soft:#eef1f8; --panel:#ffffff; --panel-2:#fbfcff;
+  --ink:#131a2b; --ink-soft:#46506b; --ink-mute:#727d99;
+  --line:#dfe4f0; --line-soft:#eaeef8;
+  --brand:#3d3bd6; --brand-ink:#2b28b0; --brand-soft:#ecebff;
+  --teal:#0d7d76; --teal-soft:#e2f5f3;
+  --amber:#a86400; --amber-soft:#fff3d9;
+  --rose:#b3261e; --rose-soft:#ffe8e6;
+  --green:#166b3c; --green-soft:#e2f6ea;
+  --violet:#6d28d9; --violet-soft:#f1e9ff;
+  --shadow:0 1px 2px rgba(16,24,40,.06),0 8px 24px -12px rgba(16,24,40,.18);
+  --shadow-lg:0 24px 60px -28px rgba(16,24,40,.35);
+  --r-sm:8px; --r:14px; --r-lg:20px;
+  --maxw:1500px;
+  --font:"Noto Sans Devanagari","Nirmala UI","Mangal","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  --mono:"SFMono-Regular",ui-monospace,"Cascadia Mono",Menlo,Consolas,monospace;
+}
+html[data-theme="dark"]{
+  --bg:#0b0f19; --bg-soft:#0f1524; --panel:#141b2b; --panel-2:#111827;
+  --ink:#e8ecf7; --ink-soft:#b3bdd4; --ink-mute:#8492b0;
+  --line:#26304a; --line-soft:#1d2539;
+  --brand:#9d9bff; --brand-ink:#b9b7ff; --brand-soft:#1d1f45;
+  --teal:#5fd6cb; --teal-soft:#0e2f2d;
+  --amber:#f5c264; --amber-soft:#33260c;
+  --rose:#ff8f86; --rose-soft:#3a1613;
+  --green:#68d996; --green-soft:#0f2c1d;
+  --violet:#c3a6ff; --violet-soft:#241a3d;
+  --shadow:0 1px 2px rgba(0,0,0,.5),0 10px 30px -16px rgba(0,0,0,.8);
+  --shadow-lg:0 30px 70px -30px rgba(0,0,0,.9);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth; scroll-padding-top:82px}
+body{
+  margin:0; background:var(--bg); color:var(--ink); font-family:var(--font);
+  font-size:16px; line-height:1.85; -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+h1,h2,h3,h4{line-height:1.45; margin:0; font-weight:800; letter-spacing:-.01em}
+p{margin:.55em 0}
+a{color:var(--brand); text-underline-offset:3px}
+b,strong{font-weight:800; color:var(--ink)}
+code,.mono{font-family:var(--mono); font-size:.9em}
+::selection{background:var(--brand); color:#fff}
+:focus-visible{outline:2.5px solid var(--brand); outline-offset:2px; border-radius:6px}
+
+/* ============ top bar ============ */
+.topbar{
+  position:sticky; top:0; z-index:60; background:color-mix(in srgb, var(--panel) 88%, transparent);
+  backdrop-filter:blur(14px) saturate(1.4); border-bottom:1px solid var(--line);
+}
+.topbar-in{max-width:var(--maxw); margin:0 auto; padding:10px 20px; display:flex; gap:16px; align-items:center}
+.brandmark{display:flex; align-items:center; gap:11px; min-width:0}
+.logo{
+  width:38px;height:38px;border-radius:11px; flex:0 0 auto; display:grid; place-items:center;
+  background:linear-gradient(145deg,var(--brand),#7f5bff 55%,var(--teal)); color:#fff;
+  font-weight:900; font-size:15px; letter-spacing:-.5px; box-shadow:var(--shadow);
+}
+.brand-text{min-width:0}
+.brand-text .t{font-weight:800; font-size:14.5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.brand-text .s{font-size:11.5px; color:var(--ink-mute); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.batch-pill{
+  font-size:11.5px; font-weight:800; letter-spacing:.04em; padding:4px 10px; border-radius:999px;
+  background:var(--brand-soft); color:var(--brand-ink); border:1px solid color-mix(in srgb,var(--brand) 28%, transparent);
+  white-space:nowrap;
+}
+.spacer{flex:1 1 auto}
+.tool{
+  display:inline-flex; align-items:center; gap:7px; height:36px; padding:0 12px; cursor:pointer;
+  background:var(--panel); color:var(--ink-soft); border:1px solid var(--line); border-radius:10px;
+  font:inherit; font-size:12.5px; font-weight:700; white-space:nowrap;
+  transition:transform .12s ease, border-color .12s, color .12s, background .12s;
+}
+.tool:hover{color:var(--ink); border-color:color-mix(in srgb,var(--brand) 45%, var(--line)); transform:translateY(-1px)}
+.tool:active{transform:translateY(0)}
+.tool svg{width:15px;height:15px;flex:0 0 auto}
+.searchwrap{position:relative; flex:1 1 300px; max-width:430px}
+.searchwrap svg{position:absolute; left:11px; top:50%; transform:translateY(-50%); width:16px;height:16px; color:var(--ink-mute)}
+#search{
+  width:100%; height:38px; padding:0 62px 0 34px; border-radius:10px; border:1px solid var(--line);
+  background:var(--panel-2); color:var(--ink); font:inherit; font-size:13.5px;
+}
+#search::placeholder{color:var(--ink-mute)}
+#search:focus{border-color:var(--brand); outline:none; box-shadow:0 0 0 3px var(--brand-soft)}
+.kbd{
+  position:absolute; right:9px; top:50%; transform:translateY(-50%); font-family:var(--mono); font-size:10.5px;
+  color:var(--ink-mute); border:1px solid var(--line); border-bottom-width:2px; border-radius:5px; padding:1px 5px;
+  background:var(--panel); pointer-events:none;
+}
+.progressline{height:3px; background:var(--line-soft); overflow:hidden}
+.progressline > i{display:block; height:100%; width:0; background:linear-gradient(90deg,var(--brand),var(--teal)); transition:width .3s ease}
+
+/* ============ shell ============ */
+.shell{max-width:var(--maxw); margin:0 auto; padding:26px 20px 90px; display:grid; grid-template-columns:288px minmax(0,1fr); gap:30px; align-items:start}
+
+/* ============ sidebar ============ */
+.side{position:sticky; top:78px; max-height:calc(100vh - 100px); overflow:auto; padding-right:6px}
+.side::-webkit-scrollbar{width:8px}
+.side::-webkit-scrollbar-thumb{background:var(--line); border-radius:8px}
+.side-card{background:var(--panel); border:1px solid var(--line); border-radius:var(--r); padding:14px; box-shadow:var(--shadow); margin-bottom:14px}
+.side-h{font-size:10.5px; text-transform:uppercase; letter-spacing:.11em; color:var(--ink-mute); font-weight:800; margin:0 0 9px 4px}
+.toc{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:2px}
+.toc a{
+  display:flex; gap:9px; align-items:flex-start; text-decoration:none; color:var(--ink-soft);
+  font-size:13px; font-weight:600; padding:7px 9px; border-radius:9px; line-height:1.5;
+  border-left:2.5px solid transparent; transition:background .12s,color .12s,border-color .12s;
+}
+.toc a:hover{background:var(--bg-soft); color:var(--ink)}
+.toc a.active{background:var(--brand-soft); color:var(--brand-ink); border-left-color:var(--brand); font-weight:800}
+.toc .n{font-family:var(--mono); font-size:10.5px; color:var(--ink-mute); margin-top:3px; flex:0 0 auto}
+.toc a.active .n{color:var(--brand)}
+.toc a .dot{margin-left:auto; width:6px;height:6px;border-radius:50%; background:var(--green); opacity:0; flex:0 0 auto; margin-top:8px}
+.toc a.done .dot{opacity:1}
+.side-progress{display:flex; align-items:center; gap:10px}
+.ring{--p:0; width:44px; height:44px; border-radius:50%; flex:0 0 auto; display:grid; place-items:center;
+  background:conic-gradient(var(--brand) calc(var(--p)*1%), var(--line-soft) 0);}
+.ring > span{width:34px;height:34px;border-radius:50%; background:var(--panel); display:grid; place-items:center; font-size:10.5px; font-weight:800; color:var(--ink-soft)}
+.side-progress .lbl{font-size:11.5px; color:var(--ink-mute); line-height:1.5}
+.side-progress .lbl b{display:block; color:var(--ink); font-size:13px}
+.chapterlist{list-style:none;margin:0;padding:0;font-size:12px;color:var(--ink-mute);line-height:1.9}
+.chapterlist li{display:flex;gap:7px}
+.chapterlist .now{color:var(--brand-ink);font-weight:800}
+.chapterlist .tag{font-family:rgba(0,0,0,0);font-family:var(--mono);font-size:10px;color:var(--ink-mute)}
+
+/* ============ content ============ */
+.main{min-width:0}
+.hero{
+  position:relative; overflow:hidden; border-radius:var(--r-lg); padding:30px 32px; margin-bottom:24px;
+  background:radial-gradient(1200px 340px at 8% -20%, color-mix(in srgb,var(--brand) 22%, transparent), transparent 60%),
+             radial-gradient(900px 320px at 100% 0%, color-mix(in srgb,var(--teal) 20%, transparent), transparent 55%),
+             var(--panel);
+  border:1px solid var(--line); box-shadow:var(--shadow-lg);
+}
+.hero .eyebrow{display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:13px}
+.chip{
+  font-size:11px; font-weight:800; letter-spacing:.03em; padding:3.5px 10px; border-radius:999px;
+  background:var(--bg-soft); color:var(--ink-soft); border:1px solid var(--line);
+}
+.chip.brand{background:var(--brand-soft); color:var(--brand-ink); border-color:color-mix(in srgb,var(--brand) 26%, transparent)}
+.chip.green{background:var(--green-soft); color:var(--green); border-color:color-mix(in srgb,var(--green) 25%, transparent)}
+.chip.amber{background:var(--amber-soft); color:var(--amber); border-color:color-mix(in srgb,var(--amber) 30%, transparent)}
+.chip.rose{background:var(--rose-soft); color:var(--rose); border-color:color-mix(in srgb,var(--rose) 26%, transparent)}
+.chip.teal{background:var(--teal-soft); color:var(--teal); border-color:color-mix(in srgb,var(--teal) 26%, transparent)}
+.hero h1{font-size:clamp(22px,2.5vw,32px); letter-spacing:-.02em; margin-bottom:8px}
+.hero h1 .sub{display:block; font-size:14.5px; font-weight:700; color:var(--ink-mute); letter-spacing:0; margin-top:8px}
+.hero p{color:var(--ink-soft); font-size:14.5px; max-width:78ch}
+.meta-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:10px; margin-top:20px}
+.meta{background:var(--panel-2); border:1px solid var(--line-soft); border-radius:11px; padding:9px 12px}
+.meta .k{font-size:10px; text-transform:uppercase; letter-spacing:.1em; color:var(--ink-mute); font-weight:800}
+.meta .v{font-size:13px; font-weight:700; color:var(--ink); margin-top:2px}
+.hero-cta{display:flex; flex-wrap:wrap; gap:9px; margin-top:20px}
+.btn{
+  display:inline-flex; align-items:center; gap:8px; height:38px; padding:0 15px; border-radius:10px; cursor:pointer;
+  font:inherit; font-size:13px; font-weight:800; text-decoration:none; border:1px solid var(--line);
+  background:var(--panel); color:var(--ink); transition:transform .12s, box-shadow .12s, background .12s;
+}
+.btn:hover{transform:translateY(-1px); box-shadow:var(--shadow)}
+.btn.primary{background:linear-gradient(160deg,var(--brand),var(--brand-ink)); color:#fff; border-color:transparent}
+.btn.ghost{background:transparent}
+.btn svg{width:15px;height:15px}
+
+/* notice */
+.notice{
+  display:flex; gap:12px; padding:14px 16px; border-radius:var(--r); margin:0 0 22px;
+  background:var(--amber-soft); border:1px solid color-mix(in srgb,var(--amber) 30%, transparent);
+  color:color-mix(in srgb,var(--amber) 78%, var(--ink)); font-size:13px; line-height:1.7;
+}
+.notice .ico{flex:0 0 auto; width:22px;height:22px; border-radius:50%; display:grid; place-items:center;
+  background:color-mix(in srgb,var(--amber) 20%, transparent); color:var(--amber); font-weight:900; font-size:13px}
+.notice b{color:var(--amber)}
+
+/* section */
+.sec{
+  background:var(--panel); border:1px solid var(--line); border-radius:var(--r-lg);
+  padding:26px 28px 24px; margin-bottom:20px; box-shadow:var(--shadow); scroll-margin-top:90px;
+}
+.sec-head{display:flex; gap:14px; align-items:flex-start; margin-bottom:6px}
+.sec-num{
+  flex:0 0 auto; width:38px;height:38px; border-radius:11px; display:grid; place-items:center;
+  background:var(--brand-soft); color:var(--brand-ink); font-family:var(--mono); font-size:13px; font-weight:800;
+  border:1px solid color-mix(in srgb,var(--brand) 20%, transparent);
+}
+.sec-head h2{font-size:clamp(18px,2vw,22.5px); letter-spacing:-.015em}
+.sec-head h2 .en{display:block; font-size:11.5px; font-weight:700; color:var(--ink-mute); letter-spacing:.02em; text-transform:uppercase; margin-top:3px}
+.markdone{
+  margin-left:auto; flex:0 0 auto; display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  height:32px; padding:0 11px; border-radius:9px; border:1px solid var(--line); background:var(--panel-2);
+  color:var(--ink-mute); font:inherit; font-size:11.5px; font-weight:800; white-space:nowrap; transition:.14s;
+}
+.markdone:hover{color:var(--ink); border-color:color-mix(in srgb,var(--green) 45%, var(--line))}
+.markdone .box{width:15px;height:15px;border-radius:4.5px;border:1.6px solid currentColor; display:grid;place-items:center}
+.markdone .box svg{width:11px;height:11px; opacity:0; color:#fff}
+.markdone[aria-pressed="true"]{background:var(--green-soft); color:var(--green); border-color:color-mix(in srgb,var(--green) 40%, transparent)}
+.markdone[aria-pressed="true"] .box{background:var(--green); border-color:var(--green)}
+.markdone[aria-pressed="true"] .box svg{opacity:1}
+.sec-body{font-size:15.2px; color:var(--ink-soft)}
+.sec-body > *:first-child{margin-top:0}
+.lead{font-size:15.5px; color:var(--ink-soft)}
+h3.sub{font-size:15.5px; color:var(--ink); margin:22px 0 8px; display:flex; align-items:center; gap:8px}
+h3.sub::before{content:""; width:4px; height:15px; border-radius:3px; background:var(--brand); display:inline-block}
+h4.mini{font-size:13.5px; color:var(--ink); margin:16px 0 5px; letter-spacing:.01em}
+
+/* lists */
+ul.clean,ol.clean{margin:.5em 0; padding-left:1.25em}
+ul.clean li,ol.clean li{margin:.32em 0; padding-left:.15em}
+ul.clean li::marker{color:var(--brand)}
+ol.clean li::marker{color:var(--brand); font-weight:800; font-family:var(--mono); font-size:.9em}
+ul.tight li{margin:.16em 0}
+.hl{background:linear-gradient(transparent 58%, color-mix(in srgb,var(--amber) 55%, transparent) 0); font-weight:800; color:var(--ink); padding:0 1px}
+.kw{font-weight:800; color:var(--brand-ink)}
+.en-term{font-weight:700; color:var(--teal); font-size:.95em}
+
+/* callouts */
+.call{
+  display:grid; grid-template-columns:26px minmax(0,1fr); gap:11px; align-items:start;
+  border-radius:12px; padding:12px 14px; margin:14px 0; font-size:14px; line-height:1.75;
+  border:1px solid var(--line); background:var(--panel-2); color:var(--ink-soft);
+}
+.call .ci{width:24px;height:24px;border-radius:8px; display:grid; place-items:center; font-size:13px; font-weight:900}
+.call .ct{font-size:10.5px; font-weight:900; letter-spacing:.09em; text-transform:uppercase; display:block; margin-bottom:3px}
+.call.pointer{background:var(--brand-soft); border-color:color-mix(in srgb,var(--brand) 25%, transparent)}
+.call.pointer .ci{background:color-mix(in srgb,var(--brand) 18%, transparent); color:var(--brand-ink)}
+.call.pointer .ct{color:var(--brand-ink)}
+.call.pyq{background:var(--green-soft); border-color:color-mix(in srgb,var(--green) 26%, transparent)}
+.call.pyq .ci{background:color-mix(in srgb,var(--green) 16%, transparent); color:var(--green)}
+.call.pyq .ct{color:var(--green)}
+.call.trap{background:var(--rose-soft); border-color:color-mix(in srgb,var(--rose) 26%, transparent)}
+.call.trap .ci{background:color-mix(in srgb,var(--rose) 15%, transparent); color:var(--rose)}
+.call.trap .ct{color:var(--rose)}
+.call.def{background:var(--teal-soft); border-color:color-mix(in srgb,var(--teal) 26%, transparent)}
+.call.def .ci{background:color-mix(in srgb,var(--teal) 16%, transparent); color:var(--teal)}
+.call.def .ct{color:var(--teal)}
+.call.mem{background:var(--violet-soft); border-color:color-mix(in srgb,var(--violet) 24%, transparent)}
+.call.mem .ci{background:color-mix(in srgb,var(--violet) 15%, transparent); color:var(--violet)}
+.call.mem .ct{color:var(--violet)}
+.call.fix{background:var(--amber-soft); border-color:color-mix(in srgb,var(--amber) 30%, transparent)}
+.call.fix .ci{background:color-mix(in srgb,var(--amber) 18%, transparent); color:var(--amber)}
+.call.fix .ct{color:var(--amber)}
+
+/* table */
+.tablewrap{overflow:auto; margin:16px 0; border:1px solid var(--line); border-radius:12px}
+table{border-collapse:collapse; width:100%; font-size:13.3px; min-width:560px; background:var(--panel)}
+thead th{
+  background:var(--bg-soft); text-align:left; padding:10px 13px; font-size:11.5px; letter-spacing:.05em;
+  text-transform:uppercase; color:var(--ink-soft); font-weight:900; border-bottom:1px solid var(--line);
+  position:sticky; top:0; white-space:nowrap;
+}
+tbody td{padding:10px 13px; border-bottom:1px solid var(--line-soft); vertical-align:top; color:var(--ink-soft); line-height:1.65}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover td{background:var(--panel-2)}
+tbody td b{color:var(--ink)}
+td .mini-chip{display:inline-block; font-family:var(--mono); font-size:10.5px; font-weight:700; padding:1px 7px; border-radius:6px;
+  background:var(--brand-soft); color:var(--brand-ink); margin-right:5px}
+td.year{font-family:var(--mono); font-weight:800; color:var(--brand-ink); white-space:nowrap}
+
+/* key-value fact rows */
+.kv{display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:10px; margin:14px 0}
+.kv .item{background:var(--panel-2); border:1px solid var(--line-soft); border-left:3px solid var(--brand); border-radius:10px; padding:10px 12px}
+.kv .item .k{font-size:10.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-mute); font-weight:800}
+.kv .item .v{font-size:13.6px; font-weight:700; color:var(--ink); margin-top:2px; line-height:1.55}
+
+/* stat */
+.stats{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:16px 0}
+.stat{background:linear-gradient(160deg,var(--panel-2),var(--panel)); border:1px solid var(--line); border-radius:13px; padding:13px 14px; position:relative; overflow:hidden}
+.stat::after{content:""; position:absolute; inset:auto -20px -30px auto; width:70px; height:70px; border-radius:50%; background:color-mix(in srgb,var(--brand) 10%, transparent)}
+.stat .v{font-size:23px; font-weight:900; letter-spacing:-.02em; color:var(--ink); font-family:var(--mono)}
+.stat .k{font-size:11.5px; color:var(--ink-mute); font-weight:700; margin-top:2px; line-height:1.5}
+
+/* flashcards */
+.fc-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(168px,1fr)); gap:11px; margin:16px 0}
+.fc{perspective:900px; height:118px; cursor:pointer; background:none; border:0; padding:0; font:inherit; text-align:left}
+.fc-in{position:relative; width:100%; height:100%; transition:transform .5s cubic-bezier(.4,.1,.2,1); transform-style:preserve-3d}
+.fc.flipped .fc-in{transform:rotateY(180deg)}
+.fc-face{
+  position:absolute; inset:0; border-radius:12px; padding:11px 12px; display:flex; flex-direction:column; justify-content:center;
+  backface-visibility:hidden; border:1px solid var(--line); box-shadow:var(--shadow);
+  background:linear-gradient(155deg,var(--panel-2),var(--panel));
+}
+.fc-face .top{font-family:var(--mono); font-size:10px; font-weight:800; color:var(--brand); letter-spacing:.04em; margin-bottom:4px}
+.fc-face .mid{font-size:13.5px; font-weight:800; color:var(--ink); line-height:1.5}
+.fc-face .tiny{font-size:10.5px; color:var(--ink-mute); margin-top:4px; font-weight:600}
+.fc-back{transform:rotateY(180deg); background:linear-gradient(155deg,var(--brand-soft),var(--panel)); border-color:color-mix(in srgb,var(--brand) 30%, transparent)}
+.fc-back .mid{color:var(--brand-ink); font-size:13px}
+.fc:focus-visible{outline-offset:3px}
+.fc-hint{font-size:12px; color:var(--ink-mute); margin:6px 0 0}
+
+/* quiz */
+.quiz{margin-top:6px}
+.q{background:var(--panel-2); border:1px solid var(--line); border-radius:13px; padding:15px 16px; margin:12px 0}
+.q-h{display:flex; gap:10px; align-items:flex-start; font-size:14.4px; font-weight:700; color:var(--ink); line-height:1.7}
+.q-n{flex:0 0 auto; font-family:var(--mono); font-size:11px; font-weight:800; background:var(--brand-soft); color:var(--brand-ink);
+  padding:2px 7px; border-radius:6px; margin-top:3px}
+.opts{display:grid; gap:7px; margin-top:11px}
+.opt{
+  display:flex; gap:9px; align-items:flex-start; text-align:left; padding:9px 12px; border-radius:10px; cursor:pointer;
+  background:var(--panel); border:1px solid var(--line); color:var(--ink-soft); font:inherit; font-size:13.6px; line-height:1.6;
+  transition:.14s;
+}
+.opt:hover{border-color:color-mix(in srgb,var(--brand) 42%, var(--line)); color:var(--ink); transform:translateX(2px)}
+.opt .ol{flex:0 0 auto; width:19px;height:19px;border-radius:50%; border:1.6px solid var(--line); display:grid; place-items:center;
+  font-family:var(--mono); font-size:10.5px; font-weight:800; color:var(--ink-mute); margin-top:2px}
+.opt.correct{background:var(--green-soft); border-color:var(--green); color:var(--green); font-weight:700}
+.opt.correct .ol{background:var(--green); border-color:var(--green); color:#fff}
+.opt.wrong{background:var(--rose-soft); border-color:var(--rose); color:var(--rose)}
+.opt.wrong .ol{background:var(--rose); border-color:var(--rose); color:#fff}
+.opt[disabled]{cursor:default; transform:none}
+.exp{margin-top:10px; font-size:13px; line-height:1.75; color:var(--ink-soft); background:var(--panel);
+  border-left:3px solid var(--brand); border-radius:0 9px 9px 0; padding:9px 12px; display:none}
+.exp.show{display:block}
+.exp b{color:var(--brand-ink)}
+.quiz-bar{display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin:16px 0 4px;
+  background:var(--panel-2); border:1px solid var(--line); border-radius:12px; padding:11px 14px}
+.score{font-size:13.5px; font-weight:800; color:var(--ink)}
+.score b{font-family:var(--mono); color:var(--brand-ink); font-size:15px}
+.quiz-bar .note{font-size:12px; color:var(--ink-mute)}
+
+/* fact sheet */
+.facts{display:grid; gap:8px; margin:16px 0}
+.fact{display:grid; grid-template-columns:auto minmax(0,1fr); gap:12px; align-items:baseline;
+  background:var(--panel-2); border:1px solid var(--line-soft); border-radius:10px; padding:9px 12px; font-size:13.6px}
+.fact .tag{font-family:var(--mono); font-size:10.5px; font-weight:800; color:var(--brand-ink); background:var(--brand-soft);
+  padding:2px 7px; border-radius:6px; white-space:nowrap}
+.fact .txt{color:var(--ink-soft)}
+.fact .txt b{color:var(--ink)}
+
+/* next batch */
+.next{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:12px; margin-top:14px}
+.nextcard{background:var(--panel-2); border:1px dashed var(--line); border-radius:12px; padding:13px 15px}
+.nextcard .h{font-size:13px; font-weight:800; color:var(--ink); display:flex; gap:8px; align-items:center}
+.nextcard .h .n{font-family:var(--mono); font-size:10px; background:var(--bg-soft); border:1px solid var(--line); color:var(--ink-mute); padding:1px 6px; border-radius:5px}
+.nextcard p{font-size:12.3px; color:var(--ink-mute); margin:5px 0 0; line-height:1.65}
+
+/* misc */
+.toTop{position:fixed; right:20px; bottom:20px; width:42px;height:42px; border-radius:12px; display:grid; place-items:center;
+  background:var(--panel); border:1px solid var(--line); color:var(--ink-soft); cursor:pointer; box-shadow:var(--shadow-lg);
+  opacity:0; pointer-events:none; transition:.2s; z-index:50}
+.toTop.show{opacity:1; pointer-events:auto}
+.footer{max-width:var(--maxw); margin:0 auto; padding:0 20px 40px; color:var(--ink-mute); font-size:12px; line-height:1.8}
+.footer b{color:var(--ink-soft)}
+mark{background:color-mix(in srgb,var(--amber) 60%, transparent); color:var(--ink); border-radius:3px; padding:0 1px}
+.hidden{display:none !important}
+.noresult{display:none; padding:26px; text-align:center; color:var(--ink-mute); background:var(--panel); border:1px dashed var(--line); border-radius:var(--r); font-size:14px}
+.noresult.show{display:block}
+hr.sep{border:0; border-top:1px dashed var(--line); margin:22px 0}
+
+/* responsive */
+@media (max-width:1080px){
+  .shell{grid-template-columns:1fr; padding-top:18px}
+  .side{position:static; max-height:none; order:2; padding-right:0}
+  .main{order:1}
+  .toc{display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+}
+@media (max-width:720px){
+  .topbar-in{flex-wrap:wrap; gap:10px; padding:9px 14px}
+  .searchwrap{order:3; flex-basis:100%; max-width:none}
+  .shell{padding:14px 12px 70px; gap:18px}
+  .hero{padding:22px 18px}
+  .sec{padding:20px 16px}
+  .sec-head{flex-wrap:wrap}
+  .markdone{margin-left:0; order:3}
+  .brand-text .s{display:none}
+}
+@media print{
+  .topbar,.side,.toTop,.hero-cta,.markdone,.quiz-bar,.fc-hint,.noresult{display:none !important}
+  body{background:#fff; font-size:11.5pt}
+  .shell{display:block; padding:0}
+  .sec,.hero{box-shadow:none; border:1px solid #ccc; break-inside:avoid; page-break-inside:avoid; margin-bottom:10px}
+  .fc{height:auto} .fc-in{transform:none !important}
+  .fc-back{position:static; transform:none; display:block; margin-top:4px}
+  .fc-face{position:static; box-shadow:none; backface-visibility:visible}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+ <div class="topbar-in">
+  <div class="brandmark">
+   <div class="logo">IE</div>
+   <div class="brand-text">
+    <div class="t">Indian Economy One Shot 2026</div>
+    <div class="s">PCS INSIGHTS · UPPCS 2026 / BPSC 72nd</div>
+   </div>
+  </div>
+  <span class="batch-pill">BATCH 1 / 9 · HINGLISH</span>
+  <div class="spacer"></div>
+  <div class="searchwrap">
+   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+   <input id="search" type="search" placeholder="is batch mein khojein… (jaise: SDG, Keynes, 1991)" autocomplete="off" aria-label="khojein">
+   <span class="kbd">/</span>
+  </div>
+  <button class="tool" id="themeBtn" type="button" title="theme badlein (Shift + D)" aria-label="theme badlein">
+   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+   <span id="themeLabel">dark</span>
+  </button>
+  <button class="tool" id="printBtn" type="button" title="print / PDF">
+   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4v-7h16v7h-2M8 14h8v7H8z"/></svg>
+   PDF
+  </button>
+ </div>
+ <div class="progressline"><i id="scrollProg"></i></div>
+</div>
+
+<div class="shell">
+ <!-- ================= SIDEBAR ================= -->
+ <aside class="side">
+  <div class="side-card">
+   <div class="side-progress">
+    <div class="ring" id="ring" aria-hidden="true"><span id="ringTxt">0%</span></div>
+    <div class="lbl"><b id="doneCount">0 / 10 adhyay</b> padhe gaye ke roop mein chinhit</div>
+   </div>
+  </div>
+  <div class="side-card">
+   <p class="side-h">batch 1 · anukramanika</p>
+   <nav aria-label="anukramanika">
+    <ul class="toc" id="toc">
+     <li><a href="#s1"><span class="n">01</span><span>parichay aur roadmap</span><span class="dot"></span></a></li>
+     <li><a href="#s2"><span class="n">02</span><span>economy kya hai?</span><span class="dot"></span></a></li>
+     <li><a href="#s3"><span class="n">03</span><span>janak: economics aur macro</span><span class="dot"></span></a></li>
+     <li><a href="#s4"><span class="n">04</span><span>economy ke prakaar</span><span class="dot"></span></a></li>
+     <li><a href="#s5"><span class="n">05</span><span>developed / developing / underdeveloped</span><span class="dot"></span></a></li>
+     <li><a href="#s6"><span class="n">06</span><span>Bharatiya economy ki visheshtayein</span><span class="dot"></span></a></li>
+     <li><a href="#s7"><span class="n">07</span><span>1991 NEP aur LPG</span><span class="dot"></span></a></li>
+     <li><a href="#s8"><span class="n">08</span><span>sustainable development aur SDG</span><span class="dot"></span></a></li>
+     <li><a href="#s9"><span class="n">09</span><span>human capital aur inclusive growth</span><span class="dot"></span></a></li>
+     <li><a href="#s10"><span class="n">10</span><span>fact sheet (revision)</span><span class="dot"></span></a></li>
+     <li><a href="#s11"><span class="n">11</span><span>flashcard · SDG kahani</span><span class="dot"></span></a></li>
+     <li><a href="#s12"><span class="n">12</span><span>abhyas sawaal (14 MCQ)</span><span class="dot"></span></a></li>
+    </ul>
+   </nav>
+  </div>
+  <div class="side-card">
+   <p class="side-h">poori lecture series</p>
+   <ul class="chapterlist">
+    <li><span class="now">› batch 1</span><span>mool baatein · sustainable development</span></li>
+    <li><span class="tag">02</span><span>yojana aur panchvarshiya yojanayein</span></li>
+    <li><span class="tag">03</span><span>rashtriya aay aur GDP</span></li>
+    <li><span class="tag">04</span><span>garibi aur berozgari</span></li>
+    <li><span class="tag">05</span><span>banking aur RBI</span></li>
+    <li><span class="tag">06</span><span>mahangai (Inflation)</span></li>
+    <li><span class="tag">07</span><span>budget, kar aur GST</span></li>
+    <li><span class="tag">08</span><span>krishi, udyog, yojanayein</span></li>
+    <li><span class="tag">09</span><span>BoP · PYQ aur MCQ set</span></li>
+   </ul>
+  </div>
+ </aside>
+
+ <!-- ================= MAIN ================= -->
+ <main class="main">
+  <section class="hero" id="top">
+   <div class="eyebrow">
+    <span class="chip brand">interactive study module</span>
+    <span class="chip green">batch 1 / 9</span>
+        <span class="chip brand">Hinglish · Roman script</span>
+    <span class="chip">Hinglish + English terms</span>
+    <span class="chip amber">pariksha-kendrit</span>
+   </div>
+   <h1>economy ki mool baatein, prakaar, Bharatiya economy, 1991 LPG aur sustainable development
+    <span class="sub">Basics of Indian Economy · Types of Economy · 1991 New Economic Policy · Sustainable Development &amp; SDG</span>
+   </h1>
+   <p>ye batch video ke prarambh se lekar pehle chapter ke ant tak ka <b>granular, note-form content</b> hai — har paribhasha, har varsh, har kitaab-lekhak, har samanya-bhool (trap) alag se chinhit. neeche fact sheet, SDG flashcard aur 12 sawaalon ka test bhi hai.</p>
+   <div class="meta-grid">
+    <div class="meta"><div class="k">video</div><div class="v">3:28:12 · One Shot</div></div>
+    <div class="meta"><div class="k">channel</div><div class="v">PCS INSIGHTS</div></div>
+    <div class="meta"><div class="k">batch ki seema</div><div class="v">chapter 1 (poora)</div></div>
+    <div class="meta"><div class="k">source</div><div class="v">Lucent · NCERT · Ghatna Chakra</div></div>
+   </div>
+   <div class="hero-cta">
+    <a class="btn primary" href="#s2">padhna shuru karein
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+    <a class="btn ghost" href="#s10">fact sheet par jaayein</a>
+    <a class="btn ghost" href="#s12">seedhe test dein</a>
+    <a class="btn ghost" href="batch-01-text-hinglish.html" target="_blank" rel="noopener">poora text (verbatim) ↗</a>
+   </div>
+  </section>
+
+  <div class="notice">
+   <span class="ico">!</span>
+   <div><b>pardarshita note:</b> ye module video ke <b>auto-transcript</b> par aadharit hai (Hindi, ASR se). jahan transcript mein shabd ya fact spasht roop se galat sunai diye, wahan <span class="chip fix-chip" style="background:var(--amber-soft);color:var(--amber);border:1px solid var(--line)">sudhaar</span> chinh se sahi jankari di gayi hai — pariksha mein wahi likhein. bole gaye aankde (jaise 18% / 45%) lecture ke anusar diye hain. <b>Ye city-Hinglish (Roman script) edition hai</b>; Devanagari version <a href="batch-01-interactive.html">batch-01-interactive.html</a> mein hai.</div>
+  </div>
+  <!-- ============ S1 ============ -->
+  <section class="sec" id="s1" data-sec="s1">
+   <div class="sec-head">
+    <div class="sec-num">01</div>
+    <h2>parichay aur roadmap<span class="en">Intro &amp; scope of the lecture</span></h2>
+    <button class="markdone" data-done="s1" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p class="lead">ye video <b>poori Bharatiya economy</b> ka one-shot revision hai — UPPCS 2026, BPSC 72nd aur anya State PCS ke liye. source: <b>Lucent + NCERT + Ghatna Chakra</b>.</p>
+    <ul class="clean">
+     <li><b>cover hone wale topic:</b> mool avdharnayein → rashtriya aay/GDP → vriddhi aur vikas → yojana aur panchvarshiya yojanayein → NITI Aayog → garibi aur berozgari → banking → RBI aur maudrik neeti → mahangai → budget aur economic Survey → kar aur GST → krishi-udyog → avsanrachna aur sudhaar → sarkari yojanayein → PYQ + apekshit MCQ.</li>
+     <li><b>notes/PDF:</b> lecture mein Telegram channel <span class="mono">PCS INSIGHTS 001</span> ka zikr — video-aadharit notes baad mein uplabdh karaye jaayenge (ye prashasnik soochna hai, pariksha-fact nahi).</li>
+     <li>lecture ka dawa: ye “shortcut” nahi, balki <b>lagbhag poorn coverage</b> hai — isliye notes ko topic-wise, fact-wise padhein.</li>
+    </ul>
+    <div class="call pointer">
+     <span class="ci">i</span>
+     <div><span class="ct">is batch mein kya</span>batch 1 = video ka <b>pehla chapter</b>: economy ki paribhasha aur prakaar, Bharat = developing/mishrit, 1991 LPG, sustainable development, SDG-17, human capital, inclusive growth. <b>yojana (Planning) se batch 2 shuru hoga.</b></div>
+    </div>
+   </div>
+  </section>
+
+  <!-- ============ S2 ============ -->
+  <section class="sec" id="s2" data-sec="s2">
+   <div class="sec-head">
+    <div class="sec-num">02</div>
+    <h2>economy kya hai?<span class="en">What is an economy · scarcity &amp; choice</span></h2>
+    <button class="markdone" data-done="s2" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">paribhasha</span><b>economy</b> ek aisa <b>system</b> hai jismein desh <b>utpadan (produce)</b>, <b>vitaran (distribute)</b> aur <b>upbhog (consume)</b> — teeno kaarya vastuon aur sevaon (goods &amp; services) ka karta hai.</div>
+    </div>
+    <p>economy ki avdharna ka mool <b>simit sansadhan (limited resources)</b> arthat <span class="hl">abhav / kami (scarcity)</span> hai — kyunki sansadhan simit hain, isliye tay karna padta hai ki <b>kis cheez ko praathmikta</b> di jaaye.</p>
+    <div class="kv">
+     <div class="item"><div class="k">kya utpadan karein</div><div class="v">What to produce</div></div>
+     <div class="item"><div class="k">kaise utpadan karein</div><div class="v">How to produce</div></div>
+     <div class="item"><div class="k">kiske liye utpadan karein</div><div class="v">For whom to produce</div></div>
+    </div>
+    <p>yahi teen sawaal <b>“kendriya samasya (central problem)”</b> hain — inhi ka uttar economy ki sanrachna tay karta hai.</p>
+
+    <h3 class="sub">vargikaran ka aadhar</h3>
+    <p>economy ka vargikaran samanyatah is aadhar par hota hai — <span class="hl">utpadan ke sadhanon ka swamitva (ownership of means of production)</span> evam unmein <b>sarkar ki bhoomika</b>.</p>
+    <ul class="clean">
+     <li><b>utpadan ke sadhan</b> = bhoomi, shram, poonji aur udyam (Land, Labour, Capital, Enterprise).</li>
+     <li>sawaal ye: ye sadhan <b>kiske pass</b> hain — niji vyakti, rajya (State), ya dono?</li>
+     <li>doosra sawaal: sarkar <b>kitni sakriya bhoomika</b> nibhati hai — niyantran/kalyanakari hastakshep ya keval niyam-nirdharan?</li>
+    </ul>
+    <div class="call pointer">
+     <span class="ci">i</span>
+     <div><span class="ct">pariksha sanket</span>“economy kya hai” — ye seedhe sawaal shayad hi aaye, par <b>scarcity → choice → central problems</b> aur <b>ownership-based classification</b> par aadharit sawaal baar-baar bante hain.</div>
+    </div>
+   </div>
+  </section>
+
+  <!-- ============ S3 ============ -->
+  <section class="sec" id="s3" data-sec="s3">
+   <div class="sec-head">
+    <div class="sec-num">03</div>
+    <h2>janak: economics aur macroeconomics<span class="en">Father of Economics · Father of Macroeconomics</span></h2>
+    <button class="markdone" data-done="s3" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <div class="tablewrap">
+     <table>
+      <thead><tr><th>upadhi (Title)</th><th>vyakti</th><th>yaad rakhne ki baat</th></tr></thead>
+      <tbody>
+       <tr><td><b>Father of Economics</b> (economics ke janak)</td><td><b>Adam Smith</b></td><td>kul economics ke janak — yahan “Indian” nahi lagega</td></tr>
+       <tr><td><b>Father of Macroeconomics</b> (samashti economics ke janak)</td><td><b>J. M. Keynes</b></td><td>Keynes naam sunte hi “macro” → yaad rakhein</td></tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="call pyq">
+     <span class="ci">★</span>
+     <div><span class="ct">PYQ — 2024 prarambhik pariksha</span>sawaal mein kathan diya gaya tha: <b>“Adam Smith — Father of Macroeconomics”</b>, jo <b>galat</b> hai. sahi yugm: <b>Adam Smith = Father of Economics</b>, <b>J. M. Keynes = Father of Macroeconomics</b>.</div>
+    </div>
+    <div class="call trap">
+     <span class="ci">!</span>
+     <div><span class="ct">samanya bhool (Trap)</span>video mein “Father of Indian Economy” jaisa zikr bhi sunai deta hai — vastav mein poocha jata hai <b>“Father of Economics”</b>, aur uttar <b>Adam Smith</b> hi hai. “Father of Indian Economics” ke naam par ulajhein nahi — sawaal mein jo upadhi likhi ho, usi se milayein.</div>
+    </div>
+   </div>
+  </section>
+
+  <!-- ============ S4 ============ -->
+  <section class="sec" id="s4" data-sec="s4">
+   <div class="sec-head">
+    <div class="sec-num">04</div>
+    <h2>economy ke prakaar<span class="en">Capitalist · Socialist · Mixed · Gandhian</span></h2>
+    <button class="markdone" data-done="s4" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p class="lead">kram yaad rakhein: <b>poonjivadi → samajvadi → mishrit → Gandhivadi/samajvadi</b>. pehle teen “swamitva” ke aadhar par, chautha “decentralisation” ke aadhar par.</p>
+
+    <h3 class="sub">1. poonjivadi economy (Capitalist Economy)</h3>
+    <ul class="clean">
+     <li>utpadan ke sadhan <b>niji swamitva</b> mein — badi companies ke pass.</li>
+     <li><b>labh-unmukh (profit oriented)</b> model; bazaar ki shaktiyan (market forces) keemat tay karti hain.</li>
+     <li>sarkar ki bhoomika <b>nyoonatam/nishkriya</b> — mahangai niyantran jaise sakriya hastakshep nahi.</li>
+     <li>udaharan: <b>USA</b>.</li>
+    </ul>
+
+    <h3 class="sub">2. samajvadi economy (Socialist Economy)</h3>
+    <ul class="clean">
+     <li>sadhanon par <b>rajya (State) ka swamitva</b>; economic shakti <b>centralised (centralized)</b>.</li>
+     <li>economic nirnay <b>jan-kalyan</b> ke liye — munafa sarvopari nahi.</li>
+     <li>udaharan: yadi bazaar mein vastuein itni mahangi ho jaayein ki garib varg khareed na sake, to <b>sarkar hastakshep kar sasta/sulabh banati hai</b> — yahi samajvadi vyavastha ki pehchan.</li>
+    </ul>
+
+    <h3 class="sub">3. mishrit economy (Mixed Economy)</h3>
+    <ul class="clean">
+     <li>poonjivad + samajvad ka mel — <b>niji (private) aur sarvajanik (public) dono kshetra saath-saath</b>.</li>
+     <li><b>Bharat mishrit economy ka udaharan hai</b> — ek or Tata, Ambani jaisi niji companies; doosri or PSU (sarvajanik kshetra).</li>
+     <li>saath hi kalyanakari (samajvadi) tatva: <b>rashtriya khadya suraksha adhiniyam (NFSA)</b> ke antargat lagbhag <b>80 crore</b> logon ko <b>riyayati dar (subsidised rate)</b> par khadyann.</li>
+     <li>sarvajanik kshetra ka sanchalan <b>rajya</b> karta hai, niji kshetra ka <b>vyakti/niji nikay</b>.</li>
+    </ul>
+    <div class="call trap">
+     <span class="ci">!</span>
+     <div><span class="ct">Trap — “State” ka arth</span>yahan “State” ka matlab <b>Haryana/Punjab/UP jaisa rajya nahi</b>, balki <b>sanvidhan ke Article 12</b> mein paribhashit “rajya” hai — jismein sarkar, karyapalika, vidhayika aadi aate hain.</div>
+    </div>
+
+    <h3 class="sub">4. Gandhivadi samajvad (Gandhian Socialism)</h3>
+    <ul class="clean">
+     <li>aadhar: <b>utpadak sansadhanon ka decentralisation (decentralization of productive resources)</b> — sansadhan janata mein bante jaayein, kuch logon mein kendrit na hon.</li>
+     <li>jor <b>swarozgar (self-employment)</b>, <b>aatmanirbharta (self-reliance)</b> aur sthaniya/gram-stariy utpadan par.</li>
+     <li>vyavaharik sanket: pichhle kuch varshon mein sarkar ka <b>aatmanirbharta</b> par focus isi vichar ki pratidhvani hai (jaise atmanirbhar Bharat).</li>
+    </ul>
+
+    <h3 class="sub">tulna sarni — ek nazar mein</h3>
+    <div class="tablewrap">
+     <table>
+      <thead><tr><th>bindu</th><th>poonjivadi</th><th>samajvadi</th><th>mishrit</th><th>Gandhivadi</th></tr></thead>
+      <tbody>
+       <tr><td><b>swamitva</b></td><td>niji</td><td>rajya</td><td>niji + rajya</td><td>vikendrit/jan</td></tr>
+       <tr><td><b>uddeshya</b></td><td>labh</td><td>jan-kalyan</td><td>labh + kalyan</td><td>aatmanirbharta</td></tr>
+       <tr><td><b>sarkar ki bhoomika</b></td><td>nyoonatam</td><td>kendriya/niyantrak</td><td>niyamak + udyami</td><td>sahayak, vikendrikrit</td></tr>
+       <tr><td><b>udaharan</b></td><td>USA</td><td>poorv Soviet sangh (aitihasik)</td><td><b>Bharat</b></td><td>Gandhi ka gram-svaraj model</td></tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="call mem">
+     <span class="ci">✦</span>
+     <div><span class="ct">yaad rakhne ki trick</span><b>“swamitva dekho, sarkar ki bhoomika dekho”</b> — niji+nyoonatam sarkar = poonjivad; rajya+adhikatam sarkar = samajvad; dono = mishrit; bikhara hua/sthaniya = Gandhivadi.</div>
+    </div>
+   </div>
+  </section>
+  <!-- ============ S5 ============ -->
+  <section class="sec" id="s5" data-sec="s5">
+   <div class="sec-head">
+    <div class="sec-num">05</div>
+    <h2>developed · developing · underdeveloped<span class="en">Developed · Developing · Underdeveloped economies</span></h2>
+    <button class="markdone" data-done="s5" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <div class="stats">
+     <div class="stat"><div class="v">Bharat</div><div class="k">developing — developed nahi</div></div>
+     <div class="stat"><div class="v">USA, France</div><div class="k">developed ke udaharan</div></div>
+     <div class="stat"><div class="v">sv-ghoshna</div><div class="k">darja tay karne ka aadhar</div></div>
+    </div>
+    <p><b>Bharat developing economy hai</b> — “developed” nahi. developed = USA, France jaise desh; Bharat abhi <b>vikas ki prakriya mein</b> hai. Bharat mein underdeveloped economy ke bhi kuch lakshan maujud hain, par sawaal mein vikalp diye hon to uttar <b>developing</b> hi hoga.</p>
+
+    <h3 class="sub">darja kaun deta hai? — Self-declaration</h3>
+    <ul class="clean">
+     <li>koi desh “developed” ya “developing” hai — ye <b>atm-ghoshna (self-declaration)</b> se tay hota hai; koi bahri pramanapatr anivary nahi.</li>
+     <li><b>labh:</b> swayan ko developing ghoshit karne par kuch <b>atirikt suvidhaen/chhoot</b> milti hain — jaise lakshya prapti ke liye <b>zyada samay (deadline mein chhoot)</b>: developed deshon ke liye 2050 to developing ke liye 2070 jaisi avadhi.</li>
+    </ul>
+    <div class="call fix">
+     <span class="ci">✎</span>
+     <div><span class="ct">sudhaar / sateekta</span>video mein ye “2050 banam 2070” ka udaharan samanya roop se diya gaya hai (kisi vishesh sandhi ka ullekh nahi). pariksha mein ise <b>“avadhi/lakshya mein chhoot”</b> ke udaharan ke roop mein hi likhein, kisi sandhi-vishesh ka dawa na karein.</div>
+    </div>
+
+    <h3 class="sub">underdeveloped economy ke lakshan (Features of Underdeveloped Economy)</h3>
+    <div class="tablewrap">
+     <table>
+      <thead><tr><th>lakshan</th><th>spashtikaran</th></tr></thead>
+      <tbody>
+       <tr><td><b>jeevan-star nimn</b></td><td>Standard of living = kaise rehte hain, kya khaate hain, kahan rehte hain, kaisa paani/hawa milti hai — ye sab nimn star ke.</td></tr>
+       <tr><td><b>utpadakta nimn</b></td><td>Productivity kam → aay kam → per capita income bhi kam.</td></tr>
+       <tr><td><b>jansankhya vriddhi tivr</b></td><td>shiksha/jagarukta kam → <b>parivar niyojan (family planning)</b> ka abhav → uchch jansankhya vriddhi.</td></tr>
+       <tr><td><b>berozgari uchch</b></td><td>uchch berozgari + <b>alp-rozgar (underemployment)</b>.</td></tr>
+       <tr><td><b>krishi ka prabhutv</b></td><td>krishi (primary) kshetra ka dabadaba jitna zyada, economy utni <b>pichhadi/underdeveloped</b>; tertiary (seva) aur manufacturing ka hissa jitna zyada, utni <b>unnat</b>.</td></tr>
+       <tr><td><b>poonji nirman nimn</b></td><td>kamaya aur kha liya, nivesh nahi kiya. <b>Capital formation</b> = machines/punjigat vastuon mein nivesh.</td></tr>
+       <tr><td><b>aay asamanta</b></td><td>Income inequality spasht dikhati hai.</td></tr>
+       <tr><td><b>nirbharta anupaat uchch</b></td><td>Dependency ratio uncha; karyashil jansankhya (workforce) mukhyatah <b>prathamik/krishi</b> kshetra mein.</td></tr>
+      </tbody>
+     </table>
+    </div>
+
+    <h3 class="sub">developing economy ke lakshan (Features of Developing Economy)</h3>
+    <ul class="clean">
+     <li><b>vyavsay mukhyatah krishi</b> — par GDP mein yogdan kam, nirbharta zyada.</li>
+     <li><b>prachhann berozgari (Disguised unemployment)</b> — ek vyakti ka kaam chaar log kar rahe hain; teen hata dein to bhi utpadan par fark nahi.</li>
+     <li><b>human capital ki nimn gunavatta</b> — kaushal, shiksha aur swasthya ka abhav.</li>
+     <li><b>audyogik aur takniki pichhadapan</b>, <b>mishrit economy</b>, <b>aayat par zyada nirbharta</b> (aayat &gt; niryaat), <b>nirakshatra</b>.</li>
+    </ul>
+    <div class="call fix">
+     <span class="ci">✎</span>
+     <div><span class="ct">sudhaar / sateekta — protein ka bindu</span>lecture mein kaha gaya: “<i>uchch per person protein upalabdhata developed economy ka lakshan hai</i>”. video mein ise “developing” kaha gaya, jo ulajha hua hai — sahi arth: <b>protein-sanpannata developed deshon ka lakshan</b>; <b>Bharat protein-kami wala desh</b> hai (shakahariyon ki baat to chhodie, mansahari bhi roz zaruri protein nahi le pate).</div>
+    </div>
+    <div class="call trap">
+     <span class="ci">!</span>
+     <div><span class="ct">Trap</span>underdeveloped aur developing ke lakshan <b>lagbhag saman</b> dikhate hain — dono mein bhram na karein. pehchan: sawaal mein <b>“Bharat”</b> poocha jaaye → <b>developing</b>; kisi samanya/saiddhantik economy ki baat ho → underdeveloped ke lakshan chunein.</div>
+    </div>
+   </div>
+  </section>
+
+  <!-- ============ S6 ============ -->
+  <section class="sec" id="s6" data-sec="s6">
+   <div class="sec-head">
+    <div class="sec-num">06</div>
+    <h2>Bharatiya economy ki visheshtayein<span class="en">Characteristics of the Indian economy</span></h2>
+    <button class="markdone" data-done="s6" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p>lecture ke anusar Bharat ki pehchan teen baton se ki jati hai — <span class="hl">krishi ka prabhutv</span>, <span class="hl">nimn per capita income</span>, aur <span class="hl">vyapak berozgari</span>. yahi teen sabse zyada poochhe jate hain.</p>
+    <div class="stats">
+     <div class="stat"><div class="v">~18%</div><div class="k">krishi ka yogdan Bharat ki GDP mein (lecture ke anusar)</div></div>
+     <div class="stat"><div class="v">~45%</div><div class="k">jansankhya krishi par nirbhar — prati 100 mein 45</div></div>
+     <div class="stat"><div class="v">1 = 4</div><div class="k">prachhann berozgari: ek ka kaam, chaar log</div></div>
+    </div>
+    <h3 class="sub">visheshataon ki soochi</h3>
+    <ul class="clean tight">
+     <li>krishi-pradhan economy</li>
+     <li>poonji nirman ki nimn dar</li>
+     <li>atyadhik jansankhya aur jansankhya vriddhi</li>
+     <li>berozgari (visheshatah prachhann aur alp-rozgar)</li>
+     <li>nimn per capita income</li>
+     <li>audyogik pichhadapan (manufacturing kamazor)</li>
+     <li>takniki pichhadapan</li>
+     <li>mishrit economy</li>
+     <li>aayat par zyada nirbharta</li>
+     <li>nirakshatra</li>
+    </ul>
+
+    <h3 class="sub">dushchakra (Vicious circle) — shram utpadakta</h3>
+    <ul class="clean">
+     <li>shram ki <b>utpadakta kam</b> → aay kam.</li>
+     <li>aay kam → na swasthya, na kaushal, na anya nivesh.</li>
+     <li>isliye <b>poonji nirman ki dar bhi nimn</b> — yahi chakra garibi ko doharata hai.</li>
+    </ul>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">jeevan-star ka maap</span>kisi desh ka <b>standard of living</b> uski <b>per capita income</b> se darshaya jata hai — tanakhwah zyada to jeevan-star achha, tanakhwah kam to keval guzara.</div>
+    </div>
+   </div>
+  </section>
+
+  <!-- ============ S7 ============ -->
+  <section class="sec" id="s7" data-sec="s7">
+   <div class="sec-head">
+    <div class="sec-num">07</div>
+    <h2>1991 ki nayi economic neeti aur LPG<span class="en">New Economic Policy 1991 · LPG &amp; second-generation reforms</span></h2>
+    <button class="markdone" data-done="s7" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p><b>1991 ki nayi economic neeti (New Economic Policy, 1991)</b> ki mukhya ranneeti = <span class="hl">LPG</span>.</p>
+    <div class="kv">
+     <div class="item"><div class="k">L</div><div class="v">Liberalisation — udarikaran</div></div>
+     <div class="item"><div class="k">P</div><div class="v">Privatisation — nijikaran</div></div>
+     <div class="item"><div class="k">G</div><div class="v">Globalisation — vaishvikaran</div></div>
+    </div>
+    <h3 class="sub">doosri peedhi ke economic sudhaar (Second Generation Reforms)</h3>
+    <ul class="clean">
+     <li><b>tel kshetra (oil sector)</b> mein sudhaar</li>
+     <li><b>sarvajanik kshetra (public sector) sudhaar</b></li>
+     <li><b>sarkar aur sarvajanik sansthanon ka sudhaar</b> (reform of government &amp; public institutions)</li>
+     <li><b>sustainable development</b></li>
+    </ul>
+    <div class="call pointer">
+     <span class="ci">i</span>
+     <div><span class="ct">pariksha sanket</span>LPG ka <b>poora vistar</b> (kram, tithi 24 julai 1991, bhugatan-santulan sankat aadi) video mein baad mein aayega — is batch mein keval <b>naam aur kram</b> puchhane yogya hai: <b>L → P → G</b>.</div>
+    </div>
+   </div>
+  </section>
+  <!-- ============ S8 ============ -->
+  <section class="sec" id="s8" data-sec="s8">
+   <div class="sec-head">
+    <div class="sec-num">08</div>
+    <h2>sustainable development aur SDG<span class="en">Sustainable Development · Books &amp; years · SDG-17</span></h2>
+    <button class="markdone" data-done="s8" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">paribhasha (yaad honi chahiye)</span><b>sustainable development</b> = sansadhanon ka aisa upyog jismein <b>bhavishya ki peedhiyon ko bhi dhyan mein rakha jaaye</b> — vartaman aavashyaktaayein poori hon, par bhavi peedhiyon ki kshamta khatam na ho.</div>
+    </div>
+
+    <h3 class="sub">kitaabein, report aur varsh — sabse zyada poocha jane wala hissa</h3>
+    <div class="tablewrap">
+     <table>
+      <thead><tr><th>varsh</th><th>naam</th><th>lekhak / sanstha</th><th>yaad rakhein</th></tr></thead>
+      <tbody>
+       <tr><td class="year">1968</td><td><b>The Population Bomb</b></td><td>Paul Ehrlich — jeev vaigyanik</td><td>jansankhya visphot par kitaab</td></tr>
+       <tr><td class="year">1968</td><td><b>The Limits to Growth</b></td><td><b>Club of Rome</b></td><td>30 vyakti, 10 deshon ke vaigyanik-arthashastri-shodhakarta, Rome mein mile</td></tr>
+       <tr><td class="year">1972</td><td><b>Silent Spring</b></td><td><b>Rachel Carson</b></td><td>paryavaran andolan ki adharashila</td></tr>
+       <tr><td class="year">1987</td><td><b>Our Common Future</b></td><td><b>Brundtland Commission</b> ki report</td><td>“sustainable development” ki lokapriy paribhasha isi report se</td></tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="call trap">
+     <span class="ci">!</span>
+     <div><span class="ct">Trap — sabse bada bhram</span><b>Our Common Future (Brundtland, 1987)</b> aur <b>Limits to Growth (Club of Rome, 1968)</b> — dono alag hain. “Our Common Future” ko “Limits to Growth” se ya “Limits of Growth” ko Brundtland se milana = galat uttar. yaad rakhein: <b>Brundtland = Common Future = 1987</b>; <b>Rome = Limits = 1968</b>.</div>
+    </div>
+
+    <h3 class="sub">paryavaraniya Kuznets curve (Environmental Kuznets Curve — EKC)</h3>
+    <p>EKC <b>paryavaraniya ksharan (environmental degradation)</b> aur <b>per person GDP</b> ke beech sambandh dikhati hai: aay badhane ke saath ksharan pehle badhta hai, ek bindu ke baad ghatane lagata hai — isliye curve <span class="hl">ulta-U (inverted U)</span> aakaar ka hota hai.</p>
+    <div class="call fix">
+     <span class="ci">✎</span>
+     <div><span class="ct">sudhaar / sateekta</span>lecture mein ise “U shape” kaha gaya, par manak economics mein EKC <b>ulta-U (inverted U)</b> hoti hai — pehle pradushan badhta hai, vikas ke saath ghatata hai. pariksha mein <b>“ulta-U”</b> hi sahi uttar mana jata hai.</div>
+    </div>
+
+    <h3 class="sub">sustainable development lakshya (SDG)</h3>
+    <div class="stats">
+     <div class="stat"><div class="v">17</div><div class="k">SDG lakshyon ki sankhya</div></div>
+     <div class="stat"><div class="v">2030</div><div class="k">prapti ka lakshya varsh (Agenda 2030)</div></div>
+     <div class="stat"><div class="v">NITI</div><div class="k">Bharat mein nodal sanstha — NITI Aayog</div></div>
+    </div>
+    <ul class="clean">
+     <li>kul <b>17 SDG</b>, jinhen <b>2030 tak</b> prapt karna hai.</li>
+     <li>Bharat mein inka <b>nodal sansthan = NITI Aayog</b>.</li>
+     <li><b>rashtriya sanketak dhancha (National Indicator Framework — NIF)</b> ki pragati report yojana vibhag (Planning Department) dwara taiyar ki gayi — lecture mein uttar pradesh ka sandarbh diya gaya.</li>
+     <li><b>vaishvik sustainable development report (Global Sustainable Development Report)</b> lagbhag har <b>4 varsh</b> mein jari hoti hai; Bharat mein ise NITI Aayog dekhta hai. <span class="chip amber" style="font-size:9.5px;padding:1px 6px">lecture mein “4–5 varsh” kaha gaya</span></li>
+    </ul>
+
+    <h3 class="sub">SDG ki kahani — 17 lakshya ek hi kahani mein</h3>
+    <p>lecture ki trick (swayan lekcharar ke shabdon mein “ye mera avishkar nahi”): ek garib aadmi ki beti ki kahani se sabhi 17 lakshya yaad ho jate hain. vistrit card <a href="#s11">flashcard</a> mein hain; sar ye:</p>
+    <ol class="clean">
+     <li>aadmi ne kaam shuru kiya → <b>garibi khatam (Goal 1)</b></li>
+     <li>bachchi ko khana mila → <b>bhukhmari shuny (Goal 2)</b></li>
+     <li>sehat achhi rahi → <b>achha swasthya (Goal 3)</b></li>
+     <li>school mein dakhila → <b>gunavattapurn shiksha (Goal 4)</b></li>
+     <li>ladake-ladakiyan saath padhate dekhe → <b>laingik samanta (Goal 5)</b></li>
+     <li>haath-munh dhoya → <b>swachh jal aur swachhata (Goal 6)</b></li>
+     <li>school mein solar painal → <b>sasti aur swachh urja (Goal 7)</b></li>
+     <li>pass hokar achhi naukri → <b>uchit kaarya aur economic vriddhi (Goal 8)</b></li>
+     <li>naukri udyog mein mili → <b>udyog, navachar aur avsanrachna (Goal 9)</b></li>
+     <li>samaj mein izzat badhi → <b>asamanta mein kami (Goal 10)</b></li>
+     <li>badi city mein bas gaye → <b>satat shahar aur samuday (Goal 11)</b></li>
+     <li>chizon ka soch-samajhakar upyog → <b>jimmedar upbhog aur utpadan (Goal 12)</b></li>
+     <li>phir bhi jalvayu ka prakop → <b>jalvayu karravai (Goal 13)</b></li>
+     <li>baadh se <b>jaliy jeevan (Goal 14)</b> khatam</li>
+     <li>aur <b>thaliy jeevan (Goal 15)</b> bhi khatam</li>
+     <li>tay kiya shanti se rahenge → <b>shanti, nyay aur sashakt sansthayein (Goal 16)</b></li>
+     <li>sab milkar → <b>lakshyon ke liye saajhedari (Goal 17)</b></li>
+    </ol>
+    <div class="call mem">
+     <span class="ci">✦</span>
+     <div><span class="ct">long-tarm revision</span>16 = <b>Peace, Justice &amp; Strong Institutions</b> · 17 = <b>Partnership for the Goals</b>. ant ke do lakshya sabse zyada bhulae jate hain — inhein kahani ke ant (“shanti se rahenge, saath milkar”) se jod lein.</div>
+    </div>
+    <div class="call pointer">
+     <span class="ci">i</span>
+     <div><span class="ct">economic Survey ka fact</span><b>“Sustainable Development &amp; Climate Change”</b> adhyay pehli baar <b>2011-12 ke Economic Survey</b> mein shamil kiya gaya tha — ye fact tab poocha gaya jab ye samasamayik (current affairs) mein tha.</div>
+    </div>
+   </div>
+  </section>
+
+  <!-- ============ S9 ============ -->
+  <section class="sec" id="s9" data-sec="s9">
+   <div class="sec-head">
+    <div class="sec-num">09</div>
+    <h2>human capital aur inclusive growth<span class="en">Human capital · sources · inclusive growth</span></h2>
+    <button class="markdone" data-done="s9" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">human capital</span>vo janashakti jo <b>kushal (skilled)</b>, <b>swasth (healthy)</b> aur <b>shikshit (educated)</b> ho — yahi utpadakta badhati hai.</div>
+    </div>
+    <h4 class="mini">human capital nirman ke source (Sources of human capital formation)</h4>
+    <ul class="clean tight">
+     <li>shiksha (Education)</li>
+     <li>swasthya (Health) aur chikitsa dekhbhal (Medical care)</li>
+     <li>kaam-ke-dauran prashikshan (On-the-job training)</li>
+     <li>prabandhan/soochna (Management &amp; information)</li>
+     <li>pravasan (Migration) — kushal shram ka sthanantaran</li>
+    </ul>
+    <p><b>kaushal vikas karyakram</b> human capital ko behatar banane ke liye hi chalae jate hain — jaise <b>pradhanamantri kaushal vikas yojana (PMKVY)</b>, jismein yuvaon ko kaushal prashikshan diya jata hai.</p>
+    <h4 class="mini">inclusive growth</h4>
+    <ul class="clean">
+     <li>arth = <b>“sabka saath, sabka vikas”</b> — samaj ke sabhi vargon ki bhagidari aur dekhbhal.</li>
+     <li>ye <b>bahuayami (multidimensional)</b> avdharna hai — shiksha, swasthya, rozgar, garibi unmulan, har ayam mein sudhaar.</li>
+    </ul>
+    <div class="call pointer">
+     <span class="ci">i</span>
+     <div><span class="ct">batch ka ant</span>yahin pehla chapter samapt hota hai (“<i>to ye tha hamara ye wala chapter</i>”). iske baad lecture mein <b>Planning</b> shuru hoti hai — vo <b>batch 2</b> mein.</div>
+    </div>
+   </div>
+  </section>
+  <!-- ============ S10 ============ -->
+  <section class="sec" id="s10" data-sec="s10">
+   <div class="sec-head">
+    <div class="sec-num">10</div>
+    <h2>fact sheet — antim 10 minat ka revision<span class="en">One-line fact sheet (exam revision)</span></h2>
+    <button class="markdone" data-done="s10" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p>batch 1 ke sabhi pariksha-yogya fact, ek-ek pankti mein. <b>print/PDF</b> batan se inhein revision sheet ki tarah nikal sakte hain.</p>
+    <div class="facts" id="factsList">
+     <div class="fact"><span class="tag">paribhasha</span><span class="txt">economy = vastuon aur sevaon ka <b>utpadan + vitaran + upbhog</b> karne wali vyavastha; aadhar = <b>simit sansadhan (scarcity)</b>.</span></div>
+     <div class="fact"><span class="tag">aadhar</span><span class="txt">economies ka vargikaran = <b>utpadan ke sadhanon ka swamitva</b> + sarkar ki bhoomika.</span></div>
+     <div class="fact"><span class="tag">sadhan</span><span class="txt">utpadan ke chaar sadhan = bhoomi, shram, poonji, udyam.</span></div>
+     <div class="fact"><span class="tag">janak</span><span class="txt"><b>Adam Smith</b> — Father of Economics.</span></div>
+     <div class="fact"><span class="tag">janak</span><span class="txt"><b>J. M. Keynes</b> — Father of Macroeconomics.</span></div>
+     <div class="fact"><span class="tag">PYQ 2024</span><span class="txt">“Adam Smith = Father of Macroeconomics” kathan <b>galat</b> tha — yahi ulajhane wala bindu tha.</span></div>
+     <div class="fact"><span class="tag">prakaar</span><span class="txt">poonjivadi → <b>niji swamitva, labh-unmukh, nyoonatam sarkar</b>; udaharan USA.</span></div>
+     <div class="fact"><span class="tag">prakaar</span><span class="txt">samajvadi → <b>rajya swamitva, centralised economic shakti</b>, jan-kalyan hetu hastakshep.</span></div>
+     <div class="fact"><span class="tag">prakaar</span><span class="txt"><b>Bharat = mishrit economy</b> (niji + sarvajanik kshetra saath).</span></div>
+     <div class="fact"><span class="tag">prakaar</span><span class="txt">Gandhivadi samajvad = <b>utpadak sansadhanon ka decentralisation</b>, swarozgar, aatmanirbharta.</span></div>
+     <div class="fact"><span class="tag">Article</span><span class="txt">mishrit economy mein “rajya” = <b>Article 12</b> mein paribhashit rajya (sarkar/karyapalika/vidhayika).</span></div>
+     <div class="fact"><span class="tag">kalyan</span><span class="txt"><b>NFSA</b> ke antargat lagbhag <b>80 crore</b> logon ko riyayati dar par khadyann.</span></div>
+     <div class="fact"><span class="tag">darja</span><span class="txt"><b>Bharat = developing</b> economy; darja <b>sv-ghoshna (self-declaration)</b> se.</span></div>
+     <div class="fact"><span class="tag">labh</span><span class="txt">developing ghoshit hone par <b>samay-seema/lakshya mein chhoot</b> jaise labh (udaharan 2050 banam 2070).</span></div>
+     <div class="fact"><span class="tag">lakshan</span><span class="txt">underdeveloped = <b>nimn jeevan-star, nimn utpadakta, uchch jansankhya vriddhi, berozgari, krishi prabhutv, nimn poonji nirman, aay asamanta, uchch nirbharta anupaat</b>.</span></div>
+     <div class="fact"><span class="tag">lakshan</span><span class="txt">developing = krishi-pradhan vyavsay, <b>prachhann berozgari</b>, nimn human capital, audyogik-takniki pichhadapan, aayat nirbharta, nirakshatra.</span></div>
+     <div class="fact"><span class="tag">aankde*</span><span class="txt">krishi ka GDP mein yogdan <b>~18%</b>, par jansankhya ki nirbharta <b>~45%</b> (lecture ke anusar).</span></div>
+     <div class="fact"><span class="tag">shabd</span><span class="txt"><b>prachhann berozgari</b> = ek ka kaam chaar log karein; teen hatane par utpadan na badale.</span></div>
+     <div class="fact"><span class="tag">pehchan</span><span class="txt">Bharat ki teen mukhya pehchan = <b>krishi prabhutv + nimn per capita income + vyapak berozgari</b>.</span></div>
+     <div class="fact"><span class="tag">maap</span><span class="txt"><b>jeevan-star</b> ko <b>per capita income</b> se darshaya jata hai.</span></div>
+     <div class="fact"><span class="tag">chakra</span><span class="txt">nimn utpadakta → nimn aay → nimn nivesh → <b>nimn poonji nirman</b> (dushchakra).</span></div>
+     <div class="fact"><span class="tag">1991</span><span class="txt"><b>LPG</b> = Liberalisation, Privatisation, Globalisation (isi kram mein).</span></div>
+     <div class="fact"><span class="tag">sudhaar</span><span class="txt">doosri peedhi ke sudhaar = <b>tel kshetra, sarvajanik kshetra, sarkar aur sarvajanik sansthan, sustainable development</b>.</span></div>
+     <div class="fact"><span class="tag">1968</span><span class="txt"><b>The Population Bomb</b> — Paul Ehrlich (jeev vaigyanik).</span></div>
+     <div class="fact"><span class="tag">1968</span><span class="txt"><b>The Limits to Growth</b> — Club of Rome (30 vyakti, 10 desh).</span></div>
+     <div class="fact"><span class="tag">1972</span><span class="txt"><b>Silent Spring</b> — Rachel Carson.</span></div>
+     <div class="fact"><span class="tag">1987</span><span class="txt"><b>Our Common Future</b> — Brundtland Commission ki report.</span></div>
+     <div class="fact"><span class="tag">curve</span><span class="txt"><b>EKC</b> = paryavaraniya ksharan aur per person GDP ke beech <b>ulta-U</b> sambandh.</span></div>
+     <div class="fact"><span class="tag">SDG</span><span class="txt"><b>17 lakshya</b>, lakshya varsh <b>2030</b>; Bharat mein nodal = <b>NITI Aayog</b>.</span></div>
+     <div class="fact"><span class="tag">SDG</span><span class="txt">NIF pragati report — yojana vibhag (lecture mein UP ka sandarbh); vaishvik SD report lagbhag har <b>4 varsh</b>.</span></div>
+     <div class="fact"><span class="tag">Survey</span><span class="txt"><b>Sustainable Development &amp; Climate Change</b> adhyay pehli baar <b>Economic Survey 2011-12</b> mein.</span></div>
+     <div class="fact"><span class="tag">human capital</span><span class="txt">human capital = <b>kushal + swasth + shikshit</b>; source = shiksha, swasthya, chikitsa, on-job prashikshan, prabandhan/soochna, pravasan.</span></div>
+     <div class="fact"><span class="tag">yojana</span><span class="txt"><b>PM kaushal vikas yojana</b> — yuvaon ko kaushal prashikshan se human capital mein sudhaar.</span></div>
+     <div class="fact"><span class="tag">avdharna</span><span class="txt"><b>inclusive growth</b> = “sabka saath, sabka vikas” — bahuayami (shiksha, swasthya, rozgar, garibi).</span></div>
+    </div>
+    <p style="font-size:11.8px;color:var(--ink-mute)">* video mein bole gaye anumanit aankde — pariksha mein navinatam adhikarik aankde (Economic Survey / MoSPI) hi likhein.</p>
+    <div class="hero-cta" style="margin-top:14px">
+     <button class="btn ghost" id="copyFacts" type="button">fact sheet copy karein</button>
+     <a class="btn ghost" href="#s12">test dein →</a>
+    </div>
+   </div>
+  </section>
+
+  <!-- ============ S11 ============ -->
+  <section class="sec" id="s11" data-sec="s11">
+   <div class="sec-head">
+    <div class="sec-num">11</div>
+    <h2>flashcard — SDG 17 + fact<span class="en">Flip cards · SDG story &amp; fact drills</span></h2>
+    <button class="markdone" data-done="s11" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p>card par klik/taip karein — palatakar uttar dikhega. pehle swayan sochen, phir paltein.</p>
+    <h3 class="sub">SDG kahani ke 17 card</h3>
+    <div class="fc-grid" id="fcSdg"></div>
+    <h3 class="sub">fact-drill card</h3>
+    <div class="fc-grid" id="fcFact"></div>
+    <p class="fc-hint">keyboard: <span class="mono">Tab</span> se card chunein, <span class="mono">Enter/Space</span> se paltein.</p>
+   </div>
+  </section>
+
+  <!-- ============ S12 ============ -->
+  <section class="sec" id="s12" data-sec="s12">
+   <div class="sec-head">
+    <div class="sec-num">12</div>
+    <h2>abhyas sawaal — 14 MCQ<span class="en">Practice test with instant explanations</span></h2>
+    <button class="markdone" data-done="s12" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <div class="quiz-bar">
+     <span class="score">score: <b id="scoreVal">0</b> / <span id="qTotal">14</span></span>
+     <span class="note" id="quizNote">koi vikalp chunein — turant sahi/galat aur vyakhya dikhegi.</span>
+     <span class="spacer" style="flex:1"></span>
+     <button class="btn ghost" id="resetQuiz" type="button" style="height:32px;font-size:12px">reset</button>
+    </div>
+    <div class="quiz" id="quiz"></div>
+   </div>
+  </section>
+
+  <section class="sec" id="nextbatch">
+   <div class="sec-head">
+    <div class="sec-num">→</div>
+    <h2>agla batch<span class="en">What comes next in the series</span></h2>
+   </div>
+   <div class="sec-body">
+    <p>batch 1 yahin samapt hota hai. video mein iske turant baad <b>yojana (Planning)</b> ka chapter shuru hota hai — wahi batch 2 hoga.</p>
+    <div class="next">
+     <div class="nextcard"><div class="h"><span class="n">02</span>yojana ki mool baatein</div><p>economic niyojan ki paribhasha, uddeshya, Soviet sangh se prerna, yojana ka sanvaidhanik aadhar (samavarti soochi).</p></div>
+     <div class="nextcard"><div class="h"><span class="n">02</span>svatantrata-poorv yojanayein</div><p>1914 vishveshvaraiya · 1938 rashtriya yojana samiti · 1944 Gandhivadi aur bombe plan · 1944 dalal · 1945 pipals plan · 1950 sarvoday.</p></div>
+     <div class="nextcard"><div class="h"><span class="n">02</span>Planning Commission</div><p>1947 economic karyakram samiti → 1948 sthayi Aayog ki sifarish → 15 march 1950 ki sthapna.</p></div>
+     <div class="nextcard"><div class="h"><span class="n">02</span>panchvarshiya yojanayein</div><p>12 panchvarshiya + 6 varshik yojanayein, pratyek ka aadhar, lakshya aur model — saath mein PYQ.</p></div>
+    </div>
+    <div class="call pointer" style="margin-top:16px">
+     <span class="ci">i</span>
+     <div><span class="ct">batch nirantarata</span>har batch mein wahi sanrachna milegi: <b>grainular notes → fact sheet → flashcard → MCQ</b>. beech mein topic chhute nahi, isliye batch simaen lecture ke chapter-brek par rakhi gayi hain.</div>
+    </div>
+   </div>
+  </section>
+
+  <div class="noresult" id="noresult">koi parinaam nahi mila — koi doosra shabd azamaen (jaise <b>SDG</b>, <b>Keynes</b>, <b>1938</b>).</div>
+ </main>
+</div>
+
+<button class="toTop" id="toTop" type="button" aria-label="upar jaayein">
+ <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+
+<footer class="footer">
+ <p><b>source:</b> “Indian Economy One Shot 2026 — Complete Indian Economy for UPPCS &amp; BPSC 72nd”, PCS INSIGHTS (UPPCS-BPSC), YouTube — <span class="mono">youtu.be/r2iOMMlSPIw</span> (3:28:12, prakashit 09-11-2026). batch 1 = video ka pehla chapter.</p>
+ <p>ye adhyayan-samagri video ke auto-transcript se bani hai; bhasha-shuddhata aur fact-sateekta ke liye “sudhaar” chihnon ka palan karein. pariksha se pehle navinatam adhikarik source (Economic Survey, NITI Aayog, MoSPI) se aankde janch lein.</p>
+ <p style="margin-top:8px">batch 1 / 9 · interactive study module · city Hinglish (Roman script) edition · pragati isi browser mein surakshit rehti hai.</p>
+</footer>
+<script>
+(function(){
+  "use strict";
+  var $ = function(s,c){return (c||document).querySelector(s);};
+  var $$ = function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s));};
+  var LS = {
+    get:function(k,d){try{var v=localStorage.getItem(k);return v===null?d:JSON.parse(v);}catch(e){return d;}},
+    set:function(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
+  };
+
+  /* ---------- theme ---------- */
+  var themeBtn=$("#themeBtn"), themeLabel=$("#themeLabel");
+  function applyTheme(t){
+    document.documentElement.setAttribute("data-theme",t);
+    themeLabel.textContent = t==="dark" ? "light" : "dark";
+    LS.set("ie-theme",t);
+  }
+  applyTheme(LS.get("ie-theme","light"));
+  themeBtn.addEventListener("click",function(){
+    applyTheme(document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark");
+  });
+
+  /* ---------- print ---------- */
+  $("#printBtn").addEventListener("click",function(){window.print();});
+
+  /* ---------- progress / mark done ---------- */
+  var marks=$$(".markdone"), done=LS.get("ie-done-b1",{});
+  var total=marks.length;
+  function refreshProgress(){
+    var n=0;
+    marks.forEach(function(b){
+      var id=b.getAttribute("data-done"), on=!!done[id];
+      b.setAttribute("aria-pressed",on?"true":"false");
+      if(on) n++;
+      var link=$('#toc a[href="#'+id+'"]');
+      if(link){link.classList.toggle("done",on);}
+    });
+    var pct=total?Math.round(n/total*100):0;
+    $("#ring").style.setProperty("--p",pct);
+    $("#ringTxt").textContent=pct+"%";
+    $("#doneCount").textContent=n+" / "+total+" adhyay";
+  }
+  marks.forEach(function(b){
+    b.addEventListener("click",function(){
+      var id=b.getAttribute("data-done");
+      done[id]=!done[id];
+      LS.set("ie-done-b1",done);
+      refreshProgress();
+    });
+  });
+  refreshProgress();
+
+  /* ---------- scroll progress + to top ---------- */
+  var bar=$("#scrollProg"), toTop=$("#toTop");
+  function onScroll(){
+    var h=document.documentElement;
+    var max=(h.scrollHeight-h.clientHeight)||1;
+    bar.style.width=Math.min(100,(h.scrollTop/max)*100)+"%";
+    toTop.classList.toggle("show",h.scrollTop>700);
+  }
+  document.addEventListener("scroll",onScroll,{passive:true});
+  onScroll();
+  toTop.addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"});});
+
+  /* ---------- TOC active state ---------- */
+  var secs=$$("main .sec");
+  if("IntersectionObserver" in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          $$("#toc a").forEach(function(a){a.classList.remove("active");});
+          var a=$('#toc a[href="#'+en.target.id+'"]');
+          if(a){a.classList.add("active");}
+        }
+      });
+    },{rootMargin:"-88px 0px -66% 0px",threshold:0});
+    secs.forEach(function(s){io.observe(s);});
+  }
+
+  /* ---------- search ---------- */
+  var search=$("#search"), noresult=$("#noresult");
+  function clearMarks(root){
+    $$("mark",root).forEach(function(m){
+      var p=m.parentNode, t=document.createTextNode(m.textContent);
+      p.replaceChild(t,m); p.normalize();
+    });
+  }
+  function highlight(root,q){
+    var walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{
+      acceptNode:function(n){
+        if(!n.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        var p=n.parentNode;
+        if(!p) return NodeFilter.FILTER_REJECT;
+        var tag=p.nodeName;
+        if(tag==="SCRIPT"||tag==="STYLE"||tag==="MARK"||tag==="INPUT"||tag==="TEXTAREA") return NodeFilter.FILTER_REJECT;
+        return n.nodeValue.toLowerCase().indexOf(q)!==-1?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT;
+      }
+    });
+    var nodes=[], n;
+    while((n=walker.nextNode())){nodes.push(n);}
+    nodes.forEach(function(node){
+      var text=node.nodeValue, low=text.toLowerCase(), idx=low.indexOf(q);
+      if(idx===-1) return;
+      var frag=document.createDocumentFragment(), last=0;
+      while(idx!==-1){
+        frag.appendChild(document.createTextNode(text.slice(last,idx)));
+        var m=document.createElement("mark");
+        m.textContent=text.slice(idx,idx+q.length);
+        frag.appendChild(m);
+        last=idx+q.length;
+        idx=low.indexOf(q,last);
+      }
+      frag.appendChild(document.createTextNode(text.slice(last)));
+      node.parentNode.replaceChild(frag,node);
+    });
+  }
+  var searchTimer=null;
+  function runSearch(){
+    var q=(search.value||"").trim().toLowerCase();
+    secs.forEach(function(s){clearMarks(s);});
+    if(!q){
+      secs.forEach(function(s){s.classList.remove("hidden");});
+      noresult.classList.remove("show");
+      return;
+    }
+    var hits=0;
+    secs.forEach(function(s){
+      var match=(s.textContent||"").toLowerCase().indexOf(q)!==-1;
+      s.classList.toggle("hidden",!match);
+      if(match){hits++;highlight(s,q);}
+    });
+    noresult.classList.toggle("show",hits===0);
+  }
+  search.addEventListener("input",function(){
+    clearTimeout(searchTimer);
+    searchTimer=setTimeout(runSearch,140);
+  });
+  search.addEventListener("keydown",function(e){
+    if(e.key==="Escape"){search.value="";runSearch();search.blur();}
+  });
+
+  /* ---------- flashcards ---------- */
+  var sdg=[
+    ["1","garibi khatam","aadmi ne kaam shuru kiya","No Poverty — garibi unmulan"],
+    ["2","bhukhmari shuny","bachchi ko khana mila","Zero Hunger"],
+    ["3","achha swasthya","sehat achhi rahi","Good Health &amp; Well-being"],
+    ["4","gunavattapurn shiksha","school mein dakhila","Quality Education"],
+    ["5","laingik samanta","ladake-ladakiyan saath padhe","Gender Equality"],
+    ["6","swachh jal aur swachhata","haath-munh dhoya","Clean Water &amp; Sanitation"],
+    ["7","sasti aur swachh urja","school mein solar painal","Affordable &amp; Clean Energy"],
+    ["8","uchit kaarya aur vriddhi","pass hokar achhi naukri","Decent Work &amp; Economic Growth"],
+    ["9","udyog aur navachar","naukri udyog mein mili","Industry, Innovation &amp; Infrastructure"],
+    ["10","asamanta mein kami","samaj mein izzat badhi","Reduced Inequalities"],
+    ["11","satat shahar aur samuday","badi city mein base","Sustainable Cities &amp; Communities"],
+    ["12","jimmedar upbhog","chizon ka soch-samajhakar upyog","Responsible Consumption &amp; Production"],
+    ["13","jalvayu karravai","jalvayu ka prakop","Climate Action"],
+    ["14","jaliy jeevan","baadh se samudri jeevan khatam","Life Below Water"],
+    ["15","thaliy jeevan","zamin par jeevan khatam","Life on Land"],
+    ["16","shanti, nyay, sansthayein","shanti se rehne ka nirnay","Peace, Justice &amp; Strong Institutions"],
+    ["17","lakshyon ke liye saajhedari","sab milkar","Partnership for the Goals"]
+  ];
+  var facts=[
+    ["1968","The Population Bomb","Paul Ehrlich"],
+    ["1968","The Limits to Growth","Club of Rome (30 vyakti · 10 desh)"],
+    ["1972","Silent Spring","Rachel Carson"],
+    ["1987","Our Common Future","Brundtland Commission ki report"],
+    ["17 · 2030","SDG","lakshya sankhya · lakshya varsh (nodal: NITI Aayog)"],
+    ["ulta-U","paryavaraniya Kuznets curve","paryavaraniya ksharan aur per person GDP"],
+    ["L · P · G","1991 NEP","udarikaran · nijikaran · vaishvikaran"],
+    ["2011-12","Economic Survey","pehli baar Sustainable Development &amp; Climate Change adhyay"]
+  ];
+  function cardHTML(top,mid,tiny,backMid){
+    return '<div class="fc-in">'+
+      '<div class="fc-face"><div class="top">'+top+'</div><div class="mid">'+mid+'</div><div class="tiny">'+tiny+'</div></div>'+
+      '<div class="fc-face fc-back"><div class="top">uttar</div><div class="mid">'+backMid+'</div></div>'+
+    '</div>';
+  }
+  function buildCards(container,arr){
+    container.innerHTML=arr.map(function(r){
+      var b=document.createElement("button");
+      b.type="button"; b.className="fc"; b.setAttribute("aria-label","card "+r[0]+" — paltein");
+      b.innerHTML=cardHTML(r[0],r[1],r[2],r[3]);
+      b.addEventListener("click",function(){b.classList.toggle("flipped");});
+      return b.outerHTML;
+    }).join("");
+  }
+  buildCards($("#fcSdg"),sdg);
+  buildCards($("#fcFact"),facts);
+
+  /* ---------- quiz ---------- */
+  var QUIZ=[
+    {q:"economy ki kendriya samasyaon ka mool kaaran kya hai?",
+     o:["bazaar mein pratispardha ka abhav","sansadhanon ki simitta (scarcity)","sarkari niyantran","jansankhya ka kam hona"],a:1,
+     e:"simit sansadhanon ke kaaran hi “kya utpadan karein, kaise karein, kiske liye karein” — ye chayan ki samasyaen uthati hain."},
+    {q:"“Father of Economics” kise kaha jata hai?",
+     o:["J. M. Keynes","Adam Smith","alphred marshal","miltan phridamain"],a:1,
+     e:"Adam Smith — Father of Economics. yahan “Indian” shabd nahi joda jata."},
+    {q:"“Father of Macroeconomics” kaun hain?",
+     o:["Adam Smith","devid rikardo","J. M. Keynes","Paul Ehrlich"],a:2,
+     e:"J. M. Keynes — samashti economics (macroeconomics) ke janak."},
+    {q:"2024 ki prarambhik pariksha mein kaun-sa kathan galat tha?",
+     o:["Adam Smith — Father of Economics","Adam Smith — Father of Macroeconomics","J. M. Keynes — Father of Macroeconomics","Adam Smith ko economics ka janak kaha jata hai"],a:1,
+     e:"Adam Smith ko “Father of Macroeconomics” kahna galat hai — ve Father of Economics hain, macro ke janak Keynes hain."},
+    {q:"mishrit economy ki visheshta nahi hai:",
+     o:["niji aur sarvajanik kshetra ka sah-astitv","kalyanakari hastakshep","utpadan ke sadhanon par poorn rajya-swamitva","bazaar aur niyojan dono ka upyog"],a:2,
+     e:"poorn rajya-swamitva samajvadi economy ka lakshan hai; mishrit vyavastha mein dono kshetra rehte hain (Bharat)."},
+    {q:"Gandhivadi samajvad ka kendriya vichar kya hai?",
+     o:["utpadan ke sadhanon ka kendrikaran","utpadak sansadhanon ka decentralisation","aayat pratisthapan","poorn nijikaran"],a:1,
+     e:"utpadak sansadhanon ka decentralisation + swarozgar + aatmanirbharta — Gandhivadi model ki pehchan."},
+    {q:"Bharat ko “developing economy” ka darja kis aadhar par prapt hota hai?",
+     o:["vishv bank ka pramanapatr","sanyukt rashtr ka sankalp","sv-ghoshna (self-declaration)","IMF ki sadasyata"],a:2,
+     e:"ye atm-ghoshna hai; developing ghoshit karne par samay-seema/lakshya mein chhoot jaise labh milte hain."},
+    {q:"underdeveloped economy ka lakshan nahi hai:",
+     o:["nimn jeevan-star","uchch nirbharta anupaat","uchch poonji nirman dar","krishi ka prabhutv"],a:2,
+     e:"underdeveloped economy mein poonji nirman ki dar <b>nimn</b> hoti hai (kamaya aur kha liya, machines mein nivesh nahi)."},
+    {q:"lecture ke anusar Bharat mein krishi ka GDP mein yogdan aur jansankhya ki krishi-nirbharta kramashah lagbhag kitni hai?",
+     o:["45% aur 18%","18% aur 45%","30% aur 60%","10% aur 55%"],a:1,
+     e:"~18% GDP yogdan par ~45% jansankhya nirbhar — yahi antar prachhann berozgari aur nimn utpadakta ki jad hai."},
+    {q:"“Silent Spring” (1972) ki lekhika kaun hain?",
+     o:["Rachel Carson","Paul Ehrlich","Brundtland","Club of Rome"],a:0,
+     e:"Rachel Carson — paryavaran andolan ki prerak kitaab."},
+    {q:"“Our Common Future” (1987) kiski report hai?",
+     o:["Club of Rome","Brundtland Commission","IPCC","UNEP"],a:1,
+     e:"Brundtland Commission ki report — sustainable development ki prasiddh paribhasha isi se ai. ise Limits to Growth (Club of Rome, 1968) se na milayein."},
+    {q:"“The Limits to Growth” (1968) kisne prastut ki?",
+     o:["Club of Rome","Brundtland Commission","Paul Ehrlich","Rome Club ki mahila shakha"],a:0,
+     e:"Club of Rome — 10 deshon ke 30 vaigyanik/arthashastri/shodhakarta, Rome mein."},
+    {q:"SDG ki sankhya, lakshya varsh tatha Bharat mein nodal sanstha — sahi yugm chunein:",
+     o:["17 / 2030 / NITI Aayog","15 / 2025 / vitt Aayog","17 / 2035 / Planning Commission","21 / 2030 / MoSPI"],a:0,
+     e:"17 lakshya, 2030 tak; Bharat mein nodal sanstha NITI Aayog (NITI Aayog)."},
+    {q:"“Sustainable Development &amp; Climate Change” adhyay pehli baar kis Economic Survey mein aaya?",
+     o:["2005-06","2011-12","2016-17","2020-21"],a:1,
+     e:"Economic Survey 2011-12 — lecture mein ye fact spasht bataya gaya."}
+  ];
+  var quizEl=$("#quiz"), scoreVal=$("#scoreVal"), qTotalEl=$("#qTotal"), quizNote=$("#quizNote");
+  var answered={}, score=0;
+  qTotalEl.textContent=QUIZ.length;
+  function renderQuiz(){
+    answered={}; score=0; scoreVal.textContent="0";
+    quizNote.textContent="koi vikalp chunein — turant sahi/galat aur vyakhya dikhegi.";
+    quizEl.innerHTML="";
+    QUIZ.forEach(function(item,qi){
+      var wrap=document.createElement("div"); wrap.className="q";
+      var head='<div class="q-h"><span class="q-n">Q'+(qi+1)+'</span><span>'+item.q+'</span></div>';
+      var opts='<div class="opts">'+item.o.map(function(t,oi){
+        return '<button class="opt" type="button" data-q="'+qi+'" data-o="'+oi+'"><span class="ol">'+
+          String.fromCharCode(65+oi)+'</span><span>'+t+'</span></button>';
+      }).join("")+'</div>';
+      var exp='<div class="exp" id="exp-'+qi+'"><b>vyakhya:</b> '+item.e+'</div>';
+      wrap.innerHTML=head+opts+exp;
+      quizEl.appendChild(wrap);
+    });
+  }
+  quizEl.addEventListener("click",function(e){
+    var btn=e.target.closest(".opt");
+    if(!btn||btn.disabled) return;
+    var qi=+btn.getAttribute("data-q"), oi=+btn.getAttribute("data-o");
+    if(answered[qi]!==undefined) return;
+    answered[qi]=oi;
+    var correct=QUIZ[qi].a;
+    $$('.opt[data-q="'+qi+'"]',quizEl).forEach(function(b){
+      b.disabled=true;
+      var i=+b.getAttribute("data-o");
+      if(i===correct){b.classList.add("correct");}
+      if(i===oi&&oi!==correct){b.classList.add("wrong");}
+    });
+    $("#exp-"+qi).classList.add("show");
+    if(oi===correct){score++;}
+    scoreVal.textContent=String(score);
+    var n=Object.keys(answered).length;
+    if(n===QUIZ.length){
+      var pct=Math.round(score/QUIZ.length*100);
+      quizNote.textContent = pct>=80 ? "shanadar — "+pct+"%. is batch par pakad mazboot hai." :
+        pct>=50 ? "theek — "+pct+"%. fact sheet ek baar dohra lein." :
+        "behatar hoga — "+pct+"%. section 8 (sustainable development) dobara padhein, phir reset karke dohrayein.";
+    }
+  });
+  $("#resetQuiz").addEventListener("click",renderQuiz);
+  renderQuiz();
+
+  /* ---------- copy fact sheet ---------- */
+  $("#copyFacts").addEventListener("click",function(){
+    var btn=this, old=btn.textContent;
+    var text=$$("#factsList .fact").map(function(f){
+      return "• "+$(".tag",f).textContent+" — "+$(".txt",f).textContent;
+    }).join("\n");
+    function done(ok){btn.textContent=ok?"copy ho gaya ✓":"copy nahi ho saka";setTimeout(function(){btn.textContent=old;},1600);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){done(true);},function(){done(false);});
+    }else{
+      var ta=document.createElement("textarea"); ta.value=text; document.body.appendChild(ta);
+      ta.select(); try{document.execCommand("copy");done(true);}catch(e){done(false);}
+      document.body.removeChild(ta);
+    }
+  });
+
+  /* ---------- keyboard shortcuts ---------- */
+  document.addEventListener("keydown",function(e){
+    var tag=(e.target.tagName||"").toLowerCase();
+    var typing = tag==="input"||tag==="textarea"||e.target.isContentEditable;
+    if(typing) return;
+    if(e.key==="/"){
+      e.preventDefault(); search.focus(); search.select();
+    }else if(e.key==="D"&&e.shiftKey){
+      applyTheme(document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark");
+    }
+  });
+})();
+</script>
+</body>
+</html>
