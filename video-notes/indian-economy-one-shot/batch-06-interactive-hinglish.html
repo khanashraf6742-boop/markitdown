@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+<html lang="hi-Latn" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indian Economy One Shot 2026 — Batch 6 (Hinglish): Banking, RBI &amp; Monetary Policy</title>
+<meta name="description" content="interactive study module — Indian Economy One Shot 2026 (PCS INSIGHTS), Batch 6: banking ka itihas, RBI, note pres aur mint, RRB, NABARD, CRR–SLR, repo, M1–M4 aur depreciation.">
+<style>
+/* ============ design tokens ============ */
+:root{
+  --bg:#f4f6fb; --bg-soft:#eef1f8; --panel:#ffffff; --panel-2:#fbfcff;
+  --ink:#131a2b; --ink-soft:#46506b; --ink-mute:#727d99;
+  --line:#dfe4f0; --line-soft:#eaeef8;
+  --brand:#3d3bd6; --brand-ink:#2b28b0; --brand-soft:#ecebff;
+  --teal:#0d7d76; --teal-soft:#e2f5f3;
+  --amber:#a86400; --amber-soft:#fff3d9;
+  --rose:#b3261e; --rose-soft:#ffe8e6;
+  --green:#166b3c; --green-soft:#e2f6ea;
+  --violet:#6d28d9; --violet-soft:#f1e9ff;
+  --shadow:0 1px 2px rgba(16,24,40,.06),0 8px 24px -12px rgba(16,24,40,.18);
+  --shadow-lg:0 24px 60px -28px rgba(16,24,40,.35);
+  --r-sm:8px; --r:14px; --r-lg:20px;
+  --maxw:1500px;
+  --font:"Noto Sans Devanagari","Nirmala UI","Mangal","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  --mono:"SFMono-Regular",ui-monospace,"Cascadia Mono",Menlo,Consolas,monospace;
+}
+html[data-theme="dark"]{
+  --bg:#0b0f19; --bg-soft:#0f1524; --panel:#141b2b; --panel-2:#111827;
+  --ink:#e8ecf7; --ink-soft:#b3bdd4; --ink-mute:#8492b0;
+  --line:#26304a; --line-soft:#1d2539;
+  --brand:#9d9bff; --brand-ink:#b9b7ff; --brand-soft:#1d1f45;
+  --teal:#5fd6cb; --teal-soft:#0e2f2d;
+  --amber:#f5c264; --amber-soft:#33260c;
+  --rose:#ff8f86; --rose-soft:#3a1613;
+  --green:#68d996; --green-soft:#0f2c1d;
+  --violet:#c3a6ff; --violet-soft:#241a3d;
+  --shadow:0 1px 2px rgba(0,0,0,.5),0 10px 30px -16px rgba(0,0,0,.8);
+  --shadow-lg:0 30px 70px -30px rgba(0,0,0,.9);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth; scroll-padding-top:82px}
+body{
+  margin:0; background:var(--bg); color:var(--ink); font-family:var(--font);
+  font-size:16px; line-height:1.85; -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+h1,h2,h3,h4{line-height:1.45; margin:0; font-weight:800; letter-spacing:-.01em}
+p{margin:.55em 0}
+a{color:var(--brand); text-underline-offset:3px}
+b,strong{font-weight:800; color:var(--ink)}
+code,.mono{font-family:var(--mono); font-size:.9em}
+::selection{background:var(--brand); color:#fff}
+:focus-visible{outline:2.5px solid var(--brand); outline-offset:2px; border-radius:6px}
+
+/* ============ top bar ============ */
+.topbar{
+  position:sticky; top:0; z-index:60; background:color-mix(in srgb, var(--panel) 88%, transparent);
+  backdrop-filter:blur(14px) saturate(1.4); border-bottom:1px solid var(--line);
+}
+.topbar-in{max-width:var(--maxw); margin:0 auto; padding:10px 20px; display:flex; gap:16px; align-items:center}
+.brandmark{display:flex; align-items:center; gap:11px; min-width:0}
+.logo{
+  width:38px;height:38px;border-radius:11px; flex:0 0 auto; display:grid; place-items:center;
+  background:linear-gradient(145deg,var(--brand),#7f5bff 55%,var(--teal)); color:#fff;
+  font-weight:900; font-size:15px; letter-spacing:-.5px; box-shadow:var(--shadow);
+}
+.brand-text{min-width:0}
+.brand-text .t{font-weight:800; font-size:14.5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.brand-text .s{font-size:11.5px; color:var(--ink-mute); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.batch-pill{
+  font-size:11.5px; font-weight:800; letter-spacing:.04em; padding:4px 10px; border-radius:999px;
+  background:var(--brand-soft); color:var(--brand-ink); border:1px solid color-mix(in srgb,var(--brand) 28%, transparent);
+  white-space:nowrap;
+}
+.spacer{flex:1 1 auto}
+.tool{
+  display:inline-flex; align-items:center; gap:7px; height:36px; padding:0 12px; cursor:pointer;
+  background:var(--panel); color:var(--ink-soft); border:1px solid var(--line); border-radius:10px;
+  font:inherit; font-size:12.5px; font-weight:700; white-space:nowrap;
+  transition:transform .12s ease, border-color .12s, color .12s, background .12s;
+}
+.tool:hover{color:var(--ink); border-color:color-mix(in srgb,var(--brand) 45%, var(--line)); transform:translateY(-1px)}
+.tool:active{transform:translateY(0)}
+.tool svg{width:15px;height:15px;flex:0 0 auto}
+.searchwrap{position:relative; flex:1 1 300px; max-width:430px}
+.searchwrap svg{position:absolute; left:11px; top:50%; transform:translateY(-50%); width:16px;height:16px; color:var(--ink-mute)}
+#search{
+  width:100%; height:38px; padding:0 62px 0 34px; border-radius:10px; border:1px solid var(--line);
+  background:var(--panel-2); color:var(--ink); font:inherit; font-size:13.5px;
+}
+#search::placeholder{color:var(--ink-mute)}
+#search:focus{border-color:var(--brand); outline:none; box-shadow:0 0 0 3px var(--brand-soft)}
+.kbd{
+  position:absolute; right:9px; top:50%; transform:translateY(-50%); font-family:var(--mono); font-size:10.5px;
+  color:var(--ink-mute); border:1px solid var(--line); border-bottom-width:2px; border-radius:5px; padding:1px 5px;
+  background:var(--panel); pointer-events:none;
+}
+.progressline{height:3px; background:var(--line-soft); overflow:hidden}
+.progressline > i{display:block; height:100%; width:0; background:linear-gradient(90deg,var(--brand),var(--teal)); transition:width .3s ease}
+
+/* ============ shell ============ */
+.shell{max-width:var(--maxw); margin:0 auto; padding:26px 20px 90px; display:grid; grid-template-columns:288px minmax(0,1fr); gap:30px; align-items:start}
+
+/* ============ sidebar ============ */
+.side{position:sticky; top:78px; max-height:calc(100vh - 100px); overflow:auto; padding-right:6px}
+.side::-webkit-scrollbar{width:8px}
+.side::-webkit-scrollbar-thumb{background:var(--line); border-radius:8px}
+.side-card{background:var(--panel); border:1px solid var(--line); border-radius:var(--r); padding:14px; box-shadow:var(--shadow); margin-bottom:14px}
+.side-h{font-size:10.5px; text-transform:uppercase; letter-spacing:.11em; color:var(--ink-mute); font-weight:800; margin:0 0 9px 4px}
+.toc{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:2px}
+.toc a{
+  display:flex; gap:9px; align-items:flex-start; text-decoration:none; color:var(--ink-soft);
+  font-size:13px; font-weight:600; padding:7px 9px; border-radius:9px; line-height:1.5;
+  border-left:2.5px solid transparent; transition:background .12s,color .12s,border-color .12s;
+}
+.toc a:hover{background:var(--bg-soft); color:var(--ink)}
+.toc a.active{background:var(--brand-soft); color:var(--brand-ink); border-left-color:var(--brand); font-weight:800}
+.toc .n{font-family:var(--mono); font-size:10.5px; color:var(--ink-mute); margin-top:3px; flex:0 0 auto}
+.toc a.active .n{color:var(--brand)}
+.toc a .dot{margin-left:auto; width:6px;height:6px;border-radius:50%; background:var(--green); opacity:0; flex:0 0 auto; margin-top:8px}
+.toc a.done .dot{opacity:1}
+.side-progress{display:flex; align-items:center; gap:10px}
+.ring{--p:0; width:44px; height:44px; border-radius:50%; flex:0 0 auto; display:grid; place-items:center;
+  background:conic-gradient(var(--brand) calc(var(--p)*1%), var(--line-soft) 0);}
+.ring > span{width:34px;height:34px;border-radius:50%; background:var(--panel); display:grid; place-items:center; font-size:10.5px; font-weight:800; color:var(--ink-soft)}
+.side-progress .lbl{font-size:11.5px; color:var(--ink-mute); line-height:1.5}
+.side-progress .lbl b{display:block; color:var(--ink); font-size:13px}
+.chapterlist{list-style:none;margin:0;padding:0;font-size:12px;color:var(--ink-mute);line-height:1.9}
+.chapterlist li{display:flex;gap:7px}
+.chapterlist .now{color:var(--brand-ink);font-weight:800}
+.chapterlist .tag{font-family:rgba(0,0,0,0);font-family:var(--mono);font-size:10px;color:var(--ink-mute)}
+
+/* ============ content ============ */
+.main{min-width:0}
+.hero{
+  position:relative; overflow:hidden; border-radius:var(--r-lg); padding:30px 32px; margin-bottom:24px;
+  background:radial-gradient(1200px 340px at 8% -20%, color-mix(in srgb,var(--brand) 22%, transparent), transparent 60%),
+             radial-gradient(900px 320px at 100% 0%, color-mix(in srgb,var(--teal) 20%, transparent), transparent 55%),
+             var(--panel);
+  border:1px solid var(--line); box-shadow:var(--shadow-lg);
+}
+.hero .eyebrow{display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:13px}
+.chip{
+  font-size:11px; font-weight:800; letter-spacing:.03em; padding:3.5px 10px; border-radius:999px;
+  background:var(--bg-soft); color:var(--ink-soft); border:1px solid var(--line);
+}
+.chip.brand{background:var(--brand-soft); color:var(--brand-ink); border-color:color-mix(in srgb,var(--brand) 26%, transparent)}
+.chip.green{background:var(--green-soft); color:var(--green); border-color:color-mix(in srgb,var(--green) 25%, transparent)}
+.chip.amber{background:var(--amber-soft); color:var(--amber); border-color:color-mix(in srgb,var(--amber) 30%, transparent)}
+.chip.rose{background:var(--rose-soft); color:var(--rose); border-color:color-mix(in srgb,var(--rose) 26%, transparent)}
+.chip.teal{background:var(--teal-soft); color:var(--teal); border-color:color-mix(in srgb,var(--teal) 26%, transparent)}
+.hero h1{font-size:clamp(22px,2.5vw,32px); letter-spacing:-.02em; margin-bottom:8px}
+.hero h1 .sub{display:block; font-size:14.5px; font-weight:700; color:var(--ink-mute); letter-spacing:0; margin-top:8px}
+.hero p{color:var(--ink-soft); font-size:14.5px; max-width:78ch}
+.meta-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:10px; margin-top:20px}
+.meta{background:var(--panel-2); border:1px solid var(--line-soft); border-radius:11px; padding:9px 12px}
+.meta .k{font-size:10px; text-transform:uppercase; letter-spacing:.1em; color:var(--ink-mute); font-weight:800}
+.meta .v{font-size:13px; font-weight:700; color:var(--ink); margin-top:2px}
+.hero-cta{display:flex; flex-wrap:wrap; gap:9px; margin-top:20px}
+.btn{
+  display:inline-flex; align-items:center; gap:8px; height:38px; padding:0 15px; border-radius:10px; cursor:pointer;
+  font:inherit; font-size:13px; font-weight:800; text-decoration:none; border:1px solid var(--line);
+  background:var(--panel); color:var(--ink); transition:transform .12s, box-shadow .12s, background .12s;
+}
+.btn:hover{transform:translateY(-1px); box-shadow:var(--shadow)}
+.btn.primary{background:linear-gradient(160deg,var(--brand),var(--brand-ink)); color:#fff; border-color:transparent}
+.btn.ghost{background:transparent}
+.btn svg{width:15px;height:15px}
+
+/* notice */
+.notice{
+  display:flex; gap:12px; padding:14px 16px; border-radius:var(--r); margin:0 0 22px;
+  background:var(--amber-soft); border:1px solid color-mix(in srgb,var(--amber) 30%, transparent);
+  color:color-mix(in srgb,var(--amber) 78%, var(--ink)); font-size:13px; line-height:1.7;
+}
+.notice .ico{flex:0 0 auto; width:22px;height:22px; border-radius:50%; display:grid; place-items:center;
+  background:color-mix(in srgb,var(--amber) 20%, transparent); color:var(--amber); font-weight:900; font-size:13px}
+.notice b{color:var(--amber)}
+
+/* section */
+.sec{
+  background:var(--panel); border:1px solid var(--line); border-radius:var(--r-lg);
+  padding:26px 28px 24px; margin-bottom:20px; box-shadow:var(--shadow); scroll-margin-top:90px;
+}
+.sec-head{display:flex; gap:14px; align-items:flex-start; margin-bottom:6px}
+.sec-num{
+  flex:0 0 auto; width:38px;height:38px; border-radius:11px; display:grid; place-items:center;
+  background:var(--brand-soft); color:var(--brand-ink); font-family:var(--mono); font-size:13px; font-weight:800;
+  border:1px solid color-mix(in srgb,var(--brand) 20%, transparent);
+}
+.sec-head h2{font-size:clamp(18px,2vw,22.5px); letter-spacing:-.015em}
+.sec-head h2 .en{display:block; font-size:11.5px; font-weight:700; color:var(--ink-mute); letter-spacing:.02em; text-transform:uppercase; margin-top:3px}
+.markdone{
+  margin-left:auto; flex:0 0 auto; display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  height:32px; padding:0 11px; border-radius:9px; border:1px solid var(--line); background:var(--panel-2);
+  color:var(--ink-mute); font:inherit; font-size:11.5px; font-weight:800; white-space:nowrap; transition:.14s;
+}
+.markdone:hover{color:var(--ink); border-color:color-mix(in srgb,var(--green) 45%, var(--line))}
+.markdone .box{width:15px;height:15px;border-radius:4.5px;border:1.6px solid currentColor; display:grid;place-items:center}
+.markdone .box svg{width:11px;height:11px; opacity:0; color:#fff}
+.markdone[aria-pressed="true"]{background:var(--green-soft); color:var(--green); border-color:color-mix(in srgb,var(--green) 40%, transparent)}
+.markdone[aria-pressed="true"] .box{background:var(--green); border-color:var(--green)}
+.markdone[aria-pressed="true"] .box svg{opacity:1}
+.sec-body{font-size:15.2px; color:var(--ink-soft)}
+.sec-body > *:first-child{margin-top:0}
+.lead{font-size:15.5px; color:var(--ink-soft)}
+h3.sub{font-size:15.5px; color:var(--ink); margin:22px 0 8px; display:flex; align-items:center; gap:8px}
+h3.sub::before{content:""; width:4px; height:15px; border-radius:3px; background:var(--brand); display:inline-block}
+h4.mini{font-size:13.5px; color:var(--ink); margin:16px 0 5px; letter-spacing:.01em}
+
+/* lists */
+ul.clean,ol.clean{margin:.5em 0; padding-left:1.25em}
+ul.clean li,ol.clean li{margin:.32em 0; padding-left:.15em}
+ul.clean li::marker{color:var(--brand)}
+ol.clean li::marker{color:var(--brand); font-weight:800; font-family:var(--mono); font-size:.9em}
+ul.tight li{margin:.16em 0}
+.hl{background:linear-gradient(transparent 58%, color-mix(in srgb,var(--amber) 55%, transparent) 0); font-weight:800; color:var(--ink); padding:0 1px}
+.kw{font-weight:800; color:var(--brand-ink)}
+.en-term{font-weight:700; color:var(--teal); font-size:.95em}
+
+/* callouts */
+.call{
+  display:grid; grid-template-columns:26px minmax(0,1fr); gap:11px; align-items:start;
+  border-radius:12px; padding:12px 14px; margin:14px 0; font-size:14px; line-height:1.75;
+  border:1px solid var(--line); background:var(--panel-2); color:var(--ink-soft);
+}
+.call .ci{width:24px;height:24px;border-radius:8px; display:grid; place-items:center; font-size:13px; font-weight:900}
+.call .ct{font-size:10.5px; font-weight:900; letter-spacing:.09em; text-transform:uppercase; display:block; margin-bottom:3px}
+.call.pointer{background:var(--brand-soft); border-color:color-mix(in srgb,var(--brand) 25%, transparent)}
+.call.pointer .ci{background:color-mix(in srgb,var(--brand) 18%, transparent); color:var(--brand-ink)}
+.call.pointer .ct{color:var(--brand-ink)}
+.call.pyq{background:var(--green-soft); border-color:color-mix(in srgb,var(--green) 26%, transparent)}
+.call.pyq .ci{background:color-mix(in srgb,var(--green) 16%, transparent); color:var(--green)}
+.call.pyq .ct{color:var(--green)}
+.call.trap{background:var(--rose-soft); border-color:color-mix(in srgb,var(--rose) 26%, transparent)}
+.call.trap .ci{background:color-mix(in srgb,var(--rose) 15%, transparent); color:var(--rose)}
+.call.trap .ct{color:var(--rose)}
+.call.def{background:var(--teal-soft); border-color:color-mix(in srgb,var(--teal) 26%, transparent)}
+.call.def .ci{background:color-mix(in srgb,var(--teal) 16%, transparent); color:var(--teal)}
+.call.def .ct{color:var(--teal)}
+.call.mem{background:var(--violet-soft); border-color:color-mix(in srgb,var(--violet) 24%, transparent)}
+.call.mem .ci{background:color-mix(in srgb,var(--violet) 15%, transparent); color:var(--violet)}
+.call.mem .ct{color:var(--violet)}
+.call.fix{background:var(--amber-soft); border-color:color-mix(in srgb,var(--amber) 30%, transparent)}
+.call.fix .ci{background:color-mix(in srgb,var(--amber) 18%, transparent); color:var(--amber)}
+.call.fix .ct{color:var(--amber)}
+
+/* table */
+.tablewrap{overflow:auto; margin:16px 0; border:1px solid var(--line); border-radius:12px}
+table{border-collapse:collapse; width:100%; font-size:13.3px; min-width:560px; background:var(--panel)}
+thead th{
+  background:var(--bg-soft); text-align:left; padding:10px 13px; font-size:11.5px; letter-spacing:.05em;
+  text-transform:uppercase; color:var(--ink-soft); font-weight:900; border-bottom:1px solid var(--line);
+  position:sticky; top:0; white-space:nowrap;
+}
+tbody td{padding:10px 13px; border-bottom:1px solid var(--line-soft); vertical-align:top; color:var(--ink-soft); line-height:1.65}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover td{background:var(--panel-2)}
+tbody td b{color:var(--ink)}
+td .mini-chip{display:inline-block; font-family:var(--mono); font-size:10.5px; font-weight:700; padding:1px 7px; border-radius:6px;
+  background:var(--brand-soft); color:var(--brand-ink); margin-right:5px}
+td.year{font-family:var(--mono); font-weight:800; color:var(--brand-ink); white-space:nowrap}
+
+/* key-value fact rows */
+.kv{display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:10px; margin:14px 0}
+.kv .item{background:var(--panel-2); border:1px solid var(--line-soft); border-left:3px solid var(--brand); border-radius:10px; padding:10px 12px}
+.kv .item .k{font-size:10.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-mute); font-weight:800}
+.kv .item .v{font-size:13.6px; font-weight:700; color:var(--ink); margin-top:2px; line-height:1.55}
+
+/* stat */
+.stats{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:16px 0}
+.stat{background:linear-gradient(160deg,var(--panel-2),var(--panel)); border:1px solid var(--line); border-radius:13px; padding:13px 14px; position:relative; overflow:hidden}
+.stat::after{content:""; position:absolute; inset:auto -20px -30px auto; width:70px; height:70px; border-radius:50%; background:color-mix(in srgb,var(--brand) 10%, transparent)}
+.stat .v{font-size:23px; font-weight:900; letter-spacing:-.02em; color:var(--ink); font-family:var(--mono)}
+.stat .k{font-size:11.5px; color:var(--ink-mute); font-weight:700; margin-top:2px; line-height:1.5}
+
+/* flashcards */
+.fc-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(168px,1fr)); gap:11px; margin:16px 0}
+.fc{perspective:900px; height:118px; cursor:pointer; background:none; border:0; padding:0; font:inherit; text-align:left}
+.fc-in{position:relative; width:100%; height:100%; transition:transform .5s cubic-bezier(.4,.1,.2,1); transform-style:preserve-3d}
+.fc.flipped .fc-in{transform:rotateY(180deg)}
+.fc-face{
+  position:absolute; inset:0; border-radius:12px; padding:11px 12px; display:flex; flex-direction:column; justify-content:center;
+  backface-visibility:hidden; border:1px solid var(--line); box-shadow:var(--shadow);
+  background:linear-gradient(155deg,var(--panel-2),var(--panel));
+}
+.fc-face .top{font-family:var(--mono); font-size:10px; font-weight:800; color:var(--brand); letter-spacing:.04em; margin-bottom:4px}
+.fc-face .mid{font-size:13.5px; font-weight:800; color:var(--ink); line-height:1.5}
+.fc-face .tiny{font-size:10.5px; color:var(--ink-mute); margin-top:4px; font-weight:600}
+.fc-back{transform:rotateY(180deg); background:linear-gradient(155deg,var(--brand-soft),var(--panel)); border-color:color-mix(in srgb,var(--brand) 30%, transparent)}
+.fc-back .mid{color:var(--brand-ink); font-size:13px}
+.fc:focus-visible{outline-offset:3px}
+.fc-hint{font-size:12px; color:var(--ink-mute); margin:6px 0 0}
+
+/* quiz */
+.quiz{margin-top:6px}
+.q{background:var(--panel-2); border:1px solid var(--line); border-radius:13px; padding:15px 16px; margin:12px 0}
+.q-h{display:flex; gap:10px; align-items:flex-start; font-size:14.4px; font-weight:700; color:var(--ink); line-height:1.7}
+.q-n{flex:0 0 auto; font-family:var(--mono); font-size:11px; font-weight:800; background:var(--brand-soft); color:var(--brand-ink);
+  padding:2px 7px; border-radius:6px; margin-top:3px}
+.opts{display:grid; gap:7px; margin-top:11px}
+.opt{
+  display:flex; gap:9px; align-items:flex-start; text-align:left; padding:9px 12px; border-radius:10px; cursor:pointer;
+  background:var(--panel); border:1px solid var(--line); color:var(--ink-soft); font:inherit; font-size:13.6px; line-height:1.6;
+  transition:.14s;
+}
+.opt:hover{border-color:color-mix(in srgb,var(--brand) 42%, var(--line)); color:var(--ink); transform:translateX(2px)}
+.opt .ol{flex:0 0 auto; width:19px;height:19px;border-radius:50%; border:1.6px solid var(--line); display:grid; place-items:center;
+  font-family:var(--mono); font-size:10.5px; font-weight:800; color:var(--ink-mute); margin-top:2px}
+.opt.correct{background:var(--green-soft); border-color:var(--green); color:var(--green); font-weight:700}
+.opt.correct .ol{background:var(--green); border-color:var(--green); color:#fff}
+.opt.wrong{background:var(--rose-soft); border-color:var(--rose); color:var(--rose)}
+.opt.wrong .ol{background:var(--rose); border-color:var(--rose); color:#fff}
+.opt[disabled]{cursor:default; transform:none}
+.exp{margin-top:10px; font-size:13px; line-height:1.75; color:var(--ink-soft); background:var(--panel);
+  border-left:3px solid var(--brand); border-radius:0 9px 9px 0; padding:9px 12px; display:none}
+.exp.show{display:block}
+.exp b{color:var(--brand-ink)}
+.quiz-bar{display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin:16px 0 4px;
+  background:var(--panel-2); border:1px solid var(--line); border-radius:12px; padding:11px 14px}
+.score{font-size:13.5px; font-weight:800; color:var(--ink)}
+.score b{font-family:var(--mono); color:var(--brand-ink); font-size:15px}
+.quiz-bar .note{font-size:12px; color:var(--ink-mute)}
+
+/* fact sheet */
+.facts{display:grid; gap:8px; margin:16px 0}
+.fact{display:grid; grid-template-columns:auto minmax(0,1fr); gap:12px; align-items:baseline;
+  background:var(--panel-2); border:1px solid var(--line-soft); border-radius:10px; padding:9px 12px; font-size:13.6px}
+.fact .tag{font-family:var(--mono); font-size:10.5px; font-weight:800; color:var(--brand-ink); background:var(--brand-soft);
+  padding:2px 7px; border-radius:6px; white-space:nowrap}
+.fact .txt{color:var(--ink-soft)}
+.fact .txt b{color:var(--ink)}
+
+/* next batch */
+.next{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:12px; margin-top:14px}
+.nextcard{background:var(--panel-2); border:1px dashed var(--line); border-radius:12px; padding:13px 15px}
+.nextcard .h{font-size:13px; font-weight:800; color:var(--ink); display:flex; gap:8px; align-items:center}
+.nextcard .h .n{font-family:var(--mono); font-size:10px; background:var(--bg-soft); border:1px solid var(--line); color:var(--ink-mute); padding:1px 6px; border-radius:5px}
+.nextcard p{font-size:12.3px; color:var(--ink-mute); margin:5px 0 0; line-height:1.65}
+
+/* misc */
+.toTop{position:fixed; right:20px; bottom:20px; width:42px;height:42px; border-radius:12px; display:grid; place-items:center;
+  background:var(--panel); border:1px solid var(--line); color:var(--ink-soft); cursor:pointer; box-shadow:var(--shadow-lg);
+  opacity:0; pointer-events:none; transition:.2s; z-index:50}
+.toTop.show{opacity:1; pointer-events:auto}
+.footer{max-width:var(--maxw); margin:0 auto; padding:0 20px 40px; color:var(--ink-mute); font-size:12px; line-height:1.8}
+.footer b{color:var(--ink-soft)}
+mark{background:color-mix(in srgb,var(--amber) 60%, transparent); color:var(--ink); border-radius:3px; padding:0 1px}
+.hidden{display:none !important}
+.noresult{display:none; padding:26px; text-align:center; color:var(--ink-mute); background:var(--panel); border:1px dashed var(--line); border-radius:var(--r); font-size:14px}
+.noresult.show{display:block}
+hr.sep{border:0; border-top:1px dashed var(--line); margin:22px 0}
+
+/* responsive */
+@media (max-width:1080px){
+  .shell{grid-template-columns:1fr; padding-top:18px}
+  .side{position:static; max-height:none; order:2; padding-right:0}
+  .main{order:1}
+  .toc{display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+}
+@media (max-width:720px){
+  .topbar-in{flex-wrap:wrap; gap:10px; padding:9px 14px}
+  .searchwrap{order:3; flex-basis:100%; max-width:none}
+  .shell{padding:14px 12px 70px; gap:18px}
+  .hero{padding:22px 18px}
+  .sec{padding:20px 16px}
+  .sec-head{flex-wrap:wrap}
+  .markdone{margin-left:0; order:3}
+  .brand-text .s{display:none}
+}
+@media print{
+  .topbar,.side,.toTop,.hero-cta,.markdone,.quiz-bar,.fc-hint,.noresult{display:none !important}
+  body{background:#fff; font-size:11.5pt}
+  .shell{display:block; padding:0}
+  .sec,.hero{box-shadow:none; border:1px solid #ccc; break-inside:avoid; page-break-inside:avoid; margin-bottom:10px}
+  .fc{height:auto} .fc-in{transform:none !important}
+  .fc-back{position:static; transform:none; display:block; margin-top:4px}
+  .fc-face{position:static; box-shadow:none; backface-visibility:visible}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+ <div class="topbar-in">
+  <div class="brandmark">
+   <div class="logo">IE</div>
+   <div class="brand-text">
+    <div class="t">Indian Economy One Shot 2026</div>
+    <div class="s">PCS INSIGHTS · UPPCS 2026 / BPSC 72nd</div>
+   </div>
+  </div>
+  <span class="batch-pill">BATCH 6 / 9</span>
+  <div class="spacer"></div>
+  <div class="searchwrap">
+   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+   <input id="search" type="search" placeholder="is batch mein khojein… (jaise: stagflation, CPI, 4%)" autocomplete="off" aria-label="khojein">
+   <span class="kbd">/</span>
+  </div>
+  <button class="tool" id="themeBtn" type="button" title="theme badlein (Shift + D)" aria-label="theme badlein">
+   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+   <span id="themeLabel">dark</span>
+  </button>
+  <button class="tool" id="printBtn" type="button" title="print / PDF">
+   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4v-7h16v7h-2M8 14h8v7H8z"/></svg>
+   PDF
+  </button>
+ </div>
+ <div class="progressline"><i id="scrollProg"></i></div>
+</div>
+
+<div class="shell">
+ <!-- ================= SIDEBAR ================= -->
+ <aside class="side">
+  <div class="side-card">
+   <div class="side-progress">
+    <div class="ring" id="ring" aria-hidden="true"><span id="ringTxt">0%</span></div>
+    <div class="lbl"><b id="doneCount">0 / 11 chapter</b> padhe gaye ke roop mein chinhit</div>
+   </div>
+  </div>
+  <div class="side-card">
+   <p class="side-h">batch 5 · anukramanika</p>
+   <nav aria-label="anukramanika">
+    <ul class="toc" id="toc">
+     <li><a href="#s1"><span class="n">01</span><span>banking ka itihas</span><span class="dot"></span></a></li>
+     <li><a href="#s2"><span class="n">02</span><span>RBI — establishment aur kaam</span><span class="dot"></span></a></li>
+     <li><a href="#s3"><span class="n">03</span><span>note pres aur mint</span><span class="dot"></span></a></li>
+     <li><a href="#s4"><span class="n">04</span><span>banks ke prakaar · RRB · NABARD</span><span class="dot"></span></a></li>
+     <li><a href="#s5"><span class="n">05</span><span>anya sansthayein aur bazaar</span><span class="dot"></span></a></li>
+     <li><a href="#s6"><span class="n">06</span><span>money supply · CRR · SLR</span><span class="dot"></span></a></li>
+     <li><a href="#s7"><span class="n">07</span><span>monetary policy ke tool</span><span class="dot"></span></a></li>
+     <li><a href="#s8"><span class="n">08</span><span>inflation ka asar aur depreciation</span><span class="dot"></span></a></li>
+     <li><a href="#s9"><span class="n">09</span><span>fact sheet (revision)</span><span class="dot"></span></a></li>
+     <li><a href="#s10"><span class="n">10</span><span>flashcard · 20 shabd</span><span class="dot"></span></a></li>
+     <li><a href="#s11"><span class="n">11</span><span>abhyas question (14 MCQ)</span><span class="dot"></span></a></li>
+    </ul>
+   </nav>
+  </div>
+  <div class="side-card">
+   <p class="side-h">poori lecture series</p>
+   <ul class="chapterlist">
+    <li><span class="tag">01</span><span>mool baatein · sustainable development</span></li>
+    <li><span class="tag">02</span><span>yojana aur panchvarshiya yojanayein</span></li>
+    <li><span class="tag">03</span><span>poverty aur asamanta</span></li>
+    <li><span class="tag">04</span><span>rashtriya aay aur GDP</span></li>
+    <li><span class="tag">05</span><span>inflation</span></li>
+    <li><span class="now">› batch 6</span><span>banking, RBI aur monetary policy</span></li>
+    <li><span class="tag">07</span><span>budget, kar aur GST</span></li>
+    <li><span class="tag">08</span><span>agriculture, industry, yojanayein</span></li>
+    <li><span class="tag">09</span><span>BoP · PYQ aur MCQ set</span></li>
+   </ul>
+  </div>
+ </aside>
+
+ <!-- ================= MAIN ================= -->
+ <main class="main">
+  <section class="hero" id="top">
+   <div class="eyebrow">
+    <span class="chip brand">interactive study module</span>
+    <span class="chip green">batch 6 / 9</span>
+    <span class="chip">Hinglish · Roman script</span>
+    <span class="chip amber">pariksha-kendrit</span>
+   </div>
+   <h1>banking ka itihas, RBI aur monetary policy ke tool
+    <span class="sub">Banking History 1770→1935 · RBI · Note Presses &amp; Mints · RRB &amp; NABARD · CRR / SLR / Repo · M1–M4 · Devaluation</span>
+   </h1>
+   <p>ye batch video ke <b>chhate chapter</b> ka granular content hai — bank of hindustan se RBI tak ki sidhi, note kahan chhapate hain, charon tarah ke bank, NABARD ka refinance model, CRR–SLR ka ₹100 wala hisab aur repo–reverse repo ka farq. neeche 46 panktiyon ki fact sheet, 20 flashcard aur 14 sawaalon ka test bhi hai.</p>
+   <div class="meta-grid">
+    <div class="meta"><div class="k">video</div><div class="v">3:28:12 · One Shot</div></div>
+    <div class="meta"><div class="k">channel</div><div class="v">PCS INSIGHTS</div></div>
+    <div class="meta"><div class="k">batch ki seema</div><div class="v">chapter 6 (poora)</div></div>
+    <div class="meta"><div class="k">source</div><div class="v">Lucent · NCERT · Ghatna Chakra</div></div>
+   </div>
+   <div class="hero-cta">
+    <a class="btn primary" href="#s1">padhna shuru karein
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+    <a class="btn ghost" href="#s9">fact sheet par jaayein</a>
+    <a class="btn ghost" href="#s11">seedhe test dein</a>
+    <a class="btn ghost" href="batch-06-text-hinglish.html" target="_blank" rel="noopener">poora text (verbatim) ↗</a>
+   </div>
+  </section>
+
+  <div class="notice">
+   <span style="display:block;margin-top:6px"><b>Bhasha:</b> ye poora module <b>city-style Hinglish (Roman script)</b> mein likha gaya hai — technical terms English mein hi hain (repo, CRR, SLR, NABARD), aur explanation bolne wali Hinglish mein. Devanagari edition ke liye <span class="mono">batch-06-interactive.html</span> kholein.</span>
+   <span class="ico">!</span>
+   <div><b>pardarshita note:</b> ye module video ke <b>auto-transcript</b> par aadharit hai (Hindi, ASR se). jahan paribhasha/ankada spasht roop se gadabadaya gaya (jaise “kaipeks bank”, SEWA ka 1947, devaluation ka 1969), wahan <span class="chip fix-chip" style="background:var(--amber-soft);color:var(--amber);border:1px solid var(--line)">reform</span> chinh se sahi jankari di gayi hai — pariksha mein wahi likhein.
+   <span style="display:block;margin-top:6px"><b>Bhasha:</b> ye poora module <b>city-style Hinglish (Roman script)</b> mein likha gaya hai — technical terms English mein hi hain (repo, CRR, SLR, NABARD), aur explanation bolne wali Hinglish mein. Devanagari edition ke liye <span class="mono">batch-06-interactive.html</span> kholein.</span></div>
+  </div>
+  <section class="sec" id="s1" data-sec="s1">
+   <div class="sec-head">
+    <div class="sec-num">01</div>
+    <h2>Bharat mein banking ka itihas<span class="en">Banking history: 1770 → 1935</span></h2>
+    <button class="markdone" data-done="s1" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p class="lead">lecture ki pehli lain hi yaad rakhne wali hai — “jo <b>modern banking system</b> hai, vo <b>1770</b> se shuru hota hai, <b>Bank of Hindustan</b> se.” yahan se lekar RBI tak ki poori sidhi pariksha mein seedhe tarikh-aadharit question deti hai.</p>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">Bank of Hindustan (1770)</span>Bharat mein <b>modern banking</b> ki shuruaat isi bank se mani jati hai. iske baad <b>Presidency Banks</b> aaye — teen Presidency, teen bank.</div>
+    </div>
+    <div class="tablewrap">
+     <table>
+      <thead><tr><th>bank</th><th>varsh</th><th>khas baat</th></tr></thead>
+      <tbody>
+       <tr><td><b>Bank of Hindustan</b><br><span class="mono">bank of hindustan</span></td><td><b>1770</b></td><td>Modern banking ki shuruaat</td></tr>
+       <tr><td><b>Bank of Bengal</b><br><span class="mono">bank of Bengal</span></td><td><b>1806</b></td><td>pehla Presidency Bank</td></tr>
+       <tr><td><b>Bank of Bombay</b><br><span class="mono">bank of Bombay</span></td><td><b>1840</b></td><td>doosra Presidency Bank</td></tr>
+       <tr><td><b>Bank of Madras</b><br><span class="mono">bank of madras</span></td><td><b>1843</b></td><td>tisra Presidency Bank</td></tr>
+       <tr><td><b>Oudh Commercial Bank</b><br><span class="mono">avadh commercial bank</span></td><td><b>1881</b></td><td>pehla <b>bharatiyon dwara sanchalit</b> bank</td></tr>
+       <tr><td><b>Punjab National Bank</b><br><span class="mono">Punjab national bank</span></td><td><b>1894</b></td><td>pehla <b>poorn Bharatiya</b> bank</td></tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="call trap">
+     <span class="ci">!</span>
+     <div><span class="ct">Trap — 1881 banam 1894</span><b>1881</b> = Oudh Commercial Bank, jo pehla <b>Indian-operated</b> bank tha. <b>1894</b> = PNB, jo pehla <b>fully Indian</b> bank tha. question mein “first Indian bank” likhakar dono vikalp rakh diye jate hain — wahan PNB chunein.</div>
+    </div>
+    <div class="call pointer">
+     <span class="ci">i</span>
+     <div><span class="ct">video ke bahar se, par pariksha mein aata hai</span><b>1921</b> mein teeno Presidency Banks milkar <b>Imperial Bank of India</b> bane, aur <b>1955</b> mein wahi <b>State Bank of India</b> ban gaya. iske baad <b>1969</b> mein 14 bade bank aur <b>1980</b> mein 6 bank rashtriyakrit hue — ye lecture mein nahi bola gaya, par banking ka sabse poocha jane wala fact hai.</div>
+    </div>
+    <div class="call mem">
+     <span class="ci">✦</span>
+     <div><span class="ct">yaad rakhne ka tariqa</span><b>Bengal 1806 → Bombay 1840 → madras 1843</b> — “Bengal pehle, phir Bombay, phir madras.” aur ant mein <b>PNB 1894</b> — “pehla poorn Bharatiya.”</div>
+    </div>
+   </div>
+  </section>
+
+  <section class="sec" id="s2" data-sec="s2">
+   <div class="sec-head">
+    <div class="sec-num">02</div>
+    <h2>Reserve bank of India — establishment, Governor aur kaam<span class="en">RBI: 1935 · Hilton Young · nationalisation 1949</span></h2>
+    <button class="markdone" data-done="s2" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p class="lead">RBI kisi samanya bank ki tarah nahi, balki <b>“banks ka bank”</b> hai. teen aankde zinda rakhein — <b>1 April 1935</b>, <b>1 January 1949</b>, <b>31 regional office</b>.</p>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">establishment (1 April 1935)</span><b>Hilton Young Commission</b> ki recommendation par RBI bana — aur shuru mein ye ek <b>private bank</b> tha. isliye baad mein ise rashtriyakrit karna pada.</div>
+    </div>
+    <div class="stats">
+     <div class="stat"><div class="v">1 April 1935</div><div class="k">establishment</div></div>
+     <div class="stat"><div class="v">1 January 1949</div><div class="k">nationalisation</div></div>
+     <div class="stat"><div class="v">31</div><div class="k">regional office</div></div>
+    </div>
+    <div class="tablewrap">
+     <table>
+      <thead><tr><th>question</th><th>uttar</th></tr></thead>
+      <tbody>
+       <tr><td>kiski recommendation par bana?</td><td><b>Hilton Young Commission</b></td></tr>
+       <tr><td>headquarters</td><td><b>munbai</b></td></tr>
+       <tr><td>pehla Governor</td><td><b>Sir Osborne Smith</b></td></tr>
+       <tr><td>pehla <b>Bharatiya</b> Governor</td><td><b>C. D. Deshmukh</b></td></tr>
+       <tr><td>shuru mein kis tarah ka bank?</td><td><b>Private bank</b> — 1949 mein rashtriyakrit</td></tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">RBI ke mukhya kaam (lecture ke shabdon mein)</span>
+     <b>1.</b> currency jari karna aur use niyantrit karna ·
+     <b>2.</b> credit aur liquidity ko niyantrit karna ·
+     <b>3.</b> <b>lender of last resort</b> — kisi bank ko kahin se loan na mile to vo RBI ke pass aata hai ·
+     <b>4.</b> repo–reverse repo daren tay karna ·
+     <b>5.</b> commercial banks, <b>NBFC</b> aur microfinance ko regulate karna ·
+     <b>6.</b> payment aur digital mission, small finance bank jaisi pahalen.</div>
+    </div>
+    <div class="call trap">
+     <span class="ci">!</span>
+     <div><span class="ct">Trap</span>RBI ki establishment <b>1935</b> hai aur <b>nationalisation 1949</b>. dono tarikhen ek hi varsh mein nahi hain — question mein “RBI ki establishment 1949 mein hui” likhakar jaal bichhaya jata hai, vo galat hai.</div>
+    </div>
+   </div>
+  </section>
+
+  <section class="sec" id="s3" data-sec="s3">
+   <div class="sec-head">
+    <div class="sec-num">03</div>
+    <h2>note kahan chhapate hain, coins kahan bante hain?<span class="en">Note presses, mints &amp; currency symbols</span></h2>
+    <button class="markdone" data-done="s3" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p class="lead">ek hi sawal baar-baar aata hai — <b>chaar note pres</b> aur <b>chaar mint</b>. dono ki List alag hai, isliye milana nahi hai.</p>
+    <div class="tablewrap">
+     <table>
+      <thead><tr><th>kya chhapata/banta hai</th><th>kahan</th></tr></thead>
+      <tbody>
+       <tr><td rowspan="4"><b>Bank notes</b><br><span class="mono">note pres</span></td><td><b>nasik</b> (Maharashtra)</td></tr>
+       <tr><td><b>devas</b> (madhy pradesh)</td></tr>
+       <tr><td><b>haidarabad</b> (telangana)</td></tr>
+       <tr><td><b>Mysuru</b> (Karnataka) — lecture mein “masuru” bola gaya</td></tr>
+       <tr><td rowspan="4"><b>Coins</b><br><span class="mono">mint / mint</span></td><td><b>munbai</b></td></tr>
+       <tr><td><b>kolakata</b></td></tr>
+       <tr><td><b>haidarabad</b></td></tr>
+       <tr><td><b>noeda</b></td></tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">note par kya-kya badala</span><b>1996 ke baad</b> se notes par <b>mahatma Gandhi ka portrait</b> aata hai. usse pehle notes par <b>ashok stanbh</b> hua karta tha. Bharatiya karensi par <b>15 bhashaen</b> dikhati hain. aur karensi ka <b>₹</b> chinh <b>do. uday kumar</b> ne diya.</div>
+    </div>
+    <div class="call fix">
+     <span class="ci">✎</span>
+     <div><span class="ct">reform — “15 bhashaen”</span>lecture mein 15 bhashaen batai gayi hain. asal mein note par <b>15 bhashaen + Hindi + angrezi = kul 17</b> bhashaen hoti hain (angrezi aur Hindi dono taraf). question mein “15 bhashaen” vikalp ke taur par aata hai, to wahi chunein — par asli ginti 17 hai.</div>
+    </div>
+    <div class="call pointer">
+     <span class="ci">i</span>
+     <div><span class="ct">video ke bahar se, par poocha jata hai</span><b>₹1 ka note</b> Bharat government (finance Secretary ke hastakshar) jari karti hai; <b>₹2 aur usse upar ke sabhi note RBI</b> jari karta hai (Governor ke hastakshar). coins bhi Bharat government jari karti hai, par vitaran RBI karta hai.</div>
+    </div>
+    <div class="call mem">
+     <span class="ci">✦</span>
+     <div><span class="ct">ek lain mein</span><b>note</b> = nasik · devas · haidarabad · Mysuru &nbsp;|&nbsp; <b>coins</b> = munbai · kolakata · haidarabad · noeda. dono mein sirf <b>haidarabad</b> common hai.</div>
+    </div>
+   </div>
+  </section>
+  <section class="sec" id="s4" data-sec="s4">
+   <div class="sec-head">
+    <div class="sec-num">04</div>
+    <h2>bank kitne prakaar ke hote hain? RRB aur NABARD<span class="en">Commercial banks · RRB 1975 · NABARD 1982</span></h2>
+    <button class="markdone" data-done="s4" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p class="lead">Bharat mein commercial banks do kanoonon ke ghere mein chalate hain — panjikaran <b>Companies Act</b> ke tahat, aur niyantran <b>Banking Regulation Act 1949</b> ke tahat. isi beech RRB aur NABARD jaise alag tarah ke sansthan aate hain.</p>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">Commercial bank</span>jo bank <b>Companies Act</b> ke antargat panjikrit hote hain aur <b>Banking Regulation Act 1949</b> se niyantrit hote hain. inamen scheduled/non-scheduled, public sector, private aur foreign banks sab aate hain.</div>
+    </div>
+    <div class="tablewrap">
+     <table>
+      <thead><tr><th>prakaar</th><th>matlab</th><th>udaharan / khas baat</th></tr></thead>
+      <tbody>
+       <tr><td><b>Scheduled bank</b></td><td>RBI Act ki <b>doosri Schedule</b> mein naam</td><td>RBI se udhar lene ki suvidha</td></tr>
+       <tr><td><b>Non-scheduled</b></td><td>Schedule mein naam nahi</td><td>chhote/regional bank</td></tr>
+       <tr><td><b>Public sector</b></td><td>government ke swamitva mein</td><td><b>SBI</b> — pehla aur sabse bada sarvajanik bank</td></tr>
+       <tr><td><b>Private / Foreign</b></td><td>niji ya videshi malikana</td><td>HDFC, ICICI / Standard Chartered</td></tr>
+       <tr><td><b>Cooperative</b></td><td>cooperative committee ke roop mein</td><td>jila cooperative bank</td></tr>
+       <tr><td><b>RRB</b></td><td>gramin ilaqon ke liye regional gramin bank</td><td>1975 mein shuru</td></tr>
+       <tr><td><b>Payment bank / Small finance bank</b></td><td>nae tarah ke specialized bank</td><td>RBI ki pahal</td></tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">RRB — Regional Rural Bank (2 aktubar 1975)</span><b>Saraiya aur Narasimham Committee</b> ki recommendation par bane. pehla RRB — <b>Prathama Bank</b>, <b>uttar pradesh</b> (Moradabad) mein. malikana hissa: <b>Centre 50% + rajya 15% + sponsor bank 35%</b>.</div>
+    </div>
+    <div class="stats">
+     <div class="stat"><div class="v">50%</div><div class="k">Centre government</div></div>
+     <div class="stat"><div class="v">15%</div><div class="k">rajya government</div></div>
+     <div class="stat"><div class="v">35%</div><div class="k">sponsor bank</div></div>
+    </div>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">NABARD (1982, munbai)</span><b>National Bank for Agriculture and Rural Development</b> — agriculture aur gramin development ke liye <b>shirsh (apex) bank</b>. iski pahalen: <b>Project E-Shakti</b> aur <b>Kisan Credit Card</b>.</div>
+    </div>
+    <div class="call fix">
+     <span class="ci">✎</span>
+     <div><span class="ct">reform — NABARD “kaipeks bank” nahi, <b>apex bank</b> hai</span>transcript mein “kaipeks bank” likha aaya hai, jo ASR ki gadbad hai. sahi shabd <b>apex institution</b> hai — yaani sabse upar ki institution, jo neeche ke sansthanon ko dhan uplabdh karati hai.</div>
+    </div>
+    <div class="call trap">
+     <span class="ci">!</span>
+     <div><span class="ct">Trap — NABARD seedhe loan nahi deta</span>aap NABARD ke daravaze par jakar kisan loan nahi le sakte. NABARD <b>refinance</b> karta hai — jaise RRB ke pass paisa kam pade to NABARD use refinance deta hai. ye sabse zyada poocha jane wala antar hai.</div>
+    </div>
+   </div>
+  </section>
+
+  <section class="sec" id="s5" data-sec="s5">
+   <div class="sec-head">
+    <div class="sec-num">05</div>
+    <h2>anya vittiy sansthayein aur vittiy bazaar<span class="en">LIC · GIC · IRDA · UTI · NHB · SEBI · microfinance</span></h2>
+    <button class="markdone" data-done="s5" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p class="lead">“inka <b>headquarter aur year</b> yaad rakhna hai — yahan se direct question aa sakata hai.” lecture ka yahi kahna hai, to table ratane layak hai.</p>
+    <div class="tablewrap">
+     <table>
+      <thead><tr><th>institution</th><th>varsh</th><th>headquarters</th><th>kaam</th></tr></thead>
+      <tbody>
+       <tr><td><b>LIC</b></td><td><b>1956</b></td><td>munbai</td><td>jeevan insurance</td></tr>
+       <tr><td><b>UTI</b></td><td><b>1964</b></td><td>munbai</td><td>myuchual phand</td></tr>
+       <tr><td><b>GIC</b></td><td><b>1972</b></td><td>munbai</td><td>samanya insurance</td></tr>
+       <tr><td><b>NABARD</b></td><td><b>1982</b></td><td>munbai</td><td>agriculture aur gramin refinance</td></tr>
+       <tr><td><b>NHB</b></td><td><b>1988</b></td><td><b>New Delhi</b></td><td>Awaas finance</td></tr>
+       <tr><td><b>SEBI</b></td><td><b>1992</b></td><td>munbai</td><td>security bazaar ka niyantran</td></tr>
+       <tr><td><b>IRDA</b></td><td><b>1999</b></td><td><b>haidarabad</b></td><td>insurance niyantran</td></tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">SEBI (1992)</span>SEBI Act ke tahat bana, headquarters <b>munbai</b>, regional office <b>kolakata, ahamadabad, Delhi aur chennai</b> mein. kaam — <b>stock exchange aur mutual fund</b> ko niyantrit karna.</div>
+    </div>
+    <div class="call fix">
+     <span class="ci">✎</span>
+     <div><span class="ct">reform — SEBI ka janm 1988, qanuni shakti 1992</span>SEBI ki <b>establishment 1988</b> mein hui thi (prashasnik body ke roop mein), aur <b>1992</b> mein SEBI Act ke zarie use vaidhanik shaktiyan milin. lecture mein sirf 1992 bola gaya — question mein “SEBI ki establishment” poochhe to 1988, “SEBI Act / vaidhanik darja” poochhe to 1992.</div>
+    </div>
+    <div class="tablewrap">
+     <table>
+      <thead><tr><th>bazaar</th><th>period</th><th>niyantrak / udaharan</th></tr></thead>
+      <tbody>
+       <tr><td><b>Money market</b></td><td><b>1 varsh se kam</b> (short term)</td><td>RBI — call money, treasury bills</td></tr>
+       <tr><td><b>Capital market</b></td><td><b>madhyam aur long-term</b></td><td><b>SEBI</b> — shares, debentures</td></tr>
+       <tr><td><b>Primary market</b></td><td>naya nirgam</td><td>company se seedhe share kharidna (IPO)</td></tr>
+       <tr><td><b>Secondary market</b></td><td>pehle jari sheyaron ka karobar</td><td>NSE / BSE par kharid-bikri</td></tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="call mem">
+     <span class="ci">✦</span>
+     <div><span class="ct">NSE aur BSE</span><b>BSE</b> sabse purana stock exchange hai, isne <b>Sensex</b> nikala (top <b>30</b> companies). <b>NSE</b> — headquarters munbai, isne <b>Nifty</b> 1996 mein shuru kiya.</div>
+    </div>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">sukshm finance (Microfinance)</span>Bharat mein microfinance sabse pehle <b>SEWA Bank</b> ne <b>gujarat</b> mein shuru kiya. Micro-credit ke liye <b>mohammad yunus</b> ko nobel mila (gramin bank, bangladesh).</div>
+    </div>
+    <div class="call fix">
+     <span class="ci">✎</span>
+     <div><span class="ct">reform — SEWA ka varsh</span>lecture mein “1947” bola gaya. asal mein <b>SEWA sangathan 1972</b> mein aur <b>SEWA Bank 1974</b> mein bana. pariksha mein “gujarat mein pehla microfinance” poocha jaaye to <b>SEWA Bank</b> hi uttar hai.</div>
+    </div>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">do skimen — do varsh</span><b>Banking Ombudsman Scheme — 1995:</b> banking shikayat ko jaldi aur saste mein hal karne ke liye. <b>Differential Rate of Interest (DRI) — 1972:</b> sarvajanik sector ke banks ko kaha gaya ki kamazor varg ko <b>4% byaaj</b> par loan dein.</div>
+    </div>
+   </div>
+  </section>
+
+  <section class="sec" id="s6" data-sec="s6">
+   <div class="sec-head">
+    <div class="sec-num">06</div>
+    <h2>money supply M1–M4, CRR aur SLR<span class="en">Money supply measures &amp; reserve ratios</span></h2>
+    <button class="markdone" data-done="s6" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p class="lead">₹100 bank mein aaya — usmein se kitna RBI ke pass jaayega, kitna bank apne pass rakhega aur kitna loan ke liye bachega? yahi <b>CRR</b> aur <b>SLR</b> ka poora khel hai.</p>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">CRR — Cash Reserve Ratio (lagbhag 4%)</span>bank mein deposit ₹100 mein se <b>4% yaani ₹4</b> bank ko <b>RBI ke pass naqad (cash)</b> rakhna padta hai. is ₹4 par bank ko <b>koi byaaj nahi milta</b>.</div>
+    </div>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">SLR — Statutory Liquidity Ratio (lagbhag 18%)</span>₹100 mein se <b>18% yaani ₹18</b> bank ko <b>apne pass hi</b> alag rakhna hota hai (sarkari securities/sone ke roop mein). ye paisa <b>RBI ke pass nahi</b> jata, aur is par bank ko byaaj bhi milta hai.</div>
+    </div>
+    <div class="tablewrap">
+     <table>
+      <thead><tr><th>₹100 ki deposit</th><th>raqam</th><th>kahan rehti hai</th><th>byaaj</th></tr></thead>
+      <tbody>
+       <tr><td><b>CRR 4%</b></td><td>₹4</td><td><b>RBI</b> ke pass, naqad</td><td>nahi</td></tr>
+       <tr><td><b>SLR ~18%</b></td><td>₹18</td><td><b>bank ke pass hi</b></td><td>han</td></tr>
+       <tr><td><b>Loan ke liye bacha</b></td><td><b>₹78</b></td><td>bazaar mein</td><td>bank kamata hai</td></tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">money supply ke chaar maap</span>
+     <b>M1</b> = Janata ke pass karensi + <b>net demand deposits</b> (jo kabhi bhi nikale ja saken) + RBI ke pass anya deposit — sabse zyada taral<br>
+     <b>M2</b> = M1 + dakaghar ki saving deposit<br>
+     <b>M3</b> = M1 + banks ki <b>fixed deposits</b> — ise <b>broad money</b> kehte hain<br>
+     <b>M4</b> = M3 + dakaghar ki deposit (kul)</div>
+    </div>
+    <div class="call pointer">
+     <span class="ci">i</span>
+     <div><span class="ct">lecture ki salah</span>“M1–M4 ratane ki zarurat nahi, shayad nahi poocha jaaye” — par <b>M1 = narrow money</b> aur <b>M3 = broad money</b> ye do baatein pariksha mein seedhe aati hain. M1 mein <b>karensi + demand deposit</b> hote hain, FD nahi.</div>
+    </div>
+    <div class="call trap">
+     <span class="ci">!</span>
+     <div><span class="ct">Trap — CRR kiske pass, SLR kiske pass</span><b>CRR = RBI ke pass</b> · <b>SLR = bank ke apne pass</b>. yahi ek lain sabse zyada galat hoti hai. yaad rakhein: “jo RBI ke pass jata hai vo <b>C</b>RR (Central bank), jo apne pass rehta hai vo <b>S</b>LR (Self).”</div>
+    </div>
+    <div class="call mem">
+     <span class="ci">✦</span>
+     <div><span class="ct">RBI daren badalati kyun hai?</span>agar RBI chahti hai ki bazaar mein <b>zyada paisa</b> jaaye, to SLR ₹18 se ghatakar <b>15%</b> kar degi — tab bank ke pass loan dene ke liye <b>₹82</b> bachenge (₹78 ki jagah). paisa badhana hai to daren ghatao, paisa ghatana hai to daren badhao.</div>
+    </div>
+   </div>
+  </section>
+  <section class="sec" id="s7" data-sec="s7">
+   <div class="sec-head">
+    <div class="sec-num">07</div>
+    <h2>monetary policy ke tool — repo, reverse repo, OMO<span class="en">Monetary policy instruments &amp; objectives</span></h2>
+    <button class="markdone" data-done="s7" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p class="lead">monetary policy ka maksad ek hi hai — <b>paise ki quantity</b> ko aisa rakhna ki inflation kaabu mein rahe aur growth ruke nahi. RBI ke pass iske liye kai tool hain; har tool ka “tera-mera” samajh lein.</p>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">repo rate</span>maan low <b>Kotak Mahindra Bank</b> ko paise ki zarurat padi. vo RBI ke pass jaayega aur apni <b>sarkari securities (government securities) girvi</b> rakh dega; RBI badale mein paisa de dega. <b>Repo = Repurchase Agreement</b> — bank ko bhavishya mein paisa lautakar apni securities vapas leni hoti hain.</div>
+    </div>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">reverse repo</span>ulti sthiti — banks ke pass <b>zyada paisa</b> hai, to ve use RBI ke pass <b>park</b> kar dete hain; RBI unhen sarkari security deti hai aur byaaj deti hai. reverse repo rate <b>repo se kam</b> hoti hai aur iska kaam <b>extra liquidity sokhna</b> hai.</div>
+    </div>
+    <div class="tablewrap">
+     <table>
+      <thead><tr><th>tool</th><th>kya hota hai</th><th>kiske liye</th></tr></thead>
+      <tbody>
+       <tr><td><b>Repo</b></td><td>RBI bank ko security ke badale paisa deti hai</td><td>bank ke pass paisa kam ho to</td></tr>
+       <tr><td><b>Reverse repo</b></td><td>RBI bank se paisa lekar security deti hai</td><td>bazaar mein paisa zyada ho to</td></tr>
+       <tr><td><b>MSF</b></td><td>SLR ki securities girvi rakhakar loan</td><td>jab aur security bachi na ho</td></tr>
+       <tr><td><b>Bank rate</b></td><td>pehle discounting ke liye, ab <b>penalty rate</b></td><td>shart poori na karne par jurmana</td></tr>
+       <tr><td><b>OMO</b></td><td>RBI khula bazaar mein security kharidti/bechati hai</td><td>paisa badhana ya ghatana</td></tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">OMO — Open Market Operation</span>RBI chahti hai ki bazaar mein paisa <b>badhe</b> (kyunki logon ke pass paisa nahi, mang nahi badh rahi) — to vo sarkari securities <b>kharid</b> legi aur bazaar mein paisa chhod degi. paisa <b>ghatana</b> hai to apni securities <b>bech</b> degi — log paisa denge, liquidity sukh jaegi.</div>
+    </div>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">Quantitative banam Qualitative</span><b>Quantitative</b> — paise ki <b>quantity</b> seedhe niyantrit: bank rate, MSF, reverse repo, repo, CRR, SLR, OMO.<br><b>Qualitative</b> — <b>credit ka bahav</b> kisi khas sector ki or modna: “bhai, itna paisa to is sector ko dena hi dena hai” — margin requirement, credit rationing, moral suasion.</div>
+    </div>
+    <div class="call pointer">
+     <span class="ci">i</span>
+     <div><span class="ct">policy kab ghoshit hoti hai?</span>RBI saal mein <b>6 baar</b> (har <b>2 mahine</b> mein) monetary policy ki ghoshna karta hai — repo kitna, reverse repo kitna. faisla inflation/deflation ki sthiti dekhakar hota hai.</div>
+    </div>
+    <div class="call pointer">
+     <span class="ci">i</span>
+     <div><span class="ct">video ke bahar se, par pariksha mein aata hai</span>ye faisla <b>monetary policy committee (MPC)</b> leti hai — kul <b>6 members</b> (3 RBI ke, 3 government dwara namit), chairman RBI Governor. target <b>4% ± 2%</b> — batch 5 mein yahi vistar se padha tha.</div>
+    </div>
+    <div class="call mem">
+     <span class="ci">✦</span>
+     <div><span class="ct">ek lain mein poora tantr</span>inflation badhi → RBI <b>repo/CRR/SLR badhati</b> hai → loan mahange → mang ghatati → inflation ghatati. susti ai → ulta karti hai.</div>
+    </div>
+   </div>
+  </section>
+
+  <section class="sec" id="s8" data-sec="s8">
+   <div class="sec-head">
+    <div class="sec-num">08</div>
+    <h2>inflation ka asar aur depreciation<span class="en">Who gains, who loses &amp; devaluation vs depreciation</span></h2>
+    <button class="markdone" data-done="s8" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p class="lead">inflation sabake liye ek jaisi nahi hoti — koi kamata hai, koi harta hai. aur karensi ke price mein badalav seedhe <b>export–import</b> se juda hai.</p>
+    <div class="tablewrap">
+     <table>
+      <thead><tr><th>kaun</th><th>inflation mein</th><th>deflation mein</th></tr></thead>
+      <tbody>
+       <tr><td><b>consumer</b></td><td><b>nuqasan</b> — ₹100 ki cheez ₹105 ki</td><td>fayda — ₹100 ki cheez ₹98 ki</td></tr>
+       <tr><td><b>lender</b></td><td><b>nuqasan</b> — lautaya paisa kam qimat ka</td><td><b>fayda</b></td></tr>
+       <tr><td><b>debtor</b></td><td><b>fayda</b> — kam qimat chukakar qarz utara</td><td>nuqasan</td></tr>
+       <tr><td><b>sthir aay wala (fixed income)</b></td><td><b>nuqasan</b> — aay wahi, prices badhin</td><td>fayda</td></tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">Lender vs debtor — lecture ka chaval wala udaharan</span>aj ₹100 udhar diye aur us vaqt ₹100 mein <b>2 kilo chaval</b> aata tha. jab paisa vapas mila tab chaval <b>₹70/kilo</b> ho gaya — ab usi ₹100 mein <b>2 kilo nahi</b> aenge. yaani <b>jisne paisa diya (lender) uska nuqasan</b>, aur <b>jisne liya (debtor) use fayda</b>.</div>
+    </div>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">depreciation (Depreciation / Devaluation)</span>ek pen Bharat mein ₹10 ka hai aur <b>$1 = ₹50</b>. tab USA wala ₹50 mein <b>5 pen</b> kharidta tha. ab dolar <b>₹80</b> ka ho gaya — wahi ₹50? nahi, wahi <b>$1</b> ab <b>8 pen</b> kharidega. yaani Bharat ka <b>export badh</b> jaayega. bazaar ki taqaton se rupya gire = <b>depreciation</b>; government/RBI janabujhakar girae = <b>devaluation</b>.</div>
+    </div>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">appreciation</span>ulta — dolar ₹50 se <b>₹40</b> ka ho gaya to USA wala <b>4 pen</b> hi kharidega: <b>export ghatega</b>. aur <b>import sasta</b> ho jaayega — pehle $1 mein ek bairal tel ₹50 mein milta tha, ab ₹40 mein milega.</div>
+    </div>
+    <div class="tablewrap">
+     <table>
+      <thead><tr><th>sthiti</th><th>Export</th><th>Import</th></tr></thead>
+      <tbody>
+       <tr><td>$1 = ₹50 → <b>₹80</b> (depreciation)</td><td><b>badhta</b> hai</td><td><b>mahanga</b> hota hai</td></tr>
+       <tr><td>$1 = ₹50 → <b>₹40</b> (appreciation)</td><td><b>ghatata</b> hai</td><td><b>sasta</b> hota hai</td></tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="call fix">
+     <span class="ci">✎</span>
+     <div><span class="ct">reform — Bharat mein depreciation ke varsh</span>lecture mein “1949, 1969, 1991” bola gaya. sahi kram <b>1949, 1966 aur 1991</b> hai — 1966 mein rupye ka bada devaluation hua tha (1969 nahi). 1991 wala devaluation LPG sudharon ke saath juda hai.</div>
+    </div>
+    <div class="call trap">
+     <span class="ci">!</span>
+     <div><span class="ct">Trap — depreciation banam devaluation</span>dono mein <b>karensi ki qimat ghatati</b> hai. farq kaaran ka hai: <b>depreciation</b> bazaar se apne aap, <b>devaluation</b> government/RBI ke faisle se. question mein “market forces” shabd aaye to depreciation.</div>
+    </div>
+   </div>
+  </section>
+  <section class="sec" id="s9" data-sec="s9">
+   <div class="sec-head">
+    <div class="sec-num">09</div>
+    <h2>fact sheet — antim 10 minat ka revision<span class="en">One-line fact sheet</span></h2>
+    <button class="markdone" data-done="s9" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p>pure chapter ke pariksha-yogya fact, ek-ek pankti mein. <b>print/PDF</b> se revision sheet nikal sakte hain.</p>
+    <div class="facts" id="factsList">
+     <div class="fact"><span class="tag">First bank</span><span class="txt"><b>Bank of Hindustan — 1770</b> (modern banking ki shuruaat)</span></div>
+     <div class="fact"><span class="tag">Bengal</span><span class="txt">Bank of Bengal — <b>1806</b>, pehla Presidency Bank</span></div>
+     <div class="fact"><span class="tag">Bombay</span><span class="txt">Bank of Bombay — <b>1840</b></span></div>
+     <div class="fact"><span class="tag">Madras</span><span class="txt">Bank of Madras — <b>1843</b></span></div>
+     <div class="fact"><span class="tag">Oudh</span><span class="txt">Oudh Commercial Bank — <b>1881</b>, pehla Bharatiya sanchalit</span></div>
+     <div class="fact"><span class="tag">PNB</span><span class="txt">Punjab National Bank — <b>1894</b>, pehla poorn Bharatiya bank</span></div>
+     <div class="fact"><span class="tag">RBI</span><span class="txt"><b>1 April 1935</b>, Hilton Young Commission ki recommendation</span></div>
+     <div class="fact"><span class="tag">Nationalisation</span><span class="txt">RBI ka nationalisation <b>1 January 1949</b></span></div>
+     <div class="fact"><span class="tag">RBI HQ</span><span class="txt"><b>munbai</b> · <b>31</b> regional office</span></div>
+     <div class="fact"><span class="tag">Governor</span><span class="txt">pehla Governor <b>Sir Osborne Smith</b> · pehla Bharatiya <b>C. D. Deshmukh</b></span></div>
+     <div class="fact"><span class="tag">RBI role</span><span class="txt"><b>Lender of last resort</b> — banks ka akhiri sahara</span></div>
+     <div class="fact"><span class="tag">Note press</span><span class="txt"><b>nasik · devas · haidarabad · Mysuru</b></span></div>
+     <div class="fact"><span class="tag">Mint</span><span class="txt"><b>munbai · kolakata · haidarabad · noeda</b></span></div>
+     <div class="fact"><span class="tag">₹1 note</span><span class="txt"><b>Bharat government</b> jari karti hai, ₹2 se upar <b>RBI</b></span></div>
+     <div class="fact"><span class="tag">Gandhi</span><span class="txt">notes par Gandhi ji ka chitr <b>1996</b> se; pehle <b>ashok stanbh</b></span></div>
+     <div class="fact"><span class="tag">₹ symbol</span><span class="txt"><b>do. uday kumar</b> (2010)</span></div>
+     <div class="fact"><span class="tag">Commercial bank</span><span class="txt">panjikaran <b>Companies Act</b>, niyantran <b>Banking Regulation Act 1949</b></span></div>
+     <div class="fact"><span class="tag">SBI</span><span class="txt">pehla aur sabse bada <b>sarvajanik sector</b> bank</span></div>
+     <div class="fact"><span class="tag">RRB</span><span class="txt"><b>2 aktubar 1975</b> — Saraiya aur Narasimham Committee</span></div>
+     <div class="fact"><span class="tag">First RRB</span><span class="txt"><b>Prathama Bank</b>, uttar pradesh</span></div>
+     <div class="fact"><span class="tag">RRB share</span><span class="txt">Centre <b>50%</b> · rajya <b>15%</b> · sponsor bank <b>35%</b></span></div>
+     <div class="fact"><span class="tag">NABARD</span><span class="txt"><b>1982</b>, munbai — <b>refinance</b> karta hai, seedhe loan nahi deta</span></div>
+     <div class="fact"><span class="tag">NABARD schemes</span><span class="txt"><b>Project E-Shakti</b> · <b>Kisan Credit Card</b></span></div>
+     <div class="fact"><span class="tag">LIC</span><span class="txt"><b>1956</b>, munbai — jeevan insurance</span></div>
+     <div class="fact"><span class="tag">GIC</span><span class="txt"><b>1972</b>, munbai — samanya insurance</span></div>
+     <div class="fact"><span class="tag">IRDA</span><span class="txt"><b>1999</b>, <b>haidarabad</b> — insurance regulator</span></div>
+     <div class="fact"><span class="tag">UTI</span><span class="txt"><b>1964</b>, munbai — myuchual phand</span></div>
+     <div class="fact"><span class="tag">NHB</span><span class="txt"><b>1988</b>, <b>New Delhi</b> — Awaas finance</span></div>
+     <div class="fact"><span class="tag">SEBI</span><span class="txt">establishment <b>1988</b>, qanuni shakti <b>1992</b>, munbai</span></div>
+     <div class="fact"><span class="tag">SEBI kaam</span><span class="txt"><b>Stock exchange</b> aur <b>mutual fund</b> ka niyantran</span></div>
+     <div class="fact"><span class="tag">BSE / NSE</span><span class="txt">BSE sabse purana, <b>Sensex (30)</b> · NSE ka <b>Nifty 1996</b></span></div>
+     <div class="fact"><span class="tag">Microfinance</span><span class="txt">Bharat mein pehle <b>SEWA Bank</b>, gujarat · <b>mohammad yunus</b> ko nobel</span></div>
+     <div class="fact"><span class="tag">Ombudsman</span><span class="txt">Banking Ombudsman Scheme — <b>1995</b></span></div>
+     <div class="fact"><span class="tag">DRI</span><span class="txt"><b>1972</b> — kamazor varg ko <b>4%</b> byaaj par loan</span></div>
+     <div class="fact"><span class="tag">CRR</span><span class="txt"><b>~4%</b> — <b>RBI ke pass</b> naqad, byaaj nahi</span></div>
+     <div class="fact"><span class="tag">SLR</span><span class="txt"><b>~18%</b> — <b>bank ke pass hi</b>, byaaj milta hai</span></div>
+     <div class="fact"><span class="tag">Repo</span><span class="txt"><b>Repurchase Agreement</b> — security girvi rakhakar RBI se loan</span></div>
+     <div class="fact"><span class="tag">Reverse repo</span><span class="txt">bank RBI ke pass paisa rakhe — <b>liquidity sokhane</b> ka tool</span></div>
+     <div class="fact"><span class="tag">MSF</span><span class="txt">SLR ki securities girvi rakhakar loan</span></div>
+     <div class="fact"><span class="tag">Bank rate</span><span class="txt">ab mukhya roop se <b>penalty rate</b></span></div>
+     <div class="fact"><span class="tag">Policy</span><span class="txt">saal mein <b>6 baar</b> — har <b>2 mahine</b> mein ghoshna</span></div>
+     <div class="fact"><span class="tag">M1 / M3</span><span class="txt"><b>M1 = narrow money</b> · <b>M3 = broad money</b></span></div>
+     <div class="fact"><span class="tag">Money market</span><span class="txt"><b>1 varsh se kam</b> period ka bazaar</span></div>
+     <div class="fact"><span class="tag">Capital market</span><span class="txt">madhyam/long-term — <b>SEBI</b> niyantrak</span></div>
+     <div class="fact"><span class="tag">Devaluation</span><span class="txt">Bharat mein <b>1949 · 1966 · 1991</b></span></div>
+     <div class="fact"><span class="tag">depreciation ka asar</span><span class="txt"><b>Export badhta</b>, <b>import mahanga</b></span></div>
+    </div>
+    <div class="hero-cta" style="margin-top:14px">
+     <button class="btn ghost" id="copyFacts" type="button">fact sheet copy karein</button>
+     <a class="btn ghost" href="#s11">test dein →</a>
+    </div>
+   </div>
+  </section>
+
+  <section class="sec" id="s10" data-sec="s10">
+   <div class="sec-head">
+    <div class="sec-num">10</div>
+    <h2>flashcard — 20 shabd, 20 uttar<span class="en">Flip cards · institutions &amp; instruments</span></h2>
+    <button class="markdone" data-done="s10" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p>card par klik/taip karein — palatakar uttar dikhega. pehle khud sochen, phir paltein.</p>
+    <h3 class="sub">sansthayein aur tarikhen</h3>
+    <div class="fc-grid" id="fcSdg"></div>
+    <h3 class="sub">tool, index aur avdharnayein</h3>
+    <div class="fc-grid" id="fcFact"></div>
+    <p class="fc-hint">keyboard: <span class="mono">Tab</span> se card chunein, <span class="mono">Enter/Space</span> se paltein.</p>
+   </div>
+  </section>
+
+  <section class="sec" id="s11" data-sec="s11">
+   <div class="sec-head">
+    <div class="sec-num">11</div>
+    <h2>abhyas question — 14 MCQ<span class="en">Practice test with instant explanations</span></h2>
+    <button class="markdone" data-done="s11" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <div class="quiz-bar">
+     <span class="score">score: <b id="scoreVal">0</b> / <span id="qTotal">14</span></span>
+     <span class="note" id="quizNote">koi vikalp chunein — turant sahi/galat aur vyakhya dikhegi.</span>
+     <span class="spacer" style="flex:1"></span>
+     <button class="btn ghost" id="resetQuiz" type="button" style="height:32px;font-size:12px">reset</button>
+    </div>
+    <div class="quiz" id="quiz"></div>
+   </div>
+  </section>
+
+  <section class="sec" id="nextbatch">
+   <div class="sec-head">
+    <div class="sec-num">→</div>
+    <h2>agla batch<span class="en">What comes next in the series</span></h2>
+   </div>
+   <div class="sec-body">
+    <p>banking ka chapter yahin samapt — lecture mein iske baad “ab hum log baat karte hain <b>fiscal policy</b> ki” kahakar naya chapter shuru hota hai. <b>bainch 7 = rajkoshiya policy, budget, kar aur GST</b>.</p>
+    <div class="next">
+     <div class="nextcard"><div class="h"><span class="n">07</span>rajkoshiya policy</div><p>government kharch, kar, sarvajanik rin aur ghata — FRBM Act 2003, NK Singh Committee 2016.</p></div>
+     <div class="nextcard"><div class="h"><span class="n">07</span>budget</div><p>Article 112 (Centre) aur 202 (rajya), pehla budget — R. K. Shanmukham Chetty.</p></div>
+     <div class="nextcard"><div class="h"><span class="n">07</span>kar</div><p>pratyaksh aur apratyaksh, regressive–proportional–progressive, aay-kar, nigam kar, utpad shulk, seema shulk.</p></div>
+     <div class="nextcard"><div class="h"><span class="n">07</span>GST</div><p>1 July 2017, 101van Constitution sanshodhan, CGST–SGST–IGST, slaib 0/5/12/18/28.</p></div>
+    </div>
+    <div class="call pointer" style="margin-top:16px">
+     <span class="ci">i</span>
+     <div><span class="ct">batch continuity</span>har batch mein wahi infrastructure: <b>granular notes → fact sheet → flashcard → MCQ</b>, aur seema lecture ke chapter-brek par.</div>
+    </div>
+   </div>
+  </section>
+
+  <div class="noresult" id="noresult">koi parinaam nahi mila — koi doosra shabd azmaayein (jaise <b>repo</b>, <b>RRB</b>, <b>CRR</b>).</div>
+ </main>
+</div>
+
+<button class="toTop" id="toTop" type="button" aria-label="upar jaayein">
+ <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+
+<footer class="footer">
+ <p><b>source:</b> “Indian Economy One Shot 2026 — Complete Indian Economy for UPPCS &amp; BPSC 72nd”, PCS INSIGHTS (UPPCS-BPSC), YouTube — <span class="mono">youtu.be/r2iOMMlSPIw</span> (3:28:12, published 09-11-2026). batch 6 = video ka chhatha chapter (banking, RBI aur monetary policy).</p>
+ <p>ye adhyayan-material video ke auto-transcript se bani hai; jahan lecture mein paribhasha/ankada gadabadaya, wahan “reform” chinh se sahi jankari di gayi hai — pariksha mein wahi likhein.</p>
+ <p style="margin-top:8px">batch 6 / 9 · interactive study module · pragati isi browser mein surakshit rehti hai.</p>
+</footer>
+
+
+<script>
+(function(){
+  "use strict";
+  var $ = function(s,c){return (c||document).querySelector(s);};
+  var $$ = function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s));};
+  var LS = {
+    get:function(k,d){try{var v=localStorage.getItem(k);return v===null?d:JSON.parse(v);}catch(e){return d;}},
+    set:function(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
+  };
+
+  /* ---------- theme ---------- */
+  var themeBtn=$("#themeBtn"), themeLabel=$("#themeLabel");
+  function applyTheme(t){
+    document.documentElement.setAttribute("data-theme",t);
+    themeLabel.textContent = t==="dark" ? "light" : "dark";
+    LS.set("ie-theme",t);
+  }
+  applyTheme(LS.get("ie-theme","light"));
+  themeBtn.addEventListener("click",function(){
+    applyTheme(document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark");
+  });
+
+  /* ---------- print ---------- */
+  $("#printBtn").addEventListener("click",function(){window.print();});
+
+  /* ---------- progress / mark done ---------- */
+  var marks=$$(".markdone"), done=LS.get("ie-done-b6",{});
+  var total=marks.length;
+  function refreshProgress(){
+    var n=0;
+    marks.forEach(function(b){
+      var id=b.getAttribute("data-done"), on=!!done[id];
+      b.setAttribute("aria-pressed",on?"true":"false");
+      if(on) n++;
+      var link=$('#toc a[href="#'+id+'"]');
+      if(link){link.classList.toggle("done",on);}
+    });
+    var pct=total?Math.round(n/total*100):0;
+    $("#ring").style.setProperty("--p",pct);
+    $("#ringTxt").textContent=pct+"%";
+    $("#doneCount").textContent=n+" / "+total+" chapter";
+  }
+  marks.forEach(function(b){
+    b.addEventListener("click",function(){
+      var id=b.getAttribute("data-done");
+      done[id]=!done[id];
+      LS.set("ie-done-b6",done);
+      refreshProgress();
+    });
+  });
+  refreshProgress();
+
+  /* ---------- scroll progress + to top ---------- */
+  var bar=$("#scrollProg"), toTop=$("#toTop");
+  function onScroll(){
+    var h=document.documentElement;
+    var max=(h.scrollHeight-h.clientHeight)||1;
+    bar.style.width=Math.min(100,(h.scrollTop/max)*100)+"%";
+    toTop.classList.toggle("show",h.scrollTop>700);
+  }
+  document.addEventListener("scroll",onScroll,{passive:true});
+  onScroll();
+  toTop.addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"});});
+
+  /* ---------- TOC active state ---------- */
+  var secs=$$("main .sec");
+  if("IntersectionObserver" in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          $$("#toc a").forEach(function(a){a.classList.remove("active");});
+          var a=$('#toc a[href="#'+en.target.id+'"]');
+          if(a){a.classList.add("active");}
+        }
+      });
+    },{rootMargin:"-88px 0px -66% 0px",threshold:0});
+    secs.forEach(function(s){io.observe(s);});
+  }
+
+  /* ---------- search ---------- */
+  var search=$("#search"), noresult=$("#noresult");
+  function clearMarks(root){
+    $$("mark",root).forEach(function(m){
+      var p=m.parentNode, t=document.createTextNode(m.textContent);
+      p.replaceChild(t,m); p.normalize();
+    });
+  }
+  function highlight(root,q){
+    var walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{
+      acceptNode:function(n){
+        if(!n.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        var p=n.parentNode;
+        if(!p) return NodeFilter.FILTER_REJECT;
+        var tag=p.nodeName;
+        if(tag==="SCRIPT"||tag==="STYLE"||tag==="MARK"||tag==="INPUT"||tag==="TEXTAREA") return NodeFilter.FILTER_REJECT;
+        return n.nodeValue.toLowerCase().indexOf(q)!==-1?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT;
+      }
+    });
+    var nodes=[], n;
+    while((n=walker.nextNode())){nodes.push(n);}
+    nodes.forEach(function(node){
+      var text=node.nodeValue, low=text.toLowerCase(), idx=low.indexOf(q);
+      if(idx===-1) return;
+      var frag=document.createDocumentFragment(), last=0;
+      while(idx!==-1){
+        frag.appendChild(document.createTextNode(text.slice(last,idx)));
+        var m=document.createElement("mark");
+        m.textContent=text.slice(idx,idx+q.length);
+        frag.appendChild(m);
+        last=idx+q.length;
+        idx=low.indexOf(q,last);
+      }
+      frag.appendChild(document.createTextNode(text.slice(last)));
+      node.parentNode.replaceChild(frag,node);
+    });
+  }
+  var searchTimer=null;
+  function runSearch(){
+    var q=(search.value||"").trim().toLowerCase();
+    secs.forEach(function(s){clearMarks(s);});
+    if(!q){
+      secs.forEach(function(s){s.classList.remove("hidden");});
+      noresult.classList.remove("show");
+      return;
+    }
+    var hits=0;
+    secs.forEach(function(s){
+      var match=(s.textContent||"").toLowerCase().indexOf(q)!==-1;
+      s.classList.toggle("hidden",!match);
+      if(match){hits++;highlight(s,q);}
+    });
+    noresult.classList.toggle("show",hits===0);
+  }
+  search.addEventListener("input",function(){
+    clearTimeout(searchTimer);
+    searchTimer=setTimeout(runSearch,140);
+  });
+  search.addEventListener("keydown",function(e){
+    if(e.key==="Escape"){search.value="";runSearch();search.blur();}
+  });
+
+  /* ---------- flashcards ---------- */
+  var sdg=[
+    ["Bank of Hindustan","1770","modern banking ki shuruaat","pehla bank"],
+    ["Bank of Bengal","1806","pehla Presidency Bank","Bengal"],
+    ["Oudh Commercial","1881","pehla Bharatiya sanchalit","avadh"],
+    ["Punjab National Bank","1894","pehla poorn Bharatiya bank","PNB"],
+    ["RBI","1 April 1935","Hilton Young Commission","establishment"],
+    ["RBI nationalisation","1 January 1949","shuru mein private bank tha","1949"],
+    ["RRB","2 aktubar 1975","Saraiya aur Narasimham","Prathama Bank"],
+    ["NABARD","1982","munbai · refinance","agriculture aur gramin"],
+    ["IRDA","1999","haidarabad","insurance regulator"],
+    ["SEBI","1988 / 1992","munbai · share bazaar","stock exchange"]
+  ];
+  var facts=[
+    ["CRR","~4%","RBI ke pass, byaaj nahi","cash reserve"],
+    ["SLR","~18%","bank ke pass hi","statutory liquidity"],
+    ["Repo","Repurchase Agreement","security girvi, paisa RBI se","lending rate"],
+    ["Reverse repo","liquidity sokhna","bank RBI ke pass paisa rakhe","repo se kam rate"],
+    ["MSF","SLR security girvi","akhiri vikalp","marginal standing"],
+    ["OMO","open market operation","RBI security kharide/beche","paisa badhana/ghatana"],
+    ["M1","narrow money","karensi + demand deposit","sabse taral"],
+    ["M3","broad money","M1 + FD","sabse zyada prayukt"],
+    ["Money market","1 varsh se kam","short term","RBI ka radius"],
+    ["Devaluation","1949 · 1966 · 1991","export badhe, import mahanga","government ka faisla"]
+  ];
+  function cardHTML(top,mid,tiny,backMid){
+    return '<div class="fc-in">'+
+      '<div class="fc-face"><div class="top">'+top+'</div><div class="mid">'+mid+'</div><div class="tiny">'+tiny+'</div></div>'+
+      '<div class="fc-face fc-back"><div class="top">uttar</div><div class="mid">'+backMid+'</div></div>'+
+    '</div>';
+  }
+  function buildCards(container,arr){
+    container.innerHTML=arr.map(function(r){
+      var b=document.createElement("button");
+      b.type="button"; b.className="fc"; b.setAttribute("aria-label","card "+r[0]+" — paltein");
+      b.innerHTML=cardHTML(r[0],r[1],r[2],r[3]);
+      b.addEventListener("click",function(){b.classList.toggle("flipped");});
+      return b.outerHTML;
+    }).join("");
+  }
+  buildCards($("#fcSdg"),sdg);
+  buildCards($("#fcFact"),facts);
+
+  /* ---------- quiz ---------- */
+  var QUIZ=[
+    {q:"Bharat mein modern banking ki shuruaat kis bank se mani jati hai?",
+     o:["Bank of Hindustan (1770)","Bank of Bengal (1806)","Punjab National Bank (1894)","Imperial Bank (1921)"],a:0,
+     e:"lecture ki pehli lain: “modern banking system 1770 se start hota hai, Bank of Hindustan se."},
+    {q:"pehla poorn Bharatiya bank kaun tha?",
+     o:["Oudh Commercial Bank (1881)","Punjab National Bank (1894)","Bank of Madras (1843)","Allahabad Bank (1865)"],a:1,
+     e:"1881 mein Oudh Commercial pehla bharatiyon dwara sanchalit bank tha, par pehla poorn Bharatiya bank PNB (1894) hai."},
+    {q:"RBI ki establishment kab aur kiski recommendation par hui?",
+     o:["1 April 1935 — Hilton Young Commission","1 January 1949 — Narasimham Committee","1 April 1935 — Saraiya Committee","2 aktubar 1975 — Hilton Young Commission"],a:0,
+     e:"RBI 1 April 1935 ko Hilton Young Commission ki recommendation par bana; 1 January 1949 ko rashtriyakrit hua."},
+    {q:"RBI ka nationalisation kab hua?",
+     o:["1935","1949","1969","1975"],a:1,
+     e:"RBI shuru mein private bank tha, isliye 1 January 1949 ko rashtriyakrit kiya gaya."},
+    {q:"RBI ke pehle Governor kaun the?",
+     o:["C. D. Deshmukh","Sir Osborne Smith","Hilton Young","P. C. Bhattacharya"],a:1,
+     e:"pehle Governor Sir Osborne Smith; pehle Bharatiya Governor C. D. Deshmukh."},
+    {q:"note (bank notes) kin chaar jagahon par chhapate hain?",
+     o:["nasik, devas, haidarabad, Mysuru","munbai, kolakata, haidarabad, noeda","nasik, munbai, Delhi, chennai","devas, kolakata, noeda, Mysuru"],a:0,
+     e:"note pres — nasik, devas, haidarabad, Mysuru. doosra vikalp mint (mint) ki List hai, jahan coins bante hain."},
+    {q:"coins (coins) kahan bante hain?",
+     o:["nasik, devas, haidarabad, Mysuru","munbai, kolakata, haidarabad, noeda","keval munbai aur kolakata","keval noeda"],a:1,
+     e:"chaar mint — munbai, kolakata, haidarabad, noeda. note pres aur mint ki suchiyan alag hain."},
+    {q:"pehla Regional Rural Bank (RRB) kaun tha aur kahan?",
+     o:["Prathama Bank — uttar pradesh","Grameen Bank — bihar","Saraiya Bank — gujarat","Prathama Bank — madhy pradesh"],a:0,
+     e:"RRB 2 aktubar 1975 se shuru; pehla RRB Prathama Bank, uttar pradesh (Moradabad) mein."},
+    {q:"NABARD ke bare mein kaun-si baat sahi hai?",
+     o:["ye seedhe kisanon ko loan deta hai","ye refinance karta hai, seedhe loan nahi deta","ye insurance niyantrit karta hai","ye note chhapta hai"],a:1,
+     e:"NABARD (1982, munbai) apex institution hai — RRB jaise sansthanon ko refinance deta hai, seedhe grahak ko loan nahi."},
+    {q:"CRR ki raqam kahan rakhi jati hai?",
+     o:["bank ke apne pass, sarkari securities mein","RBI ke pass naqad, bina byaaj","share bazaar mein","dakaghar mein"],a:1,
+     e:"CRR ~4% — RBI ke pass cash ke roop mein, is par bank ko byaaj nahi milta. SLR ~18% bank apne pass rakhata hai."},
+    {q:"“Repo Rate” mein “repo” ka poora arth kya hai?",
+     o:["Repayment Policy","Repurchase Agreement","Reserve Position","Reverse Payment"],a:1,
+     e:"Repo = Repurchase Agreement — bank sarkari security girvi rakhakar RBI se paisa leta hai aur baad mein vapas kharidta hai."},
+    {q:"Reverse Repo ka mukhya kaam kya hai?",
+     o:["bazaar mein paisa badhana","bazaar se extra liquidity sokhna","note chhapna","coins jari karna"],a:1,
+     e:"banks ke pass zyada paisa ho to ve use RBI ke pass park karte hain; RBI isse excess liquidity sokh leti hai."},
+    {q:"M1 aur M3 mein kya sahi hai?",
+     o:["M1 = broad money, M3 = narrow money","M1 = narrow money, M3 = broad money","dono ek hi hain","M3 mein fixed deposit nahi aati"],a:1,
+     e:"M1 = karensi + demand deposit (narrow money); M3 = M1 + bank fixed deposits (broad money)."},
+    {q:"karensi ke depreciation (devaluation) ka export par kya asar hota hai?",
+     o:["Export badhta hai","Export ghatata hai","koi asar nahi","Export shuny ho jata hai"],a:0,
+     e:"$1 = ₹50 se ₹80 ho jaaye to videshi ko Bharatiya saman sasta padta hai — export badhta hai, import mahanga hota hai."}
+  ];
+  var quizEl=$("#quiz"), scoreVal=$("#scoreVal"), qTotalEl=$("#qTotal"), quizNote=$("#quizNote");
+  var answered={}, score=0;
+  qTotalEl.textContent=QUIZ.length;
+  function renderQuiz(){
+    answered={}; score=0; scoreVal.textContent="0";
+    quizNote.textContent="koi vikalp chunein — turant sahi/galat aur vyakhya dikhegi.";
+    quizEl.innerHTML="";
+    QUIZ.forEach(function(item,qi){
+      var wrap=document.createElement("div"); wrap.className="q";
+      var head='<div class="q-h"><span class="q-n">Q'+(qi+1)+'</span><span>'+item.q+'</span></div>';
+      var opts='<div class="opts">'+item.o.map(function(t,oi){
+        return '<button class="opt" type="button" data-q="'+qi+'" data-o="'+oi+'"><span class="ol">'+
+          String.fromCharCode(65+oi)+'</span><span>'+t+'</span></button>';
+      }).join("")+'</div>';
+      var exp='<div class="exp" id="exp-'+qi+'"><b>vyakhya:</b> '+item.e+'</div>';
+      wrap.innerHTML=head+opts+exp;
+      quizEl.appendChild(wrap);
+    });
+  }
+  quizEl.addEventListener("click",function(e){
+    var btn=e.target.closest(".opt");
+    if(!btn||btn.disabled) return;
+    var qi=+btn.getAttribute("data-q"), oi=+btn.getAttribute("data-o");
+    if(answered[qi]!==undefined) return;
+    answered[qi]=oi;
+    var correct=QUIZ[qi].a;
+    $$('.opt[data-q="'+qi+'"]',quizEl).forEach(function(b){
+      b.disabled=true;
+      var i=+b.getAttribute("data-o");
+      if(i===correct){b.classList.add("correct");}
+      if(i===oi&&oi!==correct){b.classList.add("wrong");}
+    });
+    $("#exp-"+qi).classList.add("show");
+    if(oi===correct){score++;}
+    scoreVal.textContent=String(score);
+    var n=Object.keys(answered).length;
+    if(n===QUIZ.length){
+      var pct=Math.round(score/QUIZ.length*100);
+      quizNote.textContent = pct>=80 ? "shanadar — "+pct+"%. is batch par pakad mazboot hai." :
+        pct>=50 ? "theek — "+pct+"%. fact sheet ek baar dohra lein." :
+        "behatar hoga — "+pct+"%. section 8 (sustainable development) dobara padhein, phir reset karke dohrayein.";
+    }
+  });
+  $("#resetQuiz").addEventListener("click",renderQuiz);
+  renderQuiz();
+
+  /* ---------- copy fact sheet ---------- */
+  $("#copyFacts").addEventListener("click",function(){
+    var btn=this, old=btn.textContent;
+    var text=$$("#factsList .fact").map(function(f){
+      return "• "+$(".tag",f).textContent+" — "+$(".txt",f).textContent;
+    }).join("\n");
+    function done(ok){btn.textContent=ok?"copy ho gaya ✓":"copy nahi ho saka";setTimeout(function(){btn.textContent=old;},1600);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){done(true);},function(){done(false);});
+    }else{
+      var ta=document.createElement("textarea"); ta.value=text; document.body.appendChild(ta);
+      ta.select(); try{document.execCommand("copy");done(true);}catch(e){done(false);}
+      document.body.removeChild(ta);
+    }
+  });
+
+  /* ---------- keyboard shortcuts ---------- */
+  document.addEventListener("keydown",function(e){
+    var tag=(e.target.tagName||"").toLowerCase();
+    var typing = tag==="input"||tag==="textarea"||e.target.isContentEditable;
+    if(typing) return;
+    if(e.key==="/"){
+      e.preventDefault(); search.focus(); search.select();
+    }else if(e.key==="D"&&e.shiftKey){
+      applyTheme(document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark");
+    }
+  });
+})();
+</script>
+</body>
+</html>

@@ -10,17 +10,17 @@
 | 3 | गरीबी · असमानता (लॉरेंज/गिनी, अमर्त्य सेन) · आकलन समितियाँ (दांडेकर-रथ → रंगराजन) · MPI · NFSA · मनरेगा · कल्याण योजनाएँ | `batch-03-interactive.html`, `batch-03-text.html`, **`batch-03-interactive-hinglish.html`**, **`batch-03-text-hinglish.html`** | ✅ तैयार |
 | 4 | राष्ट्रीय आय · GDP/GNP/NDP/NNP · NFIA · फैक्टर लागत vs बाज़ार कीमत · GDP डिफ्लेटर · ग्रीन GDP · तीन मापन विधियाँ | `batch-04-interactive.html`, `batch-04-text.html`, **`batch-04-interactive-hinglish.html`**, **`batch-04-text-hinglish.html`** | ✅ तैयार |
 | 5 | महँगाई — inflation/deflation/disinflation/reflation · stagflation · तीव्रता के स्तर · demand-pull/cost-push/imported · suppressed · गैप व फिलिप्स कर्व · CPI/WPI/PPI · 4% ± 2% लक्ष्य | `batch-05-interactive.html`, `batch-05-text.html`, **`batch-05-interactive-hinglish.html`**, **`batch-05-text-hinglish.html`** | ✅ तैयार |
-| 6 | बैंकिंग का इतिहास, RBI, RRB/NABARD, CRR-SLR-रेपो | — | अगला |
-| 7 | बजट, आर्थिक सर्वे, कर व GST | — | प्रस्तावित |
+| 6 | बैंकिंग का इतिहास (1770–1894) · RBI 1935/1949 · नोट प्रेस व टकसाल · बैंकों के प्रकार · RRB 1975 · NABARD · LIC/GIC/IRDA/UTI/NHB/SEBI · M1–M4 · CRR/SLR/रेपो/OMO · मूल्यह्रास | `batch-06-interactive.html`, `batch-06-text.html`, **`batch-06-interactive-hinglish.html`**, **`batch-06-text-hinglish.html`** | ✅ तैयार |
+| 7 | राजकोषीय नीति, बजट, कर व GST | — | अगला |
 | 8 | कृषि, उद्योग, अवसंरचना, सरकारी योजनाएँ | — | प्रस्तावित |
 | 9 | विदेशी व्यापार / BoP, अंतर्राष्ट्रीय संस्थाएँ, PYQ + MCQ सेट | — | प्रस्तावित |
 
 ## दो लिपियाँ (two scripts)
 
-| Edition | बैच 1 | बैच 2 | बैच 3 | बैच 4 | बैच 5 |
-|---|---|---|---|---|---|
-| **City Hinglish (Roman script only)** — मुख्य संस्करण | `batch-01-interactive-hinglish.html` · `batch-01-text-hinglish.html` | `batch-02-interactive-hinglish.html` · `batch-02-text-hinglish.html` | `batch-03-interactive-hinglish.html` · `batch-03-text-hinglish.html` | `batch-04-interactive-hinglish.html` · `batch-04-text-hinglish.html` | `batch-05-interactive-hinglish.html` · `batch-05-text-hinglish.html` |
-| Devanagari (मूल) | `batch-01-interactive.html` · `batch-01-text.html` | `batch-02-interactive.html` · `batch-02-text.html` | `batch-03-interactive.html` · `batch-03-text.html` | `batch-04-interactive.html` · `batch-04-text.html` | `batch-05-interactive.html` · `batch-05-text.html` |
+| Edition | बैच 1 | बैच 2 | बैच 3 | बैच 4 | बैच 5 | बैच 6 |
+|---|---|---|---|---|---|---|
+| **City Hinglish (Roman script only)** — मुख्य संस्करण | `batch-01-interactive-hinglish.html` · `batch-01-text-hinglish.html` | `batch-02-interactive-hinglish.html` · `batch-02-text-hinglish.html` | `batch-03-interactive-hinglish.html` · `batch-03-text-hinglish.html` | `batch-04-interactive-hinglish.html` · `batch-04-text-hinglish.html` | `batch-05-interactive-hinglish.html` · `batch-05-text-hinglish.html` | `batch-06-interactive-hinglish.html` · `batch-06-text-hinglish.html` |
+| Devanagari (मूल) | `batch-01-interactive.html` · `batch-01-text.html` | `batch-02-interactive.html` · `batch-02-text.html` | `batch-03-interactive.html` · `batch-03-text.html` | `batch-04-interactive.html` · `batch-04-text.html` | `batch-05-interactive.html` · `batch-05-text.html` | `batch-06-interactive.html` · `batch-06-text.html` |
 
 Hinglish edition में technical English terms English में हैं (economy, productivity, sustainable development), बाकी बोलचाल "dekho…, hai na?…, matlab…" वाली city-Hinglish में — पूरा फ़ाइल Roman script में, एक भी Devanagari अक्षर नहीं। बैच 2 से आगे के सभी बैच इसी Hinglish फ़ॉर्मेट में बनेंगे।
 
@@ -61,6 +61,13 @@ Hinglish edition में technical English terms English में हैं (
 - “सुधार” चिह्न वहाँ जहाँ लेक्चर में परिभाषा गड़बड़ी (जैसे deflation vs disinflation, hyperinflation का आँकड़ा)
 
 **`batch-05-text-hinglish.html`** — बैच 5 का साफ़ किया हुआ टेक्स्ट (22 पैराग्राफ, 5 विषय-शीर्षक)।
+
+**`batch-06-interactive-hinglish.html`** — बैच 6 (बैंकिंग व RBI) का Hinglish इंटरैक्टिव मॉड्यूल:
+- 8 कंटेंट सेक्शन: बैंकिंग का इतिहास (1770 → 1894) · RBI (1935, Hilton Young, 1949, गवर्नर) · चार नोट प्रेस व चार टकसाल · बैंकों के प्रकार · RRB 1975 व NABARD 1982 · LIC/GIC/IRDA/UTI/NHB/SEBI · M1–M4 · CRR 4% व SLR 18% का ₹100 वाला हिसाब · रेपो/रिवर्स रेपो/MSF/OMO · महँगाई का असर व मूल्यह्रास
+- 46-पंक्ति फैक्ट शीट, 20 फ्लैशकार्ड (संस्थाएँ + औज़ार), 14 MCQ — तुरंत व्याख्या व स्कोर
+- “सुधार” चिह्न वहाँ जहाँ लेक्चर में तथ्य गड़बड़ाया (जैसे “कैपेक्स बैंक” = apex bank, SEWA का 1947, डीवैल्यूएशन का 1969)
+
+**`batch-06-text-hinglish.html`** — बैच 6 का साफ़ किया हुआ टेक्स्ट (40 पैराग्राफ, 5 विषय-शीर्षक)।
 
 ## नोट
 टेक्स्ट YouTube ऑटो-कैप्शन से बना है — कहीं-कहीं नाम/संख्या बिगड़ी है। इंटरैक्टिव फ़ाइल में ऐसी जगहों पर **सुधार** चिह्न के साथ सही तथ्य दिए गए हैं (जैसे EKC = उल्टा-U; “गडगिल” = गाडगिल, “पीसी महालेबिस” = महालनोबिस; कुल वार्षिक योजनाएँ = 5, न कि 6; जवाहर रोज़गार योजना 1989, न कि 1999)। आँकड़े (18% / 45%) लेक्चर के अनुसार हैं; परीक्षा से पहले नवीनतम आधिकारिक स्रोत देखें।
