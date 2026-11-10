@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="hi-Latn" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indian Economy One Shot 2026 — Batch 3 (Hinglish): Planning, Five Year Plans &amp; NITI Aayog</title>
+<meta name="description" content="interactive study module — Indian Economy One Shot 2026 (PCS INSIGHTS), Batch 3: yojana, panchvarshiya yojanayein 1–12, Planning Commission, NDC, NITI Aayog.">
+<style>
+/* ============ design tokens ============ */
+:root{
+  --bg:#f4f6fb; --bg-soft:#eef1f8; --panel:#ffffff; --panel-2:#fbfcff;
+  --ink:#131a2b; --ink-soft:#46506b; --ink-mute:#727d99;
+  --line:#dfe4f0; --line-soft:#eaeef8;
+  --brand:#3d3bd6; --brand-ink:#2b28b0; --brand-soft:#ecebff;
+  --teal:#0d7d76; --teal-soft:#e2f5f3;
+  --amber:#a86400; --amber-soft:#fff3d9;
+  --rose:#b3261e; --rose-soft:#ffe8e6;
+  --green:#166b3c; --green-soft:#e2f6ea;
+  --violet:#6d28d9; --violet-soft:#f1e9ff;
+  --shadow:0 1px 2px rgba(16,24,40,.06),0 8px 24px -12px rgba(16,24,40,.18);
+  --shadow-lg:0 24px 60px -28px rgba(16,24,40,.35);
+  --r-sm:8px; --r:14px; --r-lg:20px;
+  --maxw:1500px;
+  --font:"Noto Sans Devanagari","Nirmala UI","Mangal","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  --mono:"SFMono-Regular",ui-monospace,"Cascadia Mono",Menlo,Consolas,monospace;
+}
+html[data-theme="dark"]{
+  --bg:#0b0f19; --bg-soft:#0f1524; --panel:#141b2b; --panel-2:#111827;
+  --ink:#e8ecf7; --ink-soft:#b3bdd4; --ink-mute:#8492b0;
+  --line:#26304a; --line-soft:#1d2539;
+  --brand:#9d9bff; --brand-ink:#b9b7ff; --brand-soft:#1d1f45;
+  --teal:#5fd6cb; --teal-soft:#0e2f2d;
+  --amber:#f5c264; --amber-soft:#33260c;
+  --rose:#ff8f86; --rose-soft:#3a1613;
+  --green:#68d996; --green-soft:#0f2c1d;
+  --violet:#c3a6ff; --violet-soft:#241a3d;
+  --shadow:0 1px 2px rgba(0,0,0,.5),0 10px 30px -16px rgba(0,0,0,.8);
+  --shadow-lg:0 30px 70px -30px rgba(0,0,0,.9);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth; scroll-padding-top:82px}
+body{
+  margin:0; background:var(--bg); color:var(--ink); font-family:var(--font);
+  font-size:16px; line-height:1.85; -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+h1,h2,h3,h4{line-height:1.45; margin:0; font-weight:800; letter-spacing:-.01em}
+p{margin:.55em 0}
+a{color:var(--brand); text-underline-offset:3px}
+b,strong{font-weight:800; color:var(--ink)}
+code,.mono{font-family:var(--mono); font-size:.9em}
+::selection{background:var(--brand); color:#fff}
+:focus-visible{outline:2.5px solid var(--brand); outline-offset:2px; border-radius:6px}
+
+/* ============ top bar ============ */
+.topbar{
+  position:sticky; top:0; z-index:60; background:color-mix(in srgb, var(--panel) 88%, transparent);
+  backdrop-filter:blur(14px) saturate(1.4); border-bottom:1px solid var(--line);
+}
+.topbar-in{max-width:var(--maxw); margin:0 auto; padding:10px 20px; display:flex; gap:16px; align-items:center}
+.brandmark{display:flex; align-items:center; gap:11px; min-width:0}
+.logo{
+  width:38px;height:38px;border-radius:11px; flex:0 0 auto; display:grid; place-items:center;
+  background:linear-gradient(145deg,var(--brand),#7f5bff 55%,var(--teal)); color:#fff;
+  font-weight:900; font-size:15px; letter-spacing:-.5px; box-shadow:var(--shadow);
+}
+.brand-text{min-width:0}
+.brand-text .t{font-weight:800; font-size:14.5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.brand-text .s{font-size:11.5px; color:var(--ink-mute); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.batch-pill{
+  font-size:11.5px; font-weight:800; letter-spacing:.04em; padding:4px 10px; border-radius:999px;
+  background:var(--brand-soft); color:var(--brand-ink); border:1px solid color-mix(in srgb,var(--brand) 28%, transparent);
+  white-space:nowrap;
+}
+.spacer{flex:1 1 auto}
+.tool{
+  display:inline-flex; align-items:center; gap:7px; height:36px; padding:0 12px; cursor:pointer;
+  background:var(--panel); color:var(--ink-soft); border:1px solid var(--line); border-radius:10px;
+  font:inherit; font-size:12.5px; font-weight:700; white-space:nowrap;
+  transition:transform .12s ease, border-color .12s, color .12s, background .12s;
+}
+.tool:hover{color:var(--ink); border-color:color-mix(in srgb,var(--brand) 45%, var(--line)); transform:translateY(-1px)}
+.tool:active{transform:translateY(0)}
+.tool svg{width:15px;height:15px;flex:0 0 auto}
+.searchwrap{position:relative; flex:1 1 300px; max-width:430px}
+.searchwrap svg{position:absolute; left:11px; top:50%; transform:translateY(-50%); width:16px;height:16px; color:var(--ink-mute)}
+#search{
+  width:100%; height:38px; padding:0 62px 0 34px; border-radius:10px; border:1px solid var(--line);
+  background:var(--panel-2); color:var(--ink); font:inherit; font-size:13.5px;
+}
+#search::placeholder{color:var(--ink-mute)}
+#search:focus{border-color:var(--brand); outline:none; box-shadow:0 0 0 3px var(--brand-soft)}
+.kbd{
+  position:absolute; right:9px; top:50%; transform:translateY(-50%); font-family:var(--mono); font-size:10.5px;
+  color:var(--ink-mute); border:1px solid var(--line); border-bottom-width:2px; border-radius:5px; padding:1px 5px;
+  background:var(--panel); pointer-events:none;
+}
+.progressline{height:3px; background:var(--line-soft); overflow:hidden}
+.progressline > i{display:block; height:100%; width:0; background:linear-gradient(90deg,var(--brand),var(--teal)); transition:width .3s ease}
+
+/* ============ shell ============ */
+.shell{max-width:var(--maxw); margin:0 auto; padding:26px 20px 90px; display:grid; grid-template-columns:288px minmax(0,1fr); gap:30px; align-items:start}
+
+/* ============ sidebar ============ */
+.side{position:sticky; top:78px; max-height:calc(100vh - 100px); overflow:auto; padding-right:6px}
+.side::-webkit-scrollbar{width:8px}
+.side::-webkit-scrollbar-thumb{background:var(--line); border-radius:8px}
+.side-card{background:var(--panel); border:1px solid var(--line); border-radius:var(--r); padding:14px; box-shadow:var(--shadow); margin-bottom:14px}
+.side-h{font-size:10.5px; text-transform:uppercase; letter-spacing:.11em; color:var(--ink-mute); font-weight:800; margin:0 0 9px 4px}
+.toc{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:2px}
+.toc a{
+  display:flex; gap:9px; align-items:flex-start; text-decoration:none; color:var(--ink-soft);
+  font-size:13px; font-weight:600; padding:7px 9px; border-radius:9px; line-height:1.5;
+  border-left:2.5px solid transparent; transition:background .12s,color .12s,border-color .12s;
+}
+.toc a:hover{background:var(--bg-soft); color:var(--ink)}
+.toc a.active{background:var(--brand-soft); color:var(--brand-ink); border-left-color:var(--brand); font-weight:800}
+.toc .n{font-family:var(--mono); font-size:10.5px; color:var(--ink-mute); margin-top:3px; flex:0 0 auto}
+.toc a.active .n{color:var(--brand)}
+.toc a .dot{margin-left:auto; width:6px;height:6px;border-radius:50%; background:var(--green); opacity:0; flex:0 0 auto; margin-top:8px}
+.toc a.done .dot{opacity:1}
+.side-progress{display:flex; align-items:center; gap:10px}
+.ring{--p:0; width:44px; height:44px; border-radius:50%; flex:0 0 auto; display:grid; place-items:center;
+  background:conic-gradient(var(--brand) calc(var(--p)*1%), var(--line-soft) 0);}
+.ring > span{width:34px;height:34px;border-radius:50%; background:var(--panel); display:grid; place-items:center; font-size:10.5px; font-weight:800; color:var(--ink-soft)}
+.side-progress .lbl{font-size:11.5px; color:var(--ink-mute); line-height:1.5}
+.side-progress .lbl b{display:block; color:var(--ink); font-size:13px}
+.chapterlist{list-style:none;margin:0;padding:0;font-size:12px;color:var(--ink-mute);line-height:1.9}
+.chapterlist li{display:flex;gap:7px}
+.chapterlist .now{color:var(--brand-ink);font-weight:800}
+.chapterlist .tag{font-family:rgba(0,0,0,0);font-family:var(--mono);font-size:10px;color:var(--ink-mute)}
+
+/* ============ content ============ */
+.main{min-width:0}
+.hero{
+  position:relative; overflow:hidden; border-radius:var(--r-lg); padding:30px 32px; margin-bottom:24px;
+  background:radial-gradient(1200px 340px at 8% -20%, color-mix(in srgb,var(--brand) 22%, transparent), transparent 60%),
+             radial-gradient(900px 320px at 100% 0%, color-mix(in srgb,var(--teal) 20%, transparent), transparent 55%),
+             var(--panel);
+  border:1px solid var(--line); box-shadow:var(--shadow-lg);
+}
+.hero .eyebrow{display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:13px}
+.chip{
+  font-size:11px; font-weight:800; letter-spacing:.03em; padding:3.5px 10px; border-radius:999px;
+  background:var(--bg-soft); color:var(--ink-soft); border:1px solid var(--line);
+}
+.chip.brand{background:var(--brand-soft); color:var(--brand-ink); border-color:color-mix(in srgb,var(--brand) 26%, transparent)}
+.chip.green{background:var(--green-soft); color:var(--green); border-color:color-mix(in srgb,var(--green) 25%, transparent)}
+.chip.amber{background:var(--amber-soft); color:var(--amber); border-color:color-mix(in srgb,var(--amber) 30%, transparent)}
+.chip.rose{background:var(--rose-soft); color:var(--rose); border-color:color-mix(in srgb,var(--rose) 26%, transparent)}
+.chip.teal{background:var(--teal-soft); color:var(--teal); border-color:color-mix(in srgb,var(--teal) 26%, transparent)}
+.hero h1{font-size:clamp(22px,2.5vw,32px); letter-spacing:-.02em; margin-bottom:8px}
+.hero h1 .sub{display:block; font-size:14.5px; font-weight:700; color:var(--ink-mute); letter-spacing:0; margin-top:8px}
+.hero p{color:var(--ink-soft); font-size:14.5px; max-width:78ch}
+.meta-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:10px; margin-top:20px}
+.meta{background:var(--panel-2); border:1px solid var(--line-soft); border-radius:11px; padding:9px 12px}
+.meta .k{font-size:10px; text-transform:uppercase; letter-spacing:.1em; color:var(--ink-mute); font-weight:800}
+.meta .v{font-size:13px; font-weight:700; color:var(--ink); margin-top:2px}
+.hero-cta{display:flex; flex-wrap:wrap; gap:9px; margin-top:20px}
+.btn{
+  display:inline-flex; align-items:center; gap:8px; height:38px; padding:0 15px; border-radius:10px; cursor:pointer;
+  font:inherit; font-size:13px; font-weight:800; text-decoration:none; border:1px solid var(--line);
+  background:var(--panel); color:var(--ink); transition:transform .12s, box-shadow .12s, background .12s;
+}
+.btn:hover{transform:translateY(-1px); box-shadow:var(--shadow)}
+.btn.primary{background:linear-gradient(160deg,var(--brand),var(--brand-ink)); color:#fff; border-color:transparent}
+.btn.ghost{background:transparent}
+.btn svg{width:15px;height:15px}
+
+/* notice */
+.notice{
+  display:flex; gap:12px; padding:14px 16px; border-radius:var(--r); margin:0 0 22px;
+  background:var(--amber-soft); border:1px solid color-mix(in srgb,var(--amber) 30%, transparent);
+  color:color-mix(in srgb,var(--amber) 78%, var(--ink)); font-size:13px; line-height:1.7;
+}
+.notice .ico{flex:0 0 auto; width:22px;height:22px; border-radius:50%; display:grid; place-items:center;
+  background:color-mix(in srgb,var(--amber) 20%, transparent); color:var(--amber); font-weight:900; font-size:13px}
+.notice b{color:var(--amber)}
+
+/* section */
+.sec{
+  background:var(--panel); border:1px solid var(--line); border-radius:var(--r-lg);
+  padding:26px 28px 24px; margin-bottom:20px; box-shadow:var(--shadow); scroll-margin-top:90px;
+}
+.sec-head{display:flex; gap:14px; align-items:flex-start; margin-bottom:6px}
+.sec-num{
+  flex:0 0 auto; width:38px;height:38px; border-radius:11px; display:grid; place-items:center;
+  background:var(--brand-soft); color:var(--brand-ink); font-family:var(--mono); font-size:13px; font-weight:800;
+  border:1px solid color-mix(in srgb,var(--brand) 20%, transparent);
+}
+.sec-head h2{font-size:clamp(18px,2vw,22.5px); letter-spacing:-.015em}
+.sec-head h2 .en{display:block; font-size:11.5px; font-weight:700; color:var(--ink-mute); letter-spacing:.02em; text-transform:uppercase; margin-top:3px}
+.markdone{
+  margin-left:auto; flex:0 0 auto; display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  height:32px; padding:0 11px; border-radius:9px; border:1px solid var(--line); background:var(--panel-2);
+  color:var(--ink-mute); font:inherit; font-size:11.5px; font-weight:800; white-space:nowrap; transition:.14s;
+}
+.markdone:hover{color:var(--ink); border-color:color-mix(in srgb,var(--green) 45%, var(--line))}
+.markdone .box{width:15px;height:15px;border-radius:4.5px;border:1.6px solid currentColor; display:grid;place-items:center}
+.markdone .box svg{width:11px;height:11px; opacity:0; color:#fff}
+.markdone[aria-pressed="true"]{background:var(--green-soft); color:var(--green); border-color:color-mix(in srgb,var(--green) 40%, transparent)}
+.markdone[aria-pressed="true"] .box{background:var(--green); border-color:var(--green)}
+.markdone[aria-pressed="true"] .box svg{opacity:1}
+.sec-body{font-size:15.2px; color:var(--ink-soft)}
+.sec-body > *:first-child{margin-top:0}
+.lead{font-size:15.5px; color:var(--ink-soft)}
+h3.sub{font-size:15.5px; color:var(--ink); margin:22px 0 8px; display:flex; align-items:center; gap:8px}
+h3.sub::before{content:""; width:4px; height:15px; border-radius:3px; background:var(--brand); display:inline-block}
+h4.mini{font-size:13.5px; color:var(--ink); margin:16px 0 5px; letter-spacing:.01em}
+
+/* lists */
+ul.clean,ol.clean{margin:.5em 0; padding-left:1.25em}
+ul.clean li,ol.clean li{margin:.32em 0; padding-left:.15em}
+ul.clean li::marker{color:var(--brand)}
+ol.clean li::marker{color:var(--brand); font-weight:800; font-family:var(--mono); font-size:.9em}
+ul.tight li{margin:.16em 0}
+.hl{background:linear-gradient(transparent 58%, color-mix(in srgb,var(--amber) 55%, transparent) 0); font-weight:800; color:var(--ink); padding:0 1px}
+.kw{font-weight:800; color:var(--brand-ink)}
+.en-term{font-weight:700; color:var(--teal); font-size:.95em}
+
+/* callouts */
+.call{
+  display:grid; grid-template-columns:26px minmax(0,1fr); gap:11px; align-items:start;
+  border-radius:12px; padding:12px 14px; margin:14px 0; font-size:14px; line-height:1.75;
+  border:1px solid var(--line); background:var(--panel-2); color:var(--ink-soft);
+}
+.call .ci{width:24px;height:24px;border-radius:8px; display:grid; place-items:center; font-size:13px; font-weight:900}
+.call .ct{font-size:10.5px; font-weight:900; letter-spacing:.09em; text-transform:uppercase; display:block; margin-bottom:3px}
+.call.pointer{background:var(--brand-soft); border-color:color-mix(in srgb,var(--brand) 25%, transparent)}
+.call.pointer .ci{background:color-mix(in srgb,var(--brand) 18%, transparent); color:var(--brand-ink)}
+.call.pointer .ct{color:var(--brand-ink)}
+.call.pyq{background:var(--green-soft); border-color:color-mix(in srgb,var(--green) 26%, transparent)}
+.call.pyq .ci{background:color-mix(in srgb,var(--green) 16%, transparent); color:var(--green)}
+.call.pyq .ct{color:var(--green)}
+.call.trap{background:var(--rose-soft); border-color:color-mix(in srgb,var(--rose) 26%, transparent)}
+.call.trap .ci{background:color-mix(in srgb,var(--rose) 15%, transparent); color:var(--rose)}
+.call.trap .ct{color:var(--rose)}
+.call.def{background:var(--teal-soft); border-color:color-mix(in srgb,var(--teal) 26%, transparent)}
+.call.def .ci{background:color-mix(in srgb,var(--teal) 16%, transparent); color:var(--teal)}
+.call.def .ct{color:var(--teal)}
+.call.mem{background:var(--violet-soft); border-color:color-mix(in srgb,var(--violet) 24%, transparent)}
+.call.mem .ci{background:color-mix(in srgb,var(--violet) 15%, transparent); color:var(--violet)}
+.call.mem .ct{color:var(--violet)}
+.call.fix{background:var(--amber-soft); border-color:color-mix(in srgb,var(--amber) 30%, transparent)}
+.call.fix .ci{background:color-mix(in srgb,var(--amber) 18%, transparent); color:var(--amber)}
+.call.fix .ct{color:var(--amber)}
+
+/* table */
+.tablewrap{overflow:auto; margin:16px 0; border:1px solid var(--line); border-radius:12px}
+table{border-collapse:collapse; width:100%; font-size:13.3px; min-width:560px; background:var(--panel)}
+thead th{
+  background:var(--bg-soft); text-align:left; padding:10px 13px; font-size:11.5px; letter-spacing:.05em;
+  text-transform:uppercase; color:var(--ink-soft); font-weight:900; border-bottom:1px solid var(--line);
+  position:sticky; top:0; white-space:nowrap;
+}
+tbody td{padding:10px 13px; border-bottom:1px solid var(--line-soft); vertical-align:top; color:var(--ink-soft); line-height:1.65}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover td{background:var(--panel-2)}
+tbody td b{color:var(--ink)}
+td .mini-chip{display:inline-block; font-family:var(--mono); font-size:10.5px; font-weight:700; padding:1px 7px; border-radius:6px;
+  background:var(--brand-soft); color:var(--brand-ink); margin-right:5px}
+td.year{font-family:var(--mono); font-weight:800; color:var(--brand-ink); white-space:nowrap}
+
+/* key-value fact rows */
+.kv{display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:10px; margin:14px 0}
+.kv .item{background:var(--panel-2); border:1px solid var(--line-soft); border-left:3px solid var(--brand); border-radius:10px; padding:10px 12px}
+.kv .item .k{font-size:10.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-mute); font-weight:800}
+.kv .item .v{font-size:13.6px; font-weight:700; color:var(--ink); margin-top:2px; line-height:1.55}
+
+/* stat */
+.stats{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:16px 0}
+.stat{background:linear-gradient(160deg,var(--panel-2),var(--panel)); border:1px solid var(--line); border-radius:13px; padding:13px 14px; position:relative; overflow:hidden}
+.stat::after{content:""; position:absolute; inset:auto -20px -30px auto; width:70px; height:70px; border-radius:50%; background:color-mix(in srgb,var(--brand) 10%, transparent)}
+.stat .v{font-size:23px; font-weight:900; letter-spacing:-.02em; color:var(--ink); font-family:var(--mono)}
+.stat .k{font-size:11.5px; color:var(--ink-mute); font-weight:700; margin-top:2px; line-height:1.5}
+
+/* flashcards */
+.fc-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(168px,1fr)); gap:11px; margin:16px 0}
+.fc{perspective:900px; height:118px; cursor:pointer; background:none; border:0; padding:0; font:inherit; text-align:left}
+.fc-in{position:relative; width:100%; height:100%; transition:transform .5s cubic-bezier(.4,.1,.2,1); transform-style:preserve-3d}
+.fc.flipped .fc-in{transform:rotateY(180deg)}
+.fc-face{
+  position:absolute; inset:0; border-radius:12px; padding:11px 12px; display:flex; flex-direction:column; justify-content:center;
+  backface-visibility:hidden; border:1px solid var(--line); box-shadow:var(--shadow);
+  background:linear-gradient(155deg,var(--panel-2),var(--panel));
+}
+.fc-face .top{font-family:var(--mono); font-size:10px; font-weight:800; color:var(--brand); letter-spacing:.04em; margin-bottom:4px}
+.fc-face .mid{font-size:13.5px; font-weight:800; color:var(--ink); line-height:1.5}
+.fc-face .tiny{font-size:10.5px; color:var(--ink-mute); margin-top:4px; font-weight:600}
+.fc-back{transform:rotateY(180deg); background:linear-gradient(155deg,var(--brand-soft),var(--panel)); border-color:color-mix(in srgb,var(--brand) 30%, transparent)}
+.fc-back .mid{color:var(--brand-ink); font-size:13px}
+.fc:focus-visible{outline-offset:3px}
+.fc-hint{font-size:12px; color:var(--ink-mute); margin:6px 0 0}
+
+/* quiz */
+.quiz{margin-top:6px}
+.q{background:var(--panel-2); border:1px solid var(--line); border-radius:13px; padding:15px 16px; margin:12px 0}
+.q-h{display:flex; gap:10px; align-items:flex-start; font-size:14.4px; font-weight:700; color:var(--ink); line-height:1.7}
+.q-n{flex:0 0 auto; font-family:var(--mono); font-size:11px; font-weight:800; background:var(--brand-soft); color:var(--brand-ink);
+  padding:2px 7px; border-radius:6px; margin-top:3px}
+.opts{display:grid; gap:7px; margin-top:11px}
+.opt{
+  display:flex; gap:9px; align-items:flex-start; text-align:left; padding:9px 12px; border-radius:10px; cursor:pointer;
+  background:var(--panel); border:1px solid var(--line); color:var(--ink-soft); font:inherit; font-size:13.6px; line-height:1.6;
+  transition:.14s;
+}
+.opt:hover{border-color:color-mix(in srgb,var(--brand) 42%, var(--line)); color:var(--ink); transform:translateX(2px)}
+.opt .ol{flex:0 0 auto; width:19px;height:19px;border-radius:50%; border:1.6px solid var(--line); display:grid; place-items:center;
+  font-family:var(--mono); font-size:10.5px; font-weight:800; color:var(--ink-mute); margin-top:2px}
+.opt.correct{background:var(--green-soft); border-color:var(--green); color:var(--green); font-weight:700}
+.opt.correct .ol{background:var(--green); border-color:var(--green); color:#fff}
+.opt.wrong{background:var(--rose-soft); border-color:var(--rose); color:var(--rose)}
+.opt.wrong .ol{background:var(--rose); border-color:var(--rose); color:#fff}
+.opt[disabled]{cursor:default; transform:none}
+.exp{margin-top:10px; font-size:13px; line-height:1.75; color:var(--ink-soft); background:var(--panel);
+  border-left:3px solid var(--brand); border-radius:0 9px 9px 0; padding:9px 12px; display:none}
+.exp.show{display:block}
+.exp b{color:var(--brand-ink)}
+.quiz-bar{display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin:16px 0 4px;
+  background:var(--panel-2); border:1px solid var(--line); border-radius:12px; padding:11px 14px}
+.score{font-size:13.5px; font-weight:800; color:var(--ink)}
+.score b{font-family:var(--mono); color:var(--brand-ink); font-size:15px}
+.quiz-bar .note{font-size:12px; color:var(--ink-mute)}
+
+/* fact sheet */
+.facts{display:grid; gap:8px; margin:16px 0}
+.fact{display:grid; grid-template-columns:auto minmax(0,1fr); gap:12px; align-items:baseline;
+  background:var(--panel-2); border:1px solid var(--line-soft); border-radius:10px; padding:9px 12px; font-size:13.6px}
+.fact .tag{font-family:var(--mono); font-size:10.5px; font-weight:800; color:var(--brand-ink); background:var(--brand-soft);
+  padding:2px 7px; border-radius:6px; white-space:nowrap}
+.fact .txt{color:var(--ink-soft)}
+.fact .txt b{color:var(--ink)}
+
+/* next batch */
+.next{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:12px; margin-top:14px}
+.nextcard{background:var(--panel-2); border:1px dashed var(--line); border-radius:12px; padding:13px 15px}
+.nextcard .h{font-size:13px; font-weight:800; color:var(--ink); display:flex; gap:8px; align-items:center}
+.nextcard .h .n{font-family:var(--mono); font-size:10px; background:var(--bg-soft); border:1px solid var(--line); color:var(--ink-mute); padding:1px 6px; border-radius:5px}
+.nextcard p{font-size:12.3px; color:var(--ink-mute); margin:5px 0 0; line-height:1.65}
+
+/* misc */
+.toTop{position:fixed; right:20px; bottom:20px; width:42px;height:42px; border-radius:12px; display:grid; place-items:center;
+  background:var(--panel); border:1px solid var(--line); color:var(--ink-soft); cursor:pointer; box-shadow:var(--shadow-lg);
+  opacity:0; pointer-events:none; transition:.2s; z-index:50}
+.toTop.show{opacity:1; pointer-events:auto}
+.footer{max-width:var(--maxw); margin:0 auto; padding:0 20px 40px; color:var(--ink-mute); font-size:12px; line-height:1.8}
+.footer b{color:var(--ink-soft)}
+mark{background:color-mix(in srgb,var(--amber) 60%, transparent); color:var(--ink); border-radius:3px; padding:0 1px}
+.hidden{display:none !important}
+.noresult{display:none; padding:26px; text-align:center; color:var(--ink-mute); background:var(--panel); border:1px dashed var(--line); border-radius:var(--r); font-size:14px}
+.noresult.show{display:block}
+hr.sep{border:0; border-top:1px dashed var(--line); margin:22px 0}
+
+/* responsive */
+@media (max-width:1080px){
+  .shell{grid-template-columns:1fr; padding-top:18px}
+  .side{position:static; max-height:none; order:2; padding-right:0}
+  .main{order:1}
+  .toc{display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+}
+@media (max-width:720px){
+  .topbar-in{flex-wrap:wrap; gap:10px; padding:9px 14px}
+  .searchwrap{order:3; flex-basis:100%; max-width:none}
+  .shell{padding:14px 12px 70px; gap:18px}
+  .hero{padding:22px 18px}
+  .sec{padding:20px 16px}
+  .sec-head{flex-wrap:wrap}
+  .markdone{margin-left:0; order:3}
+  .brand-text .s{display:none}
+}
+@media print{
+  .topbar,.side,.toTop,.hero-cta,.markdone,.quiz-bar,.fc-hint,.noresult{display:none !important}
+  body{background:#fff; font-size:11.5pt}
+  .shell{display:block; padding:0}
+  .sec,.hero{box-shadow:none; border:1px solid #ccc; break-inside:avoid; page-break-inside:avoid; margin-bottom:10px}
+  .fc{height:auto} .fc-in{transform:none !important}
+  .fc-back{position:static; transform:none; display:block; margin-top:4px}
+  .fc-face{position:static; box-shadow:none; backface-visibility:visible}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+ <div class="topbar-in">
+  <div class="brandmark">
+   <div class="logo">IE</div>
+   <div class="brand-text">
+    <div class="t">Indian Economy One Shot 2026</div>
+    <div class="s">PCS INSIGHTS · UPPCS 2026 / BPSC 72nd</div>
+   </div>
+  </div>
+  <span class="batch-pill">BATCH 3 / 9 · HINGLISH</span>
+  <div class="spacer"></div>
+  <div class="searchwrap">
+   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+   <input id="search" type="search" placeholder="is batch mein khojein… (jaise: Gini, NFSA, 2006)" autocomplete="off" aria-label="khojein">
+   <span class="kbd">/</span>
+  </div>
+  <button class="tool" id="themeBtn" type="button" title="theme badlein (Shift + D)" aria-label="theme badlein">
+   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+   <span id="themeLabel">dark</span>
+  </button>
+  <button class="tool" id="printBtn" type="button" title="print / PDF">
+   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4v-7h16v7h-2M8 14h8v7H8z"/></svg>
+   PDF
+  </button>
+ </div>
+ <div class="progressline"><i id="scrollProg"></i></div>
+</div>
+
+<div class="shell">
+ <!-- ================= SIDEBAR ================= -->
+ <aside class="side">
+  <div class="side-card">
+   <div class="side-progress">
+    <div class="ring" id="ring" aria-hidden="true"><span id="ringTxt">0%</span></div>
+    <div class="lbl"><b id="doneCount">0 / 12 chapter</b> padhe gaye ke roop mein chinhit</div>
+   </div>
+  </div>
+  <div class="side-card">
+   <p class="side-h">batch 3 · anukramanika</p>
+   <nav aria-label="anukramanika">
+    <ul class="toc" id="toc">
+     <li><a href="#s1"><span class="n">01</span><span>poverty kya hai?</span><span class="dot"></span></a></li>
+     <li><a href="#s2"><span class="n">02</span><span>asamanta ke maap</span><span class="dot"></span></a></li>
+     <li><a href="#s3"><span class="n">03</span><span>poverty assessment ki committees</span><span class="dot"></span></a></li>
+     <li><a href="#s4"><span class="n">04</span><span>bahuayami poverty index</span><span class="dot"></span></a></li>
+     <li><a href="#s5"><span class="n">05</span><span>khadya suraksha (NFSA)</span><span class="dot"></span></a></li>
+     <li><a href="#s6"><span class="n">06</span><span>employment yojanayein — kram</span><span class="dot"></span></a></li>
+     <li><a href="#s7"><span class="n">07</span><span>manarega</span><span class="dot"></span></a></li>
+     <li><a href="#s8"><span class="n">08</span><span>NRLM · NULM · startaap</span><span class="dot"></span></a></li>
+     <li><a href="#s9"><span class="n">09</span><span>insurance · penshan · health</span><span class="dot"></span></a></li>
+     <li><a href="#s10"><span class="n">10</span><span>fact sheet (revision)</span><span class="dot"></span></a></li>
+     <li><a href="#s11"><span class="n">11</span><span>flashcard · committees</span><span class="dot"></span></a></li>
+     <li><a href="#s12"><span class="n">12</span><span>abhyas question (16 MCQ)</span><span class="dot"></span></a></li>
+    </ul>
+   </nav>
+  </div>
+  <div class="side-card">
+   <p class="side-h">poori lecture series</p>
+   <ul class="chapterlist">
+    <li><span class="tag">01</span><span>mool baatein · sustainable development</span></li>
+    <li><span class="tag">02</span><span>yojana aur panchvarshiya yojanayein</span></li>
+    <li><span class="now">› batch 3</span><span>poverty aur asamanta</span></li>
+    <li><span class="tag">04</span><span>rashtriya aay aur GDP</span></li>
+    <li><span class="tag">05</span><span>unemployment</span></li>
+    <li><span class="tag">06</span><span>banking aur RBI</span></li>
+    <li><span class="tag">07</span><span>inflation</span></li>
+    <li><span class="tag">08</span><span>budget, kar aur GST</span></li>
+    <li><span class="tag">09</span><span>BoP · PYQ aur MCQ set</span></li>
+   </ul>
+  </div>
+ </aside>
+
+ <!-- ================= MAIN ================= -->
+ <main class="main">
+  <section class="hero" id="top">
+   <div class="eyebrow">
+    <span class="chip brand">interactive study module</span>
+    <span class="chip green">batch 3 / 9</span>
+    <span class="chip">Hinglish · Roman script</span>
+    <span class="chip amber">pariksha-kendrit</span>
+   </div>
+   <h1>poverty, asamanta, assessment committees, MPI, khadya suraksha aur manarega
+    <span class="sub">Poverty &amp; Inequality · Lorenz &amp; Gini · Tendulkar &amp; Rangarajan · MPI · NFSA 2013 · MGNREGA · Welfare Schemes</span>
+   </h1>
+   <p>ye batch video ke <b>tisre chapter</b> ka granular content hai — 1962 se 2014 tak har committee ka estimate, har yojana ka saal, manarega ke har pravadhan ki sankhya, aur har “trap” alag se chinhit. neeche fact sheet, 23 flashcard aur 16 sawaalon ka test bhi hai.</p>
+   <div class="meta-grid">
+    <div class="meta"><div class="k">video</div><div class="v">3:28:12 · One Shot</div></div>
+    <div class="meta"><div class="k">channel</div><div class="v">PCS INSIGHTS</div></div>
+    <div class="meta"><div class="k">batch ki seema</div><div class="v">chapter 3 (poora)</div></div>
+    <div class="meta"><div class="k">source</div><div class="v">Lucent · NCERT · Ghatna Chakra</div></div>
+   </div>
+   <div class="hero-cta">
+    <a class="btn primary" href="#s1">padhna shuru karein
+     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+    <a class="btn ghost" href="#s10">fact sheet par jaayein</a>
+    <a class="btn ghost" href="#s12">seedhe test dein</a>
+    <a class="btn ghost" href="batch-03-text-hinglish.html" target="_blank" rel="noopener">poora text (verbatim) ↗</a>
+   </div>
+  </section>
+
+  <div class="notice">
+   <span style="display:block;margin-top:6px"><b>Bhasha:</b> ye poora module <b>city-style Hinglish (Roman script)</b> mein likha gaya hai — technical terms English mein hi hain (GDP, planning, Five Year Plan), aur explanation bolne wali Hinglish mein. Devanagari edition ke liye <span class="mono">batch-03-interactive.html</span> kholein.</span>
+   <span class="ico">!</span>
+   <div><b>pardarshita note:</b> ye module video ke <b>auto-transcript</b> par aadharit hai (Hindi, ASR se). jahan naam/aankde spasht roop se galat sunai diye (jaise “danadekar end Rath” = Dandekar evam Rath, “lorens curve” = Lorenz curve, “amadhy sen” = Amartya Sen), wahan <span class="chip fix-chip" style="background:var(--amber-soft);color:var(--amber);border:1px solid var(--line)">reform</span> chinh se sahi jankari di gayi hai — pariksha mein wahi likhein.
+   <span style="display:block;margin-top:6px"><b>Bhasha:</b> ye poora module <b>city-style Hinglish (Roman script)</b> mein likha gaya hai — technical terms English mein hi hain (GDP, planning, Five Year Plan), aur explanation bolne wali Hinglish mein. Devanagari edition ke liye <span class="mono">batch-03-interactive.html</span> kholein.</span></div>
+  </div>
+  <section class="sec" id="s1" data-sec="s1">
+   <div class="sec-head">
+    <div class="sec-num">01</div>
+    <h2>poverty kya hai?<span class="en">Poverty — meaning, types &amp; poverty line</span></h2>
+    <button class="markdone" data-done="s1" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p class="lead">ye chapter poori series ka sabse zyada <b>question-kari</b> hissa hai — “kaun-si committee, kis saal, kitne percent” yahin se seedhe poocha jata hai.</p>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">paribhasha</span><b>poverty</b> = aisi sthiti jismein vyakti apni <b>basic needs (basic necessities)</b> poori nahi kar pata — <b>roti, kapada, makan</b> yaani food, clothing, shelter.</div>
+    </div>
+    <div class="call pointer">
+     <span class="ci">i</span>
+     <div><span class="ct">sabse pehla vaishvik estimate</span>duniya mein poverty ka pehla <b>global estimate</b> <b>World Development Report 1990</b> mein aaya — “varld bank ne pehli baar gina ki kitne log garib hain.”</div>
+    </div>
+    <h3 class="sub">do tarah ki poverty</h3>
+    <div class="tablewrap">
+     <table>
+      <thead><tr><th>prakaar</th><th>matlab</th><th>kaise mapi jati hai</th></tr></thead>
+      <tbody>
+       <tr>
+        <td><b>relative poverty</b><br><span class="mono">Relative</span></td>
+        <td>tulna mein garib — “padosi ke pass badi gadi hai, to aap khud ko garib mahasus karte hain.” ye <b>asamanta (disparity)</b> napti hai, aay-samuhon ke beech ka fasla.</td>
+        <td><b>Lorenz curve</b> aur <b>gini coefficient</b></td>
+       </tr>
+       <tr>
+        <td><b>absolute poverty</b><br><span class="mono">Absolute</span></td>
+        <td>ek <b>nyoonatam zarurat ka measure</b> — agar roz itna paisa kharch nahi kar pa rahe, ya itni <b>calorie</b> nahi le pa rahe, to aap garib hain. ismein tulna nahi hoti.</td>
+        <td><b>poverty line</b> — minimum consumption criteria</td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="call trap">
+     <span class="ci">!</span>
+     <div><span class="ct">Trap</span>Bharat mein <b>absolute</b> vidhi istemal hoti hai, relative nahi. aur <b>poverty line</b> = “nyoonatam upbhog ka measure” — yahi absolute poverty ka maap hai.</div>
+    </div>
+    <h3 class="sub">poverty line ka calorie aadhar</h3>
+    <div class="stats">
+     <div class="stat"><div class="v">2400</div><div class="k">gramin sector — per person prati din calorie</div></div>
+     <div class="stat"><div class="v">2100</div><div class="k">shahari sector — per person prati din calorie</div></div>
+     <div class="stat"><div class="v">1979</div><div class="k">Planning Commission karyadal ne ye manak tay kiya (aadhar varsh 1973-74)</div></div>
+    </div>
+    <p>ganv mein mehanat zyada hoti hai, isliye wahan calorie ki zarurat bhi zyada mani jati hai — yahi 2400 banam 2100 ka farq hai.</p>
+   </div>
+  </section>
+
+  <section class="sec" id="s2" data-sec="s2">
+   <div class="sec-head">
+    <div class="sec-num">02</div>
+    <h2>asamanta kaise mapte hain<span class="en">Inequality — Lorenz curve, Gini coefficient &amp; Amartya Sen</span></h2>
+    <button class="markdone" data-done="s2" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <ul class="clean">
+     <li><b>Lorenz curve:</b> aay/asset ke vitaran mein <b>asamanta</b> dikhata hai — population ka kitna hissa, kul aay ka kitna hissa pa raha hai.</li>
+     <li><b>gini coefficient:</b> Lorenz curve se nikla <b>0 se 1</b> ke beech ka ek number. <b>0 = poorn samanta</b>, <b>1 = poorn asamanta</b>.</li>
+     <li><b>dono ka kaam ek hi:</b> aay-asamanta (income inequality) mapna — ye baar-baar poocha jata hai.</li>
+    </ul>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">Amartya Sen ka yogdan</span><b>Inequality-adjusted per capita income</b> — average per capita income ko asamanta ke hisab se <b>theek karke</b> dekhna.<br>vichar: “average aay badh jana kaafi nahi — agar aay barabar banti nahi hai, to vo average dhokha deta hai.”</div>
+    </div>
+    <div class="kv">
+     <div class="item"><div class="k">per capita income</div><div class="v">kul rashtriya aay ÷ kul population</div></div>
+     <div class="item"><div class="k">kami</div><div class="v">ye <b>average</b> hai — amir-garib ka farq chhipa jata hai</div></div>
+     <div class="item"><div class="k">samadhan</div><div class="v">Amartya Sen ka inequality-adjusted maap</div></div>
+    </div>
+    <div class="call pyq">
+     <span class="ci">★</span>
+     <div><span class="ct">pariksha pattern</span>“Lorenz curve / gini coefficient kisse sanbandhit hain?” → <b>aay-asamanta</b>. “Inequality-adjusted per capita income kisne diya?” → <b>Amartya Sen</b>.</div>
+    </div>
+   </div>
+  </section>
+
+  <section class="sec" id="s3" data-sec="s3">
+   <div class="sec-head">
+    <div class="sec-num">03</div>
+    <h2>poverty assessment ka itihas<span class="en">Committees &amp; estimates — 1962 to Rangarajan</span></h2>
+    <button class="markdone" data-done="s3" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p class="lead">isse pehle sirf <b>Dadabhai Naoroji</b> ne poverty ki baat uthai thi — kitaab: <b>“Poverty and UnBritish Rule in India”</b>. ise <b>tilak</b> se milana mat (ye trap hai). iske baad <b>pehla adhikarik (official) prayas</b> Planning Commission ne <b>July 1962</b> mein kiya.</p>
+    <div class="tablewrap">
+     <table>
+      <thead><tr><th>varsh</th><th>committee / prayas</th><th>mukhya baat</th></tr></thead>
+      <tbody>
+       <tr><td class="year">1962</td><td>Planning Commission (July)</td><td><b>pehla adhikarik estimate</b> — poverty measure ki shuruat</td></tr>
+       <tr><td class="year">1971</td><td><b>Dandekar evam Rath</b></td><td>pehli badi committee — calorie aadharit poverty estimate</td></tr>
+       <tr><td class="year">1970s</td><td><b>P.S. Minhas</b> · <b>P.D. Oza</b></td><td>aay-aadharit aur calorie-aadharit vaikalpik estimate</td></tr>
+       <tr><td class="year">1979</td><td>Planning Commission karyadal</td><td><b>2400 calorie (ganv) / 2100 (shahar)</b>, aadhar varsh 1973-74</td></tr>
+       <tr><td class="year">1989</td><td><b>D.T. Lakdawala</b> committee</td><td>rajya-vishisht poverty line (state-specific), price index se jodna</td></tr>
+       <tr><td class="year">2009</td><td><b>Suresh Tendulkar</b> committee</td><td>6 basic needs par rekha; report 2011-12 → <b>21.9%</b> garib</td></tr>
+       <tr><td class="year">2012</td><td><b>C. Rangarajan</b> committee</td><td>paise ke aadhar par; report 2014 → <b>29.5%</b> garib</td></tr>
+      </tbody>
+     </table>
+    </div>
+    <h3 class="sub">teen badi committees — ek-ek lain mein</h3>
+    <div class="kv">
+     <div class="item"><div class="k">Lakdawala (1989)</div><div class="v">states ke liye alag-alag poverty line; Consumer Price Index (CPI) se joda</div></div>
+     <div class="item"><div class="k">Tendulkar (2009)</div><div class="v">6 basic needs: food, education, health, basic infrastructure, swachh vatavaran, women ki kaam tak pahunch; 21.9% (ganv 25.7%, shahar 13.7%)</div></div>
+     <div class="item"><div class="k">Rangarajan (2012)</div><div class="v">₹972 (ganv) aur ₹1,407 (shahar) per person prati mah; 29.5% garib</div></div>
+    </div>
+    <div class="call trap">
+     <span class="ci">!</span>
+     <div><span class="ct">Trap — government ne kise mana?</span>Tendulkar kehte hain <b>21.9%</b>, Rangarajan kehte hain <b>29.5%</b>. government ne <b>Tendulkar committee</b> ki recommendation mani, kyunki usmein poverty kam dikhati hai. isliye adhikarik ankada = <b>21.9%</b>.</div>
+    </div>
+    <div class="call fix">
+     <span class="ci">✎</span>
+     <div><span class="ct">reform</span>lecture mein Rangarajan ke aankde kai baar badal gaye (972/1460, phir 1024/1630). sahi manak: <b>₹972 gramin</b> aur <b>₹1,407 shahari</b> per person prati mah (2011-12 ki prices par), estimate <b>29.5%</b>. pariksha mein yahi likhein.</div>
+    </div>
+    <div class="call mem">
+     <span class="ci">✦</span>
+     <div><span class="ct">lecture ki yaad-tarakib</span>“<b>Rath par danda</b>” (Dandekar-Rath, 1971) → phir danda alag (Lakdawala, 1989) → “wahi danda lakadi ka” (Tendulkar, 2009) → ant mein Rangarajan.</div>
+    </div>
+   </div>
+  </section>
+  <section class="sec" id="s4" data-sec="s4">
+   <div class="sec-head">
+    <div class="sec-num">04</div>
+    <h2>bahuayami poverty index<span class="en">Multidimensional Poverty Index (MPI)</span></h2>
+    <button class="markdone" data-done="s4" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p class="lead">sirf aay se poverty napna galat hai — education, health aur jeevan-star bhi dekhna padta hai. isi ke liye MPI aaya.</p>
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">kisne banaya</span><b>OPHI (Oxford Poverty &amp; Human Development Initiative)</b> + <b>UNDP</b>. isne 2010 se <b>Human Development Report</b> mein purane <b>Human Poverty Index (HPI)</b> ko <b>badal diya (replace)</b>.</div>
+    </div>
+    <div class="stats">
+     <div class="stat"><div class="v">3</div><div class="k">ayam — education · health · jeevan-star</div></div>
+     <div class="stat"><div class="v">10</div><div class="k">sanketak (indicators)</div></div>
+     <div class="stat"><div class="v">2010</div><div class="k">HDR mein HPI ki jagah MPI</div></div>
+    </div>
+    <div class="tablewrap">
+     <table>
+      <thead><tr><th>ayam</th><th>sanketak</th><th>bhar (weight)</th></tr></thead>
+      <tbody>
+       <tr><td rowspan="2"><b>education</b></td><td>skuli education ke varsh (years of schooling)</td><td rowspan="2">1/6 + 1/6 = <b>1/3</b></td></tr>
+       <tr><td>school mein upasthiti (attendance)</td></tr>
+       <tr><td rowspan="2"><b>health</b></td><td>bal mrityu (child mortality)</td><td rowspan="2">1/6 + 1/6 = <b>1/3</b></td></tr>
+       <tr><td>nutrition</td></tr>
+       <tr><td><b>jeevan-star</b></td><td>electricity · swachhata · drinking water · Awaas · khana pakane ka fuel · asset</td><td><b>6 × 1/18 = 1/3</b></td></tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="call pointer">
+     <span class="ci">i</span>
+     <div><span class="ct">NITI Aayog ka rashtriya MPI alag kyun hai</span>Bharat ka <b>National MPI (NITI Aayog)</b> isi dhanche par hai, par usmein <b>12 sanketak</b> hain — antararashtriy MPI ke 10 mein <b>matri health</b> aur <b>bank khata</b> jod diye gaye hain. ye “antararashtriy vs Bharatiya MPI” wala question bahut doharaya jata hai.</div>
+    </div>
+    <div class="call pyq">
+     <span class="ci">★</span>
+     <div><span class="ct">pariksha pattern</span>“MPI mein kitne ayam aur sanketak?” → <b>3 ayam, 10 sanketak</b>. “kisne prepare kiya?” → <b>OPHI + UNDP</b>. “kiski jagah aaya?” → <b>HPI</b> (2010 se).</div>
+    </div>
+   </div>
+  </section>
+
+  <section class="sec" id="s5" data-sec="s5">
+   <div class="sec-head">
+    <div class="sec-num">05</div>
+    <h2>National Food Security Act<span class="en">NFSA 2013 &amp; food security schemes</span></h2>
+    <button class="markdone" data-done="s5" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <div class="call def">
+     <span class="ci">§</span>
+     <div><span class="ct">mool vichar</span><b>NFSA 2013</b> — citizens ko <b>sasti keemat par khadyann</b> uplabdh karana, taaki “koi bhukha na mare”. pure Bharat mein implemented.</div>
+    </div>
+    <div class="stats">
+     <div class="stat"><div class="v">75%</div><div class="k">gramin abadi cover</div></div>
+     <div class="stat"><div class="v">50%</div><div class="k">shahari abadi cover</div></div>
+     <div class="stat"><div class="v">~2/3</div><div class="k">desh ki kul abadi</div></div>
+    </div>
+    <div class="tablewrap">
+     <table>
+      <thead><tr><th>baat</th><th>vivaran</th></tr></thead>
+      <tbody>
+       <tr><td>matra</td><td><b>5 kilo per person prati mah</b> (antyoday family: 35 kilo prati family)</td></tr>
+       <tr><td>keemat</td><td>chaval <b>₹3</b>/kilo · gehun <b>₹2</b>/kilo · mota anaj <b>₹1</b>/kilo</td></tr>
+       <tr><td>yaad rakhne ki tarakib</td><td><b>3-2-1</b> → chaval 3, gehun 2, mota anaj 1</td></tr>
+       <tr><td>family ka mukhiya</td><td><b>18 varsh ya zyada umr ki mahila</b>; na ho to sabse bada purush members</td></tr>
+       <tr><td>matritv labh</td><td>pregnant aur stanapan karane wali women ko <b>₹6,000 ya zyada</b> nakad labh (wage loss ki compensation)</td></tr>
+       <tr><td>coverage</td><td>target <b>81.35 crore</b>, vastavik <b>~80.7 crore</b></td></tr>
+       <tr><td>reform</td><td>Targeted PDS mein reform + <b>nakad transfer</b> ki suvidha</td></tr>
+      </tbody>
+     </table>
+    </div>
+    <h3 class="sub">khadya suraksha ki doosri yojanayein</h3>
+    <div class="kv">
+     <div class="item"><div class="k">Antyodaya Anna Yojana (AAY) — 2000</div><div class="v">sabse garib <b>1 crore</b> family targeted; shuru mein 25 kilo prati family, ab 35 kilo</div></div>
+     <div class="item"><div class="k">National Food Security Mission — 2007</div><div class="v">National Development Council (NDC) ke proposal se; chaval, gehun, dalahan ka utpadan badhana</div></div>
+     <div class="item"><div class="k">Pradhan Mantri Kisan Sampada Yojana — 2017</div><div class="v">pehle naam “sanpada yojana”; khadya processing mantralay ke antargat. <b>ye PM-KISAN nahi hai</b> — food prosesing, kisan ki aay, wastage (₹92,000 crore/varsh) ghatana aur export badhana</div></div>
+    </div>
+    <div class="call trap">
+     <span class="ci">!</span>
+     <div><span class="ct">Trap</span><b>PM Kisan Sampada Yojana ≠ PM-KISAN</b>. Sampada = food prosesing (2017); PM-KISAN = kisanon ko sidha paisa (2019). dono ko ek hi man lena sabse am galati hai.</div>
+    </div>
+   </div>
+  </section>
+
+  <section class="sec" id="s6" data-sec="s6">
+   <div class="sec-head">
+    <div class="sec-num">06</div>
+    <h2>employment aur poverty unmulan yojanayein<span class="en">Poverty alleviation schemes — chronology</span></h2>
+    <button class="markdone" data-done="s6" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p class="lead">yahan se <b>kronoloji</b> wale question bante hain — “kaun-si yojana pehle ai?” isliye kram yaad rakhna zaruri hai.</p>
+    <div class="tablewrap">
+     <table>
+      <thead><tr><th>varsh</th><th>yojana</th><th>mukhya baat</th></tr></thead>
+      <tbody>
+       <tr><td class="year">1979</td><td><b>TRYSEM</b> (15 August)</td><td>Training of Rural Youth for Self Employment; <b>18–35 varsh</b> ke BPL gramin yuvaon ko prashikshan</td></tr>
+       <tr><td class="year">1982-83</td><td><b>DWCRA</b></td><td>Development of Women &amp; Children in Rural Areas — BPL women ke <b>Self Help Group (SHG)</b></td></tr>
+       <tr><td class="year">1985</td><td><b>Indira Awaas Yojana</b></td><td>garibon ke liye Awaas</td></tr>
+       <tr><td class="year">1989</td><td><b>Jawahar Rozgar Yojana (JRY)</b></td><td>gramin employment srijan</td></tr>
+       <tr><td class="year">1993</td><td><b>PMRY</b> + <b>EAS</b></td><td>Prime Minister's Rozgar Yojana (swarozgar) + Employment Assurance Scheme</td></tr>
+       <tr><td class="year">1997</td><td><b>SJSRY</b></td><td>Swarna Jayanti Shahari Rozgar Yojana — <b>pehle shahar mein</b></td></tr>
+       <tr><td class="year">1999</td><td><b>JGSY</b> + <b>SGSY</b></td><td>gram samriddhi yojana + Swarna Jayanti Gram Swarozgar Yojana — <b>ab ganv mein</b></td></tr>
+       <tr><td class="year">2000</td><td><b>annapurna · PMGY · AAY · annual penshan insurance</b></td><td>2000 “chaar yojanaon ka saal” — isi saal Antyodaya Anna Yojana bhi</td></tr>
+       <tr><td class="year">2005</td><td><b>Bharat Nirman</b></td><td>gramin basic infrastructure (sadak, paani, electricity, Awaas, sinchai, communication)</td></tr>
+       <tr><td class="year">2006</td><td><b>NREGA</b></td><td>employment ki legal guarantee — agla section poora isi par</td></tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="call mem">
+     <span class="ci">✦</span>
+     <div><span class="ct">kram yaad rakhne ka tarika</span>shahar pehle, ganv baad mein (SJSRY 1997 → SGSY 1999) — par <b>ye ulta bhi hota hai</b>: NRLM (ganv, 2011) pehle, NULM (shahar, 2013) baad mein. dono jode alag-alag yaad rakhein.</div>
+    </div>
+    <div class="call fix">
+     <span class="ci">✎</span>
+     <div><span class="ct">reform</span>lecture mein ek jagah Jawahar Rozgar Yojana “1999” boli gayi, par sahi varsh <b>1989</b> hai (1999 mein JGSY ai). kronoloji wale question mein yahi farq uttar badal deta hai.</div>
+    </div>
+   </div>
+  </section>
+  <section class="sec" id="s7" data-sec="s7">
+   <div class="sec-head">
+    <div class="sec-num">07</div>
+    <h2>manarega<span class="en">MGNREGA — the legal guarantee of work</span></h2>
+    <button class="markdone" data-done="s7" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <div class="kv">
+     <div class="item"><div class="k">shuruat</div><div class="v"><b>2 February 2006</b> — pehle <b>200 districts</b> mein, Andhra Pradesh se</div></div>
+     <div class="item"><div class="k">phailav</div><div class="v">2007-08 mein <b>130 aur district</b> → 2008 se pure desh mein (jammu-kashmir ko chhodakar)</div></div>
+     <div class="item"><div class="k">naam</div><div class="v"><b>2009</b> mein “mahatma Gandhi” joda gaya — pehle sirf NREGA thi</div></div>
+     <div class="item"><div class="k">law</div><div class="v">NREGA Act 2005 ke tahat — ye <b>legal adhikar</b> hai, keval yojana nahi</div></div>
+    </div>
+    <h3 class="sub">mukhya pravadhan</h3>
+    <ul class="clean">
+     <li><b>100 din</b> ka guaranteed unskilled employment, har gramin family ke ek vayask members ko.</li>
+     <li>avedan ke <b>15 din</b> ke bhitar kaam na mile to <b>unemployment bhatta (unemployment allowance)</b> milega.</li>
+     <li>kaam <b>5 kilometre</b> ke dayre mein; isse door ho to wage mein <b>10% extra</b> (yatra/rehne ka kharch).</li>
+     <li>kam-se-kam <b>1/3 labharthi women</b> honi chahiye.</li>
+     <li>wage rate <b>rajya-var</b> notified, inflation se judi (indexed).</li>
+    </ul>
+    <div class="tablewrap">
+     <table>
+      <thead><tr><th>kharch ka hissa</th><th>kaun uthata hai</th></tr></thead>
+      <tbody>
+       <tr><td>unskilled shram ki wage</td><td><b>Centre — 100%</b></td></tr>
+       <tr><td>material aur kushal/ardh-kushal wage</td><td>Centre <b>75%</b>, rajya 25%</td></tr>
+       <tr><td>prashasnik kharch</td><td>Centre <b>6%</b></td></tr>
+       <tr><td>kaam ka distribution</td><td>shram : material = <b>60 : 40</b></td></tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="call trap">
+     <span class="ci">!</span>
+     <div><span class="ct">Trap</span>“NREGA 2005” aur “MGNREGA 2006” dono sahi dikhate hain — <b>law 2005</b> ka, <b>shuruat 2 February 2006</b> se, aur <b>naam mein “mahatma Gandhi” 2009</b> mein juda. question kis cheez ka poocha gaya hai, vo dekhen.</div>
+    </div>
+   </div>
+  </section>
+
+  <section class="sec" id="s8" data-sec="s8">
+   <div class="sec-head">
+    <div class="sec-num">08</div>
+    <h2>ajivika mishan aur startaap<span class="en">NRLM · NULM · Startup India · Stand Up India · Skill</span></h2>
+    <button class="markdone" data-done="s8" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <h3 class="sub">ganv ki ajivika — DAY-NRLM</h3>
+    <ul class="clean">
+     <li><b>SGSY (1999)</b> ka naya roop → <b>National Rural Livelihood Mission (NRLM), 2011</b> → <b>2015</b> mein naam badalakar <b>Deendayal Antyodaya Yojana – NRLM</b>.</li>
+     <li>target: BPL families ka <b>swarozgar aur aay srijan</b>, SHG ke zarie.</li>
+     <li>labharthi: <b>50% SC/ST</b>, <b>15% alpasankhyak</b>, <b>3% divyang</b>.</li>
+     <li>phanding: Centre : rajya = <b>75 : 25</b> → ye <b>Centre sponsored (centrally sponsored)</b> yojana hai (kendriya sector yojana mein 100% Centre deta hai).</li>
+    </ul>
+    <h3 class="sub">shahar ki ajivika — DAY-NULM</h3>
+    <ul class="clean">
+     <li><b>2013</b> mein shuru; isne <b>SJSRY (1997)</b> ko badala. poora naam: Deendayal Antyodaya Yojana – National Urban Livelihood Mission.</li>
+     <li>un sabhi districts mein implemented jahan 2011 ki census ke anusar <b>1 lakh se zyada abadi</b> hai.</li>
+     <li>phanding wahi <b>75 : 25</b> (Centre : rajya); mantralay — <b>Awaas evam shahari poverty unmulan mantralay</b>.</li>
+    </ul>
+    <div class="call trap">
+     <span class="ci">!</span>
+     <div><span class="ct">Trap — kram ulta hai</span>SJSRY (shahar, 1997) → SGSY (ganv, 1999): <b>pehle shahar</b>. par NRLM (ganv, 2011) → NULM (shahar, 2013): <b>pehle ganv</b>. dono kram alag-alag yaad rakhein.</div>
+    </div>
+    <h3 class="sub">startaap, staind up aur kaushal</h3>
+    <div class="kv">
+     <div class="item"><div class="k">startaap India</div><div class="v">ghoshna <b>15 August 2015</b>, launch <b>16 January 2016</b> — yuvaon ko swarozgar aur nae udyam ke liye protsahan</div></div>
+     <div class="item"><div class="k">staind up India</div><div class="v">ghoshna 15 August 2015, launch <b>5 April 2016</b> — SC/ST aur women mein udyamashilta; ₹10 lakh–₹1 crore ka rin</div></div>
+     <div class="item"><div class="k">rashtriya kaushal policy</div><div class="v"><b>2015</b> — skill India mishan ke antargat</div></div>
+     <div class="item"><div class="k">PM Kaushal Vikas Yojana</div><div class="v"><b>2015</b> — target: 2022 tak <b>40 crore</b> logon ko prashikshan</div></div>
+    </div>
+    <div class="call mem">
+     <span class="ci">✦</span>
+     <div><span class="ct">yaad rakhne ka tarika</span>pehle <b>startaap</b> (shuru karo), phir <b>staind up</b> (khade ho jao) — naam ka kram hi tark hai.</div>
+    </div>
+   </div>
+  </section>
+
+  <section class="sec" id="s9" data-sec="s9">
+   <div class="sec-head">
+    <div class="sec-num">09</div>
+    <h2>insurance, penshan aur health yojanayein<span class="en">Insurance, pension &amp; health schemes (2005–2017)</span></h2>
+    <button class="markdone" data-done="s9" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p class="lead">is hisse mein sawal <b>saal</b> par bante hain — lagbhag sab kuch 2015 ke asapas hai, isliye ek taimalain bana lein.</p>
+    <div class="tablewrap">
+     <table>
+      <thead><tr><th>varsh</th><th>yojana</th><th>mukhya baat</th></tr></thead>
+      <tbody>
+       <tr><td class="year">2005</td><td><b>National Rural Health Mission (NRHM)</b></td><td>ganv mein health suvidha</td></tr>
+       <tr><td class="year">2008</td><td><b>rashtriya health insurance yojana (RSBY)</b></td><td>BPL families ke liye health insurance</td></tr>
+       <tr><td class="year">2013</td><td><b>National Urban Health Mission (NUHM)</b></td><td>pehle ganv (2005) → ab shahar</td></tr>
+       <tr><td class="year">2014</td><td><b>Mission Indradhanush</b></td><td>7 diseases ke viruddh bachchon ka vaccination</td></tr>
+       <tr><td class="year">2015</td><td><b>PM suraksha insurance (PMSBY)</b></td><td>durghatna insurance — kam premium, ₹2 lakh tak cover</td></tr>
+       <tr><td class="year">2015</td><td><b>PM jeevan jyoti insurance (PMJJBY)</b></td><td>jeevan insurance (life insurance) cover</td></tr>
+       <tr><td class="year">2015</td><td><b>Atal Pension Yojana (APY)</b></td><td>umr <b>18–40</b>; <b>60</b> saal par penshan; <b>PFRDA</b> administered; isne “svavalanban yojana” ko badala; pati/patni ki mrityu par spouse ko penshan</td></tr>
+       <tr><td class="year">2015</td><td><b>PM jan medicine yojana</b></td><td>sasti gunavattapurn generic medicines</td></tr>
+       <tr><td class="year">2015</td><td><b>Beti Bachao Beti Padhao</b></td><td>Haryana se shuru — bal ling anupaat improve</td></tr>
+       <tr><td class="year">2016</td><td><b>malaria unmulan rashtriya infrastructure</b></td><td>2016 ka target-infrastructure</td></tr>
+      </tbody>
+     </table>
+    </div>
+    <div class="call pointer">
+     <span class="ci">i</span>
+     <div><span class="ct">2014–2017 ka tez taimalain</span><b>2014</b> — swachh Bharat · <b>2015</b> — PM mudra, sukanya samriddhi, startaap/staind up ki ghoshna, PMSBY, PMJJBY, APY · <b>2016</b> — ujjvala, e-NAM, startaap launch · <b>2017</b> — PM vandna/vyay, KISAN SAMPADA.</div>
+    </div>
+    <div class="call trap">
+     <span class="ci">!</span>
+     <div><span class="ct">Trap — do bime</span><b>PMSBY = durghatna</b> insurance, <b>PMJJBY = jeevan</b> insurance. dono 2015 ke hain, isliye naam aapas mein ulajh jate hain — “jeevan jyoti = jeevan insurance” yaad rakhein.</div>
+    </div>
+   </div>
+  </section>
+  <section class="sec" id="s10" data-sec="s10">
+   <div class="sec-head">
+    <div class="sec-num">10</div>
+    <h2>fact sheet — antim 10 minat ka revision<span class="en">One-line fact sheet</span></h2>
+    <button class="markdone" data-done="s10" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p>pure chapter ke pariksha-yogya fact, ek-ek pankti mein. <b>print/PDF</b> se revision sheet nikal sakte hain.</p>
+    <div class="facts" id="factsList">
+     <div class="fact"><span class="tag">paribhasha</span><span class="txt">poverty = basic needs (roti, kapada, makan) poori na kar pana.</span></div>
+     <div class="fact"><span class="tag">vaishvik</span><span class="txt">poverty ka pehla vaishvik estimate — <b>World Development Report 1990</b>.</span></div>
+     <div class="fact"><span class="tag">do prakaar</span><span class="txt"><b>relative</b> (tulna/asamanta) aur <b>absolute</b> (nyoonatam zarurat). Bharat mein <b>absolute</b> vidhi.</span></div>
+     <div class="fact"><span class="tag">calorie</span><span class="txt"><b>2400</b> gramin · <b>2100</b> shahari (Planning Commission karyadal, 1979; aadhar varsh 1973-74).</span></div>
+     <div class="fact"><span class="tag">asamanta</span><span class="txt"><b>Lorenz curve</b> aur <b>gini coefficient</b> — aay-asamanta ke maap. gini: 0 = samanta, 1 = poorn asamanta.</span></div>
+     <div class="fact"><span class="tag">sen</span><span class="txt"><b>Inequality-adjusted per capita income</b> — Amartya Sen ka yogdan.</span></div>
+     <div class="fact"><span class="tag">Naoroji</span><span class="txt"><b>“Poverty and UnBritish Rule in India”</b> — Dadabhai Naoroji (tilak se milayein nahi).</span></div>
+     <div class="fact"><span class="tag">1962</span><span class="txt"><b>July 1962</b> — Planning Commission ka <b>pehla adhikarik</b> prayas.</span></div>
+     <div class="fact"><span class="tag">1971</span><span class="txt"><b>Dandekar evam Rath</b> committee — pehli badi poverty committee.</span></div>
+     <div class="fact"><span class="tag">1970s</span><span class="txt"><b>P.S. Minhas</b> aur <b>P.D. Oza</b> — vaikalpik estimate.</span></div>
+     <div class="fact"><span class="tag">1989</span><span class="txt"><b>D.T. Lakdawala</b> — rajya-vishisht poverty line, price index se jodi.</span></div>
+     <div class="fact"><span class="tag">2009</span><span class="txt"><b>Tendulkar committee</b> — 6 basic needs; estimate <b>21.9%</b> (ganv 25.7%, shahar 13.7%).</span></div>
+     <div class="fact"><span class="tag">2012</span><span class="txt"><b>Rangarajan committee</b> — ₹972 ganv / ₹1,407 shahar per person/mah; estimate <b>29.5%</b>.</span></div>
+     <div class="fact"><span class="tag">approval</span><span class="txt">government ne <b>Tendulkar</b> ki recommendation mani (21.9% kam dikhata hai).</span></div>
+     <div class="fact"><span class="tag">MPI</span><span class="txt"><b>OPHI + UNDP</b>; 3 ayam · <b>10 sanketak</b>; 2010 se HDR mein <b>HPI</b> ki jagah.</span></div>
+     <div class="fact"><span class="tag">MPI bhar</span><span class="txt">education 1/3 · health 1/3 · jeevan-star 1/3 (chhah sanketak × 1/18).</span></div>
+     <div class="fact"><span class="tag">rashtriya MPI</span><span class="txt">NITI Aayog ka MPI — <b>12 sanketak</b> (matri health aur bank khata extra).</span></div>
+     <div class="fact"><span class="tag">NFSA</span><span class="txt">2013 — ganv <b>75%</b>, shahar <b>50%</b>, kul ~<b>2/3</b> abadi cover.</span></div>
+     <div class="fact"><span class="tag">NFSA keemat</span><span class="txt">chaval <b>₹3</b> · gehun <b>₹2</b> · mota anaj <b>₹1</b> prati kilo; <b>5 kigra</b> per person/mah.</span></div>
+     <div class="fact"><span class="tag">NFSA mukhiya</span><span class="txt">18+ umr ki <b>mahila</b> family ki mukhiya; matritv labh <b>₹6,000+</b>.</span></div>
+     <div class="fact"><span class="tag">AAY</span><span class="txt"><b>2000</b> — 1 crore sabse garib family; ab <b>35 kigra</b> prati family.</span></div>
+     <div class="fact"><span class="tag">NFSM</span><span class="txt"><b>2007</b> — NDC ke proposal se; chaval, gehun, dalahan utpadan.</span></div>
+     <div class="fact"><span class="tag">SAMPADA</span><span class="txt"><b>2017</b> — PM kisan sanpada yojana (food prosesing). <b>PM-KISAN nahi</b>.</span></div>
+     <div class="fact"><span class="tag">TRYSEM</span><span class="txt"><b>15 August 1979</b> — 18–35 varsh ke BPL gramin yuvaon ka prashikshan.</span></div>
+     <div class="fact"><span class="tag">DWCRA</span><span class="txt"><b>1982-83</b> — gramin BPL women ke liye SHG aadharit yojana.</span></div>
+     <div class="fact"><span class="tag">kram</span><span class="txt">IAY <b>1985</b> → JRY <b>1989</b> → PMRY/EAS <b>1993</b> → SJSRY <b>1997</b> → JGSY/SGSY <b>1999</b> → AAY <b>2000</b> → Bharat Nirman <b>2005</b> → NREGA <b>2006</b>.</span></div>
+     <div class="fact"><span class="tag">manarega</span><span class="txt"><b>2 February 2006</b>, 200 district, Andhra Pradesh se; 2008 mein pure desh mein (J&amp;K chhodakar).</span></div>
+     <div class="fact"><span class="tag">manarega naam</span><span class="txt"><b>2009</b> mein “mahatma Gandhi” juda — pehle keval NREGA.</span></div>
+     <div class="fact"><span class="tag">manarega pravadhan</span><span class="txt"><b>100 din</b> · <b>15 din</b> mein kaam ya bhatta · <b>5 kimi</b> radius (door ho to <b>10%</b> zyada) · <b>1/3 women</b>.</span></div>
+     <div class="fact"><span class="tag">manarega phanding</span><span class="txt">unskilled wage <b>100% Centre</b> · material 75% Centre · prashasan 6% · shram:material = <b>60:40</b>.</span></div>
+     <div class="fact"><span class="tag">NRLM/NULM</span><span class="txt">NRLM <b>2011</b> → DAY-NRLM <b>2015</b>; NULM <b>2013</b> (SJSRY 1997 ko badala); phanding <b>75:25</b>.</span></div>
+     <div class="fact"><span class="tag">labharthi</span><span class="txt">DAY-NRLM: <b>50% SC/ST</b>, 15% alpasankhyak, 3% divyang.</span></div>
+     <div class="fact"><span class="tag">startaap</span><span class="txt">ghoshna <b>15 August 2015</b>, launch <b>16 January 2016</b>; staind up India launch <b>5 April 2016</b>.</span></div>
+     <div class="fact"><span class="tag">insurance</span><span class="txt"><b>PMSBY</b> = durghatna insurance, <b>PMJJBY</b> = jeevan insurance (dono 2015).</span></div>
+     <div class="fact"><span class="tag">atal penshan</span><span class="txt"><b>2015</b> — umr 18–40, 60 par penshan, <b>PFRDA</b> dwara sanchalit.</span></div>
+    </div>
+    <div class="hero-cta" style="margin-top:14px">
+     <button class="btn ghost" id="copyFacts" type="button">fact sheet copy karein</button>
+     <a class="btn ghost" href="#s12">test dein →</a>
+    </div>
+   </div>
+  </section>
+
+  <section class="sec" id="s11" data-sec="s11">
+   <div class="sec-head">
+    <div class="sec-num">11</div>
+    <h2>flashcard — committees aur yojanayein<span class="en">Flip cards · committees &amp; schemes</span></h2>
+    <button class="markdone" data-done="s11" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <p>card par klik/taip karein — palatakar uttar dikhega. pehle swayan sochen, phir paltein.</p>
+    <h3 class="sub">poverty assessment — committees</h3>
+    <div class="fc-grid" id="fcSdg"></div>
+    <h3 class="sub">yojanayein — saal aur mukhya baat</h3>
+    <div class="fc-grid" id="fcFact"></div>
+    <p class="fc-hint">keyboard: <span class="mono">Tab</span> se card chunein, <span class="mono">Enter/Space</span> se paltein.</p>
+   </div>
+  </section>
+
+  <section class="sec" id="s12" data-sec="s12">
+   <div class="sec-head">
+    <div class="sec-num">12</div>
+    <h2>abhyas question — 16 MCQ<span class="en">Practice test with instant explanations</span></h2>
+    <button class="markdone" data-done="s12" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>padh liya</button>
+   </div>
+   <div class="sec-body">
+    <div class="quiz-bar">
+     <span class="score">score: <b id="scoreVal">0</b> / <span id="qTotal">16</span></span>
+     <span class="note" id="quizNote">koi vikalp chunein — turant sahi/galat aur vyakhya dikhegi.</span>
+     <span class="spacer" style="flex:1"></span>
+     <button class="btn ghost" id="resetQuiz" type="button" style="height:32px;font-size:12px">reset</button>
+    </div>
+    <div class="quiz" id="quiz"></div>
+   </div>
+  </section>
+
+  <section class="sec" id="nextbatch">
+   <div class="sec-head">
+    <div class="sec-num">→</div>
+    <h2>agla batch<span class="en">What comes next in the series</span></h2>
+   </div>
+   <div class="sec-body">
+    <p>batch 3 yahin samapt — lecture mein iske baad seedhe “Domestic Territory” wali baat shuru hoti hai. <b>batch 4 = rashtriya aay aur GDP</b>.</p>
+    <div class="next">
+     <div class="nextcard"><div class="h"><span class="n">04</span>GDP, GNP, NNP</div><p>Domestic territory, factor income, depreciation — har formula aur har jaal.</p></div>
+     <div class="nextcard"><div class="h"><span class="n">04</span>factor lagat vs bazaar keemat</div><p>Tax, subsidy aur “net” ka poora khel — sabse zyada galat hone wale question.</p></div>
+     <div class="nextcard"><div class="h"><span class="n">04</span>growth vs development</div><p>Growth aur development ka farq, per capita income, HDI.</p></div>
+     <div class="nextcard"><div class="h"><span class="n">04</span>aage: unemployment</div><p>baad ke chapter mein unemployment ke prakaar aur maap — uska apna batch banega.</p></div>
+    </div>
+    <div class="call pointer" style="margin-top:16px">
+     <span class="ci">i</span>
+     <div><span class="ct">batch continuity</span>har batch mein wahi infrastructure: <b>granular notes → fact sheet → flashcard → MCQ</b>, aur seema lecture ke chapter-brek par.</div>
+    </div>
+   </div>
+  </section>
+
+  <div class="noresult" id="noresult">koi parinaam nahi mila — koi doosra shabd azamaen (jaise <b>Gini</b>, <b>NFSA</b>, <b>2006</b>).</div>
+ </main>
+</div>
+
+<button class="toTop" id="toTop" type="button" aria-label="upar jaayein">
+ <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+
+<footer class="footer">
+ <p><b>source:</b> “Indian Economy One Shot 2026 — Complete Indian Economy for UPPCS &amp; BPSC 72nd”, PCS INSIGHTS (UPPCS-BPSC), YouTube — <span class="mono">youtu.be/r2iOMMlSPIw</span> (3:28:12, published 09-11-2026). batch 3 = video ka tisra chapter (poverty aur poverty unmulan yojanayein).</p>
+ <p>ye adhyayan-material video ke auto-transcript se bani hai; jahan lecture mein aankde/varsh galat bole gaye, wahan “reform” chinh se sahi jankari di gayi hai — pariksha mein wahi likhein.</p>
+ <p style="margin-top:8px">batch 3 / 9 · interactive study module · pragati isi browser mein surakshit rehti hai.</p>
+</footer>
+
+
+<script>
+(function(){
+  "use strict";
+  var $ = function(s,c){return (c||document).querySelector(s);};
+  var $$ = function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s));};
+  var LS = {
+    get:function(k,d){try{var v=localStorage.getItem(k);return v===null?d:JSON.parse(v);}catch(e){return d;}},
+    set:function(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
+  };
+
+  /* ---------- theme ---------- */
+  var themeBtn=$("#themeBtn"), themeLabel=$("#themeLabel");
+  function applyTheme(t){
+    document.documentElement.setAttribute("data-theme",t);
+    themeLabel.textContent = t==="dark" ? "light" : "dark";
+    LS.set("ie-theme",t);
+  }
+  applyTheme(LS.get("ie-theme","light"));
+  themeBtn.addEventListener("click",function(){
+    applyTheme(document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark");
+  });
+
+  /* ---------- print ---------- */
+  $("#printBtn").addEventListener("click",function(){window.print();});
+
+  /* ---------- progress / mark done ---------- */
+  var marks=$$(".markdone"), done=LS.get("ie-done-b3",{});
+  var total=marks.length;
+  function refreshProgress(){
+    var n=0;
+    marks.forEach(function(b){
+      var id=b.getAttribute("data-done"), on=!!done[id];
+      b.setAttribute("aria-pressed",on?"true":"false");
+      if(on) n++;
+      var link=$('#toc a[href="#'+id+'"]');
+      if(link){link.classList.toggle("done",on);}
+    });
+    var pct=total?Math.round(n/total*100):0;
+    $("#ring").style.setProperty("--p",pct);
+    $("#ringTxt").textContent=pct+"%";
+    $("#doneCount").textContent=n+" / "+total+" chapter";
+  }
+  marks.forEach(function(b){
+    b.addEventListener("click",function(){
+      var id=b.getAttribute("data-done");
+      done[id]=!done[id];
+      LS.set("ie-done-b3",done);
+      refreshProgress();
+    });
+  });
+  refreshProgress();
+
+  /* ---------- scroll progress + to top ---------- */
+  var bar=$("#scrollProg"), toTop=$("#toTop");
+  function onScroll(){
+    var h=document.documentElement;
+    var max=(h.scrollHeight-h.clientHeight)||1;
+    bar.style.width=Math.min(100,(h.scrollTop/max)*100)+"%";
+    toTop.classList.toggle("show",h.scrollTop>700);
+  }
+  document.addEventListener("scroll",onScroll,{passive:true});
+  onScroll();
+  toTop.addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"});});
+
+  /* ---------- TOC active state ---------- */
+  var secs=$$("main .sec");
+  if("IntersectionObserver" in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          $$("#toc a").forEach(function(a){a.classList.remove("active");});
+          var a=$('#toc a[href="#'+en.target.id+'"]');
+          if(a){a.classList.add("active");}
+        }
+      });
+    },{rootMargin:"-88px 0px -66% 0px",threshold:0});
+    secs.forEach(function(s){io.observe(s);});
+  }
+
+  /* ---------- search ---------- */
+  var search=$("#search"), noresult=$("#noresult");
+  function clearMarks(root){
+    $$("mark",root).forEach(function(m){
+      var p=m.parentNode, t=document.createTextNode(m.textContent);
+      p.replaceChild(t,m); p.normalize();
+    });
+  }
+  function highlight(root,q){
+    var walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{
+      acceptNode:function(n){
+        if(!n.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        var p=n.parentNode;
+        if(!p) return NodeFilter.FILTER_REJECT;
+        var tag=p.nodeName;
+        if(tag==="SCRIPT"||tag==="STYLE"||tag==="MARK"||tag==="INPUT"||tag==="TEXTAREA") return NodeFilter.FILTER_REJECT;
+        return n.nodeValue.toLowerCase().indexOf(q)!==-1?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT;
+      }
+    });
+    var nodes=[], n;
+    while((n=walker.nextNode())){nodes.push(n);}
+    nodes.forEach(function(node){
+      var text=node.nodeValue, low=text.toLowerCase(), idx=low.indexOf(q);
+      if(idx===-1) return;
+      var frag=document.createDocumentFragment(), last=0;
+      while(idx!==-1){
+        frag.appendChild(document.createTextNode(text.slice(last,idx)));
+        var m=document.createElement("mark");
+        m.textContent=text.slice(idx,idx+q.length);
+        frag.appendChild(m);
+        last=idx+q.length;
+        idx=low.indexOf(q,last);
+      }
+      frag.appendChild(document.createTextNode(text.slice(last)));
+      node.parentNode.replaceChild(frag,node);
+    });
+  }
+  var searchTimer=null;
+  function runSearch(){
+    var q=(search.value||"").trim().toLowerCase();
+    secs.forEach(function(s){clearMarks(s);});
+    if(!q){
+      secs.forEach(function(s){s.classList.remove("hidden");});
+      noresult.classList.remove("show");
+      return;
+    }
+    var hits=0;
+    secs.forEach(function(s){
+      var match=(s.textContent||"").toLowerCase().indexOf(q)!==-1;
+      s.classList.toggle("hidden",!match);
+      if(match){hits++;highlight(s,q);}
+    });
+    noresult.classList.toggle("show",hits===0);
+  }
+  search.addEventListener("input",function(){
+    clearTimeout(searchTimer);
+    searchTimer=setTimeout(runSearch,140);
+  });
+  search.addEventListener("keydown",function(e){
+    if(e.key==="Escape"){search.value="";runSearch();search.blur();}
+  });
+
+  /* ---------- flashcards ---------- */
+  var sdg=[
+    ["1901","Poverty &amp; UnBritish Rule","Dadabhai Naoroji","Bharat mein poverty ki baat sabse pehle uthane wali kitaab — tilak se milayein nahi"],
+    ["1962","Planning Commission","July 1962","poverty measure ka pehla adhikarik (official) prayas"],
+    ["1971","Dandekar evam Rath","V.M. Dandekar · N. Rath","pehli badi poverty committee — calorie aadharit estimate"],
+    ["1970s","P.S. Minhas","Minhas Committee","vaikalpik aay/calorie aadharit estimate"],
+    ["1970s","P.D. Oza","Oza Committee","poverty estimate par svatantr adhyayan"],
+    ["1979","Planning Commission karyadal","aadhar varsh 1973-74","2400 calorie (ganv) aur 2100 (shahar) ka manak tay"],
+    ["1989","D.T. Lakdawala","Lakdawala Committee","rajya-vishisht poverty line + price index se jodna"],
+    ["2009","Suresh Tendulkar","report 2011-12","6 basic needs; poverty 21.9% (ganv 25.7%, shahar 13.7%)"],
+    ["2012","C. Rangarajan","report 2014","₹972 ganv / ₹1,407 shahar per person/mah; poverty 29.5%"]
+  ];
+  var facts=[
+    ["1979","TRYSEM","18–35 varsh ke BPL gramin yuvaon ko swarozgar prashikshan (15 August 1979)"],
+    ["1982-83","DWCRA","gramin BPL women ke liye SHG aadharit development yojana"],
+    ["1985","Indira Awaas Yojana","garib families ke liye Awaas"],
+    ["1989","Jawahar Rozgar Yojana","gramin employment srijan (JRY)"],
+    ["1993","PMRY + EAS","Prime Minister's Rozgar Yojana + Employment Assurance Scheme"],
+    ["1997","SJSRY","Swarna Jayanti Shahari Rozgar Yojana — pehle shahar mein"],
+    ["1999","JGSY + SGSY","gram samriddhi yojana + Swarna Jayanti Gram Swarozgar Yojana"],
+    ["2000","Antyodaya Anna Yojana","1 crore sabse garib family; ab 35 kigra prati family"],
+    ["2005","Bharat Nirman","gramin basic infrastructure — sadak, paani, electricity, Awaas"],
+    ["2006","manarega","2 February 2006 · 200 district · 100 din · 15 din mein kaam ya bhatta"],
+    ["2007","National Food Security Mission","NDC ke proposal se — chaval, gehun, dalahan utpadan"],
+    ["2011","NRLM","National Rural Livelihood Mission → 2015 mein DAY-NRLM"],
+    ["2013","NULM","shahari ajivika mishan; SJSRY (1997) ko badala; 75:25 phanding"],
+    ["2017","PM kisan sanpada yojana","food prosesing; pehle naam “sanpada yojana” — PM-KISAN nahi"]
+  ];
+  function cardHTML(top,mid,tiny,backMid){
+    return '<div class="fc-in">'+
+      '<div class="fc-face"><div class="top">'+top+'</div><div class="mid">'+mid+'</div><div class="tiny">'+tiny+'</div></div>'+
+      '<div class="fc-face fc-back"><div class="top">uttar</div><div class="mid">'+backMid+'</div></div>'+
+    '</div>';
+  }
+  function buildCards(container,arr){
+    container.innerHTML=arr.map(function(r){
+      var b=document.createElement("button");
+      b.type="button"; b.className="fc"; b.setAttribute("aria-label","card "+r[0]+" — paltein");
+      b.innerHTML=cardHTML(r[0],r[1],r[2],r[3]);
+      b.addEventListener("click",function(){b.classList.toggle("flipped");});
+      return b.outerHTML;
+    }).join("");
+  }
+  buildCards($("#fcSdg"),sdg);
+  buildCards($("#fcFact"),facts);
+
+  /* ---------- quiz ---------- */
+  var QUIZ=[
+    {q:"poverty ka pehla vaishvik (global) estimate kis mein aaya?",
+     o:["World Development Report 1990","Human Development Report 1990","World Development Report 2000","Economic Survey 1991"],a:0,
+     e:"vishv bank ki World Development Report 1990 mein poverty ka pehla vaishvik estimate diya gaya — ye Bharat ka nahi, duniya ka ankada tha."},
+    {q:"Lorenz curve aur gini coefficient kisse sanbandhit hain?",
+     o:["unemployment measure se","aay-asamanta measure se","inflation measure se","GDP ki ganna se"],a:1,
+     e:"dono aay-asamanta (income inequality) ke maap hain. Lorenz curve grafikal tarika hai, gini coefficient usi se nikla 0–1 ka number."},
+    {q:"gini coefficient ka man 0 hone ka kya arth hai?",
+     o:["poorn asamanta","poorn samanta","poverty line se neeche","aankde uplabdh nahi"],a:1,
+     e:"0 = poorn samanta (sabaki aay barabar), 1 = poorn asamanta (saari aay ek ke pass). Bharat mein gini 0.3 ke asapas rehta hai."},
+    {q:"“Inequality-adjusted per capita income” ki concept kisne di?",
+     o:["Amartya Sen","jagadish bhagavati","manamohan sinh","pi. si. Mahalanobis"],a:0,
+     e:"Amartya Sen — average per capita income ko asamanta ke hisab se theek karke dekhne ki concept, taaki amir-garib ka farq chhipe nahi."},
+    {q:"“Poverty and UnBritish Rule in India” kiski rachna hai?",
+     o:["Bal Gangadhar Tilak","Dadabhai Naoroji","mahatma Gandhi","ar. si. datt"],a:1,
+     e:"Dadabhai Naoroji — inhone Bharat mein poverty ki baat sabse pehle uthai. lecture mein saaf kaha gaya: ise tilak se milana mat."},
+    {q:"poverty measure ka pehla adhikarik (official) prayas kisne aur kab kiya?",
+     o:["Planning Commission, July 1962","Dandekar-Rath committee, 1971","Lakdawala committee, 1989","Tendulkar committee, 2009"],a:0,
+     e:"July 1962 mein Planning Commission ne pehla adhikarik estimate diya. Naoroji ka kaam usse pehle tha, par vo adhikarik nahi tha."},
+    {q:"Planning Commission ke 1979 karyadal ne calorie manak kya tay kiye?",
+     o:["2200 ganv / 2000 shahar","2400 ganv / 2100 shahar","2100 ganv / 2400 shahar","2500 ganv / 2200 shahar"],a:1,
+     e:"2400 calorie gramin aur 2100 shahari (aadhar varsh 1973-74) — ganv mein mehanat zyada hoti hai, isliye zarurat bhi zyada mani gayi."},
+    {q:"Dandekar evam Rath committee kis varsh ai?",
+     o:["1962","1971","1979","1989"],a:1,
+     e:"1971 — ye pehli badi poverty committee thi. lecture ki tarakib: “Rath par danda” (Rath + Dandekar)."},
+    {q:"rajya-vishisht poverty line (state-specific poverty line) kis committee ne sujhai?",
+     o:["Lakdawala committee (1989)","Tendulkar committee (2009)","Rangarajan committee (2012)","Minhas committee"],a:0,
+     e:"D.T. Lakdawala committee (1989) — har rajya ke liye alag poverty line, aur use Consumer Price Index se joda."},
+    {q:"Tendulkar committee ke anusar Bharat mein poverty kitni thi?",
+     o:["21.9%","29.5%","37.2%","13.7%"],a:0,
+     e:"21.9% (ganv 25.7%, shahar 13.7%) — report 2011-12 ki. 6 basic needs ke aadhar par ye rekha tay hui. 29.5% Rangarajan committee ka estimate hai."},
+    {q:"Rangarajan committee (2012) ne poverty ki jo seema di, vo kya thi?",
+     o:["₹972 ganv / ₹1,407 shahar per person prati mah","₹1,024 ganv / ₹1,630 shahar","₹446 ganv / ₹578 shahar","₹500 ganv / ₹800 shahar"],a:0,
+     e:"₹972 (gramin) aur ₹1,407 (shahari) per person prati mah, estimate 29.5%. government ne poverty kam dikhane wali Tendulkar committee ko svikar kiya."},
+    {q:"bahuayami poverty index (MPI) mein kitne ayam aur sanketak hain?",
+     o:["3 ayam, 10 sanketak","3 ayam, 12 sanketak","2 ayam, 8 sanketak","4 ayam, 10 sanketak"],a:0,
+     e:"3 ayam (education, health, jeevan-star) aur 10 sanketak; prepare kiya OPHI + UNDP ne aur 2010 se isne HPI ki jagah lee. NITI Aayog ke rashtriya MPI mein 12 sanketak hain."},
+    {q:"National Food Security Act (NFSA) 2013 ke bare mein kaun-sa sahi hai?",
+     o:["ganv 75% aur shahar 50% abadi; 5 kigra per person; ₹3/₹2/₹1 prati kilo","ganv 50% aur shahar 75%; 10 kigra per person","sirf BPL families ko 25 kigra","keval shahari kshetron mein implemented"],a:0,
+     e:"gramin 75%, shahari 50% (kul ~2/3 abadi), 5 kigra per person prati mah, chaval ₹3 / gehun ₹2 / mota anaj ₹1 — yaad rakhein 3-2-1."},
+    {q:"manarega ke bare mein kaun-sa kathan galat hai?",
+     o:["ye 2 February 2006 se 200 districts mein shuru hui","ye 100 din ka employment deti hai","kaam 15 din mein na milne par unemployment bhatta milta hai","ismein kam-se-kam adhe labharthi women honi chahiye"],a:3,
+     e:"women ka hissa kam-se-kam <b>ek-tihai (1/3)</b> hai, adha nahi. baki teeno kathan sahi hain — 200 district, 100 din, 15 din mein kaam ya bhatta."},
+    {q:"traisem (TRYSEM) yojana kab shuru hui aur kiske liye thi?",
+     o:["15 August 1979 — 18–35 varsh ke BPL gramin yuvaon ke prashikshan hetu","1982 — gramin women ke liye","1989 — gramin employment hetu","2006 — 100 din ke employment hetu"],a:0,
+     e:"TRYSEM = Training of Rural Youth for Self Employment, 15 August 1979, target 18–35 varsh ke BPL gramin yuva. 1982-83 ki DWCRA women ke liye thi."},
+    {q:"Atal Pension Yojana (APY) mein pravesh ki umr seema aur penshan shuru hone ki umr kya hai?",
+     o:["18–40 varsh; penshan 60 par","18–50 varsh; penshan 58 par","21–40 varsh; penshan 65 par","25–45 varsh; penshan 60 par"],a:0,
+     e:"18 se 40 varsh ke beech jud sakte hain, 60 varsh par penshan shuru hoti hai; ye PFRDA dwara sanchalit hai aur 2015 mein svavalanban yojana ki jagah ai."}
+  ];
+  var quizEl=$("#quiz"), scoreVal=$("#scoreVal"), qTotalEl=$("#qTotal"), quizNote=$("#quizNote");
+  var answered={}, score=0;
+  qTotalEl.textContent=QUIZ.length;
+  function renderQuiz(){
+    answered={}; score=0; scoreVal.textContent="0";
+    quizNote.textContent="koi vikalp chunein — turant sahi/galat aur vyakhya dikhegi.";
+    quizEl.innerHTML="";
+    QUIZ.forEach(function(item,qi){
+      var wrap=document.createElement("div"); wrap.className="q";
+      var head='<div class="q-h"><span class="q-n">Q'+(qi+1)+'</span><span>'+item.q+'</span></div>';
+      var opts='<div class="opts">'+item.o.map(function(t,oi){
+        return '<button class="opt" type="button" data-q="'+qi+'" data-o="'+oi+'"><span class="ol">'+
+          String.fromCharCode(65+oi)+'</span><span>'+t+'</span></button>';
+      }).join("")+'</div>';
+      var exp='<div class="exp" id="exp-'+qi+'"><b>vyakhya:</b> '+item.e+'</div>';
+      wrap.innerHTML=head+opts+exp;
+      quizEl.appendChild(wrap);
+    });
+  }
+  quizEl.addEventListener("click",function(e){
+    var btn=e.target.closest(".opt");
+    if(!btn||btn.disabled) return;
+    var qi=+btn.getAttribute("data-q"), oi=+btn.getAttribute("data-o");
+    if(answered[qi]!==undefined) return;
+    answered[qi]=oi;
+    var correct=QUIZ[qi].a;
+    $$('.opt[data-q="'+qi+'"]',quizEl).forEach(function(b){
+      b.disabled=true;
+      var i=+b.getAttribute("data-o");
+      if(i===correct){b.classList.add("correct");}
+      if(i===oi&&oi!==correct){b.classList.add("wrong");}
+    });
+    $("#exp-"+qi).classList.add("show");
+    if(oi===correct){score++;}
+    scoreVal.textContent=String(score);
+    var n=Object.keys(answered).length;
+    if(n===QUIZ.length){
+      var pct=Math.round(score/QUIZ.length*100);
+      quizNote.textContent = pct>=80 ? "shanadar — "+pct+"%. is batch par pakad mazboot hai." :
+        pct>=50 ? "theek — "+pct+"%. fact sheet ek baar dohra lein." :
+        "behatar hoga — "+pct+"%. section 8 (sustainable development) dobara padhein, phir reset karke dohrayein.";
+    }
+  });
+  $("#resetQuiz").addEventListener("click",renderQuiz);
+  renderQuiz();
+
+  /* ---------- copy fact sheet ---------- */
+  $("#copyFacts").addEventListener("click",function(){
+    var btn=this, old=btn.textContent;
+    var text=$$("#factsList .fact").map(function(f){
+      return "• "+$(".tag",f).textContent+" — "+$(".txt",f).textContent;
+    }).join("\n");
+    function done(ok){btn.textContent=ok?"copy ho gaya ✓":"copy nahi ho saka";setTimeout(function(){btn.textContent=old;},1600);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){done(true);},function(){done(false);});
+    }else{
+      var ta=document.createElement("textarea"); ta.value=text; document.body.appendChild(ta);
+      ta.select(); try{document.execCommand("copy");done(true);}catch(e){done(false);}
+      document.body.removeChild(ta);
+    }
+  });
+
+  /* ---------- keyboard shortcuts ---------- */
+  document.addEventListener("keydown",function(e){
+    var tag=(e.target.tagName||"").toLowerCase();
+    var typing = tag==="input"||tag==="textarea"||e.target.isContentEditable;
+    if(typing) return;
+    if(e.key==="/"){
+      e.preventDefault(); search.focus(); search.select();
+    }else if(e.key==="D"&&e.shiftKey){
+      applyTheme(document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark");
+    }
+  });
+})();
+</script>
+</body>
+</html>
