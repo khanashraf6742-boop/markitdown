@@ -6,9 +6,9 @@
 | बैच | विषय | फ़ाइलें | स्थिति |
 |---|---|---|---|
 | 1 | मूल बातें · अर्थव्यवस्था के प्रकार · भारतीय अर्थव्यवस्था · 1991 LPG · सतत विकास व SDG · मानव पूँजी | `batch-01-interactive.html`, `batch-01-text.html`, **`batch-01-interactive-hinglish.html`**, **`batch-01-text-hinglish.html`** | ✅ तैयार |
-| 2 | योजना (Planning) व पंचवर्षीय योजनाएँ, NITI Aayog | — | अगला |
-| 3 | राष्ट्रीय आय, GDP, आर्थिक वृद्धि vs विकास | — | प्रस्तावित |
-| 4 | गरीबी, बेरोज़गारी | — | प्रस्तावित |
+| 2 | योजना (Planning) · स्वतंत्रता-पूर्व योजनाएँ · पंचवर्षीय योजनाएँ 1–12 · प्लान हॉलिडे · रोलिंग प्लान · योजना आयोग · NDC · नीति आयोग | `batch-02-interactive.html`, `batch-02-text.html`, **`batch-02-interactive-hinglish.html`**, **`batch-02-text-hinglish.html`** | ✅ तैयार |
+| 3 | गरीबी, असमानता (लॉरेंज/गिनी, समितियाँ), बेरोज़गारी | — | अगला |
+| 4 | राष्ट्रीय आय, GDP, आर्थिक वृद्धि vs विकास | — | प्रस्तावित |
 | 5 | बैंकिंग, RBI, मौद्रिक नीति | — | प्रस्तावित |
 | 6 | महँगाई (Inflation) | — | प्रस्तावित |
 | 7 | बजट, आर्थिक सर्वे, कर व GST | — | प्रस्तावित |
@@ -17,10 +17,10 @@
 
 ## दो लिपियाँ (two scripts)
 
-| Edition | Interactive | Text |
+| Edition | बैच 1 | बैच 2 |
 |---|---|---|
-| **City Hinglish (Roman script only)** — मुख्य संस्करण | `batch-01-interactive-hinglish.html` | `batch-01-text-hinglish.html` |
-| Devanagari (मूल) | `batch-01-interactive.html` | `batch-01-text.html` |
+| **City Hinglish (Roman script only)** — मुख्य संस्करण | `batch-01-interactive-hinglish.html` · `batch-01-text-hinglish.html` | `batch-02-interactive-hinglish.html` · `batch-02-text-hinglish.html` |
+| Devanagari (मूल) | `batch-01-interactive.html` · `batch-01-text.html` | `batch-02-interactive.html` · `batch-02-text.html` |
 
 Hinglish edition में technical English terms English में हैं (economy, productivity, sustainable development), बाकी बोलचाल "dekho…, hai na?…, matlab…" वाली city-Hinglish में — पूरा फ़ाइल Roman script में, एक भी Devanagari अक्षर नहीं। बैच 2 से आगे के सभी बैच इसी Hinglish फ़ॉर्मेट में बनेंगे।
 
@@ -34,5 +34,12 @@ Hinglish edition में technical English terms English में हैं (
 
 **`batch-01-text.html`** — वीडियो का साफ़ किया हुआ **verbatim टेक्स्ट** (56 पैराग्राफ, 12 विषय-शीर्षक), शीर्षक/पैराग्राफ-नंबर टॉगल, पूरा टेक्स्ट कॉपी, प्रिंट-फ्रेंडली।
 
+**`batch-02-interactive-hinglish.html`** — बैच 2 (योजना) का Hinglish इंटरैक्टिव मॉड्यूल:
+- 12 सेक्शन: योजना की परिभाषा · स्वतंत्रता-पूर्व 8 योजनाएँ (1914–1950) · योजना आयोग व NDC · पहली-दूसरी योजना (Harrod-Domar, Mahalanobis) · तीसरी व प्लान हॉलिडे · चौथी-पाँचवीं (Gadgil, Garibi Hatao) · छठी-सातवीं व रोलिंग प्लान · आठवीं–बारहवीं · नीति आयोग व तुलना
+- 34-पंक्ति फैक्ट शीट, 24 फ्लैशकार्ड (12 योजनाएँ + 12 संस्था/तथ्य), 14 MCQ — तुरंत व्याख्या व स्कोर
+- हर योजना के लिए लक्ष्य → प्राप्ति, मॉडल, नारा व "trap" अलग से चिह्नित
+
+**`batch-02-text-hinglish.html`** — बैच 2 का verbatim Hinglish टेक्स्ट (58 पैराग्राफ, 11 विषय-शीर्षक)।
+
 ## नोट
-टेक्स्ट YouTube ऑटो-कैप्शन से बना है — कहीं-कहीं नाम/संख्या बिगड़ी है। इंटरैक्टिव फ़ाइल में ऐसी जगहों पर **सुधार** चिह्न के साथ सही तथ्य दिए गए हैं (जैसे EKC = उल्टा-U, प्रोटीन-संपन्नता = विकसित देश का लक्षण)। आँकड़े (18% / 45%) लेक्चर के अनुसार हैं; परीक्षा से पहले नवीनतम आधिकारिक स्रोत देखें।
+टेक्स्ट YouTube ऑटो-कैप्शन से बना है — कहीं-कहीं नाम/संख्या बिगड़ी है। इंटरैक्टिव फ़ाइल में ऐसी जगहों पर **सुधार** चिह्न के साथ सही तथ्य दिए गए हैं (जैसे EKC = उल्टा-U; “गडगिल” = गाडगिल, “पीसी महालेबिस” = महालनोबिस; कुल वार्षिक योजनाएँ = 5, न कि 6)। आँकड़े (18% / 45%) लेक्चर के अनुसार हैं; परीक्षा से पहले नवीनतम आधिकारिक स्रोत देखें।

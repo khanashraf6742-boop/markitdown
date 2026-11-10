@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html lang="hi" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indian Economy One Shot 2026 — Batch 2: Planning, Five Year Plans &amp; NITI Aayog</title>
+<meta name="description" content="इंटरैक्टिव स्टडी मॉड्यूल — Indian Economy One Shot 2026 (PCS INSIGHTS), Batch 2: योजना, पंचवर्षीय योजनाएँ 1–12, योजना आयोग, NDC, नीति आयोग।">
+<style>
+/* ============ design tokens ============ */
+:root{
+  --bg:#f4f6fb; --bg-soft:#eef1f8; --panel:#ffffff; --panel-2:#fbfcff;
+  --ink:#131a2b; --ink-soft:#46506b; --ink-mute:#727d99;
+  --line:#dfe4f0; --line-soft:#eaeef8;
+  --brand:#3d3bd6; --brand-ink:#2b28b0; --brand-soft:#ecebff;
+  --teal:#0d7d76; --teal-soft:#e2f5f3;
+  --amber:#a86400; --amber-soft:#fff3d9;
+  --rose:#b3261e; --rose-soft:#ffe8e6;
+  --green:#166b3c; --green-soft:#e2f6ea;
+  --violet:#6d28d9; --violet-soft:#f1e9ff;
+  --shadow:0 1px 2px rgba(16,24,40,.06),0 8px 24px -12px rgba(16,24,40,.18);
+  --shadow-lg:0 24px 60px -28px rgba(16,24,40,.35);
+  --r-sm:8px; --r:14px; --r-lg:20px;
+  --maxw:1500px;
+  --font:"Noto Sans Devanagari","Nirmala UI","Mangal","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  --mono:"SFMono-Regular",ui-monospace,"Cascadia Mono",Menlo,Consolas,monospace;
+}
+html[data-theme="dark"]{
+  --bg:#0b0f19; --bg-soft:#0f1524; --panel:#141b2b; --panel-2:#111827;
+  --ink:#e8ecf7; --ink-soft:#b3bdd4; --ink-mute:#8492b0;
+  --line:#26304a; --line-soft:#1d2539;
+  --brand:#9d9bff; --brand-ink:#b9b7ff; --brand-soft:#1d1f45;
+  --teal:#5fd6cb; --teal-soft:#0e2f2d;
+  --amber:#f5c264; --amber-soft:#33260c;
+  --rose:#ff8f86; --rose-soft:#3a1613;
+  --green:#68d996; --green-soft:#0f2c1d;
+  --violet:#c3a6ff; --violet-soft:#241a3d;
+  --shadow:0 1px 2px rgba(0,0,0,.5),0 10px 30px -16px rgba(0,0,0,.8);
+  --shadow-lg:0 30px 70px -30px rgba(0,0,0,.9);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth; scroll-padding-top:82px}
+body{
+  margin:0; background:var(--bg); color:var(--ink); font-family:var(--font);
+  font-size:16px; line-height:1.85; -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+h1,h2,h3,h4{line-height:1.45; margin:0; font-weight:800; letter-spacing:-.01em}
+p{margin:.55em 0}
+a{color:var(--brand); text-underline-offset:3px}
+b,strong{font-weight:800; color:var(--ink)}
+code,.mono{font-family:var(--mono); font-size:.9em}
+::selection{background:var(--brand); color:#fff}
+:focus-visible{outline:2.5px solid var(--brand); outline-offset:2px; border-radius:6px}
+
+/* ============ top bar ============ */
+.topbar{
+  position:sticky; top:0; z-index:60; background:color-mix(in srgb, var(--panel) 88%, transparent);
+  backdrop-filter:blur(14px) saturate(1.4); border-bottom:1px solid var(--line);
+}
+.topbar-in{max-width:var(--maxw); margin:0 auto; padding:10px 20px; display:flex; gap:16px; align-items:center}
+.brandmark{display:flex; align-items:center; gap:11px; min-width:0}
+.logo{
+  width:38px;height:38px;border-radius:11px; flex:0 0 auto; display:grid; place-items:center;
+  background:linear-gradient(145deg,var(--brand),#7f5bff 55%,var(--teal)); color:#fff;
+  font-weight:900; font-size:15px; letter-spacing:-.5px; box-shadow:var(--shadow);
+}
+.brand-text{min-width:0}
+.brand-text .t{font-weight:800; font-size:14.5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.brand-text .s{font-size:11.5px; color:var(--ink-mute); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.batch-pill{
+  font-size:11.5px; font-weight:800; letter-spacing:.04em; padding:4px 10px; border-radius:999px;
+  background:var(--brand-soft); color:var(--brand-ink); border:1px solid color-mix(in srgb,var(--brand) 28%, transparent);
+  white-space:nowrap;
+}
+.spacer{flex:1 1 auto}
+.tool{
+  display:inline-flex; align-items:center; gap:7px; height:36px; padding:0 12px; cursor:pointer;
+  background:var(--panel); color:var(--ink-soft); border:1px solid var(--line); border-radius:10px;
+  font:inherit; font-size:12.5px; font-weight:700; white-space:nowrap;
+  transition:transform .12s ease, border-color .12s, color .12s, background .12s;
+}
+.tool:hover{color:var(--ink); border-color:color-mix(in srgb,var(--brand) 45%, var(--line)); transform:translateY(-1px)}
+.tool:active{transform:translateY(0)}
+.tool svg{width:15px;height:15px;flex:0 0 auto}
+.searchwrap{position:relative; flex:1 1 300px; max-width:430px}
+.searchwrap svg{position:absolute; left:11px; top:50%; transform:translateY(-50%); width:16px;height:16px; color:var(--ink-mute)}
+#search{
+  width:100%; height:38px; padding:0 62px 0 34px; border-radius:10px; border:1px solid var(--line);
+  background:var(--panel-2); color:var(--ink); font:inherit; font-size:13.5px;
+}
+#search::placeholder{color:var(--ink-mute)}
+#search:focus{border-color:var(--brand); outline:none; box-shadow:0 0 0 3px var(--brand-soft)}
+.kbd{
+  position:absolute; right:9px; top:50%; transform:translateY(-50%); font-family:var(--mono); font-size:10.5px;
+  color:var(--ink-mute); border:1px solid var(--line); border-bottom-width:2px; border-radius:5px; padding:1px 5px;
+  background:var(--panel); pointer-events:none;
+}
+.progressline{height:3px; background:var(--line-soft); overflow:hidden}
+.progressline > i{display:block; height:100%; width:0; background:linear-gradient(90deg,var(--brand),var(--teal)); transition:width .3s ease}
+
+/* ============ shell ============ */
+.shell{max-width:var(--maxw); margin:0 auto; padding:26px 20px 90px; display:grid; grid-template-columns:288px minmax(0,1fr); gap:30px; align-items:start}
+
+/* ============ sidebar ============ */
+.side{position:sticky; top:78px; max-height:calc(100vh - 100px); overflow:auto; padding-right:6px}
+.side::-webkit-scrollbar{width:8px}
+.side::-webkit-scrollbar-thumb{background:var(--line); border-radius:8px}
+.side-card{background:var(--panel); border:1px solid var(--line); border-radius:var(--r); padding:14px; box-shadow:var(--shadow); margin-bottom:14px}
+.side-h{font-size:10.5px; text-transform:uppercase; letter-spacing:.11em; color:var(--ink-mute); font-weight:800; margin:0 0 9px 4px}
+.toc{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:2px}
+.toc a{
+  display:flex; gap:9px; align-items:flex-start; text-decoration:none; color:var(--ink-soft);
+  font-size:13px; font-weight:600; padding:7px 9px; border-radius:9px; line-height:1.5;
+  border-left:2.5px solid transparent; transition:background .12s,color .12s,border-color .12s;
+}
+.toc a:hover{background:var(--bg-soft); color:var(--ink)}
+.toc a.active{background:var(--brand-soft); color:var(--brand-ink); border-left-color:var(--brand); font-weight:800}
+.toc .n{font-family:var(--mono); font-size:10.5px; color:var(--ink-mute); margin-top:3px; flex:0 0 auto}
+.toc a.active .n{color:var(--brand)}
+.toc a .dot{margin-left:auto; width:6px;height:6px;border-radius:50%; background:var(--green); opacity:0; flex:0 0 auto; margin-top:8px}
+.toc a.done .dot{opacity:1}
+.side-progress{display:flex; align-items:center; gap:10px}
+.ring{--p:0; width:44px; height:44px; border-radius:50%; flex:0 0 auto; display:grid; place-items:center;
+  background:conic-gradient(var(--brand) calc(var(--p)*1%), var(--line-soft) 0);}
+.ring > span{width:34px;height:34px;border-radius:50%; background:var(--panel); display:grid; place-items:center; font-size:10.5px; font-weight:800; color:var(--ink-soft)}
+.side-progress .lbl{font-size:11.5px; color:var(--ink-mute); line-height:1.5}
+.side-progress .lbl b{display:block; color:var(--ink); font-size:13px}
+.chapterlist{list-style:none;margin:0;padding:0;font-size:12px;color:var(--ink-mute);line-height:1.9}
+.chapterlist li{display:flex;gap:7px}
+.chapterlist .now{color:var(--brand-ink);font-weight:800}
+.chapterlist .tag{font-family:rgba(0,0,0,0);font-family:var(--mono);font-size:10px;color:var(--ink-mute)}
+
+/* ============ content ============ */
+.main{min-width:0}
+.hero{
+  position:relative; overflow:hidden; border-radius:var(--r-lg); padding:30px 32px; margin-bottom:24px;
+  background:radial-gradient(1200px 340px at 8% -20%, color-mix(in srgb,var(--brand) 22%, transparent), transparent 60%),
+             radial-gradient(900px 320px at 100% 0%, color-mix(in srgb,var(--teal) 20%, transparent), transparent 55%),
+             var(--panel);
+  border:1px solid var(--line); box-shadow:var(--shadow-lg);
+}
+.hero .eyebrow{display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:13px}
+.chip{
+  font-size:11px; font-weight:800; letter-spacing:.03em; padding:3.5px 10px; border-radius:999px;
+  background:var(--bg-soft); color:var(--ink-soft); border:1px solid var(--line);
+}
+.chip.brand{background:var(--brand-soft); color:var(--brand-ink); border-color:color-mix(in srgb,var(--brand) 26%, transparent)}
+.chip.green{background:var(--green-soft); color:var(--green); border-color:color-mix(in srgb,var(--green) 25%, transparent)}
+.chip.amber{background:var(--amber-soft); color:var(--amber); border-color:color-mix(in srgb,var(--amber) 30%, transparent)}
+.chip.rose{background:var(--rose-soft); color:var(--rose); border-color:color-mix(in srgb,var(--rose) 26%, transparent)}
+.chip.teal{background:var(--teal-soft); color:var(--teal); border-color:color-mix(in srgb,var(--teal) 26%, transparent)}
+.hero h1{font-size:clamp(22px,2.5vw,32px); letter-spacing:-.02em; margin-bottom:8px}
+.hero h1 .sub{display:block; font-size:14.5px; font-weight:700; color:var(--ink-mute); letter-spacing:0; margin-top:8px}
+.hero p{color:var(--ink-soft); font-size:14.5px; max-width:78ch}
+.meta-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:10px; margin-top:20px}
+.meta{background:var(--panel-2); border:1px solid var(--line-soft); border-radius:11px; padding:9px 12px}
+.meta .k{font-size:10px; text-transform:uppercase; letter-spacing:.1em; color:var(--ink-mute); font-weight:800}
+.meta .v{font-size:13px; font-weight:700; color:var(--ink); margin-top:2px}
+.hero-cta{display:flex; flex-wrap:wrap; gap:9px; margin-top:20px}
+.btn{
+  display:inline-flex; align-items:center; gap:8px; height:38px; padding:0 15px; border-radius:10px; cursor:pointer;
+  font:inherit; font-size:13px; font-weight:800; text-decoration:none; border:1px solid var(--line);
+  background:var(--panel); color:var(--ink); transition:transform .12s, box-shadow .12s, background .12s;
+}
+.btn:hover{transform:translateY(-1px); box-shadow:var(--shadow)}
+.btn.primary{background:linear-gradient(160deg,var(--brand),var(--brand-ink)); color:#fff; border-color:transparent}
+.btn.ghost{background:transparent}
+.btn svg{width:15px;height:15px}
+
+/* notice */
+.notice{
+  display:flex; gap:12px; padding:14px 16px; border-radius:var(--r); margin:0 0 22px;
+  background:var(--amber-soft); border:1px solid color-mix(in srgb,var(--amber) 30%, transparent);
+  color:color-mix(in srgb,var(--amber) 78%, var(--ink)); font-size:13px; line-height:1.7;
+}
+.notice .ico{flex:0 0 auto; width:22px;height:22px; border-radius:50%; display:grid; place-items:center;
+  background:color-mix(in srgb,var(--amber) 20%, transparent); color:var(--amber); font-weight:900; font-size:13px}
+.notice b{color:var(--amber)}
+
+/* section */
+.sec{
+  background:var(--panel); border:1px solid var(--line); border-radius:var(--r-lg);
+  padding:26px 28px 24px; margin-bottom:20px; box-shadow:var(--shadow); scroll-margin-top:90px;
+}
+.sec-head{display:flex; gap:14px; align-items:flex-start; margin-bottom:6px}
+.sec-num{
+  flex:0 0 auto; width:38px;height:38px; border-radius:11px; display:grid; place-items:center;
+  background:var(--brand-soft); color:var(--brand-ink); font-family:var(--mono); font-size:13px; font-weight:800;
+  border:1px solid color-mix(in srgb,var(--brand) 20%, transparent);
+}
+.sec-head h2{font-size:clamp(18px,2vw,22.5px); letter-spacing:-.015em}
+.sec-head h2 .en{display:block; font-size:11.5px; font-weight:700; color:var(--ink-mute); letter-spacing:.02em; text-transform:uppercase; margin-top:3px}
+.markdone{
+  margin-left:auto; flex:0 0 auto; display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  height:32px; padding:0 11px; border-radius:9px; border:1px solid var(--line); background:var(--panel-2);
+  color:var(--ink-mute); font:inherit; font-size:11.5px; font-weight:800; white-space:nowrap; transition:.14s;
+}
+.markdone:hover{color:var(--ink); border-color:color-mix(in srgb,var(--green) 45%, var(--line))}
+.markdone .box{width:15px;height:15px;border-radius:4.5px;border:1.6px solid currentColor; display:grid;place-items:center}
+.markdone .box svg{width:11px;height:11px; opacity:0; color:#fff}
+.markdone[aria-pressed="true"]{background:var(--green-soft); color:var(--green); border-color:color-mix(in srgb,var(--green) 40%, transparent)}
+.markdone[aria-pressed="true"] .box{background:var(--green); border-color:var(--green)}
+.markdone[aria-pressed="true"] .box svg{opacity:1}
+.sec-body{font-size:15.2px; color:var(--ink-soft)}
+.sec-body > *:first-child{margin-top:0}
+.lead{font-size:15.5px; color:var(--ink-soft)}
+h3.sub{font-size:15.5px; color:var(--ink); margin:22px 0 8px; display:flex; align-items:center; gap:8px}
+h3.sub::before{content:""; width:4px; height:15px; border-radius:3px; background:var(--brand); display:inline-block}
+h4.mini{font-size:13.5px; color:var(--ink); margin:16px 0 5px; letter-spacing:.01em}
+
+/* lists */
+ul.clean,ol.clean{margin:.5em 0; padding-left:1.25em}
+ul.clean li,ol.clean li{margin:.32em 0; padding-left:.15em}
+ul.clean li::marker{color:var(--brand)}
+ol.clean li::marker{color:var(--brand); font-weight:800; font-family:var(--mono); font-size:.9em}
+ul.tight li{margin:.16em 0}
+.hl{background:linear-gradient(transparent 58%, color-mix(in srgb,var(--amber) 55%, transparent) 0); font-weight:800; color:var(--ink); padding:0 1px}
+.kw{font-weight:800; color:var(--brand-ink)}
+.en-term{font-weight:700; color:var(--teal); font-size:.95em}
+
+/* callouts */
+.call{
+  display:grid; grid-template-columns:26px minmax(0,1fr); gap:11px; align-items:start;
+  border-radius:12px; padding:12px 14px; margin:14px 0; font-size:14px; line-height:1.75;
+  border:1px solid var(--line); background:var(--panel-2); color:var(--ink-soft);
+}
+.call .ci{width:24px;height:24px;border-radius:8px; display:grid; place-items:center; font-size:13px; font-weight:900}
+.call .ct{font-size:10.5px; font-weight:900; letter-spacing:.09em; text-transform:uppercase; display:block; margin-bottom:3px}
+.call.pointer{background:var(--brand-soft); border-color:color-mix(in srgb,var(--brand) 25%, transparent)}
+.call.pointer .ci{background:color-mix(in srgb,var(--brand) 18%, transparent); color:var(--brand-ink)}
+.call.pointer .ct{color:var(--brand-ink)}
+.call.pyq{background:var(--green-soft); border-color:color-mix(in srgb,var(--green) 26%, transparent)}
+.call.pyq .ci{background:color-mix(in srgb,var(--green) 16%, transparent); color:var(--green)}
+.call.pyq .ct{color:var(--green)}
+.call.trap{background:var(--rose-soft); border-color:color-mix(in srgb,var(--rose) 26%, transparent)}
+.call.trap .ci{background:color-mix(in srgb,var(--rose) 15%, transparent); color:var(--rose)}
+.call.trap .ct{color:var(--rose)}
+.call.def{background:var(--teal-soft); border-color:color-mix(in srgb,var(--teal) 26%, transparent)}
+.call.def .ci{background:color-mix(in srgb,var(--teal) 16%, transparent); color:var(--teal)}
+.call.def .ct{color:var(--teal)}
+.call.mem{background:var(--violet-soft); border-color:color-mix(in srgb,var(--violet) 24%, transparent)}
+.call.mem .ci{background:color-mix(in srgb,var(--violet) 15%, transparent); color:var(--violet)}
+.call.mem .ct{color:var(--violet)}
+.call.fix{background:var(--amber-soft); border-color:color-mix(in srgb,var(--amber) 30%, transparent)}
+.call.fix .ci{background:color-mix(in srgb,var(--amber) 18%, transparent); color:var(--amber)}
+.call.fix .ct{color:var(--amber)}
+
+/* table */
+.tablewrap{overflow:auto; margin:16px 0; border:1px solid var(--line); border-radius:12px}
+table{border-collapse:collapse; width:100%; font-size:13.3px; min-width:560px; background:var(--panel)}
+thead th{
+  background:var(--bg-soft); text-align:left; padding:10px 13px; font-size:11.5px; letter-spacing:.05em;
+  text-transform:uppercase; color:var(--ink-soft); font-weight:900; border-bottom:1px solid var(--line);
+  position:sticky; top:0; white-space:nowrap;
+}
+tbody td{padding:10px 13px; border-bottom:1px solid var(--line-soft); vertical-align:top; color:var(--ink-soft); line-height:1.65}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover td{background:var(--panel-2)}
+tbody td b{color:var(--ink)}
+td .mini-chip{display:inline-block; font-family:var(--mono); font-size:10.5px; font-weight:700; padding:1px 7px; border-radius:6px;
+  background:var(--brand-soft); color:var(--brand-ink); margin-right:5px}
+td.year{font-family:var(--mono); font-weight:800; color:var(--brand-ink); white-space:nowrap}
+
+/* key-value fact rows */
+.kv{display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:10px; margin:14px 0}
+.kv .item{background:var(--panel-2); border:1px solid var(--line-soft); border-left:3px solid var(--brand); border-radius:10px; padding:10px 12px}
+.kv .item .k{font-size:10.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-mute); font-weight:800}
+.kv .item .v{font-size:13.6px; font-weight:700; color:var(--ink); margin-top:2px; line-height:1.55}
+
+/* stat */
+.stats{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:16px 0}
+.stat{background:linear-gradient(160deg,var(--panel-2),var(--panel)); border:1px solid var(--line); border-radius:13px; padding:13px 14px; position:relative; overflow:hidden}
+.stat::after{content:""; position:absolute; inset:auto -20px -30px auto; width:70px; height:70px; border-radius:50%; background:color-mix(in srgb,var(--brand) 10%, transparent)}
+.stat .v{font-size:23px; font-weight:900; letter-spacing:-.02em; color:var(--ink); font-family:var(--mono)}
+.stat .k{font-size:11.5px; color:var(--ink-mute); font-weight:700; margin-top:2px; line-height:1.5}
+
+/* flashcards */
+.fc-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(168px,1fr)); gap:11px; margin:16px 0}
+.fc{perspective:900px; height:118px; cursor:pointer; background:none; border:0; padding:0; font:inherit; text-align:left}
+.fc-in{position:relative; width:100%; height:100%; transition:transform .5s cubic-bezier(.4,.1,.2,1); transform-style:preserve-3d}
+.fc.flipped .fc-in{transform:rotateY(180deg)}
+.fc-face{
+  position:absolute; inset:0; border-radius:12px; padding:11px 12px; display:flex; flex-direction:column; justify-content:center;
+  backface-visibility:hidden; border:1px solid var(--line); box-shadow:var(--shadow);
+  background:linear-gradient(155deg,var(--panel-2),var(--panel));
+}
+.fc-face .top{font-family:var(--mono); font-size:10px; font-weight:800; color:var(--brand); letter-spacing:.04em; margin-bottom:4px}
+.fc-face .mid{font-size:13.5px; font-weight:800; color:var(--ink); line-height:1.5}
+.fc-face .tiny{font-size:10.5px; color:var(--ink-mute); margin-top:4px; font-weight:600}
+.fc-back{transform:rotateY(180deg); background:linear-gradient(155deg,var(--brand-soft),var(--panel)); border-color:color-mix(in srgb,var(--brand) 30%, transparent)}
+.fc-back .mid{color:var(--brand-ink); font-size:13px}
+.fc:focus-visible{outline-offset:3px}
+.fc-hint{font-size:12px; color:var(--ink-mute); margin:6px 0 0}
+
+/* quiz */
+.quiz{margin-top:6px}
+.q{background:var(--panel-2); border:1px solid var(--line); border-radius:13px; padding:15px 16px; margin:12px 0}
+.q-h{display:flex; gap:10px; align-items:flex-start; font-size:14.4px; font-weight:700; color:var(--ink); line-height:1.7}
+.q-n{flex:0 0 auto; font-family:var(--mono); font-size:11px; font-weight:800; background:var(--brand-soft); color:var(--brand-ink);
+  padding:2px 7px; border-radius:6px; margin-top:3px}
+.opts{display:grid; gap:7px; margin-top:11px}
+.opt{
+  display:flex; gap:9px; align-items:flex-start; text-align:left; padding:9px 12px; border-radius:10px; cursor:pointer;
+  background:var(--panel); border:1px solid var(--line); color:var(--ink-soft); font:inherit; font-size:13.6px; line-height:1.6;
+  transition:.14s;
+}
+.opt:hover{border-color:color-mix(in srgb,var(--brand) 42%, var(--line)); color:var(--ink); transform:translateX(2px)}
+.opt .ol{flex:0 0 auto; width:19px;height:19px;border-radius:50%; border:1.6px solid var(--line); display:grid; place-items:center;
+  font-family:var(--mono); font-size:10.5px; font-weight:800; color:var(--ink-mute); margin-top:2px}
+.opt.correct{background:var(--green-soft); border-color:var(--green); color:var(--green); font-weight:700}
+.opt.correct .ol{background:var(--green); border-color:var(--green); color:#fff}
+.opt.wrong{background:var(--rose-soft); border-color:var(--rose); color:var(--rose)}
+.opt.wrong .ol{background:var(--rose); border-color:var(--rose); color:#fff}
+.opt[disabled]{cursor:default; transform:none}
+.exp{margin-top:10px; font-size:13px; line-height:1.75; color:var(--ink-soft); background:var(--panel);
+  border-left:3px solid var(--brand); border-radius:0 9px 9px 0; padding:9px 12px; display:none}
+.exp.show{display:block}
+.exp b{color:var(--brand-ink)}
+.quiz-bar{display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin:16px 0 4px;
+  background:var(--panel-2); border:1px solid var(--line); border-radius:12px; padding:11px 14px}
+.score{font-size:13.5px; font-weight:800; color:var(--ink)}
+.score b{font-family:var(--mono); color:var(--brand-ink); font-size:15px}
+.quiz-bar .note{font-size:12px; color:var(--ink-mute)}
+
+/* fact sheet */
+.facts{display:grid; gap:8px; margin:16px 0}
+.fact{display:grid; grid-template-columns:auto minmax(0,1fr); gap:12px; align-items:baseline;
+  background:var(--panel-2); border:1px solid var(--line-soft); border-radius:10px; padding:9px 12px; font-size:13.6px}
+.fact .tag{font-family:var(--mono); font-size:10.5px; font-weight:800; color:var(--brand-ink); background:var(--brand-soft);
+  padding:2px 7px; border-radius:6px; white-space:nowrap}
+.fact .txt{color:var(--ink-soft)}
+.fact .txt b{color:var(--ink)}
+
+/* next batch */
+.next{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:12px; margin-top:14px}
+.nextcard{background:var(--panel-2); border:1px dashed var(--line); border-radius:12px; padding:13px 15px}
+.nextcard .h{font-size:13px; font-weight:800; color:var(--ink); display:flex; gap:8px; align-items:center}
+.nextcard .h .n{font-family:var(--mono); font-size:10px; background:var(--bg-soft); border:1px solid var(--line); color:var(--ink-mute); padding:1px 6px; border-radius:5px}
+.nextcard p{font-size:12.3px; color:var(--ink-mute); margin:5px 0 0; line-height:1.65}
+
+/* misc */
+.toTop{position:fixed; right:20px; bottom:20px; width:42px;height:42px; border-radius:12px; display:grid; place-items:center;
+  background:var(--panel); border:1px solid var(--line); color:var(--ink-soft); cursor:pointer; box-shadow:var(--shadow-lg);
+  opacity:0; pointer-events:none; transition:.2s; z-index:50}
+.toTop.show{opacity:1; pointer-events:auto}
+.footer{max-width:var(--maxw); margin:0 auto; padding:0 20px 40px; color:var(--ink-mute); font-size:12px; line-height:1.8}
+.footer b{color:var(--ink-soft)}
+mark{background:color-mix(in srgb,var(--amber) 60%, transparent); color:var(--ink); border-radius:3px; padding:0 1px}
+.hidden{display:none !important}
+.noresult{display:none; padding:26px; text-align:center; color:var(--ink-mute); background:var(--panel); border:1px dashed var(--line); border-radius:var(--r); font-size:14px}
+.noresult.show{display:block}
+hr.sep{border:0; border-top:1px dashed var(--line); margin:22px 0}
+
+/* responsive */
+@media (max-width:1080px){
+  .shell{grid-template-columns:1fr; padding-top:18px}
+  .side{position:static; max-height:none; order:2; padding-right:0}
+  .main{order:1}
+  .toc{display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+}
+@media (max-width:720px){
+  .topbar-in{flex-wrap:wrap; gap:10px; padding:9px 14px}
+  .searchwrap{order:3; flex-basis:100%; max-width:none}
+  .shell{padding:14px 12px 70px; gap:18px}
+  .hero{padding:22px 18px}
+  .sec{padding:20px 16px}
+  .sec-head{flex-wrap:wrap}
+  .markdone{margin-left:0; order:3}
+  .brand-text .s{display:none}
+}
+@media print{
+  .topbar,.side,.toTop,.hero-cta,.markdone,.quiz-bar,.fc-hint,.noresult{display:none !important}
+  body{background:#fff; font-size:11.5pt}
+  .shell{display:block; padding:0}
+  .sec,.hero{box-shadow:none; border:1px solid #ccc; break-inside:avoid; page-break-inside:avoid; margin-bottom:10px}
+  .fc{height:auto} .fc-in{transform:none !important}
+  .fc-back{position:static; transform:none; display:block; margin-top:4px}
+  .fc-face{position:static; box-shadow:none; backface-visibility:visible}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-in">
+    <div class="brandmark">
+      <div class="logo">IE</div>
+      <div class="brand-text">
+        <div class="t">Indian Economy One Shot 2026</div>
+        <div class="s">PCS INSIGHTS · UPPCS 2026 / BPSC 72nd</div>
+      </div>
+    </div>
+    <span class="batch-pill">BATCH 2 / 9</span>
+    <div class="spacer"></div>
+    <div class="searchwrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+      <input id="search" type="search" placeholder="इस बैच में खोजें… (जैसे: NDC, Mahalanobis, 1992)" autocomplete="off" aria-label="खोजें">
+      <span class="kbd">/</span>
+    </div>
+    <button class="tool" id="themeBtn" type="button" title="थीम बदलें (Shift + D)" aria-label="थीम बदलें">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      <span id="themeLabel">डार्क</span>
+    </button>
+    <button class="tool" id="printBtn" type="button" title="प्रिंट / PDF">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4v-7h16v7h-2M8 14h8v7H8z"/></svg>
+      PDF
+    </button>
+  </div>
+  <div class="progressline"><i id="scrollProg"></i></div>
+</div>
+
+<div class="shell">
+  <!-- ================= SIDEBAR ================= -->
+  <aside class="side">
+    <div class="side-card">
+      <div class="side-progress">
+        <div class="ring" id="ring" aria-hidden="true"><span id="ringTxt">0%</span></div>
+        <div class="lbl"><b id="doneCount">0 / 12 अध्याय</b> पढ़े गए के रूप में चिह्नित</div>
+      </div>
+    </div>
+    <div class="side-card">
+      <p class="side-h">बैच 2 · अनुक्रमणिका</p>
+      <nav aria-label="अनुक्रमणिका">
+        <ul class="toc" id="toc">
+          <li><a href="#s1"><span class="n">01</span><span>योजना क्या है?</span><span class="dot"></span></a></li>
+          <li><a href="#s2"><span class="n">02</span><span>स्वतंत्रता-पूर्व योजनाएँ</span><span class="dot"></span></a></li>
+          <li><a href="#s3"><span class="n">03</span><span>योजना आयोग व NDC</span><span class="dot"></span></a></li>
+          <li><a href="#s4"><span class="n">04</span><span>पहली व दूसरी योजना</span><span class="dot"></span></a></li>
+          <li><a href="#s5"><span class="n">05</span><span>तीसरी योजना व प्लान हॉलिडे</span><span class="dot"></span></a></li>
+          <li><a href="#s6"><span class="n">06</span><span>चौथी व पाँचवीं योजना</span><span class="dot"></span></a></li>
+          <li><a href="#s7"><span class="n">07</span><span>छठी-सातवीं व रोलिंग प्लान</span><span class="dot"></span></a></li>
+          <li><a href="#s8"><span class="n">08</span><span>आठवीं से बारहवीं</span><span class="dot"></span></a></li>
+          <li><a href="#s9"><span class="n">09</span><span>नीति आयोग व तुलना</span><span class="dot"></span></a></li>
+          <li><a href="#s10"><span class="n">10</span><span>फैक्ट शीट (रिवीजन)</span><span class="dot"></span></a></li>
+          <li><a href="#s11"><span class="n">11</span><span>फ्लैशकार्ड · 12 योजनाएँ</span><span class="dot"></span></a></li>
+          <li><a href="#s12"><span class="n">12</span><span>अभ्यास प्रश्न (14 MCQ)</span><span class="dot"></span></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="side-card">
+      <p class="side-h">पूरी लेक्चर सीरीज़</p>
+      <ul class="chapterlist">
+        <li><span class="tag">01</span><span>मूल बातें · सतत विकास</span></li>
+        <li><span class="now">› बैच 2</span><span>योजना व पंचवर्षीय योजनाएँ</span></li>
+        <li><span class="tag">03</span><span>गरीबी व असमानता</span></li>
+        <li><span class="tag">04</span><span>बेरोज़गारी</span></li>
+        <li><span class="tag">05</span><span>बैंकिंग व RBI</span></li>
+        <li><span class="tag">06</span><span>महँगाई (Inflation)</span></li>
+        <li><span class="tag">07</span><span>बजट, कर व GST</span></li>
+        <li><span class="tag">08</span><span>कृषि, उद्योग, योजनाएँ</span></li>
+        <li><span class="tag">09</span><span>BoP · PYQ व MCQ सेट</span></li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- ================= MAIN ================= -->
+  <main class="main">
+    <section class="hero" id="top">
+      <div class="eyebrow">
+        <span class="chip brand">इंटरैक्टिव स्टडी मॉड्यूल</span>
+        <span class="chip green">बैच 2 / 9</span>
+        <span class="chip">हिंदी + English terms</span>
+        <span class="chip amber">परीक्षा-केंद्रित</span>
+      </div>
+      <h1>योजना, पंचवर्षीय योजनाएँ, योजना आयोग, NDC और नीति आयोग
+        <span class="sub">Economic Planning · Pre-independence Plans · Five Year Plans 1–12 · Planning Commission · NDC · NITI Aayog</span>
+      </h1>
+      <p>यह बैच वीडियो के <b>दूसरे चैप्टर</b> का granular कंटेंट है — 1914 से 2015 तक हर योजना, हर मॉडल (Harrod-Domar, Mahalanobis, Gadgil, Miller), हर तारीख और हर “trap” अलग से चिह्नित। नीचे फैक्ट शीट, 20 फ्लैशकार्ड और 14 प्रश्नों का टेस्ट भी है।</p>
+      <div class="meta-grid">
+        <div class="meta"><div class="k">वीडियो</div><div class="v">3:28:12 · One Shot</div></div>
+        <div class="meta"><div class="k">चैनल</div><div class="v">PCS INSIGHTS</div></div>
+        <div class="meta"><div class="k">बैच की सीमा</div><div class="v">चैप्टर 2 (पूरा)</div></div>
+        <div class="meta"><div class="k">स्रोत</div><div class="v">Lucent · NCERT · Ghatna Chakra</div></div>
+      </div>
+      <div class="hero-cta">
+        <a class="btn primary" href="#s1">पढ़ना शुरू करें
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn ghost" href="#s10">फैक्ट शीट पर जाएँ</a>
+        <a class="btn ghost" href="#s12">सीधे टेस्ट दें</a>
+        <a class="btn ghost" href="batch-02-text.html" target="_blank" rel="noopener">पूरा टेक्स्ट (verbatim) ↗</a>
+      </div>
+    </section>
+
+    <div class="notice">
+      <!--LANGNOTE-->
+      <span class="ico">!</span>
+      <div><b>पारदर्शिता नोट:</b> यह मॉड्यूल वीडियो के <b>ऑटो-ट्रांसक्रिप्ट</b> पर आधारित है (हिंदी, ASR से)। जहाँ ट्रांसक्रिप्ट में नाम/तथ्य स्पष्ट रूप से गलत सुनाई दिए (जैसे “गडगिल” = गाडगिल, “पीसी महालेबिस” = महालनोबिस), वहाँ <span class="chip fix-chip" style="background:var(--amber-soft);color:var(--amber);border:1px solid var(--line)">सुधार</span> चिह्न से सही जानकारी दी गई है — परीक्षा में वही लिखें। लक्ष्य/प्राप्ति के आँकड़े लेक्चर के अनुसार दिए हैं।</div>
+    </div>
+    <section class="sec" id="s1" data-sec="s1">
+      <div class="sec-head">
+        <div class="sec-num">01</div>
+        <h2>योजना क्या है?<span class="en">Meaning &amp; origin of economic planning</span></h2>
+        <button class="markdone" data-done="s1" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">बैच 2 पूरा <b>योजना (Planning)</b> चैप्टर है — यूपीपीसीएस और बीपीएससी दोनों के लिए सबसे ज्यादा स्कोरिंग हिस्सा, क्योंकि यहाँ से सवाल <b>सीधे पीरियड, मॉडल और नाम</b> पर बनते हैं।</p>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">परिभाषा</span><b>आर्थिक नियोजन (Economic Planning)</b> = पहले से तय किए गए <b>उद्देश्यों (predetermined objectives)</b> को, उपलब्ध <b>संसाधनों के इष्टतम उपयोग (optimum use of existing resources)</b> से प्राप्त करने की कोशिश।</div>
+        </div>
+        <p>लेक्चर की सीधी बात: “जैसे आप पढ़ने से पहले अपना प्लान बनाते हो और उसे अचीव करने की कोशिश करते हो — वही चीज़ यहाँ भी है।”</p>
+        <div class="kv">
+          <div class="item"><div class="k">कहाँ से लिया</div><div class="v">सोवियत संघ (USSR) से — भारत का मौलिक विचार नहीं</div></div>
+          <div class="item"><div class="k">शुरुआत</div><div class="v">1951 (पहली पंचवर्षीय योजना)</div></div>
+          <div class="item"><div class="k">कुल योजनाएँ</div><div class="v">12 पंचवर्षीय + 5 वार्षिक योजनाएँ</div></div>
+        </div>
+        <div class="call fix">
+          <span class="ci">✎</span>
+          <div><span class="ct">सुधार / सटीकता</span>लेक्चर में एक जगह “12 पंचवर्षीय + 6 वार्षिक योजनाएँ” बोला गया, पर बाद में खुद ही गिनती की — <b>3 वार्षिक (1966–69) + 2 वार्षिक (1990–92) = कुल 5</b>। परीक्षा में <b>5 वार्षिक योजनाएँ</b> ही सही मानी जाती हैं।</div>
+        </div>
+        <h3 class="sub">योजना का संवैधानिक संकेत</h3>
+        <ul class="clean">
+          <li><b>नीति-निर्देशक तत्व (DPSP):</b> संविधान के भाग IV में भी नियोजन की बात है।</li>
+          <li><b>अधिकार कहाँ से:</b> “योजना” विषय <span class="hl">समवर्ती सूची (Concurrent List)</span> में है — यानी इस पर कानून <b>केंद्र भी बना सकता है और राज्य भी</b>।</li>
+          <li>अनुस्मृति: सातवीं अनुसूची में तीन सूचियाँ — संघ सूची, राज्य सूची, समवर्ती सूची।</li>
+        </ul>
+        <div class="stats">
+          <div class="stat"><div class="v">1951</div><div class="k">पहली पंचवर्षीय योजना (1 अप्रैल 1951)</div></div>
+          <div class="stat"><div class="v">12</div><div class="k">पंचवर्षीय योजनाएँ (1951–2017)</div></div>
+          <div class="stat"><div class="v">5</div><div class="k">वार्षिक योजनाएँ (3 + 2)</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s2" data-sec="s2">
+      <div class="sec-head">
+        <div class="sec-num">02</div>
+        <h2>स्वतंत्रता-पूर्व योजनाएँ<span class="en">Pre-independence plan proposals (1914–1950)</span></h2>
+        <button class="markdone" data-done="s2" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">यहाँ से सीधे “किसने बनाया, किस साल, किस आधार पर” वाले प्रश्न आते हैं। नीचे क्रम ठीक वैसा ही है जैसा लेक्चर में है।</p>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>वर्ष</th><th>योजना / पहल</th><th>किसके द्वारा</th><th>मुख्य बात</th></tr></thead>
+            <tbody>
+              <tr><td class="year">1914</td><td><b>Planned Economy for India</b></td><td><b>एम. विश्वेश्वरैया</b></td><td>पहला प्रस्ताव; इन्हें <b>आधुनिक नियोजन का जनक</b> (founder of modern planning in India) कहा जाता है</td></tr>
+              <tr><td class="year">1934</td><td>—</td><td>गांधी जी</td><td>कांग्रेस से <b>इस्तीफ़ा</b> (केवल तिथि-स्मृति के लिए)</td></tr>
+              <tr><td class="year">1938</td><td><b>राष्ट्रीय योजना समिति</b> (National Planning Committee)</td><td>सुभाष चंद्र बोस ने बनाई; अध्यक्ष <b>जवाहरलाल नेहरू</b></td><td>कांग्रेस के भीतर नियोजन की पहली संस्थागत कोशिश</td></tr>
+              <tr><td class="year">1944</td><td><b>गांधीवादी योजना</b></td><td><b>श्रीमन नारायण अग्रवाल</b></td><td>आधार: आत्मनिर्भर ग्राम अर्थव्यवस्था (self-sufficient village economy)</td></tr>
+              <tr><td class="year">1944</td><td><b>बॉम्बे प्लान</b> (= टाटा-बिरला प्लान)</td><td>8 उद्योगपति</td><td>15 वर्षीय योजना, औद्योगिक विकास पर ज़ोर</td></tr>
+              <tr><td class="year">1944</td><td>Planning &amp; Development Department</td><td>ब्रिटिश सरकार; प्रमुख <b>अर्देशिर दलाल</b></td><td>सरकारी तंत्र में योजना विभाग</td></tr>
+              <tr><td class="year">1945</td><td><b>जन योजना</b> (People's Plan)</td><td><b>एम. एन. रॉय</b> + भारतीय श्रमिक संघ</td><td>रूसी नियोजन (Russian planning) से प्रेरित</td></tr>
+              <tr><td class="year">1950</td><td><b>सर्वोदय योजना</b></td><td><b>जयप्रकाश नारायण</b></td><td>गांधी का आदर्श — ऐसी सोसाइटी जिसमें <b>शोषण (exploitation)</b> ही न हो</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call mem">
+          <span class="ci">✦</span>
+          <div><span class="ct">बॉम्बे प्लान के 8 उद्योगपति</span>जे.आर.डी. टाटा · जी.डी. बिरला · अर्देशिर दलाल · पुरुषोत्तमदास ठाकुरदास · जॉन मथाई · लाला श्रीराम · कस्तूरभाई लालभाई · ए.डी. श्रॉफ।</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap</span>योजना “हमेशा 5 साल की” नहीं होती — बॉम्बे प्लान <b>15 साल</b> का था। और <b>गांधीवादी योजना (1944, श्रीमन नारायण अग्रवाल)</b> को <b>सर्वोदय योजना (1950, जयप्रकाश नारायण)</b> से मिलाएँ नहीं — दोनों अलग हैं।</div>
+        </div>
+        <div class="call pyq">
+          <span class="ci">★</span>
+          <div><span class="ct">परीक्षा पैटर्न</span>“Planned Economy for India” किसकी? → <b>एम. विश्वेश्वरैया</b>। “गांधीवादी योजना” किसने बनाई? → <b>श्रीमन नारायण अग्रवाल</b>। “जन योजना” किससे प्रेरित? → <b>रूसी नियोजन</b>।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s3" data-sec="s3">
+      <div class="sec-head">
+        <div class="sec-num">03</div>
+        <h2>योजना आयोग व राष्ट्रीय विकास परिषद<span class="en">Planning Commission &amp; NDC</span></h2>
+        <button class="markdone" data-done="s3" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <h3 class="sub">स्थापना की सीढ़ियाँ</h3>
+        <ol class="clean">
+          <li><b>1947:</b> कांग्रेस (AICC) ने <b>आर्थिक कार्यक्रम समिति</b> बनाई — अध्यक्ष <b>नेहरू</b>।</li>
+          <li><b>25 जनवरी 1948:</b> सिफ़ारिश — एक <b>स्थायी योजना आयोग</b> होना चाहिए।</li>
+          <li><b>26 जनवरी 1950:</b> संविधान लागू हुआ।</li>
+          <li><b>15 मार्च 1950:</b> <b>योजना आयोग की स्थापना</b> — <b>कैबिनेट प्रस्ताव (Cabinet Resolution)</b> से, सिफ़ारिश <b>नियोगी समिति</b> की।</li>
+          <li><b>1 अप्रैल 1951:</b> पहली पंचवर्षीय योजना शुरू।</li>
+        </ol>
+        <div class="kv">
+          <div class="item"><div class="k">स्थापना</div><div class="v">15 मार्च 1950 · कैबिनेट प्रस्ताव</div></div>
+          <div class="item"><div class="k">सिफ़ारिश</div><div class="v">नियोगी समिति (Niyogi Committee)</div></div>
+          <div class="item"><div class="k">प्रथम अध्यक्ष</div><div class="v">जवाहरलाल नेहरू (पदेन — PM)</div></div>
+          <div class="item"><div class="k">प्रथम उपाध्यक्ष</div><div class="v">गुलजारीलाल नंदा</div></div>
+        </div>
+        <h3 class="sub">योजना आयोग की प्रकृति</h3>
+        <ul class="clean">
+          <li><b>न संवैधानिक, न सांविधिक (statutory)</b> — यह <b>कार्यकारी (executive)</b> निकाय था, कैबिनेट प्रस्ताव से बना।</li>
+          <li><b>सलाहकार (advisory)</b> निकाय — केवल सलाह देता था; मुख्यालय <b>नई दिल्ली</b>।</li>
+          <li>अत्यधिक <b>केंद्रीकृत</b> — सदस्य मुख्यतः केंद्र के; राज्यों की भूमिका कम।</li>
+          <li><b>उपाध्यक्ष</b> को <b>राष्ट्रपति</b> नियुक्त करते थे — कैबिनेट मंत्री स्तर, <b>प्रधानमंत्री की सलाह</b> पर, <b>5 वर्ष</b> के लिए।</li>
+          <li>मुख्य कार्य: जीवन-स्तर सुधारना, उत्पादन बढ़ाना, संसाधनों का कुशल उपयोग, रोज़गार के अवसर पैदा करना।</li>
+          <li><b>2015</b> में भंग → <b>नीति आयोग</b> ने प्रतिस्थापित किया।</li>
+        </ul>
+        <h3 class="sub">राष्ट्रीय विकास परिषद (NDC)</h3>
+        <div class="stats">
+          <div class="stat"><div class="v">6 अगस्त 1952</div><div class="k">NDC की स्थापना (नियोगी समिति की सिफ़ारिश)</div></div>
+          <div class="stat"><div class="v">PM</div><div class="k">NDC का अध्यक्ष — प्रधानमंत्री</div></div>
+          <div class="stat"><div class="v">Super Cabinet</div><div class="k">विस्तृत सदस्यता व अधिकार के कारण</div></div>
+        </div>
+        <ul class="clean">
+          <li><b>सदस्य:</b> सभी केंद्रीय मंत्री, सभी राज्यों के मुख्यमंत्री, सभी केंद्रशासित प्रदेशों के प्रशासक।</li>
+          <li><b>पदेन सदस्य:</b> योजना आयोग के सभी सदस्य स्वतः NDC के सदस्य।</li>
+          <li><b>सचिव:</b> योजना आयोग का सचिव ही NDC का सचिव।</li>
+          <li><b>कार्य:</b> राज्यों व आयोग के बीच <b>सहकारी नियोजन</b>, नीति-निर्माण, योजना पर चर्चा और <b>अंतिम स्वीकृति</b>।</li>
+          <li><b>प्रकृति:</b> यह भी <b>गैर-संवैधानिक</b> निकाय है।</li>
+        </ul>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap — दो तारीखें</span><b>15 मार्च 1950 = योजना आयोग</b> · <b>6 अगस्त 1952 = NDC</b>। दोनों की सिफ़ारिश <b>नियोगी समिति</b> ने की — पर तारीख बदलने पर उत्तर गलत हो जाएगा।</div>
+        </div>
+      </div>
+    </section>
+    <section class="sec" id="s4" data-sec="s4">
+      <div class="sec-head">
+        <div class="sec-num">04</div>
+        <h2>पहली व दूसरी योजना<span class="en">First &amp; Second Five Year Plan · Harrod-Domar &amp; Mahalanobis</span></h2>
+        <button class="markdone" data-done="s4" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <h3 class="sub">पहली योजना (1951–56)</h3>
+        <ul class="clean">
+          <li><b>उद्देश्य:</b> कृषि विकास, <b>शरणार्थियों का पुनर्वास (refugee rehabilitation)</b>, संतुलित विकास।</li>
+          <li><b>लक्ष्य:</b> 2.1% वृद्धि दर — <b>लक्ष्य से अधिक प्राप्त</b> (achieved/ exceeded)।</li>
+          <li><b>मॉडल:</b> <span class="hl">हैरोड–डोमर मॉडल (Harrod-Domar)</span>।</li>
+        </ul>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">हैरोड–डोमर मॉडल</span>दो अलग मॉडल — <b>सर रॉय हैरोड (UK)</b> और <b>एवसी डोमर (USA)</b> — मिलाकर यह मॉडल बना। मूल बात: <b>बचत (saving) व निवेश (investment) का वृद्धि पर सीधा प्रभाव</b>।<br>चक्र: बचत → बैंक में जमा → उद्योगपति को ऋण → फैक्ट्री → रोज़गार → वेतन → मांग → उत्पादन… (एक <b>vicious cycle</b> जो वृद्धि में बदलता है)</div>
+        </div>
+        <h3 class="sub">दूसरी योजना (1956–61)</h3>
+        <ul class="clean">
+          <li><b>फोकस:</b> बड़े पैमाने पर <b>औद्योगीकरण</b>, विशेषकर <b>भारी उद्योग</b>; राष्ट्रीय आय में <b>25% वृद्धि</b> का लक्ष्य।</li>
+          <li><b>लक्ष्य 4.5% → प्राप्त 4.3%</b> — लक्ष्य पूरा नहीं हुआ।</li>
+          <li><b>मॉडल:</b> <span class="hl">पी.सी. महालनोबिस मॉडल</span>।</li>
+        </ul>
+        <div class="kv">
+          <div class="item"><div class="k">कौन थे</div><div class="v">पी.सी. महालनोबिस — भारतीय सांख्यिकीविद् (Indian statistician)</div></div>
+          <div class="item"><div class="k">इनका योगदान</div><div class="v">दूसरी योजना का ब्लूप्रिंट तैयार किया</div></div>
+          <div class="item"><div class="k">मूल विचार</div><div class="v">तेज़ औद्योगीकरण + आयात प्रतिस्थापन (import substitution)</div></div>
+        </div>
+        <h4 class="mini">महालनोबिस का द्वि-क्षेत्रीय (two-sector) विभाजन</h4>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>क्षेत्र</th><th>क्या आता है</th><th>उद्देश्य</th></tr></thead>
+            <tbody>
+              <tr><td><b>K — कैपिटल गुड सेक्टर</b></td><td>मशीन, स्टील, पावर</td><td><b>दीर्घकालिक</b> वृद्धि के लिए</td></tr>
+              <tr><td><b>C — कंज्यूमर गुड सेक्टर</b></td><td>खाना, कपड़ा जैसी उपभोक्ता वस्तुएँ</td><td><b>अल्पकालिक</b> ज़रूरत के लिए</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">आयात प्रतिस्थापन का मतलब</span>जो चीज़ बाहर से मंगाते हैं (import), उसका <b>अपने देश में विकल्प (substitute) बना दो</b> — ताकि बाहर पर निर्भरता घटे और अर्थव्यवस्था <b>आत्मनिर्भर</b> बने।</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap — मॉडल की जोड़ी</span><b>पहली = हैरोड–डोमर</b>, <b>दूसरी = महालनोबिस</b>। परीक्षा में उलट-फेर कर पूछा जाता है — “महालनोबिस मॉडल किस योजना में?” → <b>दूसरी</b>।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s5" data-sec="s5">
+      <div class="sec-head">
+        <div class="sec-num">05</div>
+        <h2>तीसरी योजना व प्लान हॉलिडे<span class="en">Third plan · wars · Plan Holiday</span></h2>
+        <button class="markdone" data-done="s5" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <ul class="clean">
+          <li><b>अवधि:</b> 1961–66 · <b>लक्ष्य:</b> 5% वार्षिक राष्ट्रीय आय वृद्धि + आत्मनिर्भरता।</li>
+          <li><b>आधार:</b> महालनोबिस मॉडल · <b>SDS प्रदर्शन मॉडल</b> · <b>सुखमय चक्रवर्ती का इनपुट-आउटपुट मॉडल</b>।</li>
+          <li><b>असली दिक्कत:</b> 25% जैसा बड़ा लक्ष्य नए देश के लिए लगभग असंभव — “एक तरह से <b>प्रयोग (experiment)</b> चल रहा था”।</li>
+        </ul>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>वर्ष</th><th>घटना</th><th>असर</th></tr></thead>
+            <tbody>
+              <tr><td class="year">1962</td><td><b>भारत–चीन युद्ध</b></td><td>संसाधन रक्षा की ओर चले गए</td></tr>
+              <tr><td class="year">1965</td><td><b>भारत–पाकिस्तान युद्ध</b></td><td>योजना के संसाधन और सीमित</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 class="sub">प्लान हॉलिडे (1966–69)</h3>
+        <ul class="clean">
+          <li>युद्धों के कारण संसाधनों की भारी कमी → <b>कोई पंचवर्षीय योजना नहीं बनी</b>।</li>
+          <li>इसी समय <b>हरित क्रांति (Green Revolution, 1966)</b> शुरू हुई।</li>
+          <li>इसलिए <b>तीन वार्षिक योजनाएँ</b> बनीं — जब दीर्घकाल में काम न हो, तो <b>अल्पकाल</b> में सोचते हैं।</li>
+        </ul>
+        <div class="call mem">
+          <span class="ci">✦</span>
+          <div><span class="ct">याद रखने का क्रम</span>1951–56 → 1956–61 → 1961–66 → <b>तीन वार्षिक (1966–69)</b> → 1969–74 → 1974–79 → …</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap</span>“प्लान हॉलिडे” का मतलब योजना बंद होना <b>नहीं</b> — पंचवर्षीय योजना नहीं बनी, पर <b>वार्षिक योजनाएँ</b> चलती रहीं।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s6" data-sec="s6">
+      <div class="sec-head">
+        <div class="sec-num">06</div>
+        <h2>चौथी व पाँचवीं योजना<span class="en">Fourth (Gadgil) &amp; Fifth (Garibi Hatao)</span></h2>
+        <button class="markdone" data-done="s6" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <h3 class="sub">चौथी योजना (1969–74)</h3>
+        <ul class="clean">
+          <li><b>मॉडल:</b> <span class="hl">गाडगिल योजना (Gadgil Plan)</span> — डायरेक्ट प्रश्न बनता है: “कौन-सी योजना गाडगिल योजना पर आधारित थी?” → <b>चौथी</b>।</li>
+          <li><b>नई अवधारणा:</b> <b>बफर स्टॉक (buffer stock)</b> — खाद्यान्न का सुरक्षित भंडार।</li>
+          <li><b>बड़ा कदम:</b> <b>बैंकों का राष्ट्रीयकरण (bank nationalisation)</b>।</li>
+          <li>लक्ष्य पूरा नहीं हुआ।</li>
+        </ul>
+        <h3 class="sub">पाँचवीं योजना (1974–79)</h3>
+        <ul class="clean">
+          <li><b>नारा:</b> <span class="hl">गरीबी हटाओ (Garibi Hatao)</span>।</li>
+          <li><b>कार्यक्रम:</b> न्यूनतम आवश्यकता कार्यक्रम (Minimum Needs Programme), <b>फूड फॉर वर्क</b>।</li>
+          <li><b>परिणाम:</b> लक्ष्य 4.4% → प्राप्ति 4.8% — <b>सफल</b> योजना।</li>
+          <li><b>अधूरी रही:</b> जनता पार्टी के सत्ता में आने पर योजना समय से पहले <b>समाप्त (terminate)</b> कर दी गई।</li>
+        </ul>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap — आलोचना</span>“गरीबी हटाओ” की आलोचना भी हुई — कि नारा <b>गरीबी</b> हटाने का था, पर व्यवहार में <b>गरीबों</b> को ही हटाया जा रहा है। यह प्रसिद्ध व्यंग्य परीक्षा में विकल्प के रूप में आ सकता है।</div>
+        </div>
+      </div>
+    </section>
+    <section class="sec" id="s7" data-sec="s7">
+      <div class="sec-head">
+        <div class="sec-num">07</div>
+        <h2>छठी-सातवीं योजना व रोलिंग प्लान<span class="en">Sixth, Seventh &amp; Rolling Plan</span></h2>
+        <button class="markdone" data-done="s7" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <ul class="clean">
+          <li><b>छठी योजना (1980–85):</b> गरीबी उन्मूलन + <b>आधुनिकीकरण (modernisation)</b>; योजना काफी हद तक सफल रही।</li>
+          <li><b>सातवीं योजना (1985–90):</b> आधुनिकीकरण, आत्मनिर्भरता; यहीं से <b>उदारीकरण (liberalisation)</b> का मॉडल शुरू हुआ।</li>
+          <li>सातवीं में योजनाओं पर ज़ोर — <b>इंदिरा आवास योजना</b>, <b>जवाहर रोज़गार योजना</b>; लक्ष्य प्राप्त हुआ।</li>
+          <li>सातवीं के बाद <b>दो वार्षिक योजनाएँ (1990–92)</b> — इसीलिए कुल वार्षिक योजनाएँ <b>3 + 2 = 5</b>।</li>
+        </ul>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">रोलिंग प्लान (Rolling Plan, 1978–83)</span>क्रेडिट: <b>गुन्नार मिर्डाल (Gunnar Myrdal)</b>। भारत में लाने वाली सरकार: <b>मोरारजी देसाई</b> की जनता पार्टी सरकार। उस समय वित्त मंत्री: <b>एच.एम. पटेल</b>।<br>विचार: हर साल योजना को <b>आगे बढ़ाते</b> जाना — तीन-चार साल का लक्ष्य तय कर, अगले साल उसे संशोधित करना।</div>
+        </div>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">पर्सपेक्टिव प्लानिंग</span>छठी योजना में <b>दीर्घकालिक परिप्रेक्ष्य नियोजन</b> (Perspective Planning) का विचार इस्तेमाल हुआ — 15–20 साल की दिशा तय करके 5 साल की योजना बनाना।</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap — रोलिंग प्लान का “क्रेडिट”</span><b>विचार</b> गुन्नार मिर्डाल का, <b>भारत में लागू</b> मोरारजी देसाई सरकार ने (1978–83)। दोनों को एक ही प्रश्न में उलझाया जाता है।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s8" data-sec="s8">
+      <div class="sec-head">
+        <div class="sec-num">08</div>
+        <h2>आठवीं से बारहवीं योजना<span class="en">Eighth to Twelfth Plan (1992–2017)</span></h2>
+        <button class="markdone" data-done="s8" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">यहाँ से सवाल <b>“किस योजना का उद्देश्य क्या था”</b> और <b>“लक्ष्य vs प्राप्ति”</b> पर बनते हैं — खासकर आख़िरी तीन योजनाओं के उद्देश्य ज़रूर याद रखें।</p>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>योजना</th><th>अवधि</th><th>मुख्य उद्देश्य / फोकस</th><th>लक्ष्य → प्राप्ति</th></tr></thead>
+            <tbody>
+              <tr><td><b>आठवीं</b></td><td class="year">1992–97</td><td>मानव संसाधन विकास; <b>LPG सुधार इसी दौर में</b> (तब वार्षिक योजना चल रही थी); शिक्षा व निरक्षरता पर ज़ोर</td><td>5.6% → <b>6.8%</b> (लक्ष्य से अधिक)</td></tr>
+              <tr><td><b>नौवीं</b></td><td class="year">1997–2002</td><td><b>जीवन की गुणवत्ता</b>, उत्पादक रोज़गार, <b>क्षेत्रीय संतुलन</b>, आत्मनिर्भरता; <b>7 बेसिक मिनिमम सर्विसेज़</b></td><td>6.5% → 5.4% (लक्ष्य पूरा नहीं)</td></tr>
+              <tr><td><b>दसवीं</b></td><td class="year">2002–07</td><td><b>समावेशी व समानुपातिक वृद्धि (inclusive &amp; equitable growth)</b>; शिक्षा में <b>लैंगिक अंतर (gender gap)</b> कम करना</td><td>8.1% → 7.6%</td></tr>
+              <tr><td><b>ग्यारहवीं</b></td><td class="year">2007–12</td><td>उच्च शिक्षा में नामांकन (enrolment) बढ़ाना, <b>दूरस्थ शिक्षा</b> का विस्तार, तेज़ व समावेशी वृद्धि</td><td>9% → 8%</td></tr>
+              <tr><td><b>बारहवीं</b></td><td class="year">2012–17</td><td><b>तेज़, अधिक समावेशी व सतत वृद्धि</b> (faster, more inclusive &amp; sustainable growth)</td><td>8% (कृषि 4%, विनिर्माण 10%) — पूरी नहीं हो पाई</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">आठवीं योजना का मॉडल</span><b>जॉन डब्ल्यू. मिलर मॉडल</b> (John W. Miller model) पर आधारित।</div>
+        </div>
+        <h4 class="mini">नौवीं योजना के 7 बेसिक मिनिमम सर्विसेज़</h4>
+        <ul class="clean tight">
+          <li>प्राथमिक शिक्षा · बेघरों के लिए आवास · पोषण (nutrition) हेतु खाद्यान्न</li>
+          <li>ग्रामीण सड़कें · सुरक्षित पेयजल · टीकाकरण/स्वास्थ्य सुविधा · <b>मज़बूत PDS</b></li>
+        </ul>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap — बारहवीं योजना</span>यह 2012–17 के लिए बनी थी, पर <b>2015 में नीति आयोग</b> बन जाने के कारण <b>पूरी नहीं हो सकी</b> — यही सबसे ज़्यादा पूछा जाने वाला बिंदु है।</div>
+        </div>
+        <div class="call mem">
+          <span class="ci">✦</span>
+          <div><span class="ct">लक्ष्य किस रूप में थे</span><b>पहली तीन योजनाएँ</b> = राष्ट्रीय आय (national income) के लक्ष्य; <b>चौथी</b> = <b>शुद्ध घरेलू उत्पाद (net domestic product)</b>; बाकी = GDP आधारित।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s9" data-sec="s9">
+      <div class="sec-head">
+        <div class="sec-num">09</div>
+        <h2>नीति आयोग व तुलना<span class="en">NITI Aayog · Planning Commission vs NITI Aayog</span></h2>
+        <button class="markdone" data-done="s9" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">पूरा नाम</span><b>National Institution for Transforming India (NITI Aayog)</b> — भारत को बदलने के लिए राष्ट्रीय संस्थान। स्थापना: <b>1 जनवरी 2015</b>, <b>सरकारी प्रस्ताव (Government Resolution)</b> से; इसने योजना आयोग को प्रतिस्थापित किया।</div>
+        </div>
+        <ul class="clean">
+          <li>यह सरकार का <b>थिंक टैंक</b> है — नीति-मुद्दों पर सलाह देता है।</li>
+          <li><b>सहकारी संघवाद (cooperative federalism)</b> को बढ़ावा — केंद्र और राज्य साथ काम करते हैं।</li>
+        </ul>
+        <h4 class="mini">संरचना</h4>
+        <div class="kv">
+          <div class="item"><div class="k">अध्यक्ष</div><div class="v">भारत के प्रधानमंत्री</div></div>
+          <div class="item"><div class="k">गवर्निंग काउंसिल</div><div class="v">सभी राज्यों के CM; विधानसभा वाले UT के CM; अन्य UT के उपराज्यपाल; कुछ विशेष आमंत्रित</div></div>
+          <div class="item"><div class="k">उपाध्यक्ष</div><div class="v">प्रधानमंत्री द्वारा नियुक्त</div></div>
+          <div class="item"><div class="k">पूर्णकालिक सदस्य</div><div class="v">प्रधानमंत्री द्वारा नियुक्त</div></div>
+          <div class="item"><div class="k">अंशकालिक सदस्य</div><div class="v"><b>2</b> — विश्वविद्यालय/शोध संस्थान आदि से</div></div>
+          <div class="item"><div class="k">पदेन सदस्य</div><div class="v"><b>4 केंद्रीय मंत्री</b> — प्रधानमंत्री द्वारा नामित</div></div>
+          <div class="item"><div class="k">CEO</div><div class="v">प्रधानमंत्री द्वारा नियुक्त</div></div>
+        </div>
+        <h3 class="sub">योजना आयोग बनाम नीति आयोग</h3>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>बिंदु</th><th>योजना आयोग (1950–2014)</th><th>नीति आयोग (2015–)</th></tr></thead>
+            <tbody>
+              <tr><td><b>दृष्टिकोण</b></td><td><b>टॉप-डाउन</b> — ऊपर नीति, नीचे लागू</td><td><b>बॉटम-अप</b> — नीचे से ऊपर</td></tr>
+              <tr><td><b>संरचना</b></td><td>केंद्र सरकार का निकाय, अत्यधिक केंद्रीकृत</td><td>सहकारी संघवाद — राज्यों की भागीदारी</td></tr>
+              <tr><td><b>प्रतिनिधित्व</b></td><td>केवल केंद्र का</td><td>केंद्र + राज्य दोनों का</td></tr>
+              <tr><td><b>कार्य</b></td><td>5 वर्षीय योजनाएँ बनाना</td><td>अलग-अलग अवधि (1/3/5 वर्ष) के एजेंडे व योजनाएँ</td></tr>
+              <tr><td><b>संघवाद</b></td><td>केंद्रीकृत</td><td>सहकारी संघवाद को बढ़ावा</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">लेक्चर की सीधी सलाह</span>“इससे ज़्यादा चीजें पूछने की संभावना कम है — इतना याद रखना <b>more than enough</b> है।”</div>
+        </div>
+      </div>
+    </section>
+    <section class="sec" id="s10" data-sec="s10">
+      <div class="sec-head">
+        <div class="sec-num">10</div>
+        <h2>फैक्ट शीट — अंतिम 10 मिनट का रिवीजन<span class="en">One-line fact sheet</span></h2>
+        <button class="markdone" data-done="s10" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p>पूरे चैप्टर के परीक्षा-योग्य तथ्य, एक-एक पंक्ति में। <b>प्रिंट/PDF</b> बटन से रिवीजन शीट निकाल सकते हैं।</p>
+        <div class="facts" id="factsList">
+          <div class="fact"><span class="tag">परिभाषा</span><span class="txt">आर्थिक नियोजन = पूर्वनिर्धारित उद्देश्य + उपलब्ध संसाधनों का <b>इष्टतम उपयोग</b>।</span></div>
+          <div class="fact"><span class="tag">मूल</span><span class="txt">नियोजन का विचार भारत का नहीं — <b>सोवियत संघ (USSR)</b> से लिया गया।</span></div>
+          <div class="fact"><span class="tag">सूची</span><span class="txt">“योजना” <b>समवर्ती सूची</b> में — केंद्र व राज्य दोनों कानून बना सकते हैं।</span></div>
+          <div class="fact"><span class="tag">गिनती</span><span class="txt"><b>12 पंचवर्षीय</b> + <b>5 वार्षिक</b> योजनाएँ (3 + 2)।</span></div>
+          <div class="fact"><span class="tag">1914</span><span class="txt"><b>Planned Economy for India</b> — <b>एम. विश्वेश्वरैया</b> (आधुनिक नियोजन के जनक)।</span></div>
+          <div class="fact"><span class="tag">1938</span><span class="txt"><b>राष्ट्रीय योजना समिति</b> — बनाई सुभाष चंद्र बोस ने, अध्यक्ष <b>नेहरू</b>।</span></div>
+          <div class="fact"><span class="tag">1944</span><span class="txt"><b>गांधीवादी योजना</b> — श्रीमन नारायण अग्रवाल; आधार: आत्मनिर्भर ग्राम अर्थव्यवस्था।</span></div>
+          <div class="fact"><span class="tag">1944</span><span class="txt"><b>बॉम्बे प्लान</b> (टाटा-बिरला) — <b>8 उद्योगपति</b>, <b>15 वर्षीय</b> योजना।</span></div>
+          <div class="fact"><span class="tag">1944</span><span class="txt">Planning &amp; Development Department — ब्रिटिश सरकार, प्रमुख <b>अर्देशिर दलाल</b>।</span></div>
+          <div class="fact"><span class="tag">1945</span><span class="txt"><b>जन योजना</b> — एम.एन. रॉय + भारतीय श्रमिक संघ; <b>रूसी नियोजन</b> से प्रेरित।</span></div>
+          <div class="fact"><span class="tag">1950</span><span class="txt"><b>सर्वोदय योजना</b> — जयप्रकाश नारायण; शोषण-रहित समाज का आदर्श।</span></div>
+          <div class="fact"><span class="tag">तिथि</span><span class="txt"><b>15 मार्च 1950</b> — योजना आयोग, <b>कैबिनेट प्रस्ताव</b> से, सिफ़ारिश <b>नियोगी समिति</b>।</span></div>
+          <div class="fact"><span class="tag">पद</span><span class="txt">प्रथम अध्यक्ष <b>नेहरू</b> (पदेन PM) · प्रथम उपाध्यक्ष <b>गुलजारीलाल नंदा</b>।</span></div>
+          <div class="fact"><span class="tag">नियुक्ति</span><span class="txt">उपाध्यक्ष को <b>राष्ट्रपति</b> नियुक्त करते — <b>5 वर्ष</b>, PM की सलाह पर।</span></div>
+          <div class="fact"><span class="tag">प्रकृति</span><span class="txt">योजना आयोग — न संवैधानिक, न सांविधिक; <b>कार्यकारी + सलाहकार</b>; मुख्यालय नई दिल्ली।</span></div>
+          <div class="fact"><span class="tag">NDC</span><span class="txt"><b>6 अगस्त 1952</b> — अध्यक्ष PM; सदस्य सभी CM, केंद्रीय मंत्री, UT प्रशासक; <b>सुपर कैबिनेट</b>।</span></div>
+          <div class="fact"><span class="tag">योजना 1</span><span class="txt">1951–56 · <b>हैरोड–डोमर</b> · लक्ष्य 2.1% (प्राप्ति अधिक) · कृषि + शरणार्थी पुनर्वास।</span></div>
+          <div class="fact"><span class="tag">योजना 2</span><span class="txt">1956–61 · <b>महालनोबिस</b> · 4.5% → 4.3% · भारी उद्योग · K व C सेक्टर।</span></div>
+          <div class="fact"><span class="tag">योजना 3</span><span class="txt">1961–66 · 5% लक्ष्य · महालनोबिस + <b>SDS प्रदर्शन मॉडल</b> + सुखमय चक्रवर्ती इनपुट-आउटपुट।</span></div>
+          <div class="fact"><span class="tag">युद्ध</span><span class="txt"><b>1962</b> भारत-चीन · <b>1965</b> भारत-पाकिस्तान — संसाधन रक्षा में चले गए।</span></div>
+          <div class="fact"><span class="tag">हॉलिडे</span><span class="txt"><b>1966–69</b> प्लान हॉलिडे — <b>3 वार्षिक योजनाएँ</b>; हरित क्रांति 1966।</span></div>
+          <div class="fact"><span class="tag">योजना 4</span><span class="txt">1969–74 · <b>गाडगिल योजना</b> · <b>बफर स्टॉक</b> · बैंकों का राष्ट्रीयकरण।</span></div>
+          <div class="fact"><span class="tag">योजना 5</span><span class="txt">1974–79 · <b>गरीबी हटाओ</b> · न्यूनतम आवश्यकता कार्यक्रम · फूड फॉर वर्क · 4.4% → 4.8% (सफल), समय से पहले समाप्त।</span></div>
+          <div class="fact"><span class="tag">रोलिंग</span><span class="txt"><b>1978–83</b> · विचार <b>गुन्नार मिर्डाल</b> · लागू <b>मोरारजी देसाई</b> सरकार · वित्त मंत्री <b>एच.एम. पटेल</b>।</span></div>
+          <div class="fact"><span class="tag">योजना 6</span><span class="txt">1980–85 · गरीबी उन्मूलन + <b>आधुनिकीकरण</b> · <b>पर्सपेक्टिव प्लानिंग</b>।</span></div>
+          <div class="fact"><span class="tag">योजना 7</span><span class="txt">1985–90 · <b>उदारीकरण की शुरुआत</b> · इंदिरा आवास व जवाहर रोज़गार योजना।</span></div>
+          <div class="fact"><span class="tag">वार्षिक</span><span class="txt"><b>1990–92</b> दो वार्षिक योजनाएँ — कुल वार्षिक योजनाएँ <b>5</b>।</span></div>
+          <div class="fact"><span class="tag">योजना 8</span><span class="txt">1992–97 · <b>जॉन डब्ल्यू. मिलर मॉडल</b> · 5.6% → <b>6.8%</b> · LPG सुधार इसी दौर में।</span></div>
+          <div class="fact"><span class="tag">योजना 9</span><span class="txt">1997–2002 · जीवन-गुणवत्ता, क्षेत्रीय संतुलन · <b>7 बेसिक मिनिमम सर्विसेज़</b> · 6.5% → 5.4%।</span></div>
+          <div class="fact"><span class="tag">योजना 10</span><span class="txt">2002–07 · <b>इंक्लूसिव एंड इक्विटेबल ग्रोथ</b> · शिक्षा में जेंडर गैप · 8.1% → 7.6%।</span></div>
+          <div class="fact"><span class="tag">योजना 11</span><span class="txt">2007–12 · उच्च शिक्षा नामांकन, दूरस्थ शिक्षा · 9% → 8%।</span></div>
+          <div class="fact"><span class="tag">योजना 12</span><span class="txt">2012–17 · <b>तेज़, समावेशी व सतत वृद्धि</b> · 8% (कृषि 4%, विनिर्माण 10%) · <b>नीति आयोग के कारण अधूरी</b>।</span></div>
+          <div class="fact"><span class="tag">लक्ष्य-आधार</span><span class="txt">पहली तीन = <b>राष्ट्रीय आय</b>; चौथी = <b>शुद्ध घरेलू उत्पाद</b>; बाकी = GDP।</span></div>
+          <div class="fact"><span class="tag">नीति आयोग</span><span class="txt"><b>1 जनवरी 2015</b> · सरकारी प्रस्ताव · थिंक टैंक · <b>सहकारी संघवाद</b> · अंशकालिक सदस्य <b>2</b>, पदेन <b>4 केंद्रीय मंत्री</b>।</span></div>
+        </div>
+        <div class="hero-cta" style="margin-top:14px">
+          <button class="btn ghost" id="copyFacts" type="button">फैक्ट शीट कॉपी करें</button>
+          <a class="btn ghost" href="#s12">टेस्ट दें →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s11" data-sec="s11">
+      <div class="sec-head">
+        <div class="sec-num">11</div>
+        <h2>फ्लैशकार्ड — 12 योजनाएँ + संस्थाएँ<span class="en">Flip cards · plans &amp; institutions</span></h2>
+        <button class="markdone" data-done="s11" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p>कार्ड पर क्लिक/टैप करें — पलटकर उत्तर दिखेगा। पहले स्वयं सोचें, फिर पलटें।</p>
+        <h3 class="sub">12 पंचवर्षीय योजनाएँ</h3>
+        <div class="fc-grid" id="fcSdg"></div>
+        <h3 class="sub">संस्थाएँ व तिथियाँ</h3>
+        <div class="fc-grid" id="fcFact"></div>
+        <p class="fc-hint">कीबोर्ड: <span class="mono">Tab</span> से कार्ड चुनें, <span class="mono">Enter/Space</span> से पलटें।</p>
+      </div>
+    </section>
+
+    <section class="sec" id="s12" data-sec="s12">
+      <div class="sec-head">
+        <div class="sec-num">12</div>
+        <h2>अभ्यास प्रश्न — 14 MCQ<span class="en">Practice test with instant explanations</span></h2>
+        <button class="markdone" data-done="s12" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <div class="quiz-bar">
+          <span class="score">स्कोर: <b id="scoreVal">0</b> / <span id="qTotal">14</span></span>
+          <span class="note" id="quizNote">कोई विकल्प चुनें — तुरंत सही/गलत व व्याख्या दिखेगी।</span>
+          <span class="spacer" style="flex:1"></span>
+          <button class="btn ghost" id="resetQuiz" type="button" style="height:32px;font-size:12px">रीसेट</button>
+        </div>
+        <div class="quiz" id="quiz"></div>
+      </div>
+    </section>
+
+    <section class="sec" id="nextbatch">
+      <div class="sec-head">
+        <div class="sec-num">→</div>
+        <h2>अगला बैच<span class="en">What comes next in the series</span></h2>
+      </div>
+      <div class="sec-body">
+        <p>बैच 2 यहीं समाप्त होता है (लेक्चर में इसके बाद “अब हम लोग स्टार्ट करेंगे अपना पॉवर्टी वाला”)। <b>बैच 3 = गरीबी (Poverty)</b>।</p>
+        <div class="next">
+          <div class="nextcard"><div class="h"><span class="n">03</span>गरीबी की अवधारणा</div><p>निरपेक्ष (absolute) व सापेक्ष (relative) गरीबी, गरीबी रेखा, कैलोरी मानक।</p></div>
+          <div class="nextcard"><div class="h"><span class="n">03</span>असमानता के माप</div><p>लॉरेंज कर्व, गिनी गुणांक, अमर्त्य सेन का inequality-adjusted per capita income।</p></div>
+          <div class="nextcard"><div class="h"><span class="n">03</span>समितियाँ व अनुमान</div><p>दादाभाई नौरोजी से लेकर दांडेकर-रथ, मिन्हास, ओझा, तेंदुलकर व रंगराजन तक — हर समिति की सिफ़ारिश।</p></div>
+          <div class="nextcard"><div class="h"><span class="n">03</span>सरकारी कार्यक्रम</div><p>गरीबी उन्मूलन योजनाएँ, MGNREGA, खाद्य सुरक्षा — साथ में PYQ।</p></div>
+        </div>
+        <div class="call pointer" style="margin-top:16px">
+          <span class="ci">i</span>
+          <div><span class="ct">बैच निरंतरता</span>हर बैच में वही ढाँचा: <b>ग्रैनुलर नोट्स → फैक्ट शीट → फ्लैशकार्ड → MCQ</b>। सीमाएँ लेक्चर के चैप्टर-ब्रेक पर हैं — कोई टॉपिक नहीं छूटेगा।</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="noresult" id="noresult">कोई परिणाम नहीं मिला — कोई दूसरा शब्द आज़माएँ (जैसे <b>NDC</b>, <b>Gadgil</b>, <b>1992</b>)।</div>
+  </main>
+</div>
+
+<button class="toTop" id="toTop" type="button" aria-label="ऊपर जाएँ">
+  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+
+<footer class="footer">
+  <p><b>स्रोत:</b> “Indian Economy One Shot 2026 — Complete Indian Economy for UPPCS &amp; BPSC 72nd”, PCS INSIGHTS (UPPCS-BPSC), YouTube — <span class="mono">youtu.be/r2iOMMlSPIw</span> (3:28:12, प्रकाशित 09-11-2026)। बैच 2 = वीडियो का दूसरा चैप्टर (योजना)।</p>
+  <p>यह अध्ययन-सामग्री वीडियो के ऑटो-ट्रांसक्रिप्ट से बनी है; भाषा-शुद्धता और तथ्य-सटीकता के लिए “सुधार” चिह्नों का पालन करें। परीक्षा से पहले नवीनतम आधिकारिक स्रोत (NITI Aayog, Economic Survey) से तथ्य जाँच लें।</p>
+  <p style="margin-top:8px">बैच 2 / 9 · इंटरैक्टिव स्टडी मॉड्यूल · प्रगति इसी ब्राउज़र में सुरक्षित रहती है।</p>
+</footer>
+
+
+<script>
+(function(){
+  "use strict";
+  var $ = function(s,c){return (c||document).querySelector(s);};
+  var $$ = function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s));};
+  var LS = {
+    get:function(k,d){try{var v=localStorage.getItem(k);return v===null?d:JSON.parse(v);}catch(e){return d;}},
+    set:function(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
+  };
+
+  /* ---------- theme ---------- */
+  var themeBtn=$("#themeBtn"), themeLabel=$("#themeLabel");
+  function applyTheme(t){
+    document.documentElement.setAttribute("data-theme",t);
+    themeLabel.textContent = t==="dark" ? "लाइट" : "डार्क";
+    LS.set("ie-theme",t);
+  }
+  applyTheme(LS.get("ie-theme","light"));
+  themeBtn.addEventListener("click",function(){
+    applyTheme(document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark");
+  });
+
+  /* ---------- print ---------- */
+  $("#printBtn").addEventListener("click",function(){window.print();});
+
+  /* ---------- progress / mark done ---------- */
+  var marks=$$(".markdone"), done=LS.get("ie-done-b2",{});
+  var total=marks.length;
+  function refreshProgress(){
+    var n=0;
+    marks.forEach(function(b){
+      var id=b.getAttribute("data-done"), on=!!done[id];
+      b.setAttribute("aria-pressed",on?"true":"false");
+      if(on) n++;
+      var link=$('#toc a[href="#'+id+'"]');
+      if(link){link.classList.toggle("done",on);}
+    });
+    var pct=total?Math.round(n/total*100):0;
+    $("#ring").style.setProperty("--p",pct);
+    $("#ringTxt").textContent=pct+"%";
+    $("#doneCount").textContent=n+" / "+total+" अध्याय";
+  }
+  marks.forEach(function(b){
+    b.addEventListener("click",function(){
+      var id=b.getAttribute("data-done");
+      done[id]=!done[id];
+      LS.set("ie-done-b2",done);
+      refreshProgress();
+    });
+  });
+  refreshProgress();
+
+  /* ---------- scroll progress + to top ---------- */
+  var bar=$("#scrollProg"), toTop=$("#toTop");
+  function onScroll(){
+    var h=document.documentElement;
+    var max=(h.scrollHeight-h.clientHeight)||1;
+    bar.style.width=Math.min(100,(h.scrollTop/max)*100)+"%";
+    toTop.classList.toggle("show",h.scrollTop>700);
+  }
+  document.addEventListener("scroll",onScroll,{passive:true});
+  onScroll();
+  toTop.addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"});});
+
+  /* ---------- TOC active state ---------- */
+  var secs=$$("main .sec");
+  if("IntersectionObserver" in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          $$("#toc a").forEach(function(a){a.classList.remove("active");});
+          var a=$('#toc a[href="#'+en.target.id+'"]');
+          if(a){a.classList.add("active");}
+        }
+      });
+    },{rootMargin:"-88px 0px -66% 0px",threshold:0});
+    secs.forEach(function(s){io.observe(s);});
+  }
+
+  /* ---------- search ---------- */
+  var search=$("#search"), noresult=$("#noresult");
+  function clearMarks(root){
+    $$("mark",root).forEach(function(m){
+      var p=m.parentNode, t=document.createTextNode(m.textContent);
+      p.replaceChild(t,m); p.normalize();
+    });
+  }
+  function highlight(root,q){
+    var walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{
+      acceptNode:function(n){
+        if(!n.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        var p=n.parentNode;
+        if(!p) return NodeFilter.FILTER_REJECT;
+        var tag=p.nodeName;
+        if(tag==="SCRIPT"||tag==="STYLE"||tag==="MARK"||tag==="INPUT"||tag==="TEXTAREA") return NodeFilter.FILTER_REJECT;
+        return n.nodeValue.toLowerCase().indexOf(q)!==-1?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT;
+      }
+    });
+    var nodes=[], n;
+    while((n=walker.nextNode())){nodes.push(n);}
+    nodes.forEach(function(node){
+      var text=node.nodeValue, low=text.toLowerCase(), idx=low.indexOf(q);
+      if(idx===-1) return;
+      var frag=document.createDocumentFragment(), last=0;
+      while(idx!==-1){
+        frag.appendChild(document.createTextNode(text.slice(last,idx)));
+        var m=document.createElement("mark");
+        m.textContent=text.slice(idx,idx+q.length);
+        frag.appendChild(m);
+        last=idx+q.length;
+        idx=low.indexOf(q,last);
+      }
+      frag.appendChild(document.createTextNode(text.slice(last)));
+      node.parentNode.replaceChild(frag,node);
+    });
+  }
+  var searchTimer=null;
+  function runSearch(){
+    var q=(search.value||"").trim().toLowerCase();
+    secs.forEach(function(s){clearMarks(s);});
+    if(!q){
+      secs.forEach(function(s){s.classList.remove("hidden");});
+      noresult.classList.remove("show");
+      return;
+    }
+    var hits=0;
+    secs.forEach(function(s){
+      var match=(s.textContent||"").toLowerCase().indexOf(q)!==-1;
+      s.classList.toggle("hidden",!match);
+      if(match){hits++;highlight(s,q);}
+    });
+    noresult.classList.toggle("show",hits===0);
+  }
+  search.addEventListener("input",function(){
+    clearTimeout(searchTimer);
+    searchTimer=setTimeout(runSearch,140);
+  });
+  search.addEventListener("keydown",function(e){
+    if(e.key==="Escape"){search.value="";runSearch();search.blur();}
+  });
+
+  /* ---------- flashcards ---------- */
+  var sdg=[
+    ["योजना 1","1951–56","हैरोड–डोमर · 2.1%","कृषि विकास, शरणार्थी पुनर्वास, संतुलित विकास — लक्ष्य से अधिक प्राप्ति"],
+    ["योजना 2","1956–61","महालनोबिस · 4.5% → 4.3%","भारी उद्योग, तेज़ औद्योगीकरण, आयात प्रतिस्थापन; राष्ट्रीय आय में 25% वृद्धि का लक्ष्य"],
+    ["योजना 3","1961–66","5% लक्ष्य · SDS मॉडल","आत्मनिर्भरता; 1962 चीन व 1965 पाक युद्ध से संसाधन घटे, लक्ष्य चूका"],
+    ["प्लान हॉलिडे","1966–69","3 वार्षिक योजनाएँ","युद्धों के बाद संसाधन-कमी; इसी दौर में हरित क्रांति (1966) शुरू"],
+    ["योजना 4","1969–74","गाडगिल योजना","बफर स्टॉक की अवधारणा, बैंकों का राष्ट्रीयकरण; लक्ष्य पूरा नहीं"],
+    ["योजना 5","1974–79","गरीबी हटाओ · 4.4% → 4.8%","न्यूनतम आवश्यकता कार्यक्रम, फूड फॉर वर्क; जनता पार्टी ने समय से पहले समाप्त किया"],
+    ["रोलिंग प्लान","1978–83","गुन्नार मिर्डाल","मोरारजी देसाई सरकार; वित्त मंत्री एच.एम. पटेल"],
+    ["योजना 6","1980–85","गरीबी उन्मूलन + आधुनिकीकरण","पर्सपेक्टिव प्लानिंग (दीर्घकालिक परिप्रेक्ष्य) का विचार"],
+    ["योजना 7","1985–90","आधुनिकीकरण + आत्मनिर्भरता","उदारीकरण मॉडल की शुरुआत; इंदिरा आवास व जवाहर रोज़गार योजना; लक्ष्य प्राप्त"],
+    ["वार्षिक योजनाएँ","1990–92","2 वार्षिक योजनाएँ","3 (1966–69) + 2 (1990–92) = कुल 5 वार्षिक योजनाएँ"],
+    ["योजना 8","1992–97","जॉन डब्ल्यू. मिलर · 5.6% → 6.8%","मानव संसाधन विकास; LPG सुधार इसी दौर में हुए"],
+    ["योजना 9","1997–2002","7 बेसिक मिनिमम सर्विसेज़ · 6.5% → 5.4%","जीवन की गुणवत्ता, उत्पादक रोज़गार, क्षेत्रीय संतुलन, आत्मनिर्भरता"],
+    ["योजना 10","2002–07","इंक्लूसिव एंड इक्विटेबल ग्रोथ · 8.1% → 7.6%","समावेशी व समानुपातिक वृद्धि; शिक्षा में लैंगिक अंतर कम करना"],
+    ["योजना 11","2007–12","9% → 8%","उच्च शिक्षा में नामांकन बढ़ाना, दूरस्थ शिक्षा का विस्तार, तेज़ व समावेशी वृद्धि"],
+    ["योजना 12","2012–17","8% · कृषि 4% · विनिर्माण 10%","तेज़, अधिक समावेशी व सतत वृद्धि; 2015 में नीति आयोग बनने से योजना अधूरी रही"]
+  ];
+  var facts=[
+    ["1914","Planned Economy for India","एम. विश्वेश्वरैया","आधुनिक नियोजन के जनक — पहला लिखित प्रस्ताव"],
+    ["1938","राष्ट्रीय योजना समिति","नेहरू (अध्यक्ष)","सुभाष चंद्र बोस ने समिति बनाई"],
+    ["1944","गांधीवादी योजना","श्रीमन नारायण अग्रवाल","आत्मनिर्भर ग्राम अर्थव्यवस्था"],
+    ["1944","बॉम्बे प्लान","8 उद्योगपति","टाटा-बिरला प्लान · 15 वर्षीय"],
+    ["1945","जन योजना","एम. एन. रॉय","भारतीय श्रमिक संघ; रूसी नियोजन से प्रेरित"],
+    ["1950","सर्वोदय योजना","जयप्रकाश नारायण","शोषण-रहित समाज का गांधीवादी आदर्श"],
+    ["15 मार्च 1950","योजना आयोग","कैबिनेट प्रस्ताव","नियोगी समिति की सिफ़ारिश; पहले अध्यक्ष नेहरू"],
+    ["6 अगस्त 1952","NDC","नियोगी समिति","अध्यक्ष PM · सभी CM सदस्य · “सुपर कैबिनेट”"],
+    ["1 जनवरी 2015","नीति आयोग","सरकारी प्रस्ताव","थिंक टैंक · सहकारी संघवाद · अंशकालिक सदस्य 2"]
+  ];
+  function cardHTML(top,mid,tiny,backMid){
+    return '<div class="fc-in">'+
+      '<div class="fc-face"><div class="top">'+top+'</div><div class="mid">'+mid+'</div><div class="tiny">'+tiny+'</div></div>'+
+      '<div class="fc-face fc-back"><div class="top">उत्तर</div><div class="mid">'+backMid+'</div></div>'+
+    '</div>';
+  }
+  function buildCards(container,arr){
+    container.innerHTML=arr.map(function(r){
+      var b=document.createElement("button");
+      b.type="button"; b.className="fc"; b.setAttribute("aria-label","कार्ड "+r[0]+" — पलटें");
+      b.innerHTML=cardHTML(r[0],r[1],r[2],r[3]);
+      b.addEventListener("click",function(){b.classList.toggle("flipped");});
+      return b.outerHTML;
+    }).join("");
+  }
+  buildCards($("#fcSdg"),sdg);
+  buildCards($("#fcFact"),facts);
+
+  /* ---------- quiz ---------- */
+  var QUIZ=[
+    {q:"भारत में आर्थिक नियोजन का पहला लिखित प्रस्ताव (1914) किसने दिया?",
+     o:["जवाहरलाल नेहरू","एम. विश्वेश्वरैया","श्रीमन नारायण अग्रवाल","एम. एन. रॉय"],a:1,
+     e:"“Planned Economy for India” (1914) — एम. विश्वेश्वरैया; इन्हें आधुनिक नियोजन का जनक (founder of modern planning in India) कहा जाता है।"},
+    {q:"गांधीवादी योजना (1944) किसने तैयार की?",
+     o:["जयप्रकाश नारायण","श्रीमन नारायण अग्रवाल","एम. एन. रॉय","अर्देशिर दलाल"],a:1,
+     e:"गांधीवादी योजना — श्रीमन नारायण अग्रवाल; आधार आत्मनिर्भर ग्राम अर्थव्यवस्था। जयप्रकाश नारायण की सर्वोदय योजना 1950 की है — दोनों अलग।"},
+    {q:"बॉम्बे प्लान (1944) के बारे में कौन-सा कथन सही है?",
+     o:["यह 5 वर्षीय योजना थी, 4 उद्योगपतियों ने बनाई","यह 15 वर्षीय योजना थी, 8 उद्योगपतियों ने बनाई","इसे कांग्रेस ने बनाया","इसका अध्यक्ष नेहरू थे"],a:1,
+     e:"टाटा-बिरला प्लान = 8 उद्योगपति (जे.आर.डी. टाटा, जी.डी. बिरला, अर्देशिर दलाल आदि) + 15 वर्ष की अवधि — इसलिए “हर योजना 5 साल की” मान लेना trap है।"},
+    {q:"योजना आयोग की स्थापना कब और किस प्रकार हुई?",
+     o:["15 मार्च 1950 · कैबिनेट प्रस्ताव से","26 जनवरी 1950 · संविधान से","6 अगस्त 1952 · संसदीय कानून से","1 अप्रैल 1951 · राष्ट्रपति के आदेश से"],a:0,
+     e:"15 मार्च 1950, कैबिनेट प्रस्ताव (Cabinet Resolution) से — इसलिए यह न संवैधानिक है न सांविधिक, बल्कि कार्यकारी निकाय। सिफ़ारिश नियोगी समिति की थी।"},
+    {q:"राष्ट्रीय विकास परिषद (NDC) की स्थापना कब हुई?",
+     o:["15 मार्च 1950","1 अप्रैल 1951","6 अगस्त 1952","1 जनवरी 2015"],a:2,
+     e:"6 अगस्त 1952 — अध्यक्ष प्रधानमंत्री; सदस्य सभी मुख्यमंत्री, केंद्रीय मंत्री व UT प्रशासक; विस्तृत सदस्यता के कारण इसे “सुपर कैबिनेट” कहा जाता है।"},
+    {q:"पहली पंचवर्षीय योजना किस मॉडल पर आधारित थी?",
+     o:["महालनोबिस मॉडल","हैरोड–डोमर मॉडल","गाडगिल योजना","जॉन डब्ल्यू. मिलर मॉडल"],a:1,
+     e:"हैरोड–डोमर मॉडल (सर रॉय हैरोड — UK, एवसी डोमर — USA): बचत व निवेश का वृद्धि पर सीधा प्रभाव। लक्ष्य 2.1% था, जो प्राप्त से अधिक रहा।"},
+    {q:"दूसरी योजना (1956–61) का आधार व मुख्य फोकस क्या था?",
+     o:["हैरोड–डोमर · कृषि","महालनोबिस · भारी उद्योग","गाडगिल · बफर स्टॉक","मिलर · शिक्षा"],a:1,
+     e:"पी.सी. महालनोबिस का मॉडल — तेज़ औद्योगीकरण, भारी उद्योग, आयात प्रतिस्थापन; K (कैपिटल गुड) व C (कंज्यूमर गुड) क्षेत्र। लक्ष्य 4.5%, प्राप्ति 4.3%।"},
+    {q:"“प्लान हॉलिडे” (1966–69) के दौरान क्या हुआ?",
+     o:["कोई योजना नहीं चली, सब बंद रहा","तीन वार्षिक योजनाएँ चलीं","पाँचवीं योजना शुरू हुई","रोलिंग प्लान लागू हुआ"],a:1,
+     e:"1962 (चीन) व 1965 (पाक) युद्धों से संसाधन खत्म — पंचवर्षीय योजना नहीं बनी, पर तीन वार्षिक योजनाएँ चलीं; इसी समय हरित क्रांति (1966) शुरू हुई।"},
+    {q:"चौथी पंचवर्षीय योजना (1969–74) किस योजना पर आधारित थी?",
+     o:["गाडगिल योजना","सर्वोदय योजना","जन योजना","बॉम्बे प्लान"],a:0,
+     e:"गाडगिल योजना — इसी योजना में बफर स्टॉक की अवधारणा आई और बैंकों का राष्ट्रीयकरण हुआ; लक्ष्य पूरा नहीं हुआ।"},
+    {q:"“गरीबी हटाओ” नारा किस योजना का था और उसका अंत कैसे हुआ?",
+     o:["चौथी · लक्ष्य पूरा करके","पाँचवीं · जनता पार्टी ने समय से पहले समाप्त किया","छठी · नीति आयोग ने रोका","सातवीं · स्वयं पूरी हुई"],a:1,
+     e:"पाँचवीं योजना (1974–79): गरीबी हटाओ, न्यूनतम आवश्यकता कार्यक्रम, फूड फॉर वर्क; लक्ष्य 4.4% → प्राप्ति 4.8% (सफल), पर जनता पार्टी सरकार ने इसे समय से पहले समाप्त कर दिया।"},
+    {q:"रोलिंग प्लान (1978–83) का विचार किसका था?",
+     o:["पी.सी. महालनोबिस","गुन्नार मिर्डाल","वी. के. आर. वी. राव","सुखमय चक्रवर्ती"],a:1,
+     e:"विचार गुन्नार मिर्डाल का; भारत में मोरारजी देसाई की सरकार ने लागू किया (वित्त मंत्री एच.एम. पटेल)।"},
+    {q:"स्वतंत्रता के बाद भारत में कुल कितनी वार्षिक योजनाएँ चलीं?",
+     o:["2","3","5","7"],a:2,
+     e:"3 वार्षिक (1966–69) + 2 वार्षिक (1990–92) = 5। लेक्चर में एक जगह “6” बोला गया, पर गिनती से 5 सही है।"},
+    {q:"आठवीं पंचवर्षीय योजना (1992–97) किस मॉडल पर आधारित थी?",
+     o:["जॉन डब्ल्यू. मिलर मॉडल","महालनोबिस मॉडल","हैरोड–डोमर मॉडल","गाडगिल मॉडल"],a:0,
+     e:"जॉन डब्ल्यू. मिलर मॉडल; लक्ष्य 5.6% के मुकाबले 6.8% वृद्धि — लक्ष्य से अधिक। LPG सुधार भी इसी दौर में हुए।"},
+    {q:"बारहवीं पंचवर्षीय योजना (2012–17) पूरी क्यों नहीं हो पाई?",
+     o:["युद्ध के कारण","2015 में नीति आयोग ने योजना आयोग का स्थान ले लिया","राज्यों ने मना कर दिया","लक्ष्य बहुत कम था"],a:1,
+     e:"12वीं योजना का लक्ष्य 8% (कृषि 4%, विनिर्माण 10%) था, पर 1 जनवरी 2015 को नीति आयोग बनने और योजना आयोग भंग होने से यह योजना अधूरी रह गई — यही सबसे अधिक पूछा जाने वाला बिंदु है।"}
+  ];
+  var quizEl=$("#quiz"), scoreVal=$("#scoreVal"), qTotalEl=$("#qTotal"), quizNote=$("#quizNote");
+  var answered={}, score=0;
+  qTotalEl.textContent=QUIZ.length;
+  function renderQuiz(){
+    answered={}; score=0; scoreVal.textContent="0";
+    quizNote.textContent="कोई विकल्प चुनें — तुरंत सही/गलत व व्याख्या दिखेगी।";
+    quizEl.innerHTML="";
+    QUIZ.forEach(function(item,qi){
+      var wrap=document.createElement("div"); wrap.className="q";
+      var head='<div class="q-h"><span class="q-n">Q'+(qi+1)+'</span><span>'+item.q+'</span></div>';
+      var opts='<div class="opts">'+item.o.map(function(t,oi){
+        return '<button class="opt" type="button" data-q="'+qi+'" data-o="'+oi+'"><span class="ol">'+
+          String.fromCharCode(65+oi)+'</span><span>'+t+'</span></button>';
+      }).join("")+'</div>';
+      var exp='<div class="exp" id="exp-'+qi+'"><b>व्याख्या:</b> '+item.e+'</div>';
+      wrap.innerHTML=head+opts+exp;
+      quizEl.appendChild(wrap);
+    });
+  }
+  quizEl.addEventListener("click",function(e){
+    var btn=e.target.closest(".opt");
+    if(!btn||btn.disabled) return;
+    var qi=+btn.getAttribute("data-q"), oi=+btn.getAttribute("data-o");
+    if(answered[qi]!==undefined) return;
+    answered[qi]=oi;
+    var correct=QUIZ[qi].a;
+    $$('.opt[data-q="'+qi+'"]',quizEl).forEach(function(b){
+      b.disabled=true;
+      var i=+b.getAttribute("data-o");
+      if(i===correct){b.classList.add("correct");}
+      if(i===oi&&oi!==correct){b.classList.add("wrong");}
+    });
+    $("#exp-"+qi).classList.add("show");
+    if(oi===correct){score++;}
+    scoreVal.textContent=String(score);
+    var n=Object.keys(answered).length;
+    if(n===QUIZ.length){
+      var pct=Math.round(score/QUIZ.length*100);
+      quizNote.textContent = pct>=80 ? "शानदार — "+pct+"%। इस बैच पर पकड़ मज़बूत है।" :
+        pct>=50 ? "ठीक — "+pct+"%। फैक्ट शीट एक बार दोहरा लें।" :
+        "बेहतर होगा — "+pct+"%। सेक्शन 8 (सतत विकास) दोबारा पढ़ें, फिर रीसेट करके दोहराएँ।";
+    }
+  });
+  $("#resetQuiz").addEventListener("click",renderQuiz);
+  renderQuiz();
+
+  /* ---------- copy fact sheet ---------- */
+  $("#copyFacts").addEventListener("click",function(){
+    var btn=this, old=btn.textContent;
+    var text=$$("#factsList .fact").map(function(f){
+      return "• "+$(".tag",f).textContent+" — "+$(".txt",f).textContent;
+    }).join("\n");
+    function done(ok){btn.textContent=ok?"कॉपी हो गया ✓":"कॉपी नहीं हो सका";setTimeout(function(){btn.textContent=old;},1600);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){done(true);},function(){done(false);});
+    }else{
+      var ta=document.createElement("textarea"); ta.value=text; document.body.appendChild(ta);
+      ta.select(); try{document.execCommand("copy");done(true);}catch(e){done(false);}
+      document.body.removeChild(ta);
+    }
+  });
+
+  /* ---------- keyboard shortcuts ---------- */
+  document.addEventListener("keydown",function(e){
+    var tag=(e.target.tagName||"").toLowerCase();
+    var typing = tag==="input"||tag==="textarea"||e.target.isContentEditable;
+    if(typing) return;
+    if(e.key==="/"){
+      e.preventDefault(); search.focus(); search.select();
+    }else if(e.key==="D"&&e.shiftKey){
+      applyTheme(document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark");
+    }
+  });
+})();
+</script>
+</body>
+</html>
