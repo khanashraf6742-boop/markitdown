@@ -1,7 +1,7 @@
 # Indian Economy One Shot 2026 — इंटरैक्टिव नोट्स (PCS INSIGHTS)
 
 स्रोत वीडियो: [Indian Economy One Shot 2026 | UPPCS & BPSC 72nd](https://youtu.be/r2iOMMlSPIw) — 3:28:12, PCS INSIGHTS (UPPCS-BPSC)।
-पूरा लेक्चर 9 बैचों में बाँटा जा रहा है; बैच-सीमाएँ वीडियो के **चैप्टर-ब्रेक** पर हैं, ताकि कोई टॉपिक छूटे नहीं।
+पूरा लेक्चर 10 बैचों में बाँटा जा रहा है; बैच-सीमाएँ वीडियो के **चैप्टर-ब्रेक** पर हैं, ताकि कोई टॉपिक छूटे नहीं।
 
 | बैच | विषय | फ़ाइलें | स्थिति |
 |---|---|---|---|
@@ -13,14 +13,15 @@
 | 6 | बैंकिंग का इतिहास (1770–1894) · RBI 1935/1949 · नोट प्रेस व टकसाल · बैंकों के प्रकार · RRB 1975 · NABARD · LIC/GIC/IRDA/UTI/NHB/SEBI · M1–M4 · CRR/SLR/रेपो/OMO · मूल्यह्रास | `batch-06-interactive.html`, `batch-06-text.html`, **`batch-06-interactive-hinglish.html`**, **`batch-06-text-hinglish.html`** | ✅ तैयार |
 | 7 | राजकोषीय नीति · FRBM 2003 व NK Singh 2016 · अनुच्छेद 112/202 · प्रत्यक्ष व अप्रत्यक्ष कर · VAT · GST (101st Amendment) · FTP 2023 | `batch-07-interactive.html`, `batch-07-text.html`, **`batch-07-interactive-hinglish.html`**, **`batch-07-text-hinglish.html`** | ✅ तैयार |
 | 8 | कृषि (52%→20%, 46% आबादी) · फसलें व क्रांतियाँ · भूमि सुधार व जोत · 9 कृषि बोर्ड · NFSA 2013 · स्टील प्लांट · ग्रामीण व सामाजिक योजनाएँ (1952–2021) | `batch-08-interactive.html`, `batch-08-text.html`, **`batch-08-interactive-hinglish.html`**, **`batch-08-text-hinglish.html`** | ✅ तैयार |
-| 9 | विदेशी व्यापार / BoP, अंतर्राष्ट्रीय संस्थाएँ, जनसंख्या, PYQ + MCQ सेट | — | अगला |
+| 9 | HDI व GNH · स्वास्थ्य नीति व मिशन (NHP 1983 → NRHM 2005 → JSSK 2011 → आयुष्मान 2018) · कौशल विकास · वित्तीय समावेशन (जनधन 2014, 2015 की योजनाएँ) · बालिका-बाल कल्याण · आवास-शहर-ऊर्जा · सामाजिक सुरक्षा | `batch-09-interactive.html`, `batch-09-text.html`, **`batch-09-interactive-hinglish.html`**, **`batch-09-text-hinglish.html`** | ✅ तैयार |
+| 10 | विदेशी व्यापार / BoP, अंतर्राष्ट्रीय संस्थाएँ, जनसंख्या, PYQ + MCQ सेट | — | अगला |
 
 ## दो लिपियाँ (two scripts)
 
-| Edition | बैच 1 | बैच 2 | बैच 3 | बैच 4 | बैच 5 | बैच 6 | बैच 7 | बैच 8 |
-|---|---|---|---|---|---|---|---|---|
-| **City Hinglish (Roman script only)** — मुख्य संस्करण | `batch-01-interactive-hinglish.html` · `batch-01-text-hinglish.html` | `batch-02-interactive-hinglish.html` · `batch-02-text-hinglish.html` | `batch-03-interactive-hinglish.html` · `batch-03-text-hinglish.html` | `batch-04-interactive-hinglish.html` · `batch-04-text-hinglish.html` | `batch-05-interactive-hinglish.html` · `batch-05-text-hinglish.html` | `batch-06-interactive-hinglish.html` · `batch-06-text-hinglish.html` | `batch-07-interactive-hinglish.html` · `batch-07-text-hinglish.html` | `batch-08-interactive-hinglish.html` · `batch-08-text-hinglish.html` |
-| Devanagari (मूल) | `batch-01-interactive.html` · `batch-01-text.html` | `batch-02-interactive.html` · `batch-02-text.html` | `batch-03-interactive.html` · `batch-03-text.html` | `batch-04-interactive.html` · `batch-04-text.html` | `batch-05-interactive.html` · `batch-05-text.html` | `batch-06-interactive.html` · `batch-06-text.html` | `batch-07-interactive.html` · `batch-07-text.html` | `batch-08-interactive.html` · `batch-08-text.html` |
+| Edition | बैच 1 | बैच 2 | बैच 3 | बैच 4 | बैच 5 | बैच 6 | बैच 7 | बैच 8 | बैच 9 |
+|---|---|---|---|---|---|---|---|---|---|
+| **City Hinglish (Roman script only)** — मुख्य संस्करण | `batch-01-interactive-hinglish.html` · `batch-01-text-hinglish.html` | `batch-02-interactive-hinglish.html` · `batch-02-text-hinglish.html` | `batch-03-interactive-hinglish.html` · `batch-03-text-hinglish.html` | `batch-04-interactive-hinglish.html` · `batch-04-text-hinglish.html` | `batch-05-interactive-hinglish.html` · `batch-05-text-hinglish.html` | `batch-06-interactive-hinglish.html` · `batch-06-text-hinglish.html` | `batch-07-interactive-hinglish.html` · `batch-07-text-hinglish.html` | `batch-08-interactive-hinglish.html` · `batch-08-text-hinglish.html` | `batch-09-interactive-hinglish.html` · `batch-09-text-hinglish.html` |
+| Devanagari (मूल) | `batch-01-interactive.html` · `batch-01-text.html` | `batch-02-interactive.html` · `batch-02-text.html` | `batch-03-interactive.html` · `batch-03-text.html` | `batch-04-interactive.html` · `batch-04-text.html` | `batch-05-interactive.html` · `batch-05-text.html` | `batch-06-interactive.html` · `batch-06-text.html` | `batch-07-interactive.html` · `batch-07-text.html` | `batch-08-interactive.html` · `batch-08-text.html` | `batch-09-interactive.html` · `batch-09-text.html` |
 
 Hinglish edition में technical English terms English में हैं (economy, productivity, sustainable development), बाकी बोलचाल "dekho…, hai na?…, matlab…" वाली city-Hinglish में — पूरा फ़ाइल Roman script में, एक भी Devanagari अक्षर नहीं। बैच 2 से आगे के सभी बैच इसी Hinglish फ़ॉर्मेट में बनेंगे।
 
@@ -82,6 +83,13 @@ Hinglish edition में technical English terms English में हैं (
 - “सुधार” चिह्न — मनरेगा के “125 दिन” (सही 100 दिन), “राउंड पोटैटो” (brown = आलू), नए बोर्ड का नाम (Turmeric Board, निज़ामाबाद)
 
 **`batch-08-text-hinglish.html`** — बैच 8 का साफ़ किया हुआ टेक्स्ट (22 पैराग्राफ, 5 विषय-शीर्षक)।
+
+**`batch-09-interactive-hinglish.html`** — बैच 9 (स्वास्थ्य, कौशल, वित्तीय समावेशन व कल्याण योजनाएँ) का Hinglish इंटरैक्टिव मॉड्यूल:
+- 10 कंटेंट सेक्शन: HDI के तीन आयाम व भारत 130/193 (HDR 2025 का टाइटल भी) · GNH भूटान 1972 · स्वास्थ्य नीति व मिशन का क्रम (NHP 1983 → NRHM 2005 → JSSK 2011 → इंद्रधनुष 2014 → आयुष्मान 2018 → PMGKP 2020) · कौशल मिशन 2015 vs मंत्रालय 2014 व AIM · जनधन 2014 से “2015 की कहानी” · बेटी बचाओ (पानीपत) व सुकन्या · स्वच्छ भारत, PMAY, AMRUT, सुगम्य, DDUGJY, उज्ज्वला, जल जीवन · तीन बीमा व अटल पेंशन (18–50 / 18–70 / 18–40) · फसल बीमा 2016 · सामाजिक सुरक्षा (AABY 2007, स्वावलंबन 2010, पहल 2014) · साल-दर-साल टाइमलाइन
+- 37-पंक्ति फैक्ट शीट, 20 फ्लैशकार्ड, 14 MCQ — तुरंत व्याख्या व स्कोर
+- “सुधार” चिह्न जहाँ लेक्चर में नाम बिगड़ा (“जिग्मे सिंग्ये वांगचुक”, “रूलर हेल्थ मिशन” = rural, “स्वावलंबन” = स्वावलंबन)
+
+**`batch-09-text-hinglish.html`** — बैच 9 का साफ़ किया हुआ टेक्स्ट (13 पैराग्राफ, 4 विषय-शीर्षक)।
 
 ## नोट
 टेक्स्ट YouTube ऑटो-कैप्शन से बना है — कहीं-कहीं नाम/संख्या बिगड़ी है। इंटरैक्टिव फ़ाइल में ऐसी जगहों पर **सुधार** चिह्न के साथ सही तथ्य दिए गए हैं (जैसे EKC = उल्टा-U; “गडगिल” = गाडगिल, “पीसी महालेबिस” = महालनोबिस; कुल वार्षिक योजनाएँ = 5, न कि 6; जवाहर रोज़गार योजना 1989, न कि 1999)। आँकड़े (18% / 45%) लेक्चर के अनुसार हैं; परीक्षा से पहले नवीनतम आधिकारिक स्रोत देखें।
