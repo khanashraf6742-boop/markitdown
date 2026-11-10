@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="hi" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indian Economy One Shot 2026 — Batch 5: Planning, Five Year Plans &amp; NITI Aayog</title>
+<meta name="description" content="इंटरैक्टिव स्टडी मॉड्यूल — Indian Economy One Shot 2026 (PCS INSIGHTS), Batch 5: योजना, पंचवर्षीय योजनाएँ 1–12, योजना आयोग, NDC, नीति आयोग।">
+<style>
+/* ============ design tokens ============ */
+:root{
+  --bg:#f4f6fb; --bg-soft:#eef1f8; --panel:#ffffff; --panel-2:#fbfcff;
+  --ink:#131a2b; --ink-soft:#46506b; --ink-mute:#727d99;
+  --line:#dfe4f0; --line-soft:#eaeef8;
+  --brand:#3d3bd6; --brand-ink:#2b28b0; --brand-soft:#ecebff;
+  --teal:#0d7d76; --teal-soft:#e2f5f3;
+  --amber:#a86400; --amber-soft:#fff3d9;
+  --rose:#b3261e; --rose-soft:#ffe8e6;
+  --green:#166b3c; --green-soft:#e2f6ea;
+  --violet:#6d28d9; --violet-soft:#f1e9ff;
+  --shadow:0 1px 2px rgba(16,24,40,.06),0 8px 24px -12px rgba(16,24,40,.18);
+  --shadow-lg:0 24px 60px -28px rgba(16,24,40,.35);
+  --r-sm:8px; --r:14px; --r-lg:20px;
+  --maxw:1500px;
+  --font:"Noto Sans Devanagari","Nirmala UI","Mangal","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  --mono:"SFMono-Regular",ui-monospace,"Cascadia Mono",Menlo,Consolas,monospace;
+}
+html[data-theme="dark"]{
+  --bg:#0b0f19; --bg-soft:#0f1524; --panel:#141b2b; --panel-2:#111827;
+  --ink:#e8ecf7; --ink-soft:#b3bdd4; --ink-mute:#8492b0;
+  --line:#26304a; --line-soft:#1d2539;
+  --brand:#9d9bff; --brand-ink:#b9b7ff; --brand-soft:#1d1f45;
+  --teal:#5fd6cb; --teal-soft:#0e2f2d;
+  --amber:#f5c264; --amber-soft:#33260c;
+  --rose:#ff8f86; --rose-soft:#3a1613;
+  --green:#68d996; --green-soft:#0f2c1d;
+  --violet:#c3a6ff; --violet-soft:#241a3d;
+  --shadow:0 1px 2px rgba(0,0,0,.5),0 10px 30px -16px rgba(0,0,0,.8);
+  --shadow-lg:0 30px 70px -30px rgba(0,0,0,.9);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth; scroll-padding-top:82px}
+body{
+  margin:0; background:var(--bg); color:var(--ink); font-family:var(--font);
+  font-size:16px; line-height:1.85; -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+h1,h2,h3,h4{line-height:1.45; margin:0; font-weight:800; letter-spacing:-.01em}
+p{margin:.55em 0}
+a{color:var(--brand); text-underline-offset:3px}
+b,strong{font-weight:800; color:var(--ink)}
+code,.mono{font-family:var(--mono); font-size:.9em}
+::selection{background:var(--brand); color:#fff}
+:focus-visible{outline:2.5px solid var(--brand); outline-offset:2px; border-radius:6px}
+
+/* ============ top bar ============ */
+.topbar{
+  position:sticky; top:0; z-index:60; background:color-mix(in srgb, var(--panel) 88%, transparent);
+  backdrop-filter:blur(14px) saturate(1.4); border-bottom:1px solid var(--line);
+}
+.topbar-in{max-width:var(--maxw); margin:0 auto; padding:10px 20px; display:flex; gap:16px; align-items:center}
+.brandmark{display:flex; align-items:center; gap:11px; min-width:0}
+.logo{
+  width:38px;height:38px;border-radius:11px; flex:0 0 auto; display:grid; place-items:center;
+  background:linear-gradient(145deg,var(--brand),#7f5bff 55%,var(--teal)); color:#fff;
+  font-weight:900; font-size:15px; letter-spacing:-.5px; box-shadow:var(--shadow);
+}
+.brand-text{min-width:0}
+.brand-text .t{font-weight:800; font-size:14.5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.brand-text .s{font-size:11.5px; color:var(--ink-mute); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.batch-pill{
+  font-size:11.5px; font-weight:800; letter-spacing:.04em; padding:4px 10px; border-radius:999px;
+  background:var(--brand-soft); color:var(--brand-ink); border:1px solid color-mix(in srgb,var(--brand) 28%, transparent);
+  white-space:nowrap;
+}
+.spacer{flex:1 1 auto}
+.tool{
+  display:inline-flex; align-items:center; gap:7px; height:36px; padding:0 12px; cursor:pointer;
+  background:var(--panel); color:var(--ink-soft); border:1px solid var(--line); border-radius:10px;
+  font:inherit; font-size:12.5px; font-weight:700; white-space:nowrap;
+  transition:transform .12s ease, border-color .12s, color .12s, background .12s;
+}
+.tool:hover{color:var(--ink); border-color:color-mix(in srgb,var(--brand) 45%, var(--line)); transform:translateY(-1px)}
+.tool:active{transform:translateY(0)}
+.tool svg{width:15px;height:15px;flex:0 0 auto}
+.searchwrap{position:relative; flex:1 1 300px; max-width:430px}
+.searchwrap svg{position:absolute; left:11px; top:50%; transform:translateY(-50%); width:16px;height:16px; color:var(--ink-mute)}
+#search{
+  width:100%; height:38px; padding:0 62px 0 34px; border-radius:10px; border:1px solid var(--line);
+  background:var(--panel-2); color:var(--ink); font:inherit; font-size:13.5px;
+}
+#search::placeholder{color:var(--ink-mute)}
+#search:focus{border-color:var(--brand); outline:none; box-shadow:0 0 0 3px var(--brand-soft)}
+.kbd{
+  position:absolute; right:9px; top:50%; transform:translateY(-50%); font-family:var(--mono); font-size:10.5px;
+  color:var(--ink-mute); border:1px solid var(--line); border-bottom-width:2px; border-radius:5px; padding:1px 5px;
+  background:var(--panel); pointer-events:none;
+}
+.progressline{height:3px; background:var(--line-soft); overflow:hidden}
+.progressline > i{display:block; height:100%; width:0; background:linear-gradient(90deg,var(--brand),var(--teal)); transition:width .3s ease}
+
+/* ============ shell ============ */
+.shell{max-width:var(--maxw); margin:0 auto; padding:26px 20px 90px; display:grid; grid-template-columns:288px minmax(0,1fr); gap:30px; align-items:start}
+
+/* ============ sidebar ============ */
+.side{position:sticky; top:78px; max-height:calc(100vh - 100px); overflow:auto; padding-right:6px}
+.side::-webkit-scrollbar{width:8px}
+.side::-webkit-scrollbar-thumb{background:var(--line); border-radius:8px}
+.side-card{background:var(--panel); border:1px solid var(--line); border-radius:var(--r); padding:14px; box-shadow:var(--shadow); margin-bottom:14px}
+.side-h{font-size:10.5px; text-transform:uppercase; letter-spacing:.11em; color:var(--ink-mute); font-weight:800; margin:0 0 9px 4px}
+.toc{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:2px}
+.toc a{
+  display:flex; gap:9px; align-items:flex-start; text-decoration:none; color:var(--ink-soft);
+  font-size:13px; font-weight:600; padding:7px 9px; border-radius:9px; line-height:1.5;
+  border-left:2.5px solid transparent; transition:background .12s,color .12s,border-color .12s;
+}
+.toc a:hover{background:var(--bg-soft); color:var(--ink)}
+.toc a.active{background:var(--brand-soft); color:var(--brand-ink); border-left-color:var(--brand); font-weight:800}
+.toc .n{font-family:var(--mono); font-size:10.5px; color:var(--ink-mute); margin-top:3px; flex:0 0 auto}
+.toc a.active .n{color:var(--brand)}
+.toc a .dot{margin-left:auto; width:6px;height:6px;border-radius:50%; background:var(--green); opacity:0; flex:0 0 auto; margin-top:8px}
+.toc a.done .dot{opacity:1}
+.side-progress{display:flex; align-items:center; gap:10px}
+.ring{--p:0; width:44px; height:44px; border-radius:50%; flex:0 0 auto; display:grid; place-items:center;
+  background:conic-gradient(var(--brand) calc(var(--p)*1%), var(--line-soft) 0);}
+.ring > span{width:34px;height:34px;border-radius:50%; background:var(--panel); display:grid; place-items:center; font-size:10.5px; font-weight:800; color:var(--ink-soft)}
+.side-progress .lbl{font-size:11.5px; color:var(--ink-mute); line-height:1.5}
+.side-progress .lbl b{display:block; color:var(--ink); font-size:13px}
+.chapterlist{list-style:none;margin:0;padding:0;font-size:12px;color:var(--ink-mute);line-height:1.9}
+.chapterlist li{display:flex;gap:7px}
+.chapterlist .now{color:var(--brand-ink);font-weight:800}
+.chapterlist .tag{font-family:rgba(0,0,0,0);font-family:var(--mono);font-size:10px;color:var(--ink-mute)}
+
+/* ============ content ============ */
+.main{min-width:0}
+.hero{
+  position:relative; overflow:hidden; border-radius:var(--r-lg); padding:30px 32px; margin-bottom:24px;
+  background:radial-gradient(1200px 340px at 8% -20%, color-mix(in srgb,var(--brand) 22%, transparent), transparent 60%),
+             radial-gradient(900px 320px at 100% 0%, color-mix(in srgb,var(--teal) 20%, transparent), transparent 55%),
+             var(--panel);
+  border:1px solid var(--line); box-shadow:var(--shadow-lg);
+}
+.hero .eyebrow{display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:13px}
+.chip{
+  font-size:11px; font-weight:800; letter-spacing:.03em; padding:3.5px 10px; border-radius:999px;
+  background:var(--bg-soft); color:var(--ink-soft); border:1px solid var(--line);
+}
+.chip.brand{background:var(--brand-soft); color:var(--brand-ink); border-color:color-mix(in srgb,var(--brand) 26%, transparent)}
+.chip.green{background:var(--green-soft); color:var(--green); border-color:color-mix(in srgb,var(--green) 25%, transparent)}
+.chip.amber{background:var(--amber-soft); color:var(--amber); border-color:color-mix(in srgb,var(--amber) 30%, transparent)}
+.chip.rose{background:var(--rose-soft); color:var(--rose); border-color:color-mix(in srgb,var(--rose) 26%, transparent)}
+.chip.teal{background:var(--teal-soft); color:var(--teal); border-color:color-mix(in srgb,var(--teal) 26%, transparent)}
+.hero h1{font-size:clamp(22px,2.5vw,32px); letter-spacing:-.02em; margin-bottom:8px}
+.hero h1 .sub{display:block; font-size:14.5px; font-weight:700; color:var(--ink-mute); letter-spacing:0; margin-top:8px}
+.hero p{color:var(--ink-soft); font-size:14.5px; max-width:78ch}
+.meta-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:10px; margin-top:20px}
+.meta{background:var(--panel-2); border:1px solid var(--line-soft); border-radius:11px; padding:9px 12px}
+.meta .k{font-size:10px; text-transform:uppercase; letter-spacing:.1em; color:var(--ink-mute); font-weight:800}
+.meta .v{font-size:13px; font-weight:700; color:var(--ink); margin-top:2px}
+.hero-cta{display:flex; flex-wrap:wrap; gap:9px; margin-top:20px}
+.btn{
+  display:inline-flex; align-items:center; gap:8px; height:38px; padding:0 15px; border-radius:10px; cursor:pointer;
+  font:inherit; font-size:13px; font-weight:800; text-decoration:none; border:1px solid var(--line);
+  background:var(--panel); color:var(--ink); transition:transform .12s, box-shadow .12s, background .12s;
+}
+.btn:hover{transform:translateY(-1px); box-shadow:var(--shadow)}
+.btn.primary{background:linear-gradient(160deg,var(--brand),var(--brand-ink)); color:#fff; border-color:transparent}
+.btn.ghost{background:transparent}
+.btn svg{width:15px;height:15px}
+
+/* notice */
+.notice{
+  display:flex; gap:12px; padding:14px 16px; border-radius:var(--r); margin:0 0 22px;
+  background:var(--amber-soft); border:1px solid color-mix(in srgb,var(--amber) 30%, transparent);
+  color:color-mix(in srgb,var(--amber) 78%, var(--ink)); font-size:13px; line-height:1.7;
+}
+.notice .ico{flex:0 0 auto; width:22px;height:22px; border-radius:50%; display:grid; place-items:center;
+  background:color-mix(in srgb,var(--amber) 20%, transparent); color:var(--amber); font-weight:900; font-size:13px}
+.notice b{color:var(--amber)}
+
+/* section */
+.sec{
+  background:var(--panel); border:1px solid var(--line); border-radius:var(--r-lg);
+  padding:26px 28px 24px; margin-bottom:20px; box-shadow:var(--shadow); scroll-margin-top:90px;
+}
+.sec-head{display:flex; gap:14px; align-items:flex-start; margin-bottom:6px}
+.sec-num{
+  flex:0 0 auto; width:38px;height:38px; border-radius:11px; display:grid; place-items:center;
+  background:var(--brand-soft); color:var(--brand-ink); font-family:var(--mono); font-size:13px; font-weight:800;
+  border:1px solid color-mix(in srgb,var(--brand) 20%, transparent);
+}
+.sec-head h2{font-size:clamp(18px,2vw,22.5px); letter-spacing:-.015em}
+.sec-head h2 .en{display:block; font-size:11.5px; font-weight:700; color:var(--ink-mute); letter-spacing:.02em; text-transform:uppercase; margin-top:3px}
+.markdone{
+  margin-left:auto; flex:0 0 auto; display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  height:32px; padding:0 11px; border-radius:9px; border:1px solid var(--line); background:var(--panel-2);
+  color:var(--ink-mute); font:inherit; font-size:11.5px; font-weight:800; white-space:nowrap; transition:.14s;
+}
+.markdone:hover{color:var(--ink); border-color:color-mix(in srgb,var(--green) 45%, var(--line))}
+.markdone .box{width:15px;height:15px;border-radius:4.5px;border:1.6px solid currentColor; display:grid;place-items:center}
+.markdone .box svg{width:11px;height:11px; opacity:0; color:#fff}
+.markdone[aria-pressed="true"]{background:var(--green-soft); color:var(--green); border-color:color-mix(in srgb,var(--green) 40%, transparent)}
+.markdone[aria-pressed="true"] .box{background:var(--green); border-color:var(--green)}
+.markdone[aria-pressed="true"] .box svg{opacity:1}
+.sec-body{font-size:15.2px; color:var(--ink-soft)}
+.sec-body > *:first-child{margin-top:0}
+.lead{font-size:15.5px; color:var(--ink-soft)}
+h3.sub{font-size:15.5px; color:var(--ink); margin:22px 0 8px; display:flex; align-items:center; gap:8px}
+h3.sub::before{content:""; width:4px; height:15px; border-radius:3px; background:var(--brand); display:inline-block}
+h4.mini{font-size:13.5px; color:var(--ink); margin:16px 0 5px; letter-spacing:.01em}
+
+/* lists */
+ul.clean,ol.clean{margin:.5em 0; padding-left:1.25em}
+ul.clean li,ol.clean li{margin:.32em 0; padding-left:.15em}
+ul.clean li::marker{color:var(--brand)}
+ol.clean li::marker{color:var(--brand); font-weight:800; font-family:var(--mono); font-size:.9em}
+ul.tight li{margin:.16em 0}
+.hl{background:linear-gradient(transparent 58%, color-mix(in srgb,var(--amber) 55%, transparent) 0); font-weight:800; color:var(--ink); padding:0 1px}
+.kw{font-weight:800; color:var(--brand-ink)}
+.en-term{font-weight:700; color:var(--teal); font-size:.95em}
+
+/* callouts */
+.call{
+  display:grid; grid-template-columns:26px minmax(0,1fr); gap:11px; align-items:start;
+  border-radius:12px; padding:12px 14px; margin:14px 0; font-size:14px; line-height:1.75;
+  border:1px solid var(--line); background:var(--panel-2); color:var(--ink-soft);
+}
+.call .ci{width:24px;height:24px;border-radius:8px; display:grid; place-items:center; font-size:13px; font-weight:900}
+.call .ct{font-size:10.5px; font-weight:900; letter-spacing:.09em; text-transform:uppercase; display:block; margin-bottom:3px}
+.call.pointer{background:var(--brand-soft); border-color:color-mix(in srgb,var(--brand) 25%, transparent)}
+.call.pointer .ci{background:color-mix(in srgb,var(--brand) 18%, transparent); color:var(--brand-ink)}
+.call.pointer .ct{color:var(--brand-ink)}
+.call.pyq{background:var(--green-soft); border-color:color-mix(in srgb,var(--green) 26%, transparent)}
+.call.pyq .ci{background:color-mix(in srgb,var(--green) 16%, transparent); color:var(--green)}
+.call.pyq .ct{color:var(--green)}
+.call.trap{background:var(--rose-soft); border-color:color-mix(in srgb,var(--rose) 26%, transparent)}
+.call.trap .ci{background:color-mix(in srgb,var(--rose) 15%, transparent); color:var(--rose)}
+.call.trap .ct{color:var(--rose)}
+.call.def{background:var(--teal-soft); border-color:color-mix(in srgb,var(--teal) 26%, transparent)}
+.call.def .ci{background:color-mix(in srgb,var(--teal) 16%, transparent); color:var(--teal)}
+.call.def .ct{color:var(--teal)}
+.call.mem{background:var(--violet-soft); border-color:color-mix(in srgb,var(--violet) 24%, transparent)}
+.call.mem .ci{background:color-mix(in srgb,var(--violet) 15%, transparent); color:var(--violet)}
+.call.mem .ct{color:var(--violet)}
+.call.fix{background:var(--amber-soft); border-color:color-mix(in srgb,var(--amber) 30%, transparent)}
+.call.fix .ci{background:color-mix(in srgb,var(--amber) 18%, transparent); color:var(--amber)}
+.call.fix .ct{color:var(--amber)}
+
+/* table */
+.tablewrap{overflow:auto; margin:16px 0; border:1px solid var(--line); border-radius:12px}
+table{border-collapse:collapse; width:100%; font-size:13.3px; min-width:560px; background:var(--panel)}
+thead th{
+  background:var(--bg-soft); text-align:left; padding:10px 13px; font-size:11.5px; letter-spacing:.05em;
+  text-transform:uppercase; color:var(--ink-soft); font-weight:900; border-bottom:1px solid var(--line);
+  position:sticky; top:0; white-space:nowrap;
+}
+tbody td{padding:10px 13px; border-bottom:1px solid var(--line-soft); vertical-align:top; color:var(--ink-soft); line-height:1.65}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover td{background:var(--panel-2)}
+tbody td b{color:var(--ink)}
+td .mini-chip{display:inline-block; font-family:var(--mono); font-size:10.5px; font-weight:700; padding:1px 7px; border-radius:6px;
+  background:var(--brand-soft); color:var(--brand-ink); margin-right:5px}
+td.year{font-family:var(--mono); font-weight:800; color:var(--brand-ink); white-space:nowrap}
+
+/* key-value fact rows */
+.kv{display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:10px; margin:14px 0}
+.kv .item{background:var(--panel-2); border:1px solid var(--line-soft); border-left:3px solid var(--brand); border-radius:10px; padding:10px 12px}
+.kv .item .k{font-size:10.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-mute); font-weight:800}
+.kv .item .v{font-size:13.6px; font-weight:700; color:var(--ink); margin-top:2px; line-height:1.55}
+
+/* stat */
+.stats{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:16px 0}
+.stat{background:linear-gradient(160deg,var(--panel-2),var(--panel)); border:1px solid var(--line); border-radius:13px; padding:13px 14px; position:relative; overflow:hidden}
+.stat::after{content:""; position:absolute; inset:auto -20px -30px auto; width:70px; height:70px; border-radius:50%; background:color-mix(in srgb,var(--brand) 10%, transparent)}
+.stat .v{font-size:23px; font-weight:900; letter-spacing:-.02em; color:var(--ink); font-family:var(--mono)}
+.stat .k{font-size:11.5px; color:var(--ink-mute); font-weight:700; margin-top:2px; line-height:1.5}
+
+/* flashcards */
+.fc-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(168px,1fr)); gap:11px; margin:16px 0}
+.fc{perspective:900px; height:118px; cursor:pointer; background:none; border:0; padding:0; font:inherit; text-align:left}
+.fc-in{position:relative; width:100%; height:100%; transition:transform .5s cubic-bezier(.4,.1,.2,1); transform-style:preserve-3d}
+.fc.flipped .fc-in{transform:rotateY(180deg)}
+.fc-face{
+  position:absolute; inset:0; border-radius:12px; padding:11px 12px; display:flex; flex-direction:column; justify-content:center;
+  backface-visibility:hidden; border:1px solid var(--line); box-shadow:var(--shadow);
+  background:linear-gradient(155deg,var(--panel-2),var(--panel));
+}
+.fc-face .top{font-family:var(--mono); font-size:10px; font-weight:800; color:var(--brand); letter-spacing:.04em; margin-bottom:4px}
+.fc-face .mid{font-size:13.5px; font-weight:800; color:var(--ink); line-height:1.5}
+.fc-face .tiny{font-size:10.5px; color:var(--ink-mute); margin-top:4px; font-weight:600}
+.fc-back{transform:rotateY(180deg); background:linear-gradient(155deg,var(--brand-soft),var(--panel)); border-color:color-mix(in srgb,var(--brand) 30%, transparent)}
+.fc-back .mid{color:var(--brand-ink); font-size:13px}
+.fc:focus-visible{outline-offset:3px}
+.fc-hint{font-size:12px; color:var(--ink-mute); margin:6px 0 0}
+
+/* quiz */
+.quiz{margin-top:6px}
+.q{background:var(--panel-2); border:1px solid var(--line); border-radius:13px; padding:15px 16px; margin:12px 0}
+.q-h{display:flex; gap:10px; align-items:flex-start; font-size:14.4px; font-weight:700; color:var(--ink); line-height:1.7}
+.q-n{flex:0 0 auto; font-family:var(--mono); font-size:11px; font-weight:800; background:var(--brand-soft); color:var(--brand-ink);
+  padding:2px 7px; border-radius:6px; margin-top:3px}
+.opts{display:grid; gap:7px; margin-top:11px}
+.opt{
+  display:flex; gap:9px; align-items:flex-start; text-align:left; padding:9px 12px; border-radius:10px; cursor:pointer;
+  background:var(--panel); border:1px solid var(--line); color:var(--ink-soft); font:inherit; font-size:13.6px; line-height:1.6;
+  transition:.14s;
+}
+.opt:hover{border-color:color-mix(in srgb,var(--brand) 42%, var(--line)); color:var(--ink); transform:translateX(2px)}
+.opt .ol{flex:0 0 auto; width:19px;height:19px;border-radius:50%; border:1.6px solid var(--line); display:grid; place-items:center;
+  font-family:var(--mono); font-size:10.5px; font-weight:800; color:var(--ink-mute); margin-top:2px}
+.opt.correct{background:var(--green-soft); border-color:var(--green); color:var(--green); font-weight:700}
+.opt.correct .ol{background:var(--green); border-color:var(--green); color:#fff}
+.opt.wrong{background:var(--rose-soft); border-color:var(--rose); color:var(--rose)}
+.opt.wrong .ol{background:var(--rose); border-color:var(--rose); color:#fff}
+.opt[disabled]{cursor:default; transform:none}
+.exp{margin-top:10px; font-size:13px; line-height:1.75; color:var(--ink-soft); background:var(--panel);
+  border-left:3px solid var(--brand); border-radius:0 9px 9px 0; padding:9px 12px; display:none}
+.exp.show{display:block}
+.exp b{color:var(--brand-ink)}
+.quiz-bar{display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin:16px 0 4px;
+  background:var(--panel-2); border:1px solid var(--line); border-radius:12px; padding:11px 14px}
+.score{font-size:13.5px; font-weight:800; color:var(--ink)}
+.score b{font-family:var(--mono); color:var(--brand-ink); font-size:15px}
+.quiz-bar .note{font-size:12px; color:var(--ink-mute)}
+
+/* fact sheet */
+.facts{display:grid; gap:8px; margin:16px 0}
+.fact{display:grid; grid-template-columns:auto minmax(0,1fr); gap:12px; align-items:baseline;
+  background:var(--panel-2); border:1px solid var(--line-soft); border-radius:10px; padding:9px 12px; font-size:13.6px}
+.fact .tag{font-family:var(--mono); font-size:10.5px; font-weight:800; color:var(--brand-ink); background:var(--brand-soft);
+  padding:2px 7px; border-radius:6px; white-space:nowrap}
+.fact .txt{color:var(--ink-soft)}
+.fact .txt b{color:var(--ink)}
+
+/* next batch */
+.next{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:12px; margin-top:14px}
+.nextcard{background:var(--panel-2); border:1px dashed var(--line); border-radius:12px; padding:13px 15px}
+.nextcard .h{font-size:13px; font-weight:800; color:var(--ink); display:flex; gap:8px; align-items:center}
+.nextcard .h .n{font-family:var(--mono); font-size:10px; background:var(--bg-soft); border:1px solid var(--line); color:var(--ink-mute); padding:1px 6px; border-radius:5px}
+.nextcard p{font-size:12.3px; color:var(--ink-mute); margin:5px 0 0; line-height:1.65}
+
+/* misc */
+.toTop{position:fixed; right:20px; bottom:20px; width:42px;height:42px; border-radius:12px; display:grid; place-items:center;
+  background:var(--panel); border:1px solid var(--line); color:var(--ink-soft); cursor:pointer; box-shadow:var(--shadow-lg);
+  opacity:0; pointer-events:none; transition:.2s; z-index:50}
+.toTop.show{opacity:1; pointer-events:auto}
+.footer{max-width:var(--maxw); margin:0 auto; padding:0 20px 40px; color:var(--ink-mute); font-size:12px; line-height:1.8}
+.footer b{color:var(--ink-soft)}
+mark{background:color-mix(in srgb,var(--amber) 60%, transparent); color:var(--ink); border-radius:3px; padding:0 1px}
+.hidden{display:none !important}
+.noresult{display:none; padding:26px; text-align:center; color:var(--ink-mute); background:var(--panel); border:1px dashed var(--line); border-radius:var(--r); font-size:14px}
+.noresult.show{display:block}
+hr.sep{border:0; border-top:1px dashed var(--line); margin:22px 0}
+
+/* responsive */
+@media (max-width:1080px){
+  .shell{grid-template-columns:1fr; padding-top:18px}
+  .side{position:static; max-height:none; order:2; padding-right:0}
+  .main{order:1}
+  .toc{display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+}
+@media (max-width:720px){
+  .topbar-in{flex-wrap:wrap; gap:10px; padding:9px 14px}
+  .searchwrap{order:3; flex-basis:100%; max-width:none}
+  .shell{padding:14px 12px 70px; gap:18px}
+  .hero{padding:22px 18px}
+  .sec{padding:20px 16px}
+  .sec-head{flex-wrap:wrap}
+  .markdone{margin-left:0; order:3}
+  .brand-text .s{display:none}
+}
+@media print{
+  .topbar,.side,.toTop,.hero-cta,.markdone,.quiz-bar,.fc-hint,.noresult{display:none !important}
+  body{background:#fff; font-size:11.5pt}
+  .shell{display:block; padding:0}
+  .sec,.hero{box-shadow:none; border:1px solid #ccc; break-inside:avoid; page-break-inside:avoid; margin-bottom:10px}
+  .fc{height:auto} .fc-in{transform:none !important}
+  .fc-back{position:static; transform:none; display:block; margin-top:4px}
+  .fc-face{position:static; box-shadow:none; backface-visibility:visible}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-in">
+    <div class="brandmark">
+      <div class="logo">IE</div>
+      <div class="brand-text">
+        <div class="t">Indian Economy One Shot 2026</div>
+        <div class="s">PCS INSIGHTS · UPPCS 2026 / BPSC 72nd</div>
+      </div>
+    </div>
+    <span class="batch-pill">BATCH 5 / 9</span>
+    <div class="spacer"></div>
+    <div class="searchwrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+      <input id="search" type="search" placeholder="इस बैच में खोजें… (जैसे: stagflation, CPI, 4%)" autocomplete="off" aria-label="खोजें">
+      <span class="kbd">/</span>
+    </div>
+    <button class="tool" id="themeBtn" type="button" title="थीम बदलें (Shift + D)" aria-label="थीम बदलें">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      <span id="themeLabel">डार्क</span>
+    </button>
+    <button class="tool" id="printBtn" type="button" title="प्रिंट / PDF">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4v-7h16v7h-2M8 14h8v7H8z"/></svg>
+      PDF
+    </button>
+  </div>
+  <div class="progressline"><i id="scrollProg"></i></div>
+</div>
+
+<div class="shell">
+  <!-- ================= SIDEBAR ================= -->
+  <aside class="side">
+    <div class="side-card">
+      <div class="side-progress">
+        <div class="ring" id="ring" aria-hidden="true"><span id="ringTxt">0%</span></div>
+        <div class="lbl"><b id="doneCount">0 / 10 अध्याय</b> पढ़े गए के रूप में चिह्नित</div>
+      </div>
+    </div>
+    <div class="side-card">
+      <p class="side-h">बैच 5 · अनुक्रमणिका</p>
+      <nav aria-label="अनुक्रमणिका">
+        <ul class="toc" id="toc">
+          <li><a href="#s1"><span class="n">01</span><span>महँगाई क्या है?</span><span class="dot"></span></a></li>
+          <li><a href="#s2"><span class="n">02</span><span>तीव्रता के आधार पर प्रकार</span><span class="dot"></span></a></li>
+          <li><a href="#s3"><span class="n">03</span><span>महँगाई के कारण</span><span class="dot"></span></a></li>
+          <li><a href="#s4"><span class="n">04</span><span>खुली व दबी महँगाई</span><span class="dot"></span></a></li>
+          <li><a href="#s5"><span class="n">05</span><span>गैप व फिलिप्स कर्व</span><span class="dot"></span></a></li>
+          <li><a href="#s6"><span class="n">06</span><span>मूल्य सूचकांक</span><span class="dot"></span></a></li>
+          <li><a href="#s7"><span class="n">07</span><span>लक्ष्य व इंडेक्सेशन</span><span class="dot"></span></a></li>
+          <li><a href="#s8"><span class="n">08</span><span>फैक्ट शीट (रिवीजन)</span><span class="dot"></span></a></li>
+          <li><a href="#s9"><span class="n">09</span><span>फ्लैशकार्ड · शब्द</span><span class="dot"></span></a></li>
+          <li><a href="#s10"><span class="n">10</span><span>अभ्यास प्रश्न (14 MCQ)</span><span class="dot"></span></a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="side-card">
+      <p class="side-h">पूरी लेक्चर सीरीज़</p>
+      <ul class="chapterlist">
+        <li><span class="tag">01</span><span>मूल बातें · सतत विकास</span></li>
+        <li><span class="tag">02</span><span>योजना व पंचवर्षीय योजनाएँ</span></li>
+        <li><span class="tag">03</span><span>गरीबी व असमानता</span></li>
+        <li><span class="tag">04</span><span>राष्ट्रीय आय व GDP</span></li>
+        <li><span class="now">› बैच 5</span><span>महँगाई (Inflation)</span></li>
+        <li><span class="tag">06</span><span>बैंकिंग व RBI</span></li>
+        <li><span class="tag">07</span><span>बजट, कर व GST</span></li>
+        <li><span class="tag">08</span><span>कृषि, उद्योग, योजनाएँ</span></li>
+        <li><span class="tag">09</span><span>BoP · PYQ व MCQ सेट</span></li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- ================= MAIN ================= -->
+  <main class="main">
+    <section class="hero" id="top">
+      <div class="eyebrow">
+        <span class="chip brand">इंटरैक्टिव स्टडी मॉड्यूल</span>
+        <span class="chip green">बैच 5 / 9</span>
+        <span class="chip">हिंदी + English terms</span>
+        <span class="chip amber">परीक्षा-केंद्रित</span>
+      </div>
+      <h1>महँगाई — प्रकार, कारण, कोर व हेडलाइन, सूचकांक और लक्ष्य
+        <span class="sub">Inflation · Deflation · Disinflation · Reflation · Stagflation · Demand-pull vs Cost-push · CPI &amp; WPI · 4% ± 2% Target</span>
+      </h1>
+      <p>यह बैच वीडियो के <b>पाँचवें चैप्टर</b> का granular कंटेंट है — चार शब्दों का फ़र्क़, तीव्रता के पाँच स्तर, चार कारण, दो गैप, फिलिप्स कर्व, चारों सूचकांक और RBI का लक्ष्य। नीचे फैक्ट शीट, 13 फ्लैशकार्ड और 14 प्रश्नों का टेस्ट भी है।</p>
+      <div class="meta-grid">
+        <div class="meta"><div class="k">वीडियो</div><div class="v">3:28:12 · One Shot</div></div>
+        <div class="meta"><div class="k">चैनल</div><div class="v">PCS INSIGHTS</div></div>
+        <div class="meta"><div class="k">बैच की सीमा</div><div class="v">चैप्टर 5 (पूरा)</div></div>
+        <div class="meta"><div class="k">स्रोत</div><div class="v">Lucent · NCERT · Ghatna Chakra</div></div>
+      </div>
+      <div class="hero-cta">
+        <a class="btn primary" href="#s1">पढ़ना शुरू करें
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn ghost" href="#s8">फैक्ट शीट पर जाएँ</a>
+        <a class="btn ghost" href="#s10">सीधे टेस्ट दें</a>
+        <a class="btn ghost" href="batch-05-text.html" target="_blank" rel="noopener">पूरा टेक्स्ट (verbatim) ↗</a>
+      </div>
+    </section>
+
+    <div class="notice">
+      <!--LANGNOTE-->
+      <span class="ico">!</span>
+      <div><b>पारदर्शिता नोट:</b> यह मॉड्यूल वीडियो के <b>ऑटो-ट्रांसक्रिप्ट</b> पर आधारित है (हिंदी, ASR से)। जहाँ परिभाषा/आँकड़ा स्पष्ट रूप से गड़बड़ाया गया (जैसे “डिसइफ्लेशन” का उदाहरण, हाइपरइनफ्लेशन का 60%), वहाँ <span class="chip fix-chip" style="background:var(--amber-soft);color:var(--amber);border:1px solid var(--line)">सुधार</span> चिह्न से सही जानकारी दी गई है — परीक्षा में वही लिखें।
+      <!--LANGNOTE--></div>
+    </div>
+    <section class="sec" id="s1" data-sec="s1">
+      <div class="sec-head">
+        <div class="sec-num">01</div>
+        <h2>महँगाई क्या है?<span class="en">Inflation · deflation · disinflation · reflation</span></h2>
+        <button class="markdone" data-done="s1" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">यह चैप्टर <b>चार शब्दों के फ़र्क़</b> पर खड़ा है — inflation, deflation, disinflation, reflation। परीक्षा में इन्हीं चारों को आपस में उलट-पलट कर पूछा जाता है।</p>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">महँगाई (Inflation)</span>जब कीमतें <b>बढ़ती</b> जाएँ। लेक्चर का सीधा उदाहरण: पहले कोई चीज़ <b>₹100</b> की थी, अब <b>₹104</b> की हो गई — यानी महँगाई हो गई।</div>
+        </div>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>शब्द</th><th>कीमत का हाल</th><th>लेक्चर का उदाहरण</th></tr></thead>
+            <tbody>
+              <tr>
+                <td><b>Inflation</b><br><span class="mono">महँगाई</span></td>
+                <td>कीमतें <b>बढ़ रही हैं</b></td>
+                <td>₹100 → ₹104</td>
+              </tr>
+              <tr>
+                <td><b>Deflation</b><br><span class="mono">अपस्फीति</span></td>
+                <td>कीमतें <b>घट रही हैं</b></td>
+                <td>₹100 → ₹98</td>
+              </tr>
+              <tr>
+                <td><b>Disinflation</b><br><span class="mono">रफ़्तार घटना</span></td>
+                <td>महँगाई <b>हो रही है, पर उसकी रफ़्तार घट रही है</b></td>
+                <td>₹100 → ₹104 → ₹112 → ₹108 (दर घटी)</td>
+              </tr>
+              <tr>
+                <td><b>Reflation</b><br><span class="mono">पुनःस्फीति</span></td>
+                <td>सरकार/नीति की मदद से <b>माँग को फिर से ज़िंदा</b> करना</td>
+                <td>GST की दरें घटाई गईं ताकि लोग ज़्यादा खरीदें</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap — deflation बनाम disinflation</span><b>Deflation</b> में कीमतें <b>नीचे</b> जाती हैं (₹100 → ₹98)। <b>Disinflation</b> में कीमतें ऊपर ही जाती हैं, बस <b>बढ़ने की दर</b> धीमी हो जाती है। दोनों को एक समझना सबसे आम गलती है।</div>
+        </div>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">Reflation कब?</span>जब अर्थव्यवस्था सुस्त हो और सरकार चाहे कि लोग खर्च करें — कर घटाना, खर्च बढ़ाना, ब्याज दर घटाना। लेक्चर में यही उदाहरण दिया: “GST के रेट्स कट कर दिए, ताकि अर्थव्यवस्था रिवाइव हो और लोग ज़्यादा डिमांड करें।”</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s2" data-sec="s2">
+      <div class="sec-head">
+        <div class="sec-num">02</div>
+        <h2>तीव्रता के आधार पर प्रकार<span class="en">Creeping → walking → running → galloping → hyper</span></h2>
+        <button class="markdone" data-done="s2" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">महँगाई की <b>गति</b> देखकर नाम तय होता है — धीमी से लेकर बेकाबू तक।</p>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>प्रकार</th><th>दर (लेक्चर अनुसार)</th><th>मतलब</th></tr></thead>
+            <tbody>
+              <tr><td><b>क्रीपिंग (Creeping)</b></td><td>बहुत कम / माइल्ड</td><td>हल्की महँगाई — <b>आर्थिक वृद्धि के लिए ज़रूरी भी है</b></td></tr>
+              <tr><td><b>वॉकिंग (Walking)</b></td><td><b>3%–10%</b></td><td>चलती हुई महँगाई</td></tr>
+              <tr><td><b>रनिंग (Running)</b></td><td><b>10%–20%</b></td><td>₹100 की चीज़ ₹114 की हो जाए</td></tr>
+              <tr><td><b>गैलोपिंग (Galloping)</b></td><td><b>20%–30%</b></td><td>बहुत तेज़, दौड़ती हुई महँगाई</td></tr>
+              <tr><td><b>हाइपर (Hyper)</b></td><td>पूरी तरह बेकाबू</td><td>“इनफ्लेशन बिल्कुल आउट ऑफ कंट्रोल”</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">स्टैगफ्लेशन (Stagflation)</span>तीन चीज़ें एक साथ: <b>सुस्त वृद्धि (stagnant growth)</b> + <b>तेज़ महँगाई (high inflation)</b> + <b>ऊँची बेरोज़गारी (high unemployment)</b>।<br>“लोगों के पास पैसा भी नहीं, महँगाई भी हाई, और ग्रोथ भी रुकी हुई” — यही सबसे बुरा संयोजन है।</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap</span><b>Stagflation ≠ सिर्फ़ महँगाई।</b> इसमें तीनों शर्तें ज़रूरी हैं — growth stagnant, inflation high, unemployment high। एक भी छूटी तो उत्तर बदल जाएगा।</div>
+        </div>
+        <div class="call fix">
+          <span class="ci">✎</span>
+          <div><span class="ct">सुधार</span>लेक्चर में हाइपरइनफ्लेशन का उदाहरण बोलते समय आँकड़ा गड़बड़ा गया (“₹100 की चीज़ ₹10 की हो गई, 60%”)। मानक परिभाषा: <b>हाइपरइनफ्लेशन = महँगाई पूरी तरह नियंत्रण से बाहर</b> (बहुत तेज़, महीने-दर-महीने)। परीक्षा में “आउट ऑफ कंट्रोल” वाली परिभाषा ही लिखें।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s3" data-sec="s3">
+      <div class="sec-head">
+        <div class="sec-num">03</div>
+        <h2>महँगाई के कारण<span class="en">Demand-pull · cost-push · imported · structural · wage-price spiral</span></h2>
+        <button class="markdone" data-done="s3" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">डिमांड-पुल (Demand-pull)</span>माँग ज़्यादा हो जाने से कीमत बढ़ना।<br>लेक्चर का उदाहरण: कोविड के समय अचानक सबने <b>सैनिटाइज़र</b> खरीदना शुरू किया → माँग बढ़ी → कीमत बढ़ गई।</div>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">कॉस्ट-पुश (Cost-push)</span>उत्पादन की लागत बढ़ने से कीमत बढ़ना।<br>जैसे <b>सैलरी बढ़ गई</b> या <b>कच्चा माल महँगा</b> हो गया → लागत बढ़ी → फाइनल प्राइस भी बढ़ा।</div>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">इम्पोर्टेड (Imported)</span>बाहर से आने वाली चीज़ महँगी हो जाए।<br>उदाहरण: तेल पहले ₹100 का आ रहा था, अब ₹120 का — तो ट्रांसपोर्ट महँगा, और दूध-दही-सब्ज़ी सब महँगी।</div>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">स्ट्रक्चरल (Structural)</span>अर्थव्यवस्था की <b>संरचनात्मक समस्या</b> (जैसे आपूर्ति श्रृंखला की कमज़ोरी) से पैदा महँगाई।</div>
+        </div>
+        <div class="call mem">
+          <span class="ci">✦</span>
+          <div><span class="ct">वेज-प्राइस स्पाइरल (Wage-Price Spiral)</span>मज़दूर बोले “सैलरी बढ़ाओ” → सैलरी बढ़ी → लागत बढ़ी → बिस्किट ₹10 से ₹12 का हो गया → अब मज़दूर को फिर लगा कि महँगाई बढ़ गई, सैलरी बढ़ाओ → चक्र चलता रहता है। इसे ही <b>वेज-प्राइस स्पाइरल</b> कहते हैं।</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap — पहचान कैसे करें</span>अगर कहानी में <b>“लोग ज़्यादा खरीदने लगे”</b> है → demand-pull। अगर <b>“लागत/कच्चा माल/सैलरी बढ़ी”</b> है → cost-push। अगर <b>“बाहर से आया सामान महँगा हुआ”</b> है → imported।</div>
+        </div>
+      </div>
+    </section>
+    <section class="sec" id="s4" data-sec="s4">
+      <div class="sec-head">
+        <div class="sec-num">04</div>
+        <h2>खुली व दबी महँगाई<span class="en">Open vs suppressed inflation</span></h2>
+        <button class="markdone" data-done="s4" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <div class="kv">
+          <div class="item"><div class="k">खुली महँगाई (Open)</div><div class="v">कीमतें खुले बाज़ार में स्वतंत्र रूप से बढ़ती हैं — सरकार उन्हें रोक नहीं रही</div></div>
+          <div class="item"><div class="k">दबी महँगाई (Suppressed)</div><div class="v">महँगाई <b>है</b>, पर <b>कीमत नियंत्रण, राशनिंग व कालाबाज़ार</b> के कारण दिखती नहीं — “छिपा दी गई महँगाई”</div></div>
+        </div>
+        <p>लेक्चर की सीधी बात: “भाई महँगाई तो है, पर उसको कहीं ना कहीं ऐसा दिखाया जा रहा है कि वो महँगाई है ही नहीं।”</p>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">तीनों साथ क्यों आते हैं</span>सरकार कीमत तय कर देती है (<b>price control</b>) → चीज़ कम पड़ जाती है (<b>rationing</b>) → जो चाहिए वो ज़्यादा दाम पर बाहर मिलता है (<b>black market</b>)। इसलिए suppressed inflation का दूसरा नाम <b>“छिपी हुई महँगाई”</b> है — आँकड़े कम दिखाते हैं, असर वही रहता है।</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap</span>प्रश्न में अगर <b>“मूल्य नियंत्रण / राशन / कालाबाज़ार”</b> शब्द आएँ, तो उत्तर <b>suppressed inflation</b> है — open नहीं।</div>
+        </div>
+        <div class="stats">
+          <div class="stat"><div class="v">3</div><div class="k">संकेत — price control, rationing, black market</div></div>
+          <div class="stat"><div class="v">0</div><div class="k">आँकड़ों में दिखने वाली महँगाई (दबी हुई)</div></div>
+          <div class="stat"><div class="v">100%</div><div class="k">असर जेब पर वही</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s5" data-sec="s5">
+      <div class="sec-head">
+        <div class="sec-num">05</div>
+        <h2>गैप और फिलिप्स कर्व<span class="en">Inflationary gap · deflationary gap · Phillips curve</span></h2>
+        <button class="markdone" data-done="s5" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">मुद्रास्फीतिक अंतराल (Inflationary Gap)</span>पूर्ण रोज़गार (full employment) पर अर्थव्यवस्था <b>जितना कमा सकती थी उससे ज़्यादा</b> कमा लेती है।<br>लेक्चर का उदाहरण: क्षमता ₹100 की थी, कमाया ₹120 → ₹20 का अतिरिक्त = <b>inflationary gap</b>।</div>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">अपस्फीतिक अंतराल (Deflationary Gap)</span>पूर्ण रोज़गार पर क्षमता ₹100 की थी, पर कमाया सिर्फ़ <b>₹90</b> → ₹10 का घाटा = <b>deflationary gap</b>।</div>
+        </div>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>अंतराल</th><th>स्थिति</th><th>असर</th></tr></thead>
+            <tbody>
+              <tr><td><b>Inflationary gap</b></td><td>क्षमता से <b>ज़्यादा</b> उत्पादन/खर्च</td><td>कीमतें बढ़ती हैं</td></tr>
+              <tr><td><b>Deflationary gap</b></td><td>क्षमता से <b>कम</b> उत्पादन/खर्च</td><td>बेरोज़गारी व सुस्ती बढ़ती है</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">फिलिप्स कर्व (Phillips Curve)</span><b>अल्पकाल (short run)</b> में महँगाई और बेरोज़गारी के बीच <b>उलटा संबंध (inverse relationship)</b>।<br>महँगाई बढ़े → बेरोज़गारी घटे; बेरोज़गारी घटे → महँगाई बढ़े। “हाई इनफ्लेशन, लो अनएंप्लॉयमेंट।”</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap</span>फिलिप्स कर्व का संबंध <b>उलटा</b> है, सीधा नहीं — और यह <b>अल्पकाल</b> के लिए है। दीर्घकाल में यह संबंध नहीं माना जाता।</div>
+        </div>
+        <div class="call mem">
+          <span class="ci">✦</span>
+          <div><span class="ct">दोनों गैप एक लाइन में</span><b>Inflationary = ज़्यादा खर्च (₹120 vs ₹100)</b> · <b>Deflationary = कम खर्च (₹90 vs ₹100)</b>। बस तुलना ₹100 (क्षमता) से करनी है।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s6" data-sec="s6">
+      <div class="sec-head">
+        <div class="sec-num">06</div>
+        <h2>मूल्य सूचकांक<span class="en">CPI · WPI · PPI · GDP deflator</span></h2>
+        <button class="markdone" data-done="s6" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">महँगाई किसी एक नंबर से नहीं नापी जाती — अलग-अलग सूचकांक अलग-अलग स्तर की कीमतें देखते हैं।</p>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>सूचकांक</th><th>किस स्तर की कीमतें</th><th>किसे महँगाई लगती है</th></tr></thead>
+            <tbody>
+              <tr><td><b>CPI</b> (उपभोक्ता मूल्य सूचकांक)</td><td><b>खुदरा (retail)</b> — जो ग्राहक चुकाता है</td><td>आम उपभोक्ता</td></tr>
+              <tr><td><b>WPI</b> (थोक मूल्य सूचकांक)</td><td><b>थोक (wholesale)</b> स्तर</td><td>व्यापारी/उत्पादक</td></tr>
+              <tr><td><b>PPI</b> (उत्पादक मूल्य सूचकांक)</td><td><b>उत्पादक व उद्योग</b> स्तर</td><td>उत्पादक</td></tr>
+              <tr><td><b>GDP डिफ्लेटर</b></td><td>पूरी अर्थव्यवस्था</td><td>सब — पर सबसे चौड़ा माप</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 class="sub">CPI के प्रकार</h3>
+        <ul class="clean">
+          <li><b>CPI-ग्रामीण</b> · <b>CPI-शहरी</b> · <b>CPI-संयुक्त (combined)</b></li>
+          <li><b>CPI-कृषि श्रमिक (AL)</b> व <b>CPI-औद्योगिक श्रमिक (IW)</b> — इनका <b>आधार वर्ष बदला गया है</b>, यह करेंट अफेयर्स में पूछा जाता है।</li>
+        </ul>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">कौन-सा सबसे ज़रूरी</span><b>मौद्रिक नीति (RBI) मुख्यतः CPI-संयुक्त</b> को देखती है, क्योंकि वह आम आदमी की महँगाई दिखाता है। WPI की गणना वाणिज्य मंत्रालय करता है, CPI की सांख्यिकी मंत्रालय (MoSPI)।</div>
+        </div>
+        <div class="call fix">
+          <span class="ci">✎</span>
+          <div><span class="ct">सुधार / सटीकता</span>लेक्चर में CPI के कुछ रूपों को “inflation” कह दिया गया। ध्यान रखें — <b>CPI एक सूचकांक (index) है</b>, महँगाई उससे <b>निकाली</b> जाती है (CPI की वृद्धि दर = महँगाई)।</div>
+        </div>
+      </div>
+    </section>
+    <section class="sec" id="s7" data-sec="s7">
+      <div class="sec-head">
+        <div class="sec-num">07</div>
+        <h2>महँगाई लक्ष्य व इंडेक्सेशन<span class="en">Inflation targeting · indexation</span></h2>
+        <button class="markdone" data-done="s7" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">महँगाई लक्ष्यीकरण (Inflation Targeting)</span>थोड़ी महँगाई वृद्धि के लिए ज़रूरी है, इसलिए RBI एक <b>लक्ष्य</b> रखता है।<br><b>4% ± 2%</b> — यानी महँगाई <b>2% से 6%</b> की रेंज में रहनी चाहिए।</div>
+        </div>
+        <div class="stats">
+          <div class="stat"><div class="v">4%</div><div class="k">लक्ष्य महँगाई दर</div></div>
+          <div class="stat"><div class="v">±2%</div><div class="k">ऊपर-नीचे की छूट</div></div>
+          <div class="stat"><div class="v">2–6%</div><div class="k">स्वीकार्य रेंज</div></div>
+        </div>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">वीडियो के बाहर से, पर परीक्षा में आता है</span>यह लक्ष्य <b>RBI अधिनियम</b> में 2016 के संशोधन के बाद तय होता है; इसे सरकार RBI से सलाह करके तय करती है और <b>मौद्रिक नीति समिति (MPC)</b> — 6 सदस्य — इस पर निर्णय लेती है। लेक्चर में सिर्फ़ “RBI का टारगेट 4% ± 2%” बताया गया।</div>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">इंडेक्सेशन (Indexation)</span>“जैसे-जैसे महँगाई बढ़े, वैसे-वैसे सैलरी भी बढ़ती जाए।” इससे कर्मचारी की असली क्रय शक्ति बची रहती है — खासकर सरकारी कर्मचारियों के <b>DA (महँगाई भत्ता)</b> में यही तर्क है।</div>
+        </div>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>स्थिति</th><th>RBI आम तौर पर क्या करता है</th></tr></thead>
+            <tbody>
+              <tr><td>महँगाई 6% से ऊपर</td><td>ब्याज दरें बढ़ाता है (महँगाई पर लगाम)</td></tr>
+              <tr><td>महँगाई 2% से नीचे / सुस्ती</td><td>ब्याज दरें घटाता है (माँग बढ़ाने के लिए)</td></tr>
+              <tr><td>2–6% के बीच</td><td>“आराम की स्थिति” — संतुलन बनाए रखता है</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap</span>लक्ष्य <b>4%</b> है, “4 से 6” नहीं। ±2% का मतलब है <b>2% से 6%</b> की रेंज — प्रश्न में अक्सर “4–6%” लिखकर गलत विकल्प बनाया जाता है।</div>
+        </div>
+        <div class="call mem">
+          <span class="ci">✦</span>
+          <div><span class="ct">इस चैप्टर का सार एक लाइन में</span>महँगाई <b>बढ़ना</b> = inflation · <b>घटना</b> = deflation · <b>दर का घटना</b> = disinflation · <b>माँग जगाना</b> = reflation · <b>तीनों बुरे साथ</b> = stagflation।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s8" data-sec="s8">
+      <div class="sec-head">
+        <div class="sec-num">08</div>
+        <h2>फैक्ट शीट — अंतिम 10 मिनट का रिवीजन<span class="en">One-line fact sheet</span></h2>
+        <button class="markdone" data-done="s8" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p>पूरे चैप्टर के परीक्षा-योग्य तथ्य, एक-एक पंक्ति में। <b>प्रिंट/PDF</b> से रिवीजन शीट निकाल सकते हैं।</p>
+        <div class="facts" id="factsList">
+          <div class="fact"><span class="tag">Inflation</span><span class="txt">कीमतें बढ़ना — ₹100 → ₹104</span></div>
+          <div class="fact"><span class="tag">Deflation</span><span class="txt">कीमतें घटना — ₹100 → ₹98</span></div>
+          <div class="fact"><span class="tag">Disinflation</span><span class="txt">महँगाई है, पर <b>दर घट रही</b> है (104 → 112 → 108)</span></div>
+          <div class="fact"><span class="tag">Reflation</span><span class="txt">नीति से <b>माँग जगाना</b> — जैसे GST दरें घटाना</span></div>
+          <div class="fact"><span class="tag">Stagflation</span><span class="txt"><b>सुस्त वृद्धि + तेज़ महँगाई + ऊँची बेरोज़गारी</b> — तीनों साथ</span></div>
+          <div class="fact"><span class="tag">Creeping</span><span class="txt">माइल्ड महँगाई — <b>वृद्धि के लिए ज़रूरी</b></span></div>
+          <div class="fact"><span class="tag">Walking</span><span class="txt"><b>3%–10%</b></span></div>
+          <div class="fact"><span class="tag">Running</span><span class="txt"><b>10%–20%</b> — ₹100 की चीज़ ₹114</span></div>
+          <div class="fact"><span class="tag">Galloping</span><span class="txt"><b>20%–30%</b></span></div>
+          <div class="fact"><span class="tag">Hyper</span><span class="txt">पूरी तरह <b>आउट ऑफ कंट्रोल</b></span></div>
+          <div class="fact"><span class="tag">Demand-pull</span><span class="txt">माँग बढ़ने से — जैसे कोविड में सैनिटाइज़र</span></div>
+          <div class="fact"><span class="tag">Cost-push</span><span class="txt">लागत बढ़ने से — सैलरी/कच्चा माल महँगा</span></div>
+          <div class="fact"><span class="tag">Imported</span><span class="txt">बाहर का तेल ₹100 → ₹120 → सब महँगा</span></div>
+          <div class="fact"><span class="tag">Structural</span><span class="txt">अर्थव्यवस्था की संरचनात्मक समस्या से</span></div>
+          <div class="fact"><span class="tag">Spiral</span><span class="txt"><b>वेज-प्राइस स्पाइरल</b> — सैलरी → लागत → कीमत → फिर सैलरी</span></div>
+          <div class="fact"><span class="tag">Suppressed</span><span class="txt">price control + rationing + black market = <b>छिपी महँगाई</b></span></div>
+          <div class="fact"><span class="tag">Inflationary gap</span><span class="txt">क्षमता ₹100, उत्पादन ₹120 → <b>₹20 का अतिरिक्त</b></span></div>
+          <div class="fact"><span class="tag">Deflationary gap</span><span class="txt">क्षमता ₹100, उत्पादन ₹90 → <b>₹10 का घाटा</b></span></div>
+          <div class="fact"><span class="tag">Phillips curve</span><span class="txt">महँगाई व बेरोज़गारी में <b>उलटा संबंध</b> (अल्पकाल)</span></div>
+          <div class="fact"><span class="tag">CPI</span><span class="txt">खुदरा कीमतें — ग्रामीण, शहरी, संयुक्त, AL, IW</span></div>
+          <div class="fact"><span class="tag">WPI</span><span class="txt">थोक स्तर की कीमतें</span></div>
+          <div class="fact"><span class="tag">PPI</span><span class="txt">उत्पादक व उद्योग स्तर</span></div>
+          <div class="fact"><span class="tag">Deflator</span><span class="txt">(नाममात्र GDP ÷ वास्तविक GDP) × 100</span></div>
+          <div class="fact"><span class="tag">Core</span><span class="txt">खाद्य व ईंधन <b>हटाकर</b> निकाली महँगाई</span></div>
+          <div class="fact"><span class="tag">Headline</span><span class="txt">सभी वस्तुओं को मिलाकर कुल महँगाई</span></div>
+          <div class="fact"><span class="tag">Target</span><span class="txt"><b>4% ± 2%</b> → 2% से 6% की रेंज</span></div>
+          <div class="fact"><span class="tag">Indexation</span><span class="txt">महँगाई के हिसाब से सैलरी/DA बढ़ाना</span></div>
+          <div class="fact"><span class="tag">RBI</span><span class="txt">लक्ष्य से निकले तो ब्याज दरों से लगाम लगाता है</span></div>
+        </div>
+        <div class="hero-cta" style="margin-top:14px">
+          <button class="btn ghost" id="copyFacts" type="button">फैक्ट शीट कॉपी करें</button>
+          <a class="btn ghost" href="#s10">टेस्ट दें →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s9" data-sec="s9">
+      <div class="sec-head">
+        <div class="sec-num">09</div>
+        <h2>फ्लैशकार्ड — 12 शब्द, 12 उत्तर<span class="en">Flip cards · terms &amp; formulas</span></h2>
+        <button class="markdone" data-done="s9" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p>कार्ड पर क्लिक/टैप करें — पलटकर उत्तर दिखेगा। पहले खुद सोचें, फिर पलटें।</p>
+        <h3 class="sub">प्रकार व कारण</h3>
+        <div class="fc-grid" id="fcSdg"></div>
+        <h3 class="sub">सूचकांक व नीति</h3>
+        <div class="fc-grid" id="fcFact"></div>
+        <p class="fc-hint">कीबोर्ड: <span class="mono">Tab</span> से कार्ड चुनें, <span class="mono">Enter/Space</span> से पलटें।</p>
+      </div>
+    </section>
+
+    <section class="sec" id="s10" data-sec="s10">
+      <div class="sec-head">
+        <div class="sec-num">10</div>
+        <h2>अभ्यास प्रश्न — 14 MCQ<span class="en">Practice test with instant explanations</span></h2>
+        <button class="markdone" data-done="s10" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <div class="quiz-bar">
+          <span class="score">स्कोर: <b id="scoreVal">0</b> / <span id="qTotal">14</span></span>
+          <span class="note" id="quizNote">कोई विकल्प चुनें — तुरंत सही/गलत व व्याख्या दिखेगी।</span>
+          <span class="spacer" style="flex:1"></span>
+          <button class="btn ghost" id="resetQuiz" type="button" style="height:32px;font-size:12px">रीसेट</button>
+        </div>
+        <div class="quiz" id="quiz"></div>
+      </div>
+    </section>
+
+    <section class="sec" id="nextbatch">
+      <div class="sec-head">
+        <div class="sec-num">→</div>
+        <h2>अगला बैच<span class="en">What comes next in the series</span></h2>
+      </div>
+      <div class="sec-body">
+        <p>बैच 5 यहीं समाप्त — लेक्चर में इसके बाद “अब हम लोग करेंगे बैंकिंग हिस्ट्री इन इंडिया” कहकर नया चैप्टर शुरू होता है। <b>बैच 6 = बैंकिंग व RBI</b>।</p>
+        <div class="next">
+          <div class="nextcard"><div class="h"><span class="n">06</span>बैंकिंग का इतिहास</div><p>बैंक ऑफ हिंदुस्तान (1770) → प्रेसिडेंसी बैंक → अवध कमर्शियल → PNB → RBI 1935।</p></div>
+          <div class="nextcard"><div class="h"><span class="n">06</span>RBI व संस्थाएँ</div><p>1935, हिल्टन यंग कमीशन, 1949 राष्ट्रीयकरण, गवर्नर, NABARD, RRB, LIC, GIC, IRDA।</p></div>
+          <div class="nextcard"><div class="h"><span class="n">06</span>मौद्रिक नीति के औज़ार</div><p>CRR, SLR, रेपो, रिवर्स रेपो — हर एक का काम व अंतर।</p></div>
+          <div class="nextcard"><div class="h"><span class="n">06</span>बैंकिंग स्कीमें</div><p>बैंकिंग लोकपाल 1995, विभेदक ब्याज दर योजना 1972, प्राथमिकता क्षेत्र।</p></div>
+        </div>
+        <div class="call pointer" style="margin-top:16px">
+          <span class="ci">i</span>
+          <div><span class="ct">बैच निरंतरता</span>हर बैच में वही ढाँचा: <b>ग्रैनुलर नोट्स → फैक्ट शीट → फ्लैशकार्ड → MCQ</b>, और सीमा लेक्चर के चैप्टर-ब्रेक पर।</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="noresult" id="noresult">कोई परिणाम नहीं मिला — कोई दूसरा शब्द आज़माएँ (जैसे <b>stagflation</b>, <b>CPI</b>, <b>4%</b>)।</div>
+  </main>
+</div>
+
+<button class="toTop" id="toTop" type="button" aria-label="ऊपर जाएँ">
+  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+
+<footer class="footer">
+  <p><b>स्रोत:</b> “Indian Economy One Shot 2026 — Complete Indian Economy for UPPCS &amp; BPSC 72nd”, PCS INSIGHTS (UPPCS-BPSC), YouTube — <span class="mono">youtu.be/r2iOMMlSPIw</span> (3:28:12, प्रकाशित 09-11-2026)। बैच 5 = वीडियो का पाँचवाँ चैप्टर (महँगाई)।</p>
+  <p>यह अध्ययन-सामग्री वीडियो के ऑटो-ट्रांसक्रिप्ट से बनी है; जहाँ लेक्चर में परिभाषा/आँकड़ा गड़बड़ाया, वहाँ “सुधार” चिह्न से सही जानकारी दी गई है — परीक्षा में वही लिखें।</p>
+  <p style="margin-top:8px">बैच 5 / 9 · इंटरैक्टिव स्टडी मॉड्यूल · प्रगति इसी ब्राउज़र में सुरक्षित रहती है।</p>
+</footer>
+
+
+<script>
+(function(){
+  "use strict";
+  var $ = function(s,c){return (c||document).querySelector(s);};
+  var $$ = function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s));};
+  var LS = {
+    get:function(k,d){try{var v=localStorage.getItem(k);return v===null?d:JSON.parse(v);}catch(e){return d;}},
+    set:function(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
+  };
+
+  /* ---------- theme ---------- */
+  var themeBtn=$("#themeBtn"), themeLabel=$("#themeLabel");
+  function applyTheme(t){
+    document.documentElement.setAttribute("data-theme",t);
+    themeLabel.textContent = t==="dark" ? "लाइट" : "डार्क";
+    LS.set("ie-theme",t);
+  }
+  applyTheme(LS.get("ie-theme","light"));
+  themeBtn.addEventListener("click",function(){
+    applyTheme(document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark");
+  });
+
+  /* ---------- print ---------- */
+  $("#printBtn").addEventListener("click",function(){window.print();});
+
+  /* ---------- progress / mark done ---------- */
+  var marks=$$(".markdone"), done=LS.get("ie-done-b5",{});
+  var total=marks.length;
+  function refreshProgress(){
+    var n=0;
+    marks.forEach(function(b){
+      var id=b.getAttribute("data-done"), on=!!done[id];
+      b.setAttribute("aria-pressed",on?"true":"false");
+      if(on) n++;
+      var link=$('#toc a[href="#'+id+'"]');
+      if(link){link.classList.toggle("done",on);}
+    });
+    var pct=total?Math.round(n/total*100):0;
+    $("#ring").style.setProperty("--p",pct);
+    $("#ringTxt").textContent=pct+"%";
+    $("#doneCount").textContent=n+" / "+total+" अध्याय";
+  }
+  marks.forEach(function(b){
+    b.addEventListener("click",function(){
+      var id=b.getAttribute("data-done");
+      done[id]=!done[id];
+      LS.set("ie-done-b5",done);
+      refreshProgress();
+    });
+  });
+  refreshProgress();
+
+  /* ---------- scroll progress + to top ---------- */
+  var bar=$("#scrollProg"), toTop=$("#toTop");
+  function onScroll(){
+    var h=document.documentElement;
+    var max=(h.scrollHeight-h.clientHeight)||1;
+    bar.style.width=Math.min(100,(h.scrollTop/max)*100)+"%";
+    toTop.classList.toggle("show",h.scrollTop>700);
+  }
+  document.addEventListener("scroll",onScroll,{passive:true});
+  onScroll();
+  toTop.addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"});});
+
+  /* ---------- TOC active state ---------- */
+  var secs=$$("main .sec");
+  if("IntersectionObserver" in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          $$("#toc a").forEach(function(a){a.classList.remove("active");});
+          var a=$('#toc a[href="#'+en.target.id+'"]');
+          if(a){a.classList.add("active");}
+        }
+      });
+    },{rootMargin:"-88px 0px -66% 0px",threshold:0});
+    secs.forEach(function(s){io.observe(s);});
+  }
+
+  /* ---------- search ---------- */
+  var search=$("#search"), noresult=$("#noresult");
+  function clearMarks(root){
+    $$("mark",root).forEach(function(m){
+      var p=m.parentNode, t=document.createTextNode(m.textContent);
+      p.replaceChild(t,m); p.normalize();
+    });
+  }
+  function highlight(root,q){
+    var walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{
+      acceptNode:function(n){
+        if(!n.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        var p=n.parentNode;
+        if(!p) return NodeFilter.FILTER_REJECT;
+        var tag=p.nodeName;
+        if(tag==="SCRIPT"||tag==="STYLE"||tag==="MARK"||tag==="INPUT"||tag==="TEXTAREA") return NodeFilter.FILTER_REJECT;
+        return n.nodeValue.toLowerCase().indexOf(q)!==-1?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT;
+      }
+    });
+    var nodes=[], n;
+    while((n=walker.nextNode())){nodes.push(n);}
+    nodes.forEach(function(node){
+      var text=node.nodeValue, low=text.toLowerCase(), idx=low.indexOf(q);
+      if(idx===-1) return;
+      var frag=document.createDocumentFragment(), last=0;
+      while(idx!==-1){
+        frag.appendChild(document.createTextNode(text.slice(last,idx)));
+        var m=document.createElement("mark");
+        m.textContent=text.slice(idx,idx+q.length);
+        frag.appendChild(m);
+        last=idx+q.length;
+        idx=low.indexOf(q,last);
+      }
+      frag.appendChild(document.createTextNode(text.slice(last)));
+      node.parentNode.replaceChild(frag,node);
+    });
+  }
+  var searchTimer=null;
+  function runSearch(){
+    var q=(search.value||"").trim().toLowerCase();
+    secs.forEach(function(s){clearMarks(s);});
+    if(!q){
+      secs.forEach(function(s){s.classList.remove("hidden");});
+      noresult.classList.remove("show");
+      return;
+    }
+    var hits=0;
+    secs.forEach(function(s){
+      var match=(s.textContent||"").toLowerCase().indexOf(q)!==-1;
+      s.classList.toggle("hidden",!match);
+      if(match){hits++;highlight(s,q);}
+    });
+    noresult.classList.toggle("show",hits===0);
+  }
+  search.addEventListener("input",function(){
+    clearTimeout(searchTimer);
+    searchTimer=setTimeout(runSearch,140);
+  });
+  search.addEventListener("keydown",function(e){
+    if(e.key==="Escape"){search.value="";runSearch();search.blur();}
+  });
+
+  /* ---------- flashcards ---------- */
+  var sdg=[
+    ["Inflation","₹100 → ₹104","कीमतें बढ़ना","महँगाई"],
+    ["Deflation","₹100 → ₹98","कीमतें घटना","अपस्फीति"],
+    ["Disinflation","104 → 112 → 108","दर घट रही है, महँगाई बंद नहीं","महँगाई की रफ़्तार धीमी"],
+    ["Reflation","GST दरें घटाना","नीति से माँग जगाना","पुनःस्फीति"],
+    ["Stagflation","growth + inflation + unemployment","तीनों साथ","सबसे खराब संयोजन"],
+    ["Creeping","माइल्ड","वृद्धि के लिए ज़रूरी","सबसे हल्की"],
+    ["Suppressed","price control · rationing · black market","महँगाई छिपाई गई","दबी हुई महँगाई"]
+  ];
+  var facts=[
+    ["Walking","3%–10%","धीमी पर लगातार","चलती महँगाई"],
+    ["Running","10%–20%","₹100 → ₹114","दौड़ती महँगाई"],
+    ["Galloping","20%–30%","बहुत तेज़","सरपट महँगाई"],
+    ["Hyper","नियंत्रण से बाहर","सबसे खतरनाक","आउट ऑफ कंट्रोल"],
+    ["Demand-pull","माँग बढ़ी","सैनिटाइज़र, कोविड","कीमत बढ़ी"],
+    ["Cost-push","लागत बढ़ी","सैलरी/कच्चा माल","कीमत बढ़ी"],
+    ["Imported","बाहर से महँगा आया","तेल ₹100 → ₹120","सब महँगा"],
+    ["Wage-price spiral","सैलरी → लागत → कीमत → फिर सैलरी","चक्र","चलता रहता है"],
+    ["Inflationary gap","क्षमता ₹100, उत्पादन ₹120","₹20 अतिरिक्त","कीमतें बढ़ती हैं"],
+    ["Deflationary gap","क्षमता ₹100, उत्पादन ₹90","₹10 घाटा","बेरोज़गारी बढ़ती है"],
+    ["Phillips curve","महँगाई ↔ बेरोज़गारी","उलटा संबंध","अल्पकाल में"],
+    ["Core inflation","खाद्य + ईंधन हटाकर","असली महँगाई","अस्थिर वस्तुएँ छोड़ो"],
+    ["Target","4% ± 2%","2% से 6%","RBI का लक्ष्य"]
+  ];
+  function cardHTML(top,mid,tiny,backMid){
+    return '<div class="fc-in">'+
+      '<div class="fc-face"><div class="top">'+top+'</div><div class="mid">'+mid+'</div><div class="tiny">'+tiny+'</div></div>'+
+      '<div class="fc-face fc-back"><div class="top">उत्तर</div><div class="mid">'+backMid+'</div></div>'+
+    '</div>';
+  }
+  function buildCards(container,arr){
+    container.innerHTML=arr.map(function(r){
+      var b=document.createElement("button");
+      b.type="button"; b.className="fc"; b.setAttribute("aria-label","कार्ड "+r[0]+" — पलटें");
+      b.innerHTML=cardHTML(r[0],r[1],r[2],r[3]);
+      b.addEventListener("click",function(){b.classList.toggle("flipped");});
+      return b.outerHTML;
+    }).join("");
+  }
+  buildCards($("#fcSdg"),sdg);
+  buildCards($("#fcFact"),facts);
+
+  /* ---------- quiz ---------- */
+  var QUIZ=[
+    {q:"“महँगाई” (inflation) का सबसे सही उदाहरण कौन-सा है?",
+     o:["₹100 की चीज़ ₹98 की हो गई","₹100 की चीज़ ₹104 की हो गई","₹100 की चीज़ ₹100 ही रही","₹100 की चीज़ बाज़ार से गायब हो गई"],a:1,
+     e:"महँगाई = कीमतों का बढ़ना। ₹100 → ₹104 महँगाई है; ₹100 → ₹98 अपस्फीति (deflation)।"},
+    {q:"Deflation (अपस्फीति) का अर्थ क्या है?",
+     o:["कीमतें बढ़ना","कीमतें घटना","महँगाई की दर घटना","बेरोज़गारी बढ़ना"],a:1,
+     e:"Deflation में कीमतें नीचे जाती हैं — जैसे ₹100 की चीज़ ₹98 की हो जाए।"},
+    {q:"Disinflation और Deflation में मुख्य अंतर क्या है?",
+     o:["कोई अंतर नहीं","Disinflation में कीमतें बढ़ती रहती हैं पर दर घटती है; Deflation में कीमतें घटती हैं","Disinflation सिर्फ़ खाद्य पदार्थों में होती है","Deflation केवल युद्ध के समय होती है"],a:1,
+     e:"Disinflation: ₹100 → ₹104 → ₹112 → ₹108 — महँगाई चल रही है, बस रफ़्तार कम हुई। Deflation में कीमतें सीधे गिरती हैं (₹100 → ₹98)।"},
+    {q:"सरकार GST की दरें घटाकर लोगों की माँग बढ़ाना चाहती है — यह किसकी मिसाल है?",
+     o:["Deflation","Reflation","Stagflation","Hyperinflation"],a:1,
+     e:"नीति के ज़रिए माँग को फिर से ज़िंदा करना = reflation। लेक्चर में यही GST दरें घटाने का उदाहरण दिया गया।"},
+    {q:"स्टैगफ्लेशन (stagflation) की तीनों शर्तें कौन-सी हैं?",
+     o:["तेज़ वृद्धि + कम महँगाई + कम बेरोज़गारी","सुस्त वृद्धि + तेज़ महँगाई + ऊँची बेरोज़गारी","कीमतें घटना + वृद्धि + रोज़गार","केवल तेज़ महँगाई"],a:1,
+     e:"Stagflation = stagnant growth + high inflation + high unemployment। तीनों साथ होने पर ही यह शब्द लागू होता है।"},
+    {q:"क्रीपिंग इन्फ्लेशन (creeping inflation) के बारे में क्या सही है?",
+     o:["यह सबसे खतरनाक महँगाई है","यह हल्की महँगाई है और आर्थिक वृद्धि के लिए ज़रूरी मानी जाती है","इसमें कीमतें घटती हैं","यह केवल युद्धकाल में होती है"],a:1,
+     e:"Creeping = माइल्ड/हल्की महँगाई। लेक्चर में साफ़ कहा गया: “थोड़ी बहुत इनफ्लेशन इकोनॉमिक ग्रोथ के लिए नेसेसरी है।”"},
+    {q:"रनिंग इन्फ्लेशन (running inflation) की दर आम तौर पर कितनी मानी जाती है?",
+     o:["0–3%","3–10%","10–20%","20–30%"],a:2,
+     e:"Walking 3–10%, Running 10–20%, Galloping 20–30%। लेक्चर का उदाहरण: ₹100 की चीज़ ₹114 हो जाए — यह running है।"},
+    {q:"कोर इन्फ्लेशन (core inflation) में किन चीज़ों को छोड़ दिया जाता है?",
+     o:["खाद्य पदार्थ व ईंधन","कपड़े व मकान","शिक्षा व स्वास्थ्य","केवल ईंधन"],a:0,
+     e:"खाद्य व ईंधन की कीमतें बहुत अस्थिर होती हैं, इसलिए उन्हें हटाकर निकाली गई महँगाई = core inflation। सब कुछ मिलाकर = headline inflation।"},
+    {q:"कोविड के समय अचानक सैनिटाइज़र की माँग बढ़ने से कीमतें बढ़ीं — यह किस प्रकार की महँगाई है?",
+     o:["Cost-push","Demand-pull","Imported","Structural"],a:1,
+     e:"माँग बढ़ने से कीमत बढ़ी = demand-pull inflation। इसमें कारण माँग है, लागत नहीं।"},
+    {q:"कच्चा माल या सैलरी महँगी होने से पैदा होने वाली महँगाई कौन-सी है?",
+     o:["Demand-pull","Cost-push","Imported","Suppressed"],a:1,
+     e:"उत्पादन की लागत बढ़ने से कीमत बढ़ी = cost-push inflation। अगर सैलरी → लागत → कीमत → फिर सैलरी का चक्र बने तो वह वेज-प्राइस स्पाइरल कहलाता है।"},
+    {q:"बाहर से आने वाला तेल ₹100 से ₹120 का हो जाए और उससे दूध-सब्ज़ी सब महँगी हो जाएँ — यह क्या है?",
+     o:["Imported inflation","Demand-pull inflation","Deflation","Disinflation"],a:0,
+     e:"आयातित वस्तु की कीमत बढ़ने से फैलने वाली महँगाई = imported inflation। भारत में कच्चे तेल का उदाहरण सबसे आम है।"},
+    {q:"“महँगाई है, पर मूल्य नियंत्रण, राशनिंग और कालाबाज़ार की वजह से दिखती नहीं” — इसे क्या कहते हैं?",
+     o:["Open inflation","Suppressed inflation","Creeping inflation","Structural inflation"],a:1,
+     e:"Suppressed (दबी हुई) महँगाई — तीन संकेत: price control, rationing, black market। आँकड़ों में महँगाई कम दिखती है, असर वही रहता है।"},
+    {q:"फिलिप्स कर्व (Phillips curve) किस संबंध को दिखाता है?",
+     o:["महँगाई व बेरोज़गारी के बीच सीधा संबंध","महँगाई व बेरोज़गारी के बीच उलटा संबंध (अल्पकाल)","GDP व जनसंख्या का संबंध","कर व सब्सिडी का संबंध"],a:1,
+     e:"फिलिप्स कर्व अल्पकाल में महँगाई व बेरोज़गारी का उलटा संबंध दिखाता है — महँगाई बढ़े तो बेरोज़गारी घटे।"},
+    {q:"भारत में महँगाई का लक्ष्य (inflation target) क्या है?",
+     o:["4% ± 2% (यानी 2% से 6%)","6% ± 2% (4% से 8%)","2% ± 1% (1% से 3%)","कोई तय लक्ष्य नहीं"],a:0,
+     e:"लक्ष्य 4% है, ±2% की छूट के साथ — यानी 2% से 6% की रेंज। “4 से 6%” लिखा विकल्प जाल है।"}
+  ];
+  var quizEl=$("#quiz"), scoreVal=$("#scoreVal"), qTotalEl=$("#qTotal"), quizNote=$("#quizNote");
+  var answered={}, score=0;
+  qTotalEl.textContent=QUIZ.length;
+  function renderQuiz(){
+    answered={}; score=0; scoreVal.textContent="0";
+    quizNote.textContent="कोई विकल्प चुनें — तुरंत सही/गलत व व्याख्या दिखेगी।";
+    quizEl.innerHTML="";
+    QUIZ.forEach(function(item,qi){
+      var wrap=document.createElement("div"); wrap.className="q";
+      var head='<div class="q-h"><span class="q-n">Q'+(qi+1)+'</span><span>'+item.q+'</span></div>';
+      var opts='<div class="opts">'+item.o.map(function(t,oi){
+        return '<button class="opt" type="button" data-q="'+qi+'" data-o="'+oi+'"><span class="ol">'+
+          String.fromCharCode(65+oi)+'</span><span>'+t+'</span></button>';
+      }).join("")+'</div>';
+      var exp='<div class="exp" id="exp-'+qi+'"><b>व्याख्या:</b> '+item.e+'</div>';
+      wrap.innerHTML=head+opts+exp;
+      quizEl.appendChild(wrap);
+    });
+  }
+  quizEl.addEventListener("click",function(e){
+    var btn=e.target.closest(".opt");
+    if(!btn||btn.disabled) return;
+    var qi=+btn.getAttribute("data-q"), oi=+btn.getAttribute("data-o");
+    if(answered[qi]!==undefined) return;
+    answered[qi]=oi;
+    var correct=QUIZ[qi].a;
+    $$('.opt[data-q="'+qi+'"]',quizEl).forEach(function(b){
+      b.disabled=true;
+      var i=+b.getAttribute("data-o");
+      if(i===correct){b.classList.add("correct");}
+      if(i===oi&&oi!==correct){b.classList.add("wrong");}
+    });
+    $("#exp-"+qi).classList.add("show");
+    if(oi===correct){score++;}
+    scoreVal.textContent=String(score);
+    var n=Object.keys(answered).length;
+    if(n===QUIZ.length){
+      var pct=Math.round(score/QUIZ.length*100);
+      quizNote.textContent = pct>=80 ? "शानदार — "+pct+"%। इस बैच पर पकड़ मज़बूत है।" :
+        pct>=50 ? "ठीक — "+pct+"%। फैक्ट शीट एक बार दोहरा लें।" :
+        "बेहतर होगा — "+pct+"%। सेक्शन 8 (सतत विकास) दोबारा पढ़ें, फिर रीसेट करके दोहराएँ।";
+    }
+  });
+  $("#resetQuiz").addEventListener("click",renderQuiz);
+  renderQuiz();
+
+  /* ---------- copy fact sheet ---------- */
+  $("#copyFacts").addEventListener("click",function(){
+    var btn=this, old=btn.textContent;
+    var text=$$("#factsList .fact").map(function(f){
+      return "• "+$(".tag",f).textContent+" — "+$(".txt",f).textContent;
+    }).join("\n");
+    function done(ok){btn.textContent=ok?"कॉपी हो गया ✓":"कॉपी नहीं हो सका";setTimeout(function(){btn.textContent=old;},1600);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){done(true);},function(){done(false);});
+    }else{
+      var ta=document.createElement("textarea"); ta.value=text; document.body.appendChild(ta);
+      ta.select(); try{document.execCommand("copy");done(true);}catch(e){done(false);}
+      document.body.removeChild(ta);
+    }
+  });
+
+  /* ---------- keyboard shortcuts ---------- */
+  document.addEventListener("keydown",function(e){
+    var tag=(e.target.tagName||"").toLowerCase();
+    var typing = tag==="input"||tag==="textarea"||e.target.isContentEditable;
+    if(typing) return;
+    if(e.key==="/"){
+      e.preventDefault(); search.focus(); search.select();
+    }else if(e.key==="D"&&e.shiftKey){
+      applyTheme(document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark");
+    }
+  });
+})();
+</script>
+</body>
+</html>

@@ -9,18 +9,18 @@
 | 2 | योजना (Planning) · स्वतंत्रता-पूर्व योजनाएँ · पंचवर्षीय योजनाएँ 1–12 · प्लान हॉलिडे · रोलिंग प्लान · योजना आयोग · NDC · नीति आयोग | `batch-02-interactive.html`, `batch-02-text.html`, **`batch-02-interactive-hinglish.html`**, **`batch-02-text-hinglish.html`** | ✅ तैयार |
 | 3 | गरीबी · असमानता (लॉरेंज/गिनी, अमर्त्य सेन) · आकलन समितियाँ (दांडेकर-रथ → रंगराजन) · MPI · NFSA · मनरेगा · कल्याण योजनाएँ | `batch-03-interactive.html`, `batch-03-text.html`, **`batch-03-interactive-hinglish.html`**, **`batch-03-text-hinglish.html`** | ✅ तैयार |
 | 4 | राष्ट्रीय आय · GDP/GNP/NDP/NNP · NFIA · फैक्टर लागत vs बाज़ार कीमत · GDP डिफ्लेटर · ग्रीन GDP · तीन मापन विधियाँ | `batch-04-interactive.html`, `batch-04-text.html`, **`batch-04-interactive-hinglish.html`**, **`batch-04-text-hinglish.html`** | ✅ तैयार |
-| 5 | महँगाई (Inflation) — प्रकार, कारण, कोर व हेडलाइन | — | अगला |
-| 6 | बैंकिंग, RBI, मौद्रिक नीति | — | प्रस्तावित |
+| 5 | महँगाई — inflation/deflation/disinflation/reflation · stagflation · तीव्रता के स्तर · demand-pull/cost-push/imported · suppressed · गैप व फिलिप्स कर्व · CPI/WPI/PPI · 4% ± 2% लक्ष्य | `batch-05-interactive.html`, `batch-05-text.html`, **`batch-05-interactive-hinglish.html`**, **`batch-05-text-hinglish.html`** | ✅ तैयार |
+| 6 | बैंकिंग का इतिहास, RBI, RRB/NABARD, CRR-SLR-रेपो | — | अगला |
 | 7 | बजट, आर्थिक सर्वे, कर व GST | — | प्रस्तावित |
 | 8 | कृषि, उद्योग, अवसंरचना, सरकारी योजनाएँ | — | प्रस्तावित |
 | 9 | विदेशी व्यापार / BoP, अंतर्राष्ट्रीय संस्थाएँ, PYQ + MCQ सेट | — | प्रस्तावित |
 
 ## दो लिपियाँ (two scripts)
 
-| Edition | बैच 1 | बैच 2 | बैच 3 | बैच 4 |
-|---|---|---|---|---|
-| **City Hinglish (Roman script only)** — मुख्य संस्करण | `batch-01-interactive-hinglish.html` · `batch-01-text-hinglish.html` | `batch-02-interactive-hinglish.html` · `batch-02-text-hinglish.html` | `batch-03-interactive-hinglish.html` · `batch-03-text-hinglish.html` | `batch-04-interactive-hinglish.html` · `batch-04-text-hinglish.html` |
-| Devanagari (मूल) | `batch-01-interactive.html` · `batch-01-text.html` | `batch-02-interactive.html` · `batch-02-text.html` | `batch-03-interactive.html` · `batch-03-text.html` | `batch-04-interactive.html` · `batch-04-text.html` |
+| Edition | बैच 1 | बैच 2 | बैच 3 | बैच 4 | बैच 5 |
+|---|---|---|---|---|---|
+| **City Hinglish (Roman script only)** — मुख्य संस्करण | `batch-01-interactive-hinglish.html` · `batch-01-text-hinglish.html` | `batch-02-interactive-hinglish.html` · `batch-02-text-hinglish.html` | `batch-03-interactive-hinglish.html` · `batch-03-text-hinglish.html` | `batch-04-interactive-hinglish.html` · `batch-04-text-hinglish.html` | `batch-05-interactive-hinglish.html` · `batch-05-text-hinglish.html` |
+| Devanagari (मूल) | `batch-01-interactive.html` · `batch-01-text.html` | `batch-02-interactive.html` · `batch-02-text.html` | `batch-03-interactive.html` · `batch-03-text.html` | `batch-04-interactive.html` · `batch-04-text.html` | `batch-05-interactive.html` · `batch-05-text.html` |
 
 Hinglish edition में technical English terms English में हैं (economy, productivity, sustainable development), बाकी बोलचाल "dekho…, hai na?…, matlab…" वाली city-Hinglish में — पूरा फ़ाइल Roman script में, एक भी Devanagari अक्षर नहीं। बैच 2 से आगे के सभी बैच इसी Hinglish फ़ॉर्मेट में बनेंगे।
 
@@ -54,6 +54,13 @@ Hinglish edition में technical English terms English में हैं (
 - “सुधार” चिह्न वहाँ जहाँ लेक्चर में सूत्र/क्रम उलझा (जैसे NNP = GNP − depreciation)
 
 **`batch-04-text-hinglish.html`** — बैच 4 का साफ़ किया हुआ टेक्स्ट (22 पैराग्राफ, 6 विषय-शीर्षक)।
+
+**`batch-05-interactive-hinglish.html`** — बैच 5 (महँगाई) का Hinglish इंटरैक्टिव मॉड्यूल:
+- 7 कंटेंट सेक्शन: चार बुनियादी शब्दों की तुलना-तालिका · तीव्रता के पाँच स्तर (creeping → hyper) + stagflation · चार कारण (demand-pull, cost-push, imported, structural) + wage-price spiral · open vs suppressed · inflationary/deflationary gap + Phillips curve · CPI/WPI/PPI/deflator · 4% ± 2% लक्ष्य व indexation
+- 28-पंक्ति फैक्ट शीट, 20 फ्लैशकार्ड, 14 MCQ — तुरंत व्याख्या व स्कोर
+- “सुधार” चिह्न वहाँ जहाँ लेक्चर में परिभाषा गड़बड़ी (जैसे deflation vs disinflation, hyperinflation का आँकड़ा)
+
+**`batch-05-text-hinglish.html`** — बैच 5 का साफ़ किया हुआ टेक्स्ट (22 पैराग्राफ, 5 विषय-शीर्षक)।
 
 ## नोट
 टेक्स्ट YouTube ऑटो-कैप्शन से बना है — कहीं-कहीं नाम/संख्या बिगड़ी है। इंटरैक्टिव फ़ाइल में ऐसी जगहों पर **सुधार** चिह्न के साथ सही तथ्य दिए गए हैं (जैसे EKC = उल्टा-U; “गडगिल” = गाडगिल, “पीसी महालेबिस” = महालनोबिस; कुल वार्षिक योजनाएँ = 5, न कि 6; जवाहर रोज़गार योजना 1989, न कि 1999)। आँकड़े (18% / 45%) लेक्चर के अनुसार हैं; परीक्षा से पहले नवीनतम आधिकारिक स्रोत देखें।
