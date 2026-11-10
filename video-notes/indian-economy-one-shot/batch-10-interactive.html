@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+<html lang="hi" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Indian Economy One Shot 2026 — Batch 10: External Sector, International Institutions &amp; Population</title>
+<meta name="description" content="इंटरैक्टिव स्टडी मॉड्यूल — Indian Economy One Shot 2026 (PCS INSIGHTS), Batch 10: BoP, विनिमय दर, FEMA 1999, Bretton Woods, IMF–World Bank, NDB/ADB/AIIB/BIS, WTO, जनगणना 1872–2011, साक्षरता, लिंगानुपात, समितियाँ व PYQ।">
+<style>
+/* ============ design tokens ============ */
+:root{
+  --bg:#f4f6fb; --bg-soft:#eef1f8; --panel:#ffffff; --panel-2:#fbfcff;
+  --ink:#131a2b; --ink-soft:#46506b; --ink-mute:#727d99;
+  --line:#dfe4f0; --line-soft:#eaeef8;
+  --brand:#3d3bd6; --brand-ink:#2b28b0; --brand-soft:#ecebff;
+  --teal:#0d7d76; --teal-soft:#e2f5f3;
+  --amber:#a86400; --amber-soft:#fff3d9;
+  --rose:#b3261e; --rose-soft:#ffe8e6;
+  --green:#166b3c; --green-soft:#e2f6ea;
+  --violet:#6d28d9; --violet-soft:#f1e9ff;
+  --shadow:0 1px 2px rgba(16,24,40,.06),0 8px 24px -12px rgba(16,24,40,.18);
+  --shadow-lg:0 24px 60px -28px rgba(16,24,40,.35);
+  --r-sm:8px; --r:14px; --r-lg:20px;
+  --maxw:1500px;
+  --font:"Noto Sans Devanagari","Nirmala UI","Mangal","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  --mono:"SFMono-Regular",ui-monospace,"Cascadia Mono",Menlo,Consolas,monospace;
+}
+html[data-theme="dark"]{
+  --bg:#0b0f19; --bg-soft:#0f1524; --panel:#141b2b; --panel-2:#111827;
+  --ink:#e8ecf7; --ink-soft:#b3bdd4; --ink-mute:#8492b0;
+  --line:#26304a; --line-soft:#1d2539;
+  --brand:#9d9bff; --brand-ink:#b9b7ff; --brand-soft:#1d1f45;
+  --teal:#5fd6cb; --teal-soft:#0e2f2d;
+  --amber:#f5c264; --amber-soft:#33260c;
+  --rose:#ff8f86; --rose-soft:#3a1613;
+  --green:#68d996; --green-soft:#0f2c1d;
+  --violet:#c3a6ff; --violet-soft:#241a3d;
+  --shadow:0 1px 2px rgba(0,0,0,.5),0 10px 30px -16px rgba(0,0,0,.8);
+  --shadow-lg:0 30px 70px -30px rgba(0,0,0,.9);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth; scroll-padding-top:82px}
+body{
+  margin:0; background:var(--bg); color:var(--ink); font-family:var(--font);
+  font-size:16px; line-height:1.85; -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+h1,h2,h3,h4{line-height:1.45; margin:0; font-weight:800; letter-spacing:-.01em}
+p{margin:.55em 0}
+a{color:var(--brand); text-underline-offset:3px}
+b,strong{font-weight:800; color:var(--ink)}
+code,.mono{font-family:var(--mono); font-size:.9em}
+::selection{background:var(--brand); color:#fff}
+:focus-visible{outline:2.5px solid var(--brand); outline-offset:2px; border-radius:6px}
+
+/* ============ top bar ============ */
+.topbar{
+  position:sticky; top:0; z-index:60; background:color-mix(in srgb, var(--panel) 88%, transparent);
+  backdrop-filter:blur(14px) saturate(1.4); border-bottom:1px solid var(--line);
+}
+.topbar-in{max-width:var(--maxw); margin:0 auto; padding:10px 20px; display:flex; gap:16px; align-items:center}
+.brandmark{display:flex; align-items:center; gap:11px; min-width:0}
+.logo{
+  width:38px;height:38px;border-radius:11px; flex:0 0 auto; display:grid; place-items:center;
+  background:linear-gradient(145deg,var(--brand),#7f5bff 55%,var(--teal)); color:#fff;
+  font-weight:900; font-size:15px; letter-spacing:-.5px; box-shadow:var(--shadow);
+}
+.brand-text{min-width:0}
+.brand-text .t{font-weight:800; font-size:14.5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.brand-text .s{font-size:11.5px; color:var(--ink-mute); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.batch-pill{
+  font-size:11.5px; font-weight:800; letter-spacing:.04em; padding:4px 10px; border-radius:999px;
+  background:var(--brand-soft); color:var(--brand-ink); border:1px solid color-mix(in srgb,var(--brand) 28%, transparent);
+  white-space:nowrap;
+}
+.spacer{flex:1 1 auto}
+.tool{
+  display:inline-flex; align-items:center; gap:7px; height:36px; padding:0 12px; cursor:pointer;
+  background:var(--panel); color:var(--ink-soft); border:1px solid var(--line); border-radius:10px;
+  font:inherit; font-size:12.5px; font-weight:700; white-space:nowrap;
+  transition:transform .12s ease, border-color .12s, color .12s, background .12s;
+}
+.tool:hover{color:var(--ink); border-color:color-mix(in srgb,var(--brand) 45%, var(--line)); transform:translateY(-1px)}
+.tool:active{transform:translateY(0)}
+.tool svg{width:15px;height:15px;flex:0 0 auto}
+.searchwrap{position:relative; flex:1 1 300px; max-width:430px}
+.searchwrap svg{position:absolute; left:11px; top:50%; transform:translateY(-50%); width:16px;height:16px; color:var(--ink-mute)}
+#search{
+  width:100%; height:38px; padding:0 62px 0 34px; border-radius:10px; border:1px solid var(--line);
+  background:var(--panel-2); color:var(--ink); font:inherit; font-size:13.5px;
+}
+#search::placeholder{color:var(--ink-mute)}
+#search:focus{border-color:var(--brand); outline:none; box-shadow:0 0 0 3px var(--brand-soft)}
+.kbd{
+  position:absolute; right:9px; top:50%; transform:translateY(-50%); font-family:var(--mono); font-size:10.5px;
+  color:var(--ink-mute); border:1px solid var(--line); border-bottom-width:2px; border-radius:5px; padding:1px 5px;
+  background:var(--panel); pointer-events:none;
+}
+.progressline{height:3px; background:var(--line-soft); overflow:hidden}
+.progressline > i{display:block; height:100%; width:0; background:linear-gradient(90deg,var(--brand),var(--teal)); transition:width .3s ease}
+
+/* ============ shell ============ */
+.shell{max-width:var(--maxw); margin:0 auto; padding:26px 20px 90px; display:grid; grid-template-columns:288px minmax(0,1fr); gap:30px; align-items:start}
+
+/* ============ sidebar ============ */
+.side{position:sticky; top:78px; max-height:calc(100vh - 100px); overflow:auto; padding-right:6px}
+.side::-webkit-scrollbar{width:8px}
+.side::-webkit-scrollbar-thumb{background:var(--line); border-radius:8px}
+.side-card{background:var(--panel); border:1px solid var(--line); border-radius:var(--r); padding:14px; box-shadow:var(--shadow); margin-bottom:14px}
+.side-h{font-size:10.5px; text-transform:uppercase; letter-spacing:.11em; color:var(--ink-mute); font-weight:800; margin:0 0 9px 4px}
+.toc{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:2px}
+.toc a{
+  display:flex; gap:9px; align-items:flex-start; text-decoration:none; color:var(--ink-soft);
+  font-size:13px; font-weight:600; padding:7px 9px; border-radius:9px; line-height:1.5;
+  border-left:2.5px solid transparent; transition:background .12s,color .12s,border-color .12s;
+}
+.toc a:hover{background:var(--bg-soft); color:var(--ink)}
+.toc a.active{background:var(--brand-soft); color:var(--brand-ink); border-left-color:var(--brand); font-weight:800}
+.toc .n{font-family:var(--mono); font-size:10.5px; color:var(--ink-mute); margin-top:3px; flex:0 0 auto}
+.toc a.active .n{color:var(--brand)}
+.toc a .dot{margin-left:auto; width:6px;height:6px;border-radius:50%; background:var(--green); opacity:0; flex:0 0 auto; margin-top:8px}
+.toc a.done .dot{opacity:1}
+.side-progress{display:flex; align-items:center; gap:10px}
+.ring{--p:0; width:44px; height:44px; border-radius:50%; flex:0 0 auto; display:grid; place-items:center;
+  background:conic-gradient(var(--brand) calc(var(--p)*1%), var(--line-soft) 0);}
+.ring > span{width:34px;height:34px;border-radius:50%; background:var(--panel); display:grid; place-items:center; font-size:10.5px; font-weight:800; color:var(--ink-soft)}
+.side-progress .lbl{font-size:11.5px; color:var(--ink-mute); line-height:1.5}
+.side-progress .lbl b{display:block; color:var(--ink); font-size:13px}
+.chapterlist{list-style:none;margin:0;padding:0;font-size:12px;color:var(--ink-mute);line-height:1.9}
+.chapterlist li{display:flex;gap:7px}
+.chapterlist .now{color:var(--brand-ink);font-weight:800}
+.chapterlist .tag{font-family:rgba(0,0,0,0);font-family:var(--mono);font-size:10px;color:var(--ink-mute)}
+
+/* ============ content ============ */
+.main{min-width:0}
+.hero{
+  position:relative; overflow:hidden; border-radius:var(--r-lg); padding:30px 32px; margin-bottom:24px;
+  background:radial-gradient(1200px 340px at 8% -20%, color-mix(in srgb,var(--brand) 22%, transparent), transparent 60%),
+             radial-gradient(900px 320px at 100% 0%, color-mix(in srgb,var(--teal) 20%, transparent), transparent 55%),
+             var(--panel);
+  border:1px solid var(--line); box-shadow:var(--shadow-lg);
+}
+.hero .eyebrow{display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-bottom:13px}
+.chip{
+  font-size:11px; font-weight:800; letter-spacing:.03em; padding:3.5px 10px; border-radius:999px;
+  background:var(--bg-soft); color:var(--ink-soft); border:1px solid var(--line);
+}
+.chip.brand{background:var(--brand-soft); color:var(--brand-ink); border-color:color-mix(in srgb,var(--brand) 26%, transparent)}
+.chip.green{background:var(--green-soft); color:var(--green); border-color:color-mix(in srgb,var(--green) 25%, transparent)}
+.chip.amber{background:var(--amber-soft); color:var(--amber); border-color:color-mix(in srgb,var(--amber) 30%, transparent)}
+.chip.rose{background:var(--rose-soft); color:var(--rose); border-color:color-mix(in srgb,var(--rose) 26%, transparent)}
+.chip.teal{background:var(--teal-soft); color:var(--teal); border-color:color-mix(in srgb,var(--teal) 26%, transparent)}
+.hero h1{font-size:clamp(22px,2.5vw,32px); letter-spacing:-.02em; margin-bottom:8px}
+.hero h1 .sub{display:block; font-size:14.5px; font-weight:700; color:var(--ink-mute); letter-spacing:0; margin-top:8px}
+.hero p{color:var(--ink-soft); font-size:14.5px; max-width:78ch}
+.meta-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:10px; margin-top:20px}
+.meta{background:var(--panel-2); border:1px solid var(--line-soft); border-radius:11px; padding:9px 12px}
+.meta .k{font-size:10px; text-transform:uppercase; letter-spacing:.1em; color:var(--ink-mute); font-weight:800}
+.meta .v{font-size:13px; font-weight:700; color:var(--ink); margin-top:2px}
+.hero-cta{display:flex; flex-wrap:wrap; gap:9px; margin-top:20px}
+.btn{
+  display:inline-flex; align-items:center; gap:8px; height:38px; padding:0 15px; border-radius:10px; cursor:pointer;
+  font:inherit; font-size:13px; font-weight:800; text-decoration:none; border:1px solid var(--line);
+  background:var(--panel); color:var(--ink); transition:transform .12s, box-shadow .12s, background .12s;
+}
+.btn:hover{transform:translateY(-1px); box-shadow:var(--shadow)}
+.btn.primary{background:linear-gradient(160deg,var(--brand),var(--brand-ink)); color:#fff; border-color:transparent}
+.btn.ghost{background:transparent}
+.btn svg{width:15px;height:15px}
+
+/* notice */
+.notice{
+  display:flex; gap:12px; padding:14px 16px; border-radius:var(--r); margin:0 0 22px;
+  background:var(--amber-soft); border:1px solid color-mix(in srgb,var(--amber) 30%, transparent);
+  color:color-mix(in srgb,var(--amber) 78%, var(--ink)); font-size:13px; line-height:1.7;
+}
+.notice .ico{flex:0 0 auto; width:22px;height:22px; border-radius:50%; display:grid; place-items:center;
+  background:color-mix(in srgb,var(--amber) 20%, transparent); color:var(--amber); font-weight:900; font-size:13px}
+.notice b{color:var(--amber)}
+
+/* section */
+.sec{
+  background:var(--panel); border:1px solid var(--line); border-radius:var(--r-lg);
+  padding:26px 28px 24px; margin-bottom:20px; box-shadow:var(--shadow); scroll-margin-top:90px;
+}
+.sec-head{display:flex; gap:14px; align-items:flex-start; margin-bottom:6px}
+.sec-num{
+  flex:0 0 auto; width:38px;height:38px; border-radius:11px; display:grid; place-items:center;
+  background:var(--brand-soft); color:var(--brand-ink); font-family:var(--mono); font-size:13px; font-weight:800;
+  border:1px solid color-mix(in srgb,var(--brand) 20%, transparent);
+}
+.sec-head h2{font-size:clamp(18px,2vw,22.5px); letter-spacing:-.015em}
+.sec-head h2 .en{display:block; font-size:11.5px; font-weight:700; color:var(--ink-mute); letter-spacing:.02em; text-transform:uppercase; margin-top:3px}
+.markdone{
+  margin-left:auto; flex:0 0 auto; display:inline-flex; align-items:center; gap:7px; cursor:pointer;
+  height:32px; padding:0 11px; border-radius:9px; border:1px solid var(--line); background:var(--panel-2);
+  color:var(--ink-mute); font:inherit; font-size:11.5px; font-weight:800; white-space:nowrap; transition:.14s;
+}
+.markdone:hover{color:var(--ink); border-color:color-mix(in srgb,var(--green) 45%, var(--line))}
+.markdone .box{width:15px;height:15px;border-radius:4.5px;border:1.6px solid currentColor; display:grid;place-items:center}
+.markdone .box svg{width:11px;height:11px; opacity:0; color:#fff}
+.markdone[aria-pressed="true"]{background:var(--green-soft); color:var(--green); border-color:color-mix(in srgb,var(--green) 40%, transparent)}
+.markdone[aria-pressed="true"] .box{background:var(--green); border-color:var(--green)}
+.markdone[aria-pressed="true"] .box svg{opacity:1}
+.sec-body{font-size:15.2px; color:var(--ink-soft)}
+.sec-body > *:first-child{margin-top:0}
+.lead{font-size:15.5px; color:var(--ink-soft)}
+h3.sub{font-size:15.5px; color:var(--ink); margin:22px 0 8px; display:flex; align-items:center; gap:8px}
+h3.sub::before{content:""; width:4px; height:15px; border-radius:3px; background:var(--brand); display:inline-block}
+h4.mini{font-size:13.5px; color:var(--ink); margin:16px 0 5px; letter-spacing:.01em}
+
+/* lists */
+ul.clean,ol.clean{margin:.5em 0; padding-left:1.25em}
+ul.clean li,ol.clean li{margin:.32em 0; padding-left:.15em}
+ul.clean li::marker{color:var(--brand)}
+ol.clean li::marker{color:var(--brand); font-weight:800; font-family:var(--mono); font-size:.9em}
+ul.tight li{margin:.16em 0}
+.hl{background:linear-gradient(transparent 58%, color-mix(in srgb,var(--amber) 55%, transparent) 0); font-weight:800; color:var(--ink); padding:0 1px}
+.kw{font-weight:800; color:var(--brand-ink)}
+.en-term{font-weight:700; color:var(--teal); font-size:.95em}
+
+/* callouts */
+.call{
+  display:grid; grid-template-columns:26px minmax(0,1fr); gap:11px; align-items:start;
+  border-radius:12px; padding:12px 14px; margin:14px 0; font-size:14px; line-height:1.75;
+  border:1px solid var(--line); background:var(--panel-2); color:var(--ink-soft);
+}
+.call .ci{width:24px;height:24px;border-radius:8px; display:grid; place-items:center; font-size:13px; font-weight:900}
+.call .ct{font-size:10.5px; font-weight:900; letter-spacing:.09em; text-transform:uppercase; display:block; margin-bottom:3px}
+.call.pointer{background:var(--brand-soft); border-color:color-mix(in srgb,var(--brand) 25%, transparent)}
+.call.pointer .ci{background:color-mix(in srgb,var(--brand) 18%, transparent); color:var(--brand-ink)}
+.call.pointer .ct{color:var(--brand-ink)}
+.call.pyq{background:var(--green-soft); border-color:color-mix(in srgb,var(--green) 26%, transparent)}
+.call.pyq .ci{background:color-mix(in srgb,var(--green) 16%, transparent); color:var(--green)}
+.call.pyq .ct{color:var(--green)}
+.call.trap{background:var(--rose-soft); border-color:color-mix(in srgb,var(--rose) 26%, transparent)}
+.call.trap .ci{background:color-mix(in srgb,var(--rose) 15%, transparent); color:var(--rose)}
+.call.trap .ct{color:var(--rose)}
+.call.def{background:var(--teal-soft); border-color:color-mix(in srgb,var(--teal) 26%, transparent)}
+.call.def .ci{background:color-mix(in srgb,var(--teal) 16%, transparent); color:var(--teal)}
+.call.def .ct{color:var(--teal)}
+.call.mem{background:var(--violet-soft); border-color:color-mix(in srgb,var(--violet) 24%, transparent)}
+.call.mem .ci{background:color-mix(in srgb,var(--violet) 15%, transparent); color:var(--violet)}
+.call.mem .ct{color:var(--violet)}
+.call.fix{background:var(--amber-soft); border-color:color-mix(in srgb,var(--amber) 30%, transparent)}
+.call.fix .ci{background:color-mix(in srgb,var(--amber) 18%, transparent); color:var(--amber)}
+.call.fix .ct{color:var(--amber)}
+
+/* table */
+.tablewrap{overflow:auto; margin:16px 0; border:1px solid var(--line); border-radius:12px}
+table{border-collapse:collapse; width:100%; font-size:13.3px; min-width:560px; background:var(--panel)}
+thead th{
+  background:var(--bg-soft); text-align:left; padding:10px 13px; font-size:11.5px; letter-spacing:.05em;
+  text-transform:uppercase; color:var(--ink-soft); font-weight:900; border-bottom:1px solid var(--line);
+  position:sticky; top:0; white-space:nowrap;
+}
+tbody td{padding:10px 13px; border-bottom:1px solid var(--line-soft); vertical-align:top; color:var(--ink-soft); line-height:1.65}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover td{background:var(--panel-2)}
+tbody td b{color:var(--ink)}
+td .mini-chip{display:inline-block; font-family:var(--mono); font-size:10.5px; font-weight:700; padding:1px 7px; border-radius:6px;
+  background:var(--brand-soft); color:var(--brand-ink); margin-right:5px}
+td.year{font-family:var(--mono); font-weight:800; color:var(--brand-ink); white-space:nowrap}
+
+/* key-value fact rows */
+.kv{display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:10px; margin:14px 0}
+.kv .item{background:var(--panel-2); border:1px solid var(--line-soft); border-left:3px solid var(--brand); border-radius:10px; padding:10px 12px}
+.kv .item .k{font-size:10.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-mute); font-weight:800}
+.kv .item .v{font-size:13.6px; font-weight:700; color:var(--ink); margin-top:2px; line-height:1.55}
+
+/* stat */
+.stats{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:16px 0}
+.stat{background:linear-gradient(160deg,var(--panel-2),var(--panel)); border:1px solid var(--line); border-radius:13px; padding:13px 14px; position:relative; overflow:hidden}
+.stat::after{content:""; position:absolute; inset:auto -20px -30px auto; width:70px; height:70px; border-radius:50%; background:color-mix(in srgb,var(--brand) 10%, transparent)}
+.stat .v{font-size:23px; font-weight:900; letter-spacing:-.02em; color:var(--ink); font-family:var(--mono)}
+.stat .k{font-size:11.5px; color:var(--ink-mute); font-weight:700; margin-top:2px; line-height:1.5}
+
+/* flashcards */
+.fc-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(168px,1fr)); gap:11px; margin:16px 0}
+.fc{perspective:900px; height:118px; cursor:pointer; background:none; border:0; padding:0; font:inherit; text-align:left}
+.fc-in{position:relative; width:100%; height:100%; transition:transform .5s cubic-bezier(.4,.1,.2,1); transform-style:preserve-3d}
+.fc.flipped .fc-in{transform:rotateY(180deg)}
+.fc-face{
+  position:absolute; inset:0; border-radius:12px; padding:11px 12px; display:flex; flex-direction:column; justify-content:center;
+  backface-visibility:hidden; border:1px solid var(--line); box-shadow:var(--shadow);
+  background:linear-gradient(155deg,var(--panel-2),var(--panel));
+}
+.fc-face .top{font-family:var(--mono); font-size:10px; font-weight:800; color:var(--brand); letter-spacing:.04em; margin-bottom:4px}
+.fc-face .mid{font-size:13.5px; font-weight:800; color:var(--ink); line-height:1.5}
+.fc-face .tiny{font-size:10.5px; color:var(--ink-mute); margin-top:4px; font-weight:600}
+.fc-back{transform:rotateY(180deg); background:linear-gradient(155deg,var(--brand-soft),var(--panel)); border-color:color-mix(in srgb,var(--brand) 30%, transparent)}
+.fc-back .mid{color:var(--brand-ink); font-size:13px}
+.fc:focus-visible{outline-offset:3px}
+.fc-hint{font-size:12px; color:var(--ink-mute); margin:6px 0 0}
+
+/* quiz */
+.quiz{margin-top:6px}
+.q{background:var(--panel-2); border:1px solid var(--line); border-radius:13px; padding:15px 16px; margin:12px 0}
+.q-h{display:flex; gap:10px; align-items:flex-start; font-size:14.4px; font-weight:700; color:var(--ink); line-height:1.7}
+.q-n{flex:0 0 auto; font-family:var(--mono); font-size:11px; font-weight:800; background:var(--brand-soft); color:var(--brand-ink);
+  padding:2px 7px; border-radius:6px; margin-top:3px}
+.opts{display:grid; gap:7px; margin-top:11px}
+.opt{
+  display:flex; gap:9px; align-items:flex-start; text-align:left; padding:9px 12px; border-radius:10px; cursor:pointer;
+  background:var(--panel); border:1px solid var(--line); color:var(--ink-soft); font:inherit; font-size:13.6px; line-height:1.6;
+  transition:.14s;
+}
+.opt:hover{border-color:color-mix(in srgb,var(--brand) 42%, var(--line)); color:var(--ink); transform:translateX(2px)}
+.opt .ol{flex:0 0 auto; width:19px;height:19px;border-radius:50%; border:1.6px solid var(--line); display:grid; place-items:center;
+  font-family:var(--mono); font-size:10.5px; font-weight:800; color:var(--ink-mute); margin-top:2px}
+.opt.correct{background:var(--green-soft); border-color:var(--green); color:var(--green); font-weight:700}
+.opt.correct .ol{background:var(--green); border-color:var(--green); color:#fff}
+.opt.wrong{background:var(--rose-soft); border-color:var(--rose); color:var(--rose)}
+.opt.wrong .ol{background:var(--rose); border-color:var(--rose); color:#fff}
+.opt[disabled]{cursor:default; transform:none}
+.exp{margin-top:10px; font-size:13px; line-height:1.75; color:var(--ink-soft); background:var(--panel);
+  border-left:3px solid var(--brand); border-radius:0 9px 9px 0; padding:9px 12px; display:none}
+.exp.show{display:block}
+.exp b{color:var(--brand-ink)}
+.quiz-bar{display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin:16px 0 4px;
+  background:var(--panel-2); border:1px solid var(--line); border-radius:12px; padding:11px 14px}
+.score{font-size:13.5px; font-weight:800; color:var(--ink)}
+.score b{font-family:var(--mono); color:var(--brand-ink); font-size:15px}
+.quiz-bar .note{font-size:12px; color:var(--ink-mute)}
+
+/* fact sheet */
+.facts{display:grid; gap:8px; margin:16px 0}
+.fact{display:grid; grid-template-columns:auto minmax(0,1fr); gap:12px; align-items:baseline;
+  background:var(--panel-2); border:1px solid var(--line-soft); border-radius:10px; padding:9px 12px; font-size:13.6px}
+.fact .tag{font-family:var(--mono); font-size:10.5px; font-weight:800; color:var(--brand-ink); background:var(--brand-soft);
+  padding:2px 7px; border-radius:6px; white-space:nowrap}
+.fact .txt{color:var(--ink-soft)}
+.fact .txt b{color:var(--ink)}
+
+/* next batch */
+.next{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:12px; margin-top:14px}
+.nextcard{background:var(--panel-2); border:1px dashed var(--line); border-radius:12px; padding:13px 15px}
+.nextcard .h{font-size:13px; font-weight:800; color:var(--ink); display:flex; gap:8px; align-items:center}
+.nextcard .h .n{font-family:var(--mono); font-size:10px; background:var(--bg-soft); border:1px solid var(--line); color:var(--ink-mute); padding:1px 6px; border-radius:5px}
+.nextcard p{font-size:12.3px; color:var(--ink-mute); margin:5px 0 0; line-height:1.65}
+
+/* misc */
+.toTop{position:fixed; right:20px; bottom:20px; width:42px;height:42px; border-radius:12px; display:grid; place-items:center;
+  background:var(--panel); border:1px solid var(--line); color:var(--ink-soft); cursor:pointer; box-shadow:var(--shadow-lg);
+  opacity:0; pointer-events:none; transition:.2s; z-index:50}
+.toTop.show{opacity:1; pointer-events:auto}
+.footer{max-width:var(--maxw); margin:0 auto; padding:0 20px 40px; color:var(--ink-mute); font-size:12px; line-height:1.8}
+.footer b{color:var(--ink-soft)}
+mark{background:color-mix(in srgb,var(--amber) 60%, transparent); color:var(--ink); border-radius:3px; padding:0 1px}
+.hidden{display:none !important}
+.noresult{display:none; padding:26px; text-align:center; color:var(--ink-mute); background:var(--panel); border:1px dashed var(--line); border-radius:var(--r); font-size:14px}
+.noresult.show{display:block}
+hr.sep{border:0; border-top:1px dashed var(--line); margin:22px 0}
+
+/* responsive */
+@media (max-width:1080px){
+  .shell{grid-template-columns:1fr; padding-top:18px}
+  .side{position:static; max-height:none; order:2; padding-right:0}
+  .main{order:1}
+  .toc{display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+}
+@media (max-width:720px){
+  .topbar-in{flex-wrap:wrap; gap:10px; padding:9px 14px}
+  .searchwrap{order:3; flex-basis:100%; max-width:none}
+  .shell{padding:14px 12px 70px; gap:18px}
+  .hero{padding:22px 18px}
+  .sec{padding:20px 16px}
+  .sec-head{flex-wrap:wrap}
+  .markdone{margin-left:0; order:3}
+  .brand-text .s{display:none}
+}
+@media print{
+  .topbar,.side,.toTop,.hero-cta,.markdone,.quiz-bar,.fc-hint,.noresult{display:none !important}
+  body{background:#fff; font-size:11.5pt}
+  .shell{display:block; padding:0}
+  .sec,.hero{box-shadow:none; border:1px solid #ccc; break-inside:avoid; page-break-inside:avoid; margin-bottom:10px}
+  .fc{height:auto} .fc-in{transform:none !important}
+  .fc-back{position:static; transform:none; display:block; margin-top:4px}
+  .fc-face{position:static; box-shadow:none; backface-visibility:visible}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-in">
+    <div class="brandmark">
+      <div class="logo">IE</div>
+      <div class="brand-text">
+        <div class="t">Indian Economy One Shot 2026</div>
+        <div class="s">PCS INSIGHTS · UPPCS 2026 / BPSC 72nd</div>
+      </div>
+    </div>
+    <span class="batch-pill">BATCH 10 / 16</span>
+    <div class="spacer"></div>
+    <div class="searchwrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+      <input id="search" type="search" placeholder="इस बैच में खोजें… (जैसे: BoP, SDR, 943)" autocomplete="off" aria-label="खोजें">
+      <span class="kbd">/</span>
+    </div>
+    <button class="tool" id="themeBtn" type="button" title="थीम बदलें (Shift + D)" aria-label="थीम बदलें">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      <span id="themeLabel">डार्क</span>
+    </button>
+    <button class="tool" id="printBtn" type="button" title="प्रिंट / PDF">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4v-7h16v7h-2M8 14h8v7H8z"/></svg>
+      PDF
+    </button>
+  </div>
+  <div class="progressline"><i id="scrollProg"></i></div>
+</div>
+
+<div class="shell">
+  <!-- ================= SIDEBAR ================= -->
+  <aside class="side">
+    <div class="side-card">
+      <div class="side-progress">
+        <div class="ring" id="ring" aria-hidden="true"><span id="ringTxt">0%</span></div>
+        <div class="lbl"><b id="doneCount">0 / 11 अध्याय</b> पढ़े गए के रूप में चिह्नित</div>
+      </div>
+    </div>
+    <div class="side-card">
+      <p class="side-h">बैच 5 · अनुक्रमणिका</p>
+      <nav aria-label="अनुक्रमणिका">
+        <ul class="toc" id="toc">
+          <li><a href="#s1"><span class="n">01</span><span>BoP का ढाँचा</span><span class="dot"></span></a></li>
+          <li><a href="#s2"><span class="n">02</span><span>विनिमय दर व FEMA</span><span class="dot"></span></a></li>
+          <li><a href="#s3"><span class="n">03</span><span>निर्यात संस्थाएँ व SEZ</span><span class="dot"></span></a></li>
+          <li><a href="#s4"><span class="n">04</span><span>विश्व बैंक समूह</span><span class="dot"></span></a></li>
+          <li><a href="#s5"><span class="n">05</span><span>IMF व SDR</span><span class="dot"></span></a></li>
+          <li><a href="#s6"><span class="n">06</span><span>NDB, ADB, AIIB, BIS</span><span class="dot"></span></a></li>
+          <li><a href="#s7"><span class="n">07</span><span>WTO व वैश्विक संगठन</span><span class="dot"></span></a></li>
+          <li><a href="#s8"><span class="n">08</span><span>जनसंख्या के सिद्धांत</span><span class="dot"></span></a></li>
+          <li><a href="#s9"><span class="n">09</span><span>जनगणना व वृद्धि</span><span class="dot"></span></a></li>
+          <li><a href="#s10"><span class="n">10</span><span>राज्य-वार आँकड़े</span><span class="dot"></span></a></li>
+          <li><a href="#s11"><span class="n">11</span><span>साक्षरता व लिंगानुपात</span><span class="dot"></span></a></li>
+          <li><a href="#s12"><span class="n">12</span><span>SC–ST, धर्म व लाभांश</span><span class="dot"></span></a></li>
+          <li><a href="#s13"><span class="n">13</span><span>समितियाँ व PYQ</span><span class="dot"></span></a></li>
+          <li><a href="#s14"><span class="n">14</span><span>फैक्ट शीट (रिवीजन)</span><span class="dot"></span></a></li>
+          <li><a href="#s15"><span class="n">15</span><span>फ्लैशकार्ड · 20 शब्द</span><span class="dot"></span></a></li>
+          <li><a href="#s16"><span class="n">16</span><span>अभ्यास प्रश्न (14 MCQ)</span><span class="dot"></span></a></li></ul>
+      </nav>
+    </div>
+    <div class="side-card">
+      <p class="side-h">पूरी लेक्चर सीरीज़</p>
+      <ul class="chapterlist">
+        <li><span class="tag">01</span><span>मूल बातें · सतत विकास</span></li>
+        <li><span class="tag">02</span><span>योजना व पंचवर्षीय योजनाएँ</span></li>
+        <li><span class="tag">03</span><span>गरीबी व असमानता</span></li>
+        <li><span class="tag">04</span><span>राष्ट्रीय आय व GDP</span></li>
+        <li><span class="tag">05</span><span>महँगाई (Inflation)</span></li>
+        <li><span class="tag">06</span><span>बैंकिंग, RBI व मौद्रिक नीति</span></li>
+        <li><span class="tag">07</span><span>बजट, कर व GST</span></li>
+        <li><span class="tag">08</span><span>कृषि, उद्योग, योजनाएँ</span></li>
+        <li><span class="tag">09</span><span>स्वास्थ्य, कौशल व कल्याण योजनाएँ</span></li>
+        <li><span class="now">› बैच 10</span><span>BoP, संस्थाएँ व जनसंख्या</span></li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- ================= MAIN ================= -->
+  <main class="main">
+    <section class="hero" id="top">
+      <div class="eyebrow">
+        <span class="chip brand">इंटरैक्टिव स्टडी मॉड्यूल</span>
+        <span class="chip green">बैच 10 / 16</span>
+        <span class="chip">हिंदी + English terms</span>
+        <span class="chip amber">परीक्षा-केंद्रित</span>
+      </div>
+      <h1>बाह्य क्षेत्र, अंतरराष्ट्रीय संस्थाएँ और जनसंख्या
+        <span class="sub">BoP · convertibility · FEMA 1999 · Bretton Woods 1944 · IMF–World Bank · NDB · ADB 1966 · AIIB 2016 · WTO 1995 · census 1872 → 2011 · sex ratio 943</span>
+      </h1>
+      <p>यह <b>आख़िरी बैच</b> है — बाहरी दुनिया और आबादी का granular कंटेंट: BoP के दो खाते, रुपये की परिवर्तनीयता (1994 से पूरी, capital account अभी नहीं), अवमूल्यन के चार मौके, Bretton Woods से IMF–World Bank, NDB–ADB–AIIB–BIS, WTO के बॉक्स, फिर Malthus से जनगणना 2011 तक और अंत में PYQ समितियाँ। नीचे 61 पंक्तियों की फैक्ट शीट, 20 फ्लैशकार्ड और 14 प्रश्नों का टेस्ट भी है।</p>
+      <div class="meta-grid">
+        <div class="meta"><div class="k">वीडियो</div><div class="v">3:28:12 · One Shot</div></div>
+        <div class="meta"><div class="k">चैनल</div><div class="v">PCS INSIGHTS</div></div>
+        <div class="meta"><div class="k">बैच की सीमा</div><div class="v">बाह्य क्षेत्र व जनसंख्या</div></div>
+        <div class="meta"><div class="k">स्रोत</div><div class="v">Lucent · NCERT · Ghatna Chakra</div></div>
+      </div>
+      <div class="hero-cta">
+        <a class="btn primary" href="#s1">पढ़ना शुरू करें
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn ghost" href="#s14">फैक्ट शीट पर जाएँ</a>
+        <a class="btn ghost" href="#s16">सीधे टेस्ट दें</a>
+        <a class="btn ghost" href="batch-10-text.html" target="_blank" rel="noopener">पूरा टेक्स्ट (verbatim) ↗</a>
+      </div>
+    </section>
+
+    <div class="notice">
+      <!--LANGNOTE-->
+      <span class="ico">!</span>
+      <div><b>पारदर्शिता नोट:</b> यह मॉड्यूल वीडियो के <b>ऑटो-ट्रांसक्रिप्ट</b> पर आधारित है (हिंदी, ASR से)। जहाँ परिभाषा/आँकड़ा स्पष्ट रूप से गड़बड़ाया गया (जैसे HDI रैंक, 2015–2016 का फ़र्क़, ICDS/NRHM के साल), वहाँ <span class="chip fix-chip" style="background:var(--amber-soft);color:var(--amber);border:1px solid var(--line)">सुधार</span> चिह्न से सही जानकारी दी गई है — परीक्षा में वही लिखें।
+      <!--LANGNOTE--></div>
+    </div>
+    <section class="sec" id="s1" data-sec="s1">
+      <div class="sec-head">
+        <div class="sec-num">01</div>
+        <h2>बैलेंस ऑफ पेमेंट (BoP) का ढाँचा<span class="en">Balance of Payments · current &amp; capital account</span></h2>
+        <button class="markdone" data-done="s1" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">BoP का मतलब सिर्फ़ इतना है — <b>पूरी दुनिया के साथ हमारा हिसाब</b>: किसके साथ घाटे में हैं, किसके साथ फ़ायदे में। बाक़ी सब इसी की शाखाएँ हैं।</p>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">दो खाते, बस दो</span>
+          <b>Current account</b> = merchandise (goods का export–import) + invisibles (services, factor income, transfers)।<br>
+          <b>Capital account</b> = बाहर से पूँजी का आना-जाना — FDI/FPI, external commercial borrowing, NRI deposits।</div>
+        </div>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>शब्द</th><th>मतलब</th><th>याद रखने की बात</th></tr></thead>
+            <tbody>
+              <tr><td><b>Balance of trade</b></td><td>सिर्फ़ goods का export − import</td><td>सबसे छोटा हिस्सा</td></tr>
+              <tr><td><b>Net exports</b></td><td>Export − Import</td><td>BoT का ही दूसरा नाम</td></tr>
+              <tr><td><b>Current account deficit (CAD)</b></td><td>import of goods + services &gt; export</td><td>₹200 मँगाया, ₹100 बेचा → ₹100 CAD</td></tr>
+              <tr><td><b>Visible</b></td><td>goods (जो दिखते हैं)</td><td>Visible = merchandise</td></tr>
+              <tr><td><b>Invisible</b></td><td>services + income + transfers</td><td>Invisible export = services का export</td></tr>
+              <tr><td><b>Factor income</b></td><td>land, labour, capital, entrepreneur से कमाई</td><td>Interest, profit, rent, wages</td></tr>
+              <tr><td><b>Transfer</b></td><td>gift · grant · remittance</td><td>बदले में कुछ नहीं मिलता</td></tr>
+              <tr><td><b>Capital account</b></td><td>FDI, FPI, ECB, NRI deposits</td><td><b>ECB को RBI</b> रेगुलेट करता है</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="stats">
+          <div class="stat"><div class="v">2</div><div class="k">BoP के खाते</div></div>
+          <div class="stat"><div class="v">RBI</div><div class="k">ECB का regulator</div></div>
+          <div class="stat"><div class="v">CAD</div><div class="k">Current Account Deficit</div></div>
+        </div>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">लेक्चर की मुख्य लाइन</span>“मोस्टली हमारा current account <b>negative</b> रहता है, बट capital account <b>positive</b> रहता है — तो overall हमारा positive में आ जाता है।” यही पूरा BoP है।</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap — tariff और drawback</span><b>Tariff</b> = सीमा पार करते सामान पर टैक्स, जो <b>घरेलू उद्योग को बचाने</b> के लिए लगता है (डंपिंग के सामने)। ₹50 का देसी सामान, चीन ₹20 का दे रहा → सरकार ₹30 टैक्स लगाकर दोनों को 50-50 पर ले आती है।<br><b>Duty drawback</b> = निर्यातक को import duty का <b>रिफंड</b>।</div>
+        </div>
+        <div class="call mem">
+          <span class="ci">✦</span>
+          <div><span class="ct">एक लाइन में</span><b>BoP = Current + Capital</b> · Current = merchandise + invisibles · Capital = FDI/FPI/ECB/NRI · ECB → RBI।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s2" data-sec="s2">
+      <div class="sec-head">
+        <div class="sec-num">02</div>
+        <h2>रुपये की परिवर्तनीयता व विनिमय दर<span class="en">Convertibility · exchange rate · devaluation · FEMA 1999</span></h2>
+        <button class="markdone" data-done="s2" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">यहाँ ज़्यादातर ग़लती <b>depreciation</b> और <b>devaluation</b> में होती है — फ़र्क़ सिर्फ़ इतना है कि <b>कौन गिरा रहा है</b>।</p>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">परिवर्तनीयता (convertibility)</span>
+          <b>Current account</b> — पूरी convertibility, <b>1994</b> में हासिल। आप जितना चाहे currency बदलवा लें — कोई सीमा नहीं।<br>
+          <b>Capital account</b> — पूरी नहीं; बाहर loan लेना, विदेश में property खरीदना — इन पर सीमा है। इसी के लिए <b>तारापुर समिति</b> बनी, जिसने शर्तें तय कीं कि कब पूरी होगी।</div>
+        </div>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>शब्द</th><th>मतलब</th><th>कौन करता है</th></tr></thead>
+            <tbody>
+              <tr><td><b>Depreciation</b></td><td>$1 ₹50 → ₹80 (मार्केट फ़ोर्सेज़ से)</td><td>बाज़ार (demand–supply)</td></tr>
+              <tr><td><b>Appreciation</b></td><td>$1 ₹150 → ₹140 (रुपया मज़बूत)</td><td>बाज़ार</td></tr>
+              <tr><td><b>Devaluation</b></td><td>सरकार/RBI जान-बूझकर रुपया गिराए</td><td>सरकार · RBI</td></tr>
+              <tr><td><b>Floating / flexible rate</b></td><td>रोज़ demand–supply से तय होने वाली दर</td><td>बाज़ार</td></tr>
+              <tr><td><b>FEMA</b></td><td>Foreign Exchange Management Act, <b>1999</b></td><td>forex बाज़ार को व्यवस्थित करना</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">अवमूल्यन की गिनती</span>भारत ने currency <b>चार बार</b> devalue की — <b>1949</b>, <b>1966</b> और <b>1991 में दो बार</b>। असर: <b>export सस्ता</b>, <b>import महँगा</b>।</div>
+        </div>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">गणित एक लाइन में</span>$100 का तेल, $1 = ₹50 → ₹5,000। रुपया ₹80 का हुआ → वही तेल <b>₹8,000</b>। यानी import महँगा, इसलिए inflation भी बढ़ती है।</div>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">विदेशी मुद्रा भंडार (forex reserves) — 4 चीज़ें</span><b>1.</b> Foreign currency assets · <b>2.</b> Gold · <b>3.</b> SDR (IMF) · <b>4.</b> Reserve position in IMF।</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap</span>“RBI ने रुपया गिराया” = <b>devaluation</b> · “बाज़ार से गिरा” = <b>depreciation</b>। और भारत की World Bank classification = <b>low &amp; lower-middle income</b> देश; external debt का सबसे बड़ा हिस्सा <b>commercial banks</b> का।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s3" data-sec="s3">
+      <div class="sec-head">
+        <div class="sec-num">03</div>
+        <h2>निर्यात-आयात संस्थाएँ, EPZ–SEZ व वैश्वीकरण<span class="en">EXIM Bank · ECGC · MPEDA · EPZ 1965 · SEZ 2005</span></h2>
+        <button class="markdone" data-done="s3" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">इस हिस्से में सारे प्रश्न <b>साल + मुख्यालय</b> के हैं — रटने के लिए चार लाइन ही काफ़ी हैं।</p>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>संस्था / ज़ोन</th><th>वर्ष</th><th>मुख्यालय / स्थान</th></tr></thead>
+            <tbody>
+              <tr><td><b>EXIM Bank of India</b></td><td><b>1982</b></td><td>निर्यात-आयात वित्त</td></tr>
+              <tr><td><b>ECGC</b></td><td><b>1957</b></td><td>export credit व insurance</td></tr>
+              <tr><td><b>MPEDA</b></td><td><b>1972</b></td><td><b>कोच्चि</b>, केरल</td></tr>
+              <tr><td><b>एशिया का पहला EPZ</b></td><td><b>1965</b></td><td><b>कांडला</b> (गुजरात)</td></tr>
+              <tr><td><b>पहला निजी EPZ</b></td><td>—</td><td><b>सूरत</b></td></tr>
+              <tr><td><b>SEZ Act</b></td><td><b>2005</b></td><td>पूरे देश में लागू</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">EPZ क्या है</span>एक ख़ास इलाक़ा जहाँ <b>ease of doing business</b> के लिए छूट मिलती है — यानी SEZ जैसा ही, बस निर्यात पर केंद्रित। <b>1965, कांडला</b> = एशिया का पहला EPZ — यह तथ्य ज़रूर याद रखें।</div>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">वैश्वीकरण (globalisation)</span>दुनिया भर में <b>goods, services, capital और culture</b> का आदान-प्रदान। उदाहरण — पिज़्ज़ा (इटली का खाना) या विदेशी TV सीरीज़।<br>भारतीय अर्थव्यवस्था में globalization का मतलब — <b>न्यूनतम प्रतिबंध</b>, ताकि कोई भी आकर trade कर सके; साथ में <b>liberalisation</b> और <b>privatisation</b>।</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap — 1991 के बाद का असर</span>उदारीकरण के बाद GDP में <b>कृषि का हिस्सा घटा</b> है (यह बात बैच 8 में 52% → ~20% के रूप में आई थी)। और <b>1965 = EPZ</b>, <b>2005 = SEZ Act</b> — दोनों उलझाए जाते हैं।</div>
+        </div>
+      </div>
+    </section>
+    <section class="sec" id="s4" data-sec="s4">
+      <div class="sec-head">
+        <div class="sec-num">04</div>
+        <h2>ब्रेटन वुड्स व विश्व बैंक समूह<span class="en">Bretton Woods 1944 · World Bank Group (5 arms)</span></h2>
+        <button class="markdone" data-done="s4" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">एक conference, दो संस्थाएँ — और उनसे बना <b>पाँच अंगों का समूह</b>। नाम ऐसे हैं कि आपस में उलझते हैं, इसलिए नीचे एक-एक का “काम” लिखा है।</p>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">Bretton Woods Conference, 1944</span>पूरा नाम — <b>United Nations Monetary and Financial Conference</b>। इससे दो संस्थाएँ बनीं: <b>IMF</b> और <b>IBRD</b> (IBRD को ही विश्व बैंक कहा जाता है)। दोनों को “<b>Bretton Woods twins</b>” कहते हैं, दोनों का मुख्यालय <b>वाशिंगटन DC, USA</b>।</div>
+        </div>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>अंग</th><th>पूरा नाम</th><th>काम (याद रखने की कुंजी)</th></tr></thead>
+            <tbody>
+              <tr><td><b>IBRD</b></td><td>International Bank for Reconstruction &amp; Development</td><td>middle income + गरीब देशों को loan — “<b>बैंक</b>” यानी loan</td></tr>
+              <tr><td><b>IDA</b></td><td>International Development Association</td><td><b>ब्याज-मुक्त</b> loan व grant — “<b>development</b>” यानी मुफ़्त मदद</td></tr>
+              <tr><td><b>IFC</b></td><td>International Finance Corporation</td><td><b>निजी क्षेत्र</b> के साथ — “<b>finance</b>” यानी private</td></tr>
+              <tr><td><b>MIGA</b></td><td>Multilateral Investment Guarantee Agency</td><td><b>बीमा/गारंटी</b> निवेशकों को — “गारंटी” = insurance</td></tr>
+              <tr><td><b>ICSID</b></td><td>International Centre for Settlement of Investment Disputes</td><td>निवेश विवाद का <b>निपटारा</b> — भारत <b>सदस्य नहीं</b> है</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="stats">
+          <div class="stat"><div class="v">5</div><div class="k">World Bank Group के अंग</div></div>
+          <div class="stat"><div class="v">1944</div><div class="k">Bretton Woods</div></div>
+          <div class="stat"><div class="v">189</div><div class="k">सदस्य (लगभग)</div></div>
+        </div>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">सदस्यता के नियम</span>World Bank Group में शामिल होना है तो पहले <b>IMF का सदस्य</b> होना ज़रूरी है। IBRD से loan लेना है तो देश को IMF का सदस्य होना ही पड़ेगा। President हमेशा <b>USA</b> से बनता है।</div>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">विश्व बैंक की रिपोर्टें</span><b>World Development Report</b> · <b>Global Economic Prospects</b> · <b>Ease of Doing Business</b> (बंद कर दी गई) · <b>International Debt Statistics</b> · <b>Human Capital Index</b> · <b>Logistics Performance Index</b>।</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap — शेयरधारकों का क्रम</span>लेक्चर में “USA → UK → France” कहा गया; आधिकारिक क्रम में सबसे बड़ा <b>USA</b> है, फिर जापान/चीन/जर्मनी जैसे देश आते हैं। परीक्षा में पूछा जाए तो पक्का तथ्य यही है — <b>सबसे बड़ा = USA</b>, और <b>President USA से</b>।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s5" data-sec="s5">
+      <div class="sec-head">
+        <div class="sec-num">05</div>
+        <h2>अंतरराष्ट्रीय मुद्रा कोष (IMF)<span class="en">IMF · quota · SDR 1969 · facilities</span></h2>
+        <button class="markdone" data-done="s5" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">IMF का एक ही काम है — <b>BoP संकट में देश को उधार देना</b>। बाक़ी सारे प्रश्न उसी के इर्द-गिर्द हैं: कोटा, वोट, SDR।</p>
+        <div class="stats">
+          <div class="stat"><div class="v">1944</div><div class="k">स्थापना (Bretton Woods)</div></div>
+          <div class="stat"><div class="v">190</div><div class="k">सदस्य</div></div>
+          <div class="stat"><div class="v">2.6%</div><div class="k">भारत का वोट शेयर</div></div>
+          <div class="stat"><div class="v">1969</div><div class="k">SDR की शुरुआत</div></div>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">कोटा (quota) = तीन चीज़ें तय करता है</span>आपका <b>योगदान</b>, आपकी <b>वोटिंग पावर</b> और आपकी <b>finance तक पहुँच</b>। कोटा GDP, अर्थव्यवस्था के खुलेपन व reserves से बनता है और हर <b>5 साल</b> में समीक्षा होती है। सबसे बड़ा कोटा/vote <b>USA का (16%)</b>, चीन तीसरे नंबर पर, भारत <b>2.6%</b>।</div>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">SDR — Special Drawing Right</span>IMF का <b>reserve asset</b>, <b>1969</b> में बना — “paper gold” भी कहते हैं। इसमें <b>5 currencies</b> हैं: USD, EUR, चीनी युआन (CNY), JPY, GBP।</div>
+        </div>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>IMF से जुड़ी चीज़ें</th><th>विवरण</th></tr></thead>
+            <tbody>
+              <tr><td>मुख्य काम</td><td>BoP संकट में <b>financial assistance</b></td></tr>
+              <tr><td>Facilities</td><td>Stand-by Arrangement · Flexible Credit Line · Extended Fund Facility — “facility” शब्द = IMF</td></tr>
+              <tr><td>रिपोर्टें</td><td><b>World Economic Outlook</b> · Global Financial Stability Report · <b>Fiscal Monitor</b></td></tr>
+              <tr><td>उद्देश्य</td><td>monetary cooperation, financial stability, trade सुविधा, employment व growth, गरीबी कम करना</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap — IMF vs World Bank</span><b>IMF</b> = BoP crisis के लिए loan (short-term) · <b>World Bank</b> = development के लिए loan (long-term)। दोनों वाशिंगटन DC में, पर काम अलग।</div>
+        </div>
+        <div class="call mem">
+          <span class="ci">✦</span>
+          <div><span class="ct">एक लाइन में</span>IMF <b>1944</b> · मुख्यालय <b>Washington DC</b> · सदस्य <b>190</b> · कोटा → vote + finance · SDR <b>1969</b> (5 currencies)।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s6" data-sec="s6">
+      <div class="sec-head">
+        <div class="sec-num">06</div>
+        <h2>विकास बैंक — NDB, ADB, AIIB, BIS<span class="en">NDB 2014 · CRA · ADB 1966 · AIIB 2016 · BIS 1930</span></h2>
+        <button class="markdone" data-done="s6" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">चार बैंक, चार साल, चार शहर — इसीलिए यहाँ सिर्फ़ <b>वर्ष + मुख्यालय + सदस्य</b> पर फोकस करें।</p>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>संस्था</th><th>वर्ष</th><th>मुख्यालय</th><th>सदस्य / ख़ास बात</th></tr></thead>
+            <tbody>
+              <tr><td><b>NDB</b> (New Development Bank)</td><td>2014 (6वाँ BRICS शिखर, फ़ोर्टालेज़ा–ब्राज़ील)</td><td><b>शंघाई</b></td><td>पहले अध्यक्ष <b>K.V. कामथ</b>; <b>समान अंश, समान वोट</b> — कोई veto नहीं</td></tr>
+              <tr><td><b>CRA</b> (Contingency Reserve Arrangement)</td><td>BRICS के अंदर</td><td>—</td><td><b>short-term BoP</b> संकट के लिए liquidity support</td></tr>
+              <tr><td><b>ADB</b> (Asian Development Bank)</td><td><b>1966</b></td><td><b>मनीला</b>, फ़िलीपींस</td><td>68 सदस्य; सबसे बड़े शेयरधारक <b>जापान व USA</b></td></tr>
+              <tr><td><b>AIIB</b> (Asian Infrastructure Investment Bank)</td><td><b>2016</b></td><td><b>बीजिंग</b>, चीन</td><td>105 सदस्य; सबसे बड़ा <b>चीन</b>, दूसरा <b>भारत</b>; vote = share capital</td></tr>
+              <tr><td><b>BIS</b> (Bank for International Settlements)</td><td><b>1930</b></td><td><b>बेसल</b>, स्विट्ज़रलैंड</td><td>60 <b>केंद्रीय बैंक</b> सदस्य — “बैंकों का बैंक”</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">NDB का सदस्यता सवाल</span>लेक्चर में 9 सदस्य बताए गए (ब्राज़ील, रूस, भारत, चीन, दक्षिण अफ्रीका + बांग्लादेश, UAE, मिस्र…)। सदस्य संख्या बढ़ती रहती है, पर परीक्षा में सबसे ज़्यादा पूछा जाता है — <b>समान वोटिंग, कोई veto नहीं</b> और <b>मुख्यालय शंघाई</b>।</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap — ADB vs AIIB</span><b>ADB 1966, मनीला</b> (जापान–USA का दबदबा) · <b>AIIB 2016, बीजिंग</b> (चीन का दबदबा, भारत दूसरा)। दोनों को “एशियाई बैंक” कहकर उलझाया जाता है — साल याद रखें: <b>66 और 16</b>।</div>
+        </div>
+      </div>
+    </section>
+    <section class="sec" id="s7" data-sec="s7">
+      <div class="sec-head">
+        <div class="sec-num">07</div>
+        <h2>WTO, कृषि समझौता व वैश्विक संगठन<span class="en">GATT 1948 → WTO 1995 · AoA boxes · WEF · SAARC/BIMSTEC/ASEAN</span></h2>
+        <button class="markdone" data-done="s7" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">WTO का सबसे पूछा जाने वाला हिस्सा <b>Agreement on Agriculture (AoA) के बॉक्स</b> हैं — रंग याद रखें, बाक़ी अपने-आप आ जाएगा।</p>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>बॉक्स</th><th>क्या है</th><th>स्थिति</th></tr></thead>
+            <tbody>
+              <tr><td><b>Green box</b></td><td>research, training, infrastructure की सब्सिडी</td><td><b>अनुमत</b> — trade distorting नहीं</td></tr>
+              <tr><td><b>Amber box</b></td><td>MSP जैसी सब्सिडी</td><td>धीरे-धीरे कम करनी होती है; <b>विकसित 5%</b>, <b>विकासशील 10%</b> (de minimis)</td></tr>
+              <tr><td><b>Blue box</b></td><td>ज़मीन को ख़ाली छोड़ने पर मुआवज़ा</td><td>trade distorting होकर भी <b>अनुमत</b></td></tr>
+              <tr><td><b>Red box</b></td><td>—</td><td>ऐसा कुछ नहीं होता; पूरी तरह <b>प्रतिबंधित</b> समझें</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">WTO का जन्म</span><b>GATT</b> (General Agreement on Tariffs and Trade) <b>1948</b> में लागू हुआ; <b>WTO 1995</b> में <b>माराकेश समझौते</b> के तहत बना, मुख्यालय <b>जेनेवा, स्विट्ज़रलैंड</b>। AoA के तीन हिस्से — <b>market access</b>, <b>domestic support</b>, <b>export competitiveness</b>। भारत की <b>National IPR Policy 2016</b>।</div>
+        </div>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>संगठन</th><th>वर्ष</th><th>मुख्यालय / नोट</th></tr></thead>
+            <tbody>
+              <tr><td><b>SAARC</b></td><td>1985</td><td>काठमांडू</td></tr>
+              <tr><td><b>BIMSTEC</b></td><td>1997</td><td>—</td></tr>
+              <tr><td><b>ASEAN</b></td><td>1967</td><td>बैंकॉक (जकार्ता से जोड़कर उलझाया जाता है)</td></tr>
+              <tr><td><b>OPEC</b></td><td>1960</td><td>तेल निर्यातक देशों का समूह</td></tr>
+              <tr><td><b>GCC</b></td><td>1981</td><td>खाड़ी सहयोग परिषद</td></tr>
+              <tr><td><b>SCO</b></td><td>2001</td><td>शंघाई सहयोग संगठन — भारत-पाकिस्तान पूर्ण सदस्य</td></tr>
+              <tr><td><b>WEF</b></td><td>1971</td><td><b>क्लॉस श्वाब</b>; Global Gender Gap व Global Risk Report</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">Global Gender Gap Index — 4 पैरामीटर (WEF)</span><b>1.</b> Economic participation &amp; opportunity · <b>2.</b> Educational attainment · <b>3.</b> Health &amp; survival · <b>4.</b> Political empowerment। यह चार ही याद रखें — यहीं से प्रश्न बनता है।</div>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">रिपोर्ट किसकी है — एक नज़र में</span><b>HDR</b> → UNDP · <b>World Economic Outlook, GFSR, Fiscal Monitor</b> → IMF · <b>World Investment Report</b> → UNCTAD · <b>Emissions Gap Report</b> → UNEP · <b>Global Risk, Gender Gap</b> → WEF · <b>World Development Report, Global Economic Prospects</b> → World Bank · <b>World Social Protection Report, Global Wage Report</b> → ILO।</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap</span>Amber box में <b>de minimis</b> — विकसित देशों के लिए <b>5%</b>, विकासशील (भारत) के लिए <b>10%</b>। और WTO <b>1995</b> में बना, GATT <b>1948</b> में लागू — दोनों को न मिलाएँ।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s8" data-sec="s8">
+      <div class="sec-head">
+        <div class="sec-num">08</div>
+        <h2>जनसंख्या के सिद्धांत<span class="en">Malthus · optimum population · demographic transition</span></h2>
+        <button class="markdone" data-done="s8" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">तीनों सिद्धांतों के सिर्फ़ <b>नाम और एक-एक लाइन</b> पूछे जाते हैं — इसलिए नाम-वर्ष पहले पक्का करें।</p>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>सिद्धांत</th><th>किसने दिया</th><th>मूल बात</th></tr></thead>
+            <tbody>
+              <tr><td><b>Malthusian theory</b></td><td><b>T.R. Malthus</b> — “An Essay on the Principle of Population”, <b>1798</b></td><td>जनसंख्या <b>geometric</b> (2, 4, 8, 16) बढ़ती है, खाना <b>arithmetic</b> (2, 3, 4, 5) → खाने वाले ज़्यादा, खाना कम। हल: <b>birth control</b></td></tr>
+              <tr><td><b>Optimum population theory</b></td><td><b>Edwin Cannan</b></td><td>संसाधनों के हिसाब से सबसे बेहतर आबादी</td></tr>
+              <tr><td><b>Social adjustment theory</b></td><td><b>Henry George</b></td><td>सामाजिक समायोजन से आबादी का सामंजस्य</td></tr>
+              <tr><td><b>Demographic transition theory</b></td><td><b>Thompson</b></td><td><b>चार स्टेज</b> — birth व death rate का उतार-चढ़ाव</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">चार स्टेज, एक लाइन में</span><b>1.</b> Birth high + death high → आबादी स्थिर (पुराने ज़माने में 8 बच्चे, 4 बचते) · <b>2.</b> Death rate गिरा (अस्पताल, वैक्सीन), birth high → <b>population explosion</b> · <b>3.</b> Birth rate भी गिरने लगा, आबादी फिर भी बढ़ रही · <b>4.</b> दोनों लो → फिर स्थिर।</div>
+        </div>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">भारत किस स्टेज में</span>भारत <b>तीसरी स्टेज</b> में है — “<b>high growth with a sign of slowing down</b>”। birth rate गिर रहा है, पर आबादी बढ़ रही है।</div>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">तीन और परिभाषाएँ</span><b>Natural growth</b> = birth − death; इसमें <b>migration व marriage</b> नहीं गिने जाते।<br><b>Stable population</b> = जहाँ birth व death rate स्थिर/बराबर हों।<br><b>Demographic features</b> = density, sex ratio, literacy, age structure, rural–urban बँटवारा। <b>Standard of living इसमें नहीं आता</b> — यह trap है।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s9" data-sec="s9">
+      <div class="sec-head">
+        <div class="sec-num">09</div>
+        <h2>जनगणना का इतिहास व वृद्धि की गति<span class="en">Census 1872 · 1881 · 1921 · decadal growth</span></h2>
+        <button class="markdone" data-done="s9" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">यहाँ सिर्फ़ <b>तीन साल</b> ज़िंदा रखने हैं — <b>1872, 1881, 1921</b> — और दो दशकीय आँकड़े।</p>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>तथ्य</th><th>विवरण</th></tr></thead>
+            <tbody>
+              <tr><td>पहला प्रयास</td><td><b>1872</b>, <b>लॉर्ड मेयो</b> के समय</td></tr>
+              <tr><td>पहली नियमित व समकालिक जनगणना</td><td><b>1881</b> — “पहले M (Mayo), फिर R (regular)”</td></tr>
+              <tr><td>अंतराल</td><td>हर <b>10 वर्ष</b></td></tr>
+              <tr><td>2011 की थीम</td><td>“<b>Our Census, Our Future</b>”</td></tr>
+              <tr><td>2021</td><td>स्थगित; <b>2027</b> की योजना (करेंट अफेयर्स)</td></tr>
+              <tr><td><b>1921 — Year of Great Divide</b></td><td>एकमात्र जनगणना जिसमें आबादी <b>घटी</b> — कारण: <b>फ़्लू महामारी व अकाल</b>; 1921 के बाद लगातार वृद्धि</td></tr>
+              <tr><td>सबसे ज़्यादा दशकीय वृद्धि</td><td><b>1961–71</b> → <b>24.8%</b></td></tr>
+              <tr><td>सबसे ज़्यादा exponential growth</td><td><b>1971–81</b></td></tr>
+              <tr><td>सबसे कम दशकीय वृद्धि</td><td><b>2001–11</b> → <b>17.7%</b></td></tr>
+              <tr><td>2011 की आबादी</td><td><b>121 करोड़</b>; महिलाएँ <b>48%</b> (आज ~150 करोड़)</td></tr>
+              <tr><td>घनत्व (2011)</td><td><b>382</b> व्यक्ति प्रति वर्ग कि.मी.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">याद रखने का तरीका</span>“<b>M पहले, R बाद में</b>” — Mayo (1872) पहले, Regular census (1881) बाद में। और <b>1921</b> को ही “great divide” कहते हैं, 1901 या 1931 को नहीं।</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap</span><b>24.8%</b> वाला दशक <b>1961–71</b> है; exponential growth <b>1971–81</b> में। दोनों अलग-अलग सवाल हैं — इसीलिए दोनों लाइनें याद रखें।</div>
+        </div>
+      </div>
+    </section>
+    <section class="sec" id="s10" data-sec="s10">
+      <div class="sec-head">
+        <div class="sec-num">10</div>
+        <h2>राज्य-वार जनसंख्या व घनत्व (2011)<span class="en">State &amp; UT extremes · density · BIMARU</span></h2>
+        <button class="markdone" data-done="s10" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">यहाँ हर सवाल “<b>सबसे ज़्यादा / सबसे कम</b>” वाला होता है — इसलिए तीन-तीन की जोड़ी बनाकर याद करें।</p>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>श्रेणी</th><th>सबसे ज़्यादा</th><th>सबसे कम</th></tr></thead>
+            <tbody>
+              <tr><td>जनसंख्या (राज्य)</td><td><b>उत्तर प्रदेश</b> (16.5%) → महाराष्ट्र → बिहार</td><td><b>सिक्किम</b></td></tr>
+              <tr><td>जनसंख्या (UT)</td><td>दिल्ली</td><td><b>लक्षद्वीप</b></td></tr>
+              <tr><td>घनत्व (राज्य)</td><td><b>बिहार — 1,106</b> /वर्ग कि.मी.</td><td><b>अरुणाचल प्रदेश — 17</b></td></tr>
+              <tr><td>घनत्व (UT)</td><td><b>पुडुचेरी — 2,547</b></td><td><b>अंडमान-निकोबार — 46</b></td></tr>
+              <tr><td>दशकीय वृद्धि (2001–11)</td><td><b>मेघालय</b></td><td><b>नागालैंड</b> — एकमात्र राज्य जहाँ <b>ऋणात्मक</b> वृद्धि</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">तीन राज्यों में एक-तिहाई</span><b>UP + महाराष्ट्र + बिहार</b> = भारत की आबादी का <b>लगभग 33%</b> (एक-तिहाई से ज़्यादा)। यह एक-लाइनर बहुत पूछा जाता है।</div>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">BIMARU</span><b>B</b>ihar · <b>M</b>adhya Pradesh · <b>R</b>ajasthan · <b>U</b>ttar Pradesh — एक समय इन्हें “बीमारू” राज्य कहा गया (धीमी प्रगति, ऊँची प्रजनन दर)। इनमें सबसे घनी आबादी <b>बिहार</b> की है।</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap — UT के आँकड़े</span><b>पुडुचेरी</b> सबसे घना UT (2,547) है, पर सबसे घना <b>राज्य</b> <b>बिहार</b> है। और <b>लक्षद्वीप</b> सबसे कम आबादी वाला UT है — पर साक्षरता में सबसे आगे (नीचे देखें)।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s11" data-sec="s11">
+      <div class="sec-head">
+        <div class="sec-num">11</div>
+        <h2>साक्षरता व लिंगानुपात<span class="en">Literacy 74% · sex ratio 943 · child sex ratio 919</span></h2>
+        <button class="markdone" data-done="s11" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">दो आँकड़े ज़बानी याद कर लें — <b>74 · 80 · 64</b> और <b>943 · 919</b>। बाक़ी सब इन्हीं के आस-पास है।</p>
+        <div class="stats">
+          <div class="stat"><div class="v">74%</div><div class="k">कुल साक्षरता (2011)</div></div>
+          <div class="stat"><div class="v">80 / 64</div><div class="k">पुरुष / महिला साक्षरता</div></div>
+          <div class="stat"><div class="v">943</div><div class="k">लिंगानुपात</div></div>
+          <div class="stat"><div class="v">919</div><div class="k">बाल लिंगानुपात (0–6)</div></div>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">प्रभावी साक्षरता (effective literacy)</span><b>7 वर्ष या उससे बड़ी</b> आबादी में पढ़ने-लिखने वालों का अनुपात। 2011 में — कुल <b>74%</b>, पुरुष <b>80%</b>, महिला <b>64%</b>।</div>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">लिंगानुपात (sex ratio)</span>प्रति <b>1,000 पुरुषों</b> पर महिलाओं की संख्या। भारत — <b>943</b> · केरल — <b>1,084</b> (सर्वाधिक राज्य) · पुडुचेरी — <b>1,037</b> (सर्वाधिक UT) · हरियाणा — <b>879</b> (न्यूनतम राज्य) · दमन-दीव — <b>~618</b> (न्यूनतम UT) · ग्रामीण <b>~950</b>, शहरी <b>~930</b>।</div>
+        </div>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">कम लिंगानुपात के कारण</span>उच्च <b>मातृ मृत्यु दर</b> · कन्या शिशु मृत्यु दर · <b>भ्रूण हत्या (female foeticide)</b> · प्राकृतिक रूप से पुरुष जन्म-दर थोड़ी ऊँची।</div>
+        </div>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>साक्षरता का सवाल</th><th>उत्तर</th></tr></thead>
+            <tbody>
+              <tr><td>सर्वाधिक साक्षर राज्य</td><td><b>केरल — 94%</b></td></tr>
+              <tr><td>दूसरा सर्वाधिक</td><td><b>मिज़ोरम</b></td></tr>
+              <tr><td>न्यूनतम साक्षर राज्य</td><td><b>बिहार — 61%</b></td></tr>
+              <tr><td>सर्वाधिक साक्षर UT</td><td><b>लक्षद्वीप</b> (और आबादी में सबसे छोटा भी)</td></tr>
+              <tr><td>न्यूनतम साक्षर UT</td><td><b>दादरा नगर हवेली</b></td></tr>
+              <tr><td>ग्रामीण साक्षरता में शीर्ष</td><td><b>केरल</b>; शहरी साक्षरता में <b>मिज़ोरम</b></td></tr>
+              <tr><td>पहला पूर्ण साक्षर ज़िला</td><td><b>बर्द्धमान, पश्चिम बंगाल</b> (केरल के बाद)</td></tr>
+              <tr><td>सबसे तेज़ साक्षरता वृद्धि</td><td><b>1991–2001</b></td></tr>
+              <tr><td>NLMA / राष्ट्रीय साक्षरता मिशन</td><td><b>5 मई 1988</b>, राजीव गांधी; लक्ष्य 2007 तक <b>75%</b></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap</span><b>लिंगानुपात 943</b> है, बाल लिंगानुपात <b>919</b> — दोनों अलग। बाल लिंगानुपात में सर्वाधिक <b>मेघालय</b>, न्यूनतम <b>हरियाणा</b>। और “1000 पर 943” का मतलब 1,000 <b>पुरुषों</b> पर 943 महिलाएँ।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s12" data-sec="s12">
+      <div class="sec-head">
+        <div class="sec-num">12</div>
+        <h2>SC–ST, धर्म, NPP व जनसांख्यिकीय लाभांश<span class="en">SC 16.6% · ST 8.6% · religion · demographic dividend</span></h2>
+        <button class="markdone" data-done="s12" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">इस सेक्शन के सारे प्रश्न <b>“सबसे ज़्यादा किस राज्य में”</b> वाले हैं — इसलिए तालिका ही सब कुछ है।</p>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>श्रेणी</th><th>तथ्य</th></tr></thead>
+            <tbody>
+              <tr><td><b>SC आबादी</b></td><td>कुल का <b>16.6%</b>; प्रतिशत में सर्वाधिक <b>पंजाब (31.9%)</b>; निरपेक्ष संख्या में सर्वाधिक <b>उत्तर प्रदेश</b>; <b>नागालैंड में SC शून्य</b></td></tr>
+              <tr><td><b>ST आबादी</b></td><td>कुल का <b>8.6%</b>; संख्या में सर्वाधिक <b>मध्य प्रदेश</b>; प्रतिशत में सर्वाधिक <b>मेघालय (~86%)</b>; न्यूनतम प्रतिशत <b>UP (0.6%)</b></td></tr>
+              <tr><td>ST शून्य वाले</td><td><b>पंजाब, हरियाणा, दिल्ली, चंडीगढ़, पुडुचेरी</b> — उत्तरी बेल्ट</td></tr>
+              <tr><td>धर्म का क्रम</td><td>हिंदू &gt; मुस्लिम &gt; ईसाई &gt; सिख &gt; बौद्ध &gt; जैन (जैन सबसे अंत में)</td></tr>
+              <tr><td>सर्वाधिक मुस्लिम आबादी</td><td><b>उत्तर प्रदेश</b></td></tr>
+              <tr><td>ईसाई प्रतिशत</td><td><b>नागालैंड (~88%)</b></td></tr>
+              <tr><td>धर्म-वार लिंगानुपात</td><td>ईसाई सर्वाधिक <b>1,023</b> · मुस्लिम ~950 · सिख सबसे कम <b>903</b></td></tr>
+              <tr><td><b>राष्ट्रीय जनसंख्या नीति</b></td><td><b>फरवरी 2000</b></td></tr>
+              <tr><td>TFR (2011)</td><td><b>2.4</b> — यानी प्रति महिला औसत बच्चे</td></tr>
+              <tr><td>मृत्यु पंजीकरण</td><td><b>21 दिन</b> के भीतर; पहला राज्य <b>कर्नाटक</b></td></tr>
+              <tr><td><b>जनसांख्यिकीय लाभांश</b></td><td>कार्यशील आबादी <b>15–59</b> वर्ष (भारत की परिभाषा); <b>UN</b> के अनुसार <b>15–64</b></td></tr>
+              <tr><td>आश्रित आबादी</td><td>0–14 और 60+; वृद्धाश्रित अनुपात ~<b>14%</b></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call pointer">
+          <span class="ci">i</span>
+          <div><span class="ct">लाभांश का तर्क</span>भारत में आश्रित आबादी कम है क्योंकि <b>15–59 वर्ष</b> की कार्यशील आबादी मज़बूत है — यही “demographic dividend” है। इसे “बोनस” कहते हैं, “बोझ” नहीं।</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap</span>SC का <b>प्रतिशत</b> पंजाब में सबसे ज़्यादा, पर <b>संख्या</b> UP में — दोनों अलग सवाल। ST भी वही कहानी: संख्या <b>MP</b>, प्रतिशत <b>मेघालय</b>।</div>
+        </div>
+      </div>
+    </section>
+    <section class="sec" id="s13" data-sec="s13">
+      <div class="sec-head">
+        <div class="sec-num">13</div>
+        <h2>समितियाँ व अर्थशास्त्री — PYQ तालिका<span class="en">Committees, concepts &amp; personalities</span></h2>
+        <button class="markdone" data-done="s13" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p class="lead">लेक्चर का कहना था — “ये सारे पीवाईक्यू हैं, एक भी मैंने अपनी ओर से बनाकर नहीं बोला।” इसलिए पूरी तालिका पढ़ लें।</p>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>समिति / व्यक्ति</th><th>किससे जुड़ा</th></tr></thead>
+            <tbody>
+              <tr><td><b>के. कस्तूरीरंगन</b></td><td><b>NEP 2020</b> की ड्राफ्टिंग — पैनल 2017, NEP स्वीकृत <b>29 जुलाई 2020</b></td></tr>
+              <tr><td><b>कस्तूरीरंगन समिति</b> (दूसरा काम)</td><td><b>पश्चिमी घाट</b> का संरक्षण</td></tr>
+              <tr><td><b>गाडगिल समिति</b></td><td>पश्चिमी घाट संरक्षण (2011) — कस्तूरीरंगन से पहले</td></tr>
+              <tr><td><b>सरकारिया आयोग</b></td><td><b>केंद्र-राज्य</b> संबंध</td></tr>
+              <tr><td><b>राजमन्नार आयोग</b></td><td>केंद्र-राज्य संबंध</td></tr>
+              <tr><td><b>रंगराजन समिति</b></td><td><b>गरीबी मापन</b></td></tr>
+              <tr><td><b>परेख समिति</b></td><td><b>अवसंरचना वित्त</b></td></tr>
+              <tr><td><b>नरसिम्हन समिति</b></td><td><b>बैंकिंग सुधार</b></td></tr>
+              <tr><td><b>दत्त समिति</b></td><td><b>औद्योगिक लाइसेंसिंग, 1969</b></td></tr>
+              <tr><td><b>वांचू समिति</b></td><td><b>प्रत्यक्ष कर</b></td></tr>
+              <tr><td><b>चक्रवर्ती समिति</b></td><td><b>मौद्रिक नीति</b></td></tr>
+              <tr><td><b>पार्थसारथी समिति</b></td><td><b>कराधान</b></td></tr>
+              <tr><td><b>अशोक गुलाटी</b></td><td>कृषि अर्थशास्त्री</td></tr>
+              <tr><td><b>एम. गोविंदा राव</b></td><td><b>राजकोषीय नीति</b></td></tr>
+              <tr><td><b>अरविंद पनगढ़िया</b></td><td>planning व राज्य सुधार (नीति आयोग)</td></tr>
+              <tr><td><b>रघुराम राजन</b></td><td><b>वित्तीय क्षेत्र</b> सुधार</td></tr>
+              <tr><td><b>जयंत पाटिल</b></td><td>अल्पवर्षा/सूखा क्षेत्र विकास</td></tr>
+              <tr><td><b>विमल जलान</b></td><td><b>व्यय प्रबंधन आयोग</b> के पहले अध्यक्ष</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>अवधारणा / तथ्य</th><th>किसका</th></tr></thead>
+            <tbody>
+              <tr><td><b>Marginal man</b></td><td><b>Robert E. Park</b></td></tr>
+              <tr><td><b>Missing women</b></td><td><b>अमर्त्य सेन</b></td></tr>
+              <tr><td>Global village</td><td>परिवहन व संचार के विकास पर आधारित</td></tr>
+              <tr><td>UN Human Rights Commission, 1946</td><td>भारत की <b>हंसा मेहता</b> सदस्य</td></tr>
+              <tr><td>Competition Commission of India</td><td><b>2003</b>; पहले अध्यक्ष <b>अशोक चावला</b></td></tr>
+              <tr><td>पिता — आधुनिक अर्थशास्त्र</td><td><b>एडम स्मिथ</b> (“Wealth of Nations”)</td></tr>
+              <tr><td>Prisoner's dilemma</td><td><b>Game theory</b> की अवधारणा</td></tr>
+              <tr><td>वैज्ञानिक प्रबंधन का जनक</td><td><b>F.W. Taylor</b></td></tr>
+              <tr><td>Trusteeship (न्यासिता)</td><td><b>महात्मा गांधी</b></td></tr>
+              <tr><td>Environmental Kuznets Curve</td><td><b>उल्टा-U</b> आकार</td></tr>
+              <tr><td>EPR (Extended Producer Responsibility)</td><td><b>E-Waste Rules, 2011</b></td></tr>
+              <tr><td>BIS मानक चिह्न</td><td>ऑटो <b>टायर-ट्यूब</b> के लिए अनिवार्य</td></tr>
+              <tr><td>ISO 14000</td><td><b>प्रदूषण नियंत्रण</b> प्रणाली</td></tr>
+              <tr><td>Agmark</td><td>कृषि उत्पादों की <b>गुणवत्ता मोहर</b></td></tr>
+              <tr><td>Ecomark</td><td><b>पर्यावरण-मित्र</b> उत्पाद</td></tr>
+              <tr><td>GI टैग — निज़ामाबाद काली मिट्टी</td><td><b>उत्तर प्रदेश</b></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="call def">
+          <span class="ci">§</span>
+          <div><span class="ct">नीतियाँ व “जनक”</span><b>National Agriculture Policy 2000</b> · <b>Marine Fishing Policy 2004</b> · <b>New Foreign Trade Policy 2014</b> · हरित क्रांति के जनक <b>M.S. स्वामीनाथन</b> · श्वेत (दूध) क्रांति <b>वर्गीज़ कुरियन</b> · बैंकों पर सामाजिक नियंत्रण <b>मोरारजी देसाई</b> · RBI गवर्नर व वित्त मंत्री दोनों रहे — <b>C.D. देशमुख</b>।</div>
+        </div>
+        <div class="call trap">
+          <span class="ci">!</span>
+          <div><span class="ct">Trap — दो “निज़ामाबाद”</span><b>निज़ामाबाद काली मिट्टी (GI)</b> = <b>उत्तर प्रदेश</b> · <b>Turmeric Board</b> = <b>निज़ामाबाद, तेलंगाना</b> (बैच 8)। दोनों अलग राज्यों में — इसीलिए उलझाया जाता है।</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s14" data-sec="s14">
+      <div class="sec-head">
+        <div class="sec-num">14</div>
+        <h2>फैक्ट शीट — पूरे बैच का निचोड़<span class="en">One-line fact sheet · final revision</span></h2>
+        <button class="markdone" data-done="s14" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p>BoP से लेकर जनगणना तक — पूरे बैच के परीक्षा-योग्य तथ्य, एक-एक पंक्ति में। <b>प्रिंट/PDF</b> से रिवीजन शीट निकाल सकते हैं।</p>
+        <div class="facts" id="factsList">
+          <div class="fact"><span class="tag">BoP</span><span class="txt">current account + capital account</span></div>
+          <div class="fact"><span class="tag">Current account</span><span class="txt">merchandise + invisibles (services, factor income, transfers)</span></div>
+          <div class="fact"><span class="tag">Capital account</span><span class="txt">FDI, FPI, ECB, NRI deposits</span></div>
+          <div class="fact"><span class="tag">ECB</span><span class="txt"><b>RBI</b> रेगुलेट करता है</span></div>
+          <div class="fact"><span class="tag">Balance of trade</span><span class="txt">goods का export − import</span></div>
+          <div class="fact"><span class="tag">Invisible</span><span class="txt">services; invisible export = सेवाओं का निर्यात</span></div>
+          <div class="fact"><span class="tag">Current account convertibility</span><span class="txt"><b>1994</b> में पूरी हुई</span></div>
+          <div class="fact"><span class="tag">Capital account convertibility</span><span class="txt">अभी पूरी नहीं — <b>तारापुर समिति</b></span></div>
+          <div class="fact"><span class="tag">FEMA</span><span class="txt"><b>1999</b> — Foreign Exchange Management Act</span></div>
+          <div class="fact"><span class="tag">Devaluation</span><span class="txt">1949 · 1966 · <b>1991 (दो बार)</b> = कुल चार बार</span></div>
+          <div class="fact"><span class="tag">Devaluation असर</span><span class="txt">export सस्ता, import महँगा</span></div>
+          <div class="fact"><span class="tag">Forex reserves</span><span class="txt">currency assets · gold · SDR · IMF reserve position</span></div>
+          <div class="fact"><span class="tag">EXIM Bank</span><span class="txt"><b>1982</b></span></div>
+          <div class="fact"><span class="tag">ECGC</span><span class="txt"><b>1957</b> — export credit व insurance</span></div>
+          <div class="fact"><span class="tag">MPEDA</span><span class="txt"><b>1972</b>, कोच्चि</span></div>
+          <div class="fact"><span class="tag">पहला EPZ</span><span class="txt">एशिया का पहला — <b>कांडला, 1965</b></span></div>
+          <div class="fact"><span class="tag">SEZ Act</span><span class="txt"><b>2005</b></span></div>
+          <div class="fact"><span class="tag">Bretton Woods</span><span class="txt"><b>1944</b>, UN Monetary &amp; Financial Conference</span></div>
+          <div class="fact"><span class="tag">World Bank Group</span><span class="txt">IBRD · IDA · IFC · MIGA · ICSID (<b>5 अंग</b>)</span></div>
+          <div class="fact"><span class="tag">ICSID</span><span class="txt">भारत <b>सदस्य नहीं</b></span></div>
+          <div class="fact"><span class="tag">WB सदस्यता</span><span class="txt">पहले <b>IMF</b> का सदस्य होना ज़रूरी; President हमेशा <b>USA</b> से</span></div>
+          <div class="fact"><span class="tag">IMF</span><span class="txt"><b>1944</b>, Washington DC, <b>190</b> सदस्य</span></div>
+          <div class="fact"><span class="tag">IMF कोटा</span><span class="txt">contribution + voting power + finance access; हर <b>5 साल</b> समीक्षा</span></div>
+          <div class="fact"><span class="tag">वोट शेयर</span><span class="txt">USA <b>16%</b>, भारत <b>2.6%</b>; चीन तीसरे नंबर पर</span></div>
+          <div class="fact"><span class="tag">SDR</span><span class="txt"><b>1969</b>; USD, EUR, CNY, JPY, GBP</span></div>
+          <div class="fact"><span class="tag">NDB</span><span class="txt">2014 (फ़ोर्टालेज़ा), शंघाई, समान वोट, पहले अध्यक्ष <b>K.V. कामथ</b></span></div>
+          <div class="fact"><span class="tag">CRA</span><span class="txt">BRICS — short-term BoP के लिए liquidity</span></div>
+          <div class="fact"><span class="tag">ADB</span><span class="txt"><b>1966</b>, मनीला, 68 सदस्य, जापान-USA शीर्ष</span></div>
+          <div class="fact"><span class="tag">AIIB</span><span class="txt"><b>2016</b>, बीजिंग, 105 सदस्य; चीन पहला, भारत दूसरा</span></div>
+          <div class="fact"><span class="tag">BIS</span><span class="txt"><b>1930</b>, बेसल, 60 केंद्रीय बैंक</span></div>
+          <div class="fact"><span class="tag">WTO</span><span class="txt"><b>1995</b>, माराकेश समझौता, जेनेवा</span></div>
+          <div class="fact"><span class="tag">GATT</span><span class="txt"><b>1948</b> में लागू</span></div>
+          <div class="fact"><span class="tag">AoA बॉक्स</span><span class="txt">green (अनुमत) · amber (कटौती) · blue (छूट के साथ अनुमत) · red (प्रतिबंधित)</span></div>
+          <div class="fact"><span class="tag">De minimis</span><span class="txt">विकसित <b>5%</b>, विकासशील (भारत) <b>10%</b></span></div>
+          <div class="fact"><span class="tag">WEF</span><span class="txt"><b>1971</b>, क्लॉस श्वाब; Gender Gap के <b>4 पैरामीटर</b></span></div>
+          <div class="fact"><span class="tag">SAARC / BIMSTEC</span><span class="txt"><b>1985</b> (काठमांडू) / <b>1997</b></span></div>
+          <div class="fact"><span class="tag">ASEAN / OPEC</span><span class="txt"><b>1967</b> बैंकॉक / <b>1960</b></span></div>
+          <div class="fact"><span class="tag">SCO</span><span class="txt"><b>2001</b>; भारत-पाक पूर्ण सदस्य</span></div>
+          <div class="fact"><span class="tag">Malthus</span><span class="txt"><b>1798</b>, population geometric vs food arithmetic</span></div>
+          <div class="fact"><span class="tag">Optimum population</span><span class="txt"><b>Edwin Cannan</b>; social adjustment — <b>Henry George</b></span></div>
+          <div class="fact"><span class="tag">Demographic transition</span><span class="txt"><b>Thompson</b>, 4 स्टेज; भारत <b>तीसरी</b> स्टेज में</span></div>
+          <div class="fact"><span class="tag">Natural growth</span><span class="txt">birth − death; migration व marriage शामिल नहीं</span></div>
+          <div class="fact"><span class="tag">पहला census प्रयास</span><span class="txt"><b>1872</b>, लॉर्ड मेयो; नियमित <b>1881</b></span></div>
+          <div class="fact"><span class="tag">1921</span><span class="txt"><b>Year of Great Divide</b> — फ़्लू व अकाल से आबादी घटी</span></div>
+          <div class="fact"><span class="tag">दशकीय वृद्धि</span><span class="txt">सर्वाधिक <b>24.8% (1961–71)</b>; न्यूनतम <b>17.7% (2001–11)</b></span></div>
+          <div class="fact"><span class="tag">2011 आबादी</span><span class="txt"><b>121 करोड़</b>, महिलाएँ 48%, घनत्व <b>382</b></span></div>
+          <div class="fact"><span class="tag">जनसंख्या</span><span class="txt">UP (16.5%) &gt; महाराष्ट्र &gt; बिहार; तीनों मिलकर ~33%</span></div>
+          <div class="fact"><span class="tag">घनत्व</span><span class="txt">बिहार <b>1,106</b> सर्वाधिक; अरुणाचल <b>17</b> न्यूनतम</span></div>
+          <div class="fact"><span class="tag">UT</span><span class="txt">पुडुचेरी घनत्व <b>2,547</b>; अंडमान <b>46</b>; लक्षद्वीप सबसे कम आबादी</span></div>
+          <div class="fact"><span class="tag">नागालैंड</span><span class="txt">एकमात्र राज्य जहाँ <b>ऋणात्मक</b> जनसंख्या वृद्धि</span></div>
+          <div class="fact"><span class="tag">साक्षरता</span><span class="txt"><b>74%</b> — पुरुष 80, महिला 64</span></div>
+          <div class="fact"><span class="tag">साक्षरता</span><span class="txt">केरल <b>94%</b> शीर्ष, मिज़ोरम दूसरा, बिहार <b>61%</b> न्यूनतम</span></div>
+          <div class="fact"><span class="tag">UT साक्षरता</span><span class="txt">लक्षद्वीप शीर्ष; दादरा नगर हवेली न्यूनतम</span></div>
+          <div class="fact"><span class="tag">राष्ट्रीय साक्षरता मिशन</span><span class="txt"><b>5 मई 1988</b>, लक्ष्य 2007 तक 75%</span></div>
+          <div class="fact"><span class="tag">लिंगानुपात</span><span class="txt"><b>943</b>; केरल 1,084; हरियाणा 879 न्यूनतम; दमन-दीव ~618</span></div>
+          <div class="fact"><span class="tag">बाल लिंगानुपात</span><span class="txt"><b>919</b>; मेघालय शीर्ष, हरियाणा न्यूनतम</span></div>
+          <div class="fact"><span class="tag">SC / ST</span><span class="txt">SC <b>16.6%</b> (पंजाब 31.9%), ST <b>8.6%</b> (मेघालय 86%)</span></div>
+          <div class="fact"><span class="tag">NPP</span><span class="txt"><b>फरवरी 2000</b>; TFR <b>2.4</b></span></div>
+          <div class="fact"><span class="tag">लाभांश</span><span class="txt">कार्यशील आबादी <b>15–59</b> (भारत), <b>15–64</b> (UN)</span></div>
+          <div class="fact"><span class="tag">NEP 2020</span><span class="txt"><b>29 जुलाई 2020</b>; कस्तूरीरंगन</span></div>
+          <div class="fact"><span class="tag">Marginal man</span><span class="txt"><b>Robert E. Park</b>; Missing women — <b>अमर्त्य सेन</b></span></div>
+        </div>
+        <div class="hero-cta" style="margin-top:14px">
+          <button class="btn ghost" id="copyFacts" type="button">फैक्ट शीट कॉपी करें</button>
+          <a class="btn ghost" href="#s16">टेस्ट दें →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="s15" data-sec="s15">
+      <div class="sec-head">
+        <div class="sec-num">15</div>
+        <h2>फ्लैशकार्ड — 20 शब्द, 20 उत्तर<span class="en">Flip cards · years, banks &amp; census</span></h2>
+        <button class="markdone" data-done="s15" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <p>कार्ड पर क्लिक/टैप करें — पलटकर उत्तर दिखेगा। पहले खुद सोचें, फिर पलटें।</p>
+        <h3 class="sub">संस्था और वर्ष</h3>
+        <div class="fc-grid" id="fcSdg"></div>
+        <h3 class="sub">तथ्य और आँकड़ा</h3>
+        <div class="fc-grid" id="fcFact"></div>
+        <p class="fc-hint">कीबोर्ड: <span class="mono">Tab</span> से कार्ड चुनें, <span class="mono">Enter/Space</span> से पलटें।</p>
+      </div>
+    </section>
+
+    <section class="sec" id="s16" data-sec="s16">
+      <div class="sec-head">
+        <div class="sec-num">16</div>
+        <h2>अभ्यास प्रश्न — 14 MCQ<span class="en">Practice test with instant explanations</span></h2>
+        <button class="markdone" data-done="s16" aria-pressed="false" type="button"><span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" aria-hidden="true"><path d="M4 12.5 9 18 20 6"/></svg></span>पढ़ लिया</button>
+      </div>
+      <div class="sec-body">
+        <div class="quiz-bar">
+          <span class="score">स्कोर: <b id="scoreVal">0</b> / <span id="qTotal">14</span></span>
+          <span class="note" id="quizNote">कोई विकल्प चुनें — तुरंत सही/गलत व व्याख्या दिखेगी।</span>
+          <span class="spacer" style="flex:1"></span>
+          <button class="btn ghost" id="resetQuiz" type="button" style="height:32px;font-size:12px">रीसेट</button>
+        </div>
+        <div class="quiz" id="quiz"></div>
+      </div>
+    </section>
+
+    <section class="sec" id="course-end">
+      <div class="sec-head">
+        <div class="sec-num">✓</div>
+        <h2>कोर्स पूरा<span class="en">All 10 batches · what to revise</span></h2>
+      </div>
+      <div class="sec-body">
+        <p>यह लेक्चर का <b>आख़िरी बैच</b> है — BoP, विनिमय दर, अंतरराष्ट्रीय संस्थाएँ, जनगणना, समितियाँ और PYQ। पूरा 3:28:12 का वीडियो अब <b>10 बैचों</b> में कवर हो चुका है।</p>
+        <div class="next">
+          <div class="nextcard"><div class="h"><span class="n">1–3</span>बुनियाद</div><p>अर्थव्यवस्था के प्रकार, 1991 LPG, SDG, योजनाएँ, गरीबी व कल्याण योजनाएँ।</p></div>
+          <div class="nextcard"><div class="h"><span class="n">4–5</span>मापन</div><p>राष्ट्रीय आय (GDP/GNP/NNP) व महँगाई (CPI/WPI, 4% ± 2%)।</p></div>
+          <div class="nextcard"><div class="h"><span class="n">6–7</span>वित्त</div><p>बैंकिंग, RBI, मुद्रा, राजकोषीय नीति, कर व GST।</p></div>
+          <div class="nextcard"><div class="h"><span class="n">8–9</span>क्षेत्र</div><p>कृषि, उद्योग, योजनाएँ; स्वास्थ्य, कौशल, वित्तीय समावेशन।</p></div>
+          <div class="nextcard"><div class="h"><span class="n">10</span>बाहरी दुनिया</div><p>BoP, विनिमय दर, WTO, IMF–World Bank, जनगणना व समितियाँ।</p></div>
+        </div>
+        <div class="call pointer" style="margin-top:16px">
+          <span class="ci">i</span>
+          <div><span class="ct">आख़िरी 48 घंटे का प्लान</span>हर बैच की <b>फैक्ट शीट</b> पढ़ें → <b>फ्लैशकार्ड</b> से साल पक्के करें → <b>MCQ</b> दें → जो ग़लत हो, उसी सेक्शन का “Trap” वाला हिस्सा दोबारा देखें।</div>
+        </div>
+        <div class="call mem">
+          <span class="ci">✦</span>
+          <div><span class="ct">आँकड़ों पर एक चेतावनी</span>जनगणना के आँकड़े <b>2011</b> के हैं (2021 स्थगित, 2027 की योजना) — परीक्षा से पहले नवीनतम आधिकारिक स्रोत देख लें।</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="noresult" id="noresult">कोई परिणाम नहीं मिला — कोई दूसरा शब्द आज़माएँ (जैसे <b>BoP</b>, <b>SDR</b>, <b>943</b>)।</div>
+  </main>
+</div>
+
+<button class="toTop" id="toTop" type="button" aria-label="ऊपर जाएँ">
+  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+
+<footer class="footer">
+  <p><b>स्रोत:</b> “Indian Economy One Shot 2026 — Complete Indian Economy for UPPCS &amp; BPSC 72nd”, PCS INSIGHTS (UPPCS-BPSC), YouTube — <span class="mono">youtu.be/r2iOMMlSPIw</span> (3:28:12, प्रकाशित 09-11-2026)। बैच 10 = बाह्य क्षेत्र, अंतरराष्ट्रीय संस्थाएँ, जनगणना व समितियाँ (अंतिम बैच)।</p>
+  <p>यह अध्ययन-सामग्री वीडियो के ऑटो-ट्रांसक्रिप्ट से बनी है; जहाँ लेक्चर में परिभाषा/आँकड़ा गड़बड़ाया, वहाँ “सुधार” चिह्न से सही जानकारी दी गई है — परीक्षा में वही लिखें।</p>
+  <p style="margin-top:8px">बैच 10 / 16 · इंटरैक्टिव स्टडी मॉड्यूल · प्रगति इसी ब्राउज़र में सुरक्षित रहती है।</p>
+</footer>
+
+
+<script>
+(function(){
+  "use strict";
+  var $ = function(s,c){return (c||document).querySelector(s);};
+  var $$ = function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s));};
+  var LS = {
+    get:function(k,d){try{var v=localStorage.getItem(k);return v===null?d:JSON.parse(v);}catch(e){return d;}},
+    set:function(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
+  };
+
+  /* ---------- theme ---------- */
+  var themeBtn=$("#themeBtn"), themeLabel=$("#themeLabel");
+  function applyTheme(t){
+    document.documentElement.setAttribute("data-theme",t);
+    themeLabel.textContent = t==="dark" ? "लाइट" : "डार्क";
+    LS.set("ie-theme",t);
+  }
+  applyTheme(LS.get("ie-theme","light"));
+  themeBtn.addEventListener("click",function(){
+    applyTheme(document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark");
+  });
+
+  /* ---------- print ---------- */
+  $("#printBtn").addEventListener("click",function(){window.print();});
+
+  /* ---------- progress / mark done ---------- */
+  var marks=$$(".markdone"), done=LS.get("ie-done-b10",{});
+  var total=marks.length;
+  function refreshProgress(){
+    var n=0;
+    marks.forEach(function(b){
+      var id=b.getAttribute("data-done"), on=!!done[id];
+      b.setAttribute("aria-pressed",on?"true":"false");
+      if(on) n++;
+      var link=$('#toc a[href="#'+id+'"]');
+      if(link){link.classList.toggle("done",on);}
+    });
+    var pct=total?Math.round(n/total*100):0;
+    $("#ring").style.setProperty("--p",pct);
+    $("#ringTxt").textContent=pct+"%";
+    $("#doneCount").textContent=n+" / "+total+" अध्याय";
+  }
+  marks.forEach(function(b){
+    b.addEventListener("click",function(){
+      var id=b.getAttribute("data-done");
+      done[id]=!done[id];
+      LS.set("ie-done-b10",done);
+      refreshProgress();
+    });
+  });
+  refreshProgress();
+
+  /* ---------- scroll progress + to top ---------- */
+  var bar=$("#scrollProg"), toTop=$("#toTop");
+  function onScroll(){
+    var h=document.documentElement;
+    var max=(h.scrollHeight-h.clientHeight)||1;
+    bar.style.width=Math.min(100,(h.scrollTop/max)*100)+"%";
+    toTop.classList.toggle("show",h.scrollTop>700);
+  }
+  document.addEventListener("scroll",onScroll,{passive:true});
+  onScroll();
+  toTop.addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"});});
+
+  /* ---------- TOC active state ---------- */
+  var secs=$$("main .sec");
+  if("IntersectionObserver" in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          $$("#toc a").forEach(function(a){a.classList.remove("active");});
+          var a=$('#toc a[href="#'+en.target.id+'"]');
+          if(a){a.classList.add("active");}
+        }
+      });
+    },{rootMargin:"-88px 0px -66% 0px",threshold:0});
+    secs.forEach(function(s){io.observe(s);});
+  }
+
+  /* ---------- search ---------- */
+  var search=$("#search"), noresult=$("#noresult");
+  function clearMarks(root){
+    $$("mark",root).forEach(function(m){
+      var p=m.parentNode, t=document.createTextNode(m.textContent);
+      p.replaceChild(t,m); p.normalize();
+    });
+  }
+  function highlight(root,q){
+    var walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{
+      acceptNode:function(n){
+        if(!n.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+        var p=n.parentNode;
+        if(!p) return NodeFilter.FILTER_REJECT;
+        var tag=p.nodeName;
+        if(tag==="SCRIPT"||tag==="STYLE"||tag==="MARK"||tag==="INPUT"||tag==="TEXTAREA") return NodeFilter.FILTER_REJECT;
+        return n.nodeValue.toLowerCase().indexOf(q)!==-1?NodeFilter.FILTER_ACCEPT:NodeFilter.FILTER_REJECT;
+      }
+    });
+    var nodes=[], n;
+    while((n=walker.nextNode())){nodes.push(n);}
+    nodes.forEach(function(node){
+      var text=node.nodeValue, low=text.toLowerCase(), idx=low.indexOf(q);
+      if(idx===-1) return;
+      var frag=document.createDocumentFragment(), last=0;
+      while(idx!==-1){
+        frag.appendChild(document.createTextNode(text.slice(last,idx)));
+        var m=document.createElement("mark");
+        m.textContent=text.slice(idx,idx+q.length);
+        frag.appendChild(m);
+        last=idx+q.length;
+        idx=low.indexOf(q,last);
+      }
+      frag.appendChild(document.createTextNode(text.slice(last)));
+      node.parentNode.replaceChild(frag,node);
+    });
+  }
+  var searchTimer=null;
+  function runSearch(){
+    var q=(search.value||"").trim().toLowerCase();
+    secs.forEach(function(s){clearMarks(s);});
+    if(!q){
+      secs.forEach(function(s){s.classList.remove("hidden");});
+      noresult.classList.remove("show");
+      return;
+    }
+    var hits=0;
+    secs.forEach(function(s){
+      var match=(s.textContent||"").toLowerCase().indexOf(q)!==-1;
+      s.classList.toggle("hidden",!match);
+      if(match){hits++;highlight(s,q);}
+    });
+    noresult.classList.toggle("show",hits===0);
+  }
+  search.addEventListener("input",function(){
+    clearTimeout(searchTimer);
+    searchTimer=setTimeout(runSearch,140);
+  });
+  search.addEventListener("keydown",function(e){
+    if(e.key==="Escape"){search.value="";runSearch();search.blur();}
+  });
+
+  /* ---------- flashcards ---------- */
+  var sdg=[
+    ["IBRD","1944","विश्व बैंक का मूल नाम","Bretton Woods"],
+    ["IDA","soft loan","ब्याज-मुक्त loan व grant","World Bank"],
+    ["IFC","private sector","निजी क्षेत्र के साथ","World Bank"],
+    ["MIGA","guarantee","निवेशकों को बीमा","World Bank"],
+    ["ICSID","disputes","भारत सदस्य नहीं","World Bank"],
+    ["IMF","1944","Washington DC, 190 सदस्य","कोष"],
+    ["SDR","1969","USD·EUR·CNY·JPY·GBP","reserve asset"],
+    ["NDB","2014","शंघाई, समान वोट","BRICS"],
+    ["ADB","1966","मनीला, जापान-USA शीर्ष","बैंक"],
+    ["AIIB","2016","बीजिंग, भारत दूसरा","बैंक"]
+  ];
+  var facts=[
+    ["BIS","1930","बेसल, 60 केंद्रीय बैंक","बैंक"],
+    ["WTO","1995","माराकेश समझौता, जेनेवा","व्यापार"],
+    ["GATT","1948","पहले लागू हुआ","व्यापार"],
+    ["FEMA","1999","forex कानून","कानून"],
+    ["EXIM Bank","1982","निर्यात-आयात वित्त","संस्था"],
+    ["ECGC","1957","export credit व बीमा","संस्था"],
+    ["कांडला","1965","एशिया का पहला EPZ","क्षेत्र"],
+    ["1921","Great Divide","आबादी घटी — फ़्लू व अकाल","जनगणना"],
+    ["2011","121 करोड़","महिलाएँ 48%, घनत्व 382","जनगणना"],
+    ["943","लिंगानुपात","केरल 1,084 शीर्ष","जनगणना"]
+  ];
+  function cardHTML(top,mid,tiny,backMid){
+    return '<div class="fc-in">'+
+      '<div class="fc-face"><div class="top">'+top+'</div><div class="mid">'+mid+'</div><div class="tiny">'+tiny+'</div></div>'+
+      '<div class="fc-face fc-back"><div class="top">उत्तर</div><div class="mid">'+backMid+'</div></div>'+
+    '</div>';
+  }
+  function buildCards(container,arr){
+    container.innerHTML=arr.map(function(r){
+      var b=document.createElement("button");
+      b.type="button"; b.className="fc"; b.setAttribute("aria-label","कार्ड "+r[0]+" — पलटें");
+      b.innerHTML=cardHTML(r[0],r[1],r[2],r[3]);
+      b.addEventListener("click",function(){b.classList.toggle("flipped");});
+      return b.outerHTML;
+    }).join("");
+  }
+  buildCards($("#fcSdg"),sdg);
+  buildCards($("#fcFact"),facts);
+
+  /* ---------- quiz ---------- */
+  var QUIZ=[
+    {q:"Balance of Payments (BoP) के दो मुख्य खाते कौन-से हैं?",
+     o:["Current account व capital account","Revenue account व fiscal account","Trade account व tariff account","Saving account व deposit account"],a:0,
+     e:"BoP = current account (merchandise + invisibles) + capital account (FDI, FPI, ECB, NRI deposits)।"},
+    {q:"External Commercial Borrowing (ECB) को कौन रेगुलेट करता है?",
+     o:["SEBI","RBI","IMF","वित्त मंत्रालय"],a:1,
+     e:"लेक्चर में स्पष्ट कहा गया — ECB को भारतीय रिज़र्व बैंक रेगुलेट करता है।"},
+    {q:"भारत ने current account पर पूरी convertibility कब हासिल की?",
+     o:["1991","1994","1997","1999"],a:1,
+     e:"Current account की पूरी convertibility 1994 में; capital account अभी पूरी नहीं — उसके लिए तारापुर समिति बनी।"},
+    {q:"Capital account convertibility की शर्तें तय करने वाली समिति कौन-सी थी?",
+     o:["नरसिम्हन समिति","तारापुर समिति","रंगराजन समिति","वांचू समिति"],a:1,
+     e:"तारापुर समिति ने शर्तें सुझाईं; नरसिम्हन = बैंकिंग सुधार, वांचू = प्रत्यक्ष कर।"},
+    {q:"भारत ने अपनी मुद्रा कितनी बार अवमूल्यित (devalue) की है?",
+     o:["दो बार","तीन बार","चार बार","पाँच बार"],a:2,
+     e:"1949, 1966 और 1991 में दो बार — कुल चार बार।"},
+    {q:"मुद्रा के अवमूल्यन (devaluation) का असर क्या होता है?",
+     o:["export सस्ता, import महँगा","export महँगा, import सस्ता","दोनों सस्ते","कोई असर नहीं"],a:0,
+     e:"रुपया कमज़ोर होने से भारतीय सामान बाहर सस्ता पड़ता है और आयात महँगा — जैसे $100 का तेल ₹5,000 से ₹8,000।"},
+    {q:"Foreign Exchange Management Act (FEMA) कब आया?",
+     o:["1973","1991","1999","2005"],a:2,
+     e:"FEMA 1999 — forex बाज़ार को व्यवस्थित करने के लिए; यह FERA का स्थान लेने आया।"},
+    {q:"Bretton Woods Conference (1944) से कौन-सी दो संस्थाएँ बनीं?",
+     o:["IMF व IBRD","WTO व UNCTAD","ADB व AIIB","NDB व BIS"],a:0,
+     e:"IMF व IBRD (World Bank) — दोनों को “Bretton Woods twins” कहते हैं।"},
+    {q:"World Bank Group का कौन-सा अंग निजी क्षेत्र के साथ काम करता है?",
+     o:["IDA","IFC","MIGA","ICSID"],a:1,
+     e:"IFC = International Finance Corporation — private sector के साथ; IDA ब्याज-मुक्त loan, MIGA बीमा, ICSID विवाद निपटारा।"},
+    {q:"SDR (Special Drawing Right) कब बनाया गया और किससे जुड़ा है?",
+     o:["1944, World Bank","1969, IMF","1995, WTO","2001, SCO"],a:1,
+     e:"SDR 1969 में IMF का reserve asset बना — “paper gold”; इसमें USD, EUR, CNY, JPY, GBP हैं।"},
+    {q:"NDB (New Development Bank) का मुख्यालय कहाँ है?",
+     o:["बीजिंग","शंघाई","मनीला","बेसल"],a:1,
+     e:"NDB 2014 में 6वें BRICS शिखर सम्मेलन (फ़ोर्टालेज़ा) में बना, मुख्यालय शंघाई; समान अंश व समान वोट।"},
+    {q:"WTO का Agreement on Agriculture (AoA) में कौन-सा बॉक्स पूरी तरह अनुमत (permitted) है?",
+     o:["Amber box","Blue box","Green box","Red box"],a:2,
+     e:"Green box अनुमत है (research, training, infrastructure); amber में कटौती होती है, blue छूट के साथ अनुमत, red प्रतिबंधित।"},
+    {q:"“Year of Great Divide” किस वर्ष को कहा जाता है और क्यों?",
+     o:["1921 — आबादी घटी (फ़्लू व अकाल)","1931 — आबादी दोगुनी हुई","1881 — पहली जनगणना","1951 — पहली स्वतंत्र जनगणना"],a:0,
+     e:"1921 एकमात्र जनगणना है जिसमें आबादी घटी — फ़्लू महामारी व अकाल के कारण; इसके बाद लगातार वृद्धि हुई।"},
+    {q:"भारत में कार्यशील आबादी (जनसांख्यिकीय लाभांश) की आयु-सीमा क्या मानी जाती है?",
+     o:["15–49 वर्ष","15–59 वर्ष","18–60 वर्ष","15–64 वर्ष"],a:1,
+     e:"भारत की परिभाषा में 15–59 वर्ष; संयुक्त राष्ट्र के अनुसार 15–64 वर्ष — दोनों याद रखें।"}
+  ];
+  var quizEl=$("#quiz"), scoreVal=$("#scoreVal"), qTotalEl=$("#qTotal"), quizNote=$("#quizNote");
+  var answered={}, score=0;
+  qTotalEl.textContent=QUIZ.length;
+  function renderQuiz(){
+    answered={}; score=0; scoreVal.textContent="0";
+    quizNote.textContent="कोई विकल्प चुनें — तुरंत सही/गलत व व्याख्या दिखेगी।";
+    quizEl.innerHTML="";
+    QUIZ.forEach(function(item,qi){
+      var wrap=document.createElement("div"); wrap.className="q";
+      var head='<div class="q-h"><span class="q-n">Q'+(qi+1)+'</span><span>'+item.q+'</span></div>';
+      var opts='<div class="opts">'+item.o.map(function(t,oi){
+        return '<button class="opt" type="button" data-q="'+qi+'" data-o="'+oi+'"><span class="ol">'+
+          String.fromCharCode(65+oi)+'</span><span>'+t+'</span></button>';
+      }).join("")+'</div>';
+      var exp='<div class="exp" id="exp-'+qi+'"><b>व्याख्या:</b> '+item.e+'</div>';
+      wrap.innerHTML=head+opts+exp;
+      quizEl.appendChild(wrap);
+    });
+  }
+  quizEl.addEventListener("click",function(e){
+    var btn=e.target.closest(".opt");
+    if(!btn||btn.disabled) return;
+    var qi=+btn.getAttribute("data-q"), oi=+btn.getAttribute("data-o");
+    if(answered[qi]!==undefined) return;
+    answered[qi]=oi;
+    var correct=QUIZ[qi].a;
+    $$('.opt[data-q="'+qi+'"]',quizEl).forEach(function(b){
+      b.disabled=true;
+      var i=+b.getAttribute("data-o");
+      if(i===correct){b.classList.add("correct");}
+      if(i===oi&&oi!==correct){b.classList.add("wrong");}
+    });
+    $("#exp-"+qi).classList.add("show");
+    if(oi===correct){score++;}
+    scoreVal.textContent=String(score);
+    var n=Object.keys(answered).length;
+    if(n===QUIZ.length){
+      var pct=Math.round(score/QUIZ.length*100);
+      quizNote.textContent = pct>=80 ? "शानदार — "+pct+"%। इस बैच पर पकड़ मज़बूत है।" :
+        pct>=50 ? "ठीक — "+pct+"%। फैक्ट शीट एक बार दोहरा लें।" :
+        "बेहतर होगा — "+pct+"%। सेक्शन 8 (सतत विकास) दोबारा पढ़ें, फिर रीसेट करके दोहराएँ।";
+    }
+  });
+  $("#resetQuiz").addEventListener("click",renderQuiz);
+  renderQuiz();
+
+  /* ---------- copy fact sheet ---------- */
+  $("#copyFacts").addEventListener("click",function(){
+    var btn=this, old=btn.textContent;
+    var text=$$("#factsList .fact").map(function(f){
+      return "• "+$(".tag",f).textContent+" — "+$(".txt",f).textContent;
+    }).join("\n");
+    function done(ok){btn.textContent=ok?"कॉपी हो गया ✓":"कॉपी नहीं हो सका";setTimeout(function(){btn.textContent=old;},1600);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){done(true);},function(){done(false);});
+    }else{
+      var ta=document.createElement("textarea"); ta.value=text; document.body.appendChild(ta);
+      ta.select(); try{document.execCommand("copy");done(true);}catch(e){done(false);}
+      document.body.removeChild(ta);
+    }
+  });
+
+  /* ---------- keyboard shortcuts ---------- */
+  document.addEventListener("keydown",function(e){
+    var tag=(e.target.tagName||"").toLowerCase();
+    var typing = tag==="input"||tag==="textarea"||e.target.isContentEditable;
+    if(typing) return;
+    if(e.key==="/"){
+      e.preventDefault(); search.focus(); search.select();
+    }else if(e.key==="D"&&e.shiftKey){
+      applyTheme(document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark");
+    }
+  });
+})();
+</script>
+</body>
+</html>

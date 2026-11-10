@@ -1,7 +1,7 @@
 # Indian Economy One Shot 2026 — इंटरैक्टिव नोट्स (PCS INSIGHTS)
 
 स्रोत वीडियो: [Indian Economy One Shot 2026 | UPPCS & BPSC 72nd](https://youtu.be/r2iOMMlSPIw) — 3:28:12, PCS INSIGHTS (UPPCS-BPSC)।
-पूरा लेक्चर 10 बैचों में बाँटा जा रहा है; बैच-सीमाएँ वीडियो के **चैप्टर-ब्रेक** पर हैं, ताकि कोई टॉपिक छूटे नहीं।
+पूरा लेक्चर **10 बैचों** में पूरा हो चुका है; बैच-सीमाएँ वीडियो के **चैप्टर-ब्रेक** पर हैं, ताकि कोई टॉपिक छूटे नहीं।
 
 | बैच | विषय | फ़ाइलें | स्थिति |
 |---|---|---|---|
@@ -14,14 +14,14 @@
 | 7 | राजकोषीय नीति · FRBM 2003 व NK Singh 2016 · अनुच्छेद 112/202 · प्रत्यक्ष व अप्रत्यक्ष कर · VAT · GST (101st Amendment) · FTP 2023 | `batch-07-interactive.html`, `batch-07-text.html`, **`batch-07-interactive-hinglish.html`**, **`batch-07-text-hinglish.html`** | ✅ तैयार |
 | 8 | कृषि (52%→20%, 46% आबादी) · फसलें व क्रांतियाँ · भूमि सुधार व जोत · 9 कृषि बोर्ड · NFSA 2013 · स्टील प्लांट · ग्रामीण व सामाजिक योजनाएँ (1952–2021) | `batch-08-interactive.html`, `batch-08-text.html`, **`batch-08-interactive-hinglish.html`**, **`batch-08-text-hinglish.html`** | ✅ तैयार |
 | 9 | HDI व GNH · स्वास्थ्य नीति व मिशन (NHP 1983 → NRHM 2005 → JSSK 2011 → आयुष्मान 2018) · कौशल विकास · वित्तीय समावेशन (जनधन 2014, 2015 की योजनाएँ) · बालिका-बाल कल्याण · आवास-शहर-ऊर्जा · सामाजिक सुरक्षा | `batch-09-interactive.html`, `batch-09-text.html`, **`batch-09-interactive-hinglish.html`**, **`batch-09-text-hinglish.html`** | ✅ तैयार |
-| 10 | विदेशी व्यापार / BoP, अंतर्राष्ट्रीय संस्थाएँ, जनसंख्या, PYQ + MCQ सेट | — | अगला |
+| 10 | बैलेंस ऑफ पेमेंट · विनिमय दर व अवमूल्यन · FEMA 1999 · EXIM/ECGC/EPZ–SEZ · Bretton Woods व IMF–World Bank · NDB/ADB/AIIB/BIS · WTO व AoA बॉक्स · जनसंख्या सिद्धांत · जनगणना 1872–2011 · साक्षरता/लिंगानुपात/SC–ST · समितियाँ व PYQ | `batch-10-interactive.html`, `batch-10-text.html`, **`batch-10-interactive-hinglish.html`**, **`batch-10-text-hinglish.html`** | ✅ तैयार (अंतिम) |
 
 ## दो लिपियाँ (two scripts)
 
-| Edition | बैच 1 | बैच 2 | बैच 3 | बैच 4 | बैच 5 | बैच 6 | बैच 7 | बैच 8 | बैच 9 |
-|---|---|---|---|---|---|---|---|---|---|
-| **City Hinglish (Roman script only)** — मुख्य संस्करण | `batch-01-interactive-hinglish.html` · `batch-01-text-hinglish.html` | `batch-02-interactive-hinglish.html` · `batch-02-text-hinglish.html` | `batch-03-interactive-hinglish.html` · `batch-03-text-hinglish.html` | `batch-04-interactive-hinglish.html` · `batch-04-text-hinglish.html` | `batch-05-interactive-hinglish.html` · `batch-05-text-hinglish.html` | `batch-06-interactive-hinglish.html` · `batch-06-text-hinglish.html` | `batch-07-interactive-hinglish.html` · `batch-07-text-hinglish.html` | `batch-08-interactive-hinglish.html` · `batch-08-text-hinglish.html` | `batch-09-interactive-hinglish.html` · `batch-09-text-hinglish.html` |
-| Devanagari (मूल) | `batch-01-interactive.html` · `batch-01-text.html` | `batch-02-interactive.html` · `batch-02-text.html` | `batch-03-interactive.html` · `batch-03-text.html` | `batch-04-interactive.html` · `batch-04-text.html` | `batch-05-interactive.html` · `batch-05-text.html` | `batch-06-interactive.html` · `batch-06-text.html` | `batch-07-interactive.html` · `batch-07-text.html` | `batch-08-interactive.html` · `batch-08-text.html` | `batch-09-interactive.html` · `batch-09-text.html` |
+| Edition | बैच 1 | बैच 2 | बैच 3 | बैच 4 | बैच 5 | बैच 6 | बैच 7 | बैच 8 | बैच 9 | बैच 10 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| **City Hinglish (Roman script only)** — मुख्य संस्करण | `batch-01-interactive-hinglish.html` · `batch-01-text-hinglish.html` | `batch-02-interactive-hinglish.html` · `batch-02-text-hinglish.html` | `batch-03-interactive-hinglish.html` · `batch-03-text-hinglish.html` | `batch-04-interactive-hinglish.html` · `batch-04-text-hinglish.html` | `batch-05-interactive-hinglish.html` · `batch-05-text-hinglish.html` | `batch-06-interactive-hinglish.html` · `batch-06-text-hinglish.html` | `batch-07-interactive-hinglish.html` · `batch-07-text-hinglish.html` | `batch-08-interactive-hinglish.html` · `batch-08-text-hinglish.html` | `batch-09-interactive-hinglish.html` · `batch-09-text-hinglish.html` | `batch-10-interactive-hinglish.html` · `batch-10-text-hinglish.html` |
+| Devanagari (मूल) | `batch-01-interactive.html` · `batch-01-text.html` | `batch-02-interactive.html` · `batch-02-text.html` | `batch-03-interactive.html` · `batch-03-text.html` | `batch-04-interactive.html` · `batch-04-text.html` | `batch-05-interactive.html` · `batch-05-text.html` | `batch-06-interactive.html` · `batch-06-text.html` | `batch-07-interactive.html` · `batch-07-text.html` | `batch-08-interactive.html` · `batch-08-text.html` | `batch-09-interactive.html` · `batch-09-text.html` | `batch-10-interactive.html` · `batch-10-text.html` |
 
 Hinglish edition में technical English terms English में हैं (economy, productivity, sustainable development), बाकी बोलचाल "dekho…, hai na?…, matlab…" वाली city-Hinglish में — पूरा फ़ाइल Roman script में, एक भी Devanagari अक्षर नहीं। बैच 2 से आगे के सभी बैच इसी Hinglish फ़ॉर्मेट में बनेंगे।
 
@@ -90,6 +90,13 @@ Hinglish edition में technical English terms English में हैं (
 - “सुधार” चिह्न जहाँ लेक्चर में नाम बिगड़ा (“जिग्मे सिंग्ये वांगचुक”, “रूलर हेल्थ मिशन” = rural, “स्वावलंबन” = स्वावलंबन)
 
 **`batch-09-text-hinglish.html`** — बैच 9 का साफ़ किया हुआ टेक्स्ट (13 पैराग्राफ, 4 विषय-शीर्षक)।
+
+**`batch-10-interactive-hinglish.html`** — बैच 10 (बाह्य क्षेत्र, अंतरराष्ट्रीय संस्थाएँ व जनसंख्या — अंतिम बैच) का Hinglish इंटरैक्टिव मॉड्यूल:
+- 13 कंटेंट सेक्शन: BoP का दो-खाता ढाँचा (merchandise + invisibles, ECB → RBI, tariff/drawback) · convertibility (current 1994 पूरी, capital अभी नहीं, तारापुर) व devaluation के चार मौके · EXIM 1982 / ECGC 1957 / MPEDA 1972 / कांडला 1965 / SEZ 2005 · Bretton Woods 1944 व World Bank के 5 अंग (ICSID में भारत नहीं) · IMF कोटा, वोट 2.6%, SDR 1969 · NDB–CRA–ADB 1966–AIIB 2016–BIS 1930 · GATT 1948 → WTO 1995 व AoA बॉक्स (de minimis 5%/10%) + रिपोर्ट मैपिंग · Malthus/optimum/थॉम्पसन के 4 स्टेज · जनगणना 1872/1881/1921 व दशकीय वृद्धि · राज्य-वार घनत्व व आबादी · साक्षरता 74 व लिंगानुपात 943/919 · SC–ST, धर्म, NPP 2000 व लाभांश · PYQ समितियाँ
+- 61-पंक्ति फैक्ट शीट, 20 फ्लैशकार्ड, 14 MCQ — तुरंत व्याख्या व स्कोर; अंत में **कोर्स-समापन** रिवीजन प्लान
+- “सुधार” चिह्न — World Bank के शेयरधारकों का क्रम (“USA, UK, France” बोला गया; आधिकारिक रूप से सबसे बड़ा USA), और “निज़ामाबाद” के दो अलग तथ्य (GI = UP, Turmeric Board = तेलंगाना)
+
+**`batch-10-text-hinglish.html`** — बैच 10 का साफ़ किया हुआ टेक्स्ट (24 पैराग्राफ, 5 विषय-शीर्षक)।
 
 ## नोट
 टेक्स्ट YouTube ऑटो-कैप्शन से बना है — कहीं-कहीं नाम/संख्या बिगड़ी है। इंटरैक्टिव फ़ाइल में ऐसी जगहों पर **सुधार** चिह्न के साथ सही तथ्य दिए गए हैं (जैसे EKC = उल्टा-U; “गडगिल” = गाडगिल, “पीसी महालेबिस” = महालनोबिस; कुल वार्षिक योजनाएँ = 5, न कि 6; जवाहर रोज़गार योजना 1989, न कि 1999)। आँकड़े (18% / 45%) लेक्चर के अनुसार हैं; परीक्षा से पहले नवीनतम आधिकारिक स्रोत देखें।
